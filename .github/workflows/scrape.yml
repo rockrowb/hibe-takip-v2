@@ -14,7 +14,7 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     env:
-      HAS_AI_KEY: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+      HAS_AI_KEY: ${{ (secrets.ANTHROPIC_API_KEY != '') || (secrets.GEMINI_API_KEY != '') }}
     steps:
       - uses: actions/checkout@v4
 
@@ -28,10 +28,11 @@ jobs:
       - name: Tara
         run: python scrape.py
 
-      - name: AI ile zenginleştir (opsiyonel - ANTHROPIC_API_KEY secret'ı tanımlıysa çalışır)
+      - name: AI ile zenginleştir (opsiyonel - ANTHROPIC_API_KEY ya da GEMINI_API_KEY secret'ı tanımlıysa çalışır)
         if: ${{ env.HAS_AI_KEY == 'true' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python enrich.py --limit 30
 
       - name: Değişiklik varsa commit'le
