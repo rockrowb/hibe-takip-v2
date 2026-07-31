@@ -1,0 +1,41 @@
+name: Hibe Duyuruları Tarama
+
+on:
+  schedule:
+    # 06:00 ve 15:00 UTC = TR saatiyle ~09:00 ve ~18:00
+    - cron: "0 6 * * *"
+    - cron: "0 15 * * *"
+  workflow_dispatch: {}   # elle de tetiklenebilir (Actions sekmesinden "Run workflow")
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Bağımlılıkları kur
+        run: pip install -r requirements.txt
+
+      - name: Tara
+        run: python scrape.py
+
+      - name: AI ile zenginleştir (opsiyonel - ANTHROPIC_API_KEY secret'ı tanımlıysa çalışır)
+        if: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python enrich.py --limit 30
+
+      - name: Değişiklik varsa commit'le
+        run: |
+          git config user.name "hibe-takip-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/duyurular.json
+          git diff --cached --quiet || git commit -m "Otomatik güncelleme: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
