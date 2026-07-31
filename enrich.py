@@ -3,12 +3,17 @@
 OPSİYONEL AI zenginleştirme adımı.
 
 data/duyurular.json içindeki her yeni (henüz "details" alanı olmayan) kayıt
-için TEK bir Claude API çağrısında iki şeyi birden yapar:
+için TEK bir AI çağrısında iki şeyi birden yapar:
   1. Sınıflandırma: bu bir hibe/destek duyurusu mu, yoksa haber/sonuç ilanı/
      başka bir şey mi? ("tur" alanı)
   2. Eğer hibe duyurusuysa: kimler başvurabilir, hibe miktarı, son başvuru
      tarihi, desteklenen aktiviteler alanlarını metinden çıkarır.
      Değilse bu alanlar null bırakılır (gereksiz ayrıntı çıkarılmaz).
+
+İKİ SAĞLAYICI DESTEKLENİR — hangisinin anahtarı tanımlıysa o kullanılır:
+  - ANTHROPIC_API_KEY tanımlıysa   -> Claude (claude-sonnet-4-6) kullanılır (öncelikli)
+  - yoksa GEMINI_API_KEY tanımlıysa -> Google Gemini (gemini-2.5-flash) kullanılır
+  - ikisi de tanımlı değilse        -> script sessizce çıkar, sistemin geri kalanını etkilemez
 
 Token tasarrufu için üç katman var:
   A) scrape.py zaten her kaydı ücretsiz anahtar kelime taramasından geçirip
@@ -20,11 +25,9 @@ Token tasarrufu için üç katman var:
   C) "details" alanı zaten olan kayıtlar (daha önce işlenmiş) tekrar
      gönderilmez — sonraki her çalıştırmada sadece YENİ kayıtlar işlenir.
 
-Kurulum: ANTHROPIC_API_KEY ortam değişkeni/secret'ı gerekir. Tanımlı değilse
-script sessizce çıkar, ana sistemi (tarama + panel) etkilemez.
-
 Kullanım:
-    export ANTHROPIC_API_KEY=sk-ant-...
+    export ANTHROPIC_API_KEY=sk-ant-...    # ya da
+    export GEMINI_API_KEY=AIza...
     python enrich.py                # bekleyen tüm kayıtları işler
     python enrich.py --limit 20     # maliyeti sınırlamak için ilk 20 kayıt
 """
@@ -42,8 +45,15 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).parent
 DATA_FILE = ROOT / "data" / "duyurular.json"
 HEADERS_WEB = {"User-Agent": "Mozilla/5.0 (compatible; HibeTakipBot/1.0)"}
-API_URL = "https://api.anthropic.com/v1/messages"
-MODEL = "claude-sonnet-4-6"
+
+ANTHROPIC_API_URL = "https://api.anthropic.com/v1/messages"
+ANTHROPIC_MODEL = "claude-sonnet-4-6"
+
+# Not: Google, gemini-2.5-flash modelini Ekim 2026'da kullanımdan kaldıracağını
+# duyurdu. O tarihten sonra buradaki model adını güncel bir Gemini Flash
+# modeliyle değiştirmek gerekebilir (ai.google.dev/api/generate-content'ten kontrol edin).
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+GEMINI_MODEL = "gemini-2.5-flash"
 
 SYSTEM_PROMPT = """Sana bir Türkiye kamu/STK duyurusunun web sayfası metni verilecek.
 Aşağıdaki şemada SADECE JSON döndür, başka hiçbir şey yazma (açıklama, markdown işareti vb. ekleme):
@@ -84,14 +94,14 @@ def fetch_text(url, max_chars=6000):
 
 def call_claude(api_key, page_text):
     resp = requests.post(
-        API_URL,
+        ANTHROPIC_API_URL,
         headers={
             "x-api-key": api_key,
             "anthropic-version": "2023-06-01",
             "content-type": "application/json",
         },
         json={
-            "model": MODEL,
+            "model": ANTHROPIC_MODEL,
             "max_tokens": 500,
             "system": SYSTEM_PROMPT,
             "messages": [{"role": "user", "content": page_text}],
@@ -105,6 +115,46 @@ def call_claude(api_key, page_text):
     return json.loads(text)
 
 
+def call_gemini(api_key, page_text):
+    url = GEMINI_API_URL.format(model=GEMINI_MODEL)
+    resp = requests.post(
+        url,
+        params={"key": api_key},
+        headers={"content-type": "application/json"},
+        json={
+            "system_instruction": {"parts": [{"text": SYSTEM_PROMPT}]},
+            "contents": [{"role": "user", "parts": [{"text": page_text}]}],
+            "generationConfig": {
+                "maxOutputTokens": 500,
+                "responseMimeType": "application/json",
+            },
+        },
+        timeout=30,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+    text = data["candidates"][0]["content"]["parts"][0]["text"]
+    text = re.sub(r"^```json|```$", "", text.strip(), flags=re.MULTILINE).strip()
+    return json.loads(text)
+
+
+def get_provider():
+    """Hangi anahtar tanımlıysa onu döndürür. Anthropic tanımlıysa o önceliklidir."""
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        return "anthropic", os.environ["ANTHROPIC_API_KEY"]
+    if os.environ.get("GEMINI_API_KEY"):
+        return "gemini", os.environ["GEMINI_API_KEY"]
+    return None, None
+
+
+def call_ai(provider, api_key, page_text):
+    if provider == "anthropic":
+        return call_claude(api_key, page_text)
+    elif provider == "gemini":
+        return call_gemini(api_key, page_text)
+    raise ValueError(f"Bilinmeyen sağlayıcı: {provider}")
+
+
 def priority(item):
     """AI bütçesi sınırlıysa en olası hibe duyurularını önce işle."""
     order = {"hibe_olabilir": 0, "belirsiz": 1, "sonuc_olabilir": 2}
@@ -116,10 +166,11 @@ def main():
     parser.add_argument("--limit", type=int, default=None, help="AI'ya gönderilecek maksimum kayıt sayısı")
     args = parser.parse_args()
 
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        print("ANTHROPIC_API_KEY tanımlı değil — AI zenginleştirme atlanıyor (opsiyonel, sorun değil).")
+    provider, api_key = get_provider()
+    if not provider:
+        print("ANTHROPIC_API_KEY ya da GEMINI_API_KEY tanımlı değil — AI zenginleştirme atlanıyor (opsiyonel, sorun değil).")
         sys.exit(0)
+    print(f"Kullanılan AI sağlayıcı: {provider}")
 
     if not DATA_FILE.exists():
         print("data/duyurular.json bulunamadı, önce scrape.py çalıştırılmalı.")
@@ -164,8 +215,9 @@ def main():
             print(f"  atlandı ({err}): {item['title'][:60]}")
             continue
         try:
-            details = call_claude(api_key, text)
+            details = call_ai(provider, api_key, text)
             details["ai_ile_dogrulandi"] = True
+            details["ai_saglayici"] = provider
             item["details"] = details
             processed += 1
             print(f"  OK [{details.get('tur')}]: {item['title'][:60]}")
