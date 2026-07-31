@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hibe Takip Panosu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#152238;
+    --ink-soft:#3b4a63;
+    --paper:#f4f1e9;
+    --paper-raised:#fffdf8;
+    --line:#d8d2c2;
+    --seal:#a8471f;
+    --seal-soft:#f0ded3;
+    --gold:#b9862f;
+    --gold-soft:#f3e6c9;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .masthead{
+    border-bottom:3px solid var(--ink);
+    padding:2.2rem 1.5rem 1.4rem;
+    max-width:1040px;
+    margin:0 auto;
+  }
+  .masthead-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    flex-wrap:wrap;
+    gap:1rem;
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.72rem;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--seal);
+    margin:0 0 0.5rem;
+  }
+  h1{
+    font-family:'Fraunces',serif;
+    font-weight:700;
+    font-size:clamp(2rem,4.5vw,3.1rem);
+    margin:0;
+    line-height:1.02;
+    letter-spacing:-0.01em;
+  }
+  .last-updated{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.78rem;
+    color:var(--ink-soft);
+    text-align:right;
+  }
+  .sub{
+    font-size:0.95rem;
+    color:var(--ink-soft);
+    margin-top:0.6rem;
+    max-width:60ch;
+  }
+
+  .controls{
+    max-width:1040px;
+    margin:1.6rem auto 0;
+    padding:0 1.5rem;
+    display:flex;
+    gap:0.6rem;
+    flex-wrap:wrap;
+    align-items:center;
+  }
+  input[type="search"]{
+    flex:1 1 240px;
+    padding:0.65rem 0.9rem;
+    border:1.5px solid var(--line);
+    background:var(--paper-raised);
+    font-family:'Inter',sans-serif;
+    font-size:0.92rem;
+    color:var(--ink);
+    border-radius:2px;
+  }
+  input[type="search"]:focus{outline:2px solid var(--seal);outline-offset:1px;}
+  select{
+    padding:0.6rem 0.8rem;
+    border:1.5px solid var(--line);
+    background:var(--paper-raised);
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.82rem;
+    color:var(--ink);
+    border-radius:2px;
+  }
+  .chip{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.76rem;
+    padding:0.45rem 0.7rem;
+    border:1.5px solid var(--ink);
+    background:transparent;
+    color:var(--ink);
+    cursor:pointer;
+    border-radius:2px;
+  }
+  .chip.active{background:var(--ink);color:var(--paper-raised);}
+  .toggle-others{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.76rem;
+    color:var(--ink-soft);
+    display:flex;
+    align-items:center;
+    gap:0.4rem;
+    margin-left:auto;
+    cursor:pointer;
+    user-select:none;
+  }
+  .toggle-others input{cursor:pointer;}
+  .tag-other{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.64rem;
+    letter-spacing:0.05em;
+    background:#e7e2d4;
+    color:var(--ink-soft);
+    padding:0.12rem 0.4rem;
+    margin-left:0.5rem;
+    border-radius:2px;
+    vertical-align:middle;
+  }
+
+  .stats{
+    max-width:1040px;
+    margin:1rem auto 0;
+    padding:0 1.5rem;
+    display:flex;
+    gap:1.6rem;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.78rem;
+    color:var(--ink-soft);
+    flex-wrap:wrap;
+  }
+  .stats b{color:var(--ink);font-size:0.95rem;}
+
+  main{max-width:1040px;margin:1.4rem auto 4rem;padding:0 1.5rem;}
+
+  .entry{
+    display:grid;
+    grid-template-columns:88px 1fr;
+    gap:1rem;
+    padding:1.1rem 0;
+    border-bottom:1px solid var(--line);
+  }
+  .entry:hover{background:rgba(185,134,47,0.06);}
+  .entry-date{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.78rem;
+    color:var(--ink-soft);
+    padding-top:0.15rem;
+  }
+  .entry-body{min-width:0;}
+  .entry-source{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.68rem;
+    letter-spacing:0.05em;
+    text-transform:uppercase;
+    color:var(--seal);
+    margin-bottom:0.25rem;
+  }
+  .entry-title a{
+    color:var(--ink);
+    text-decoration:none;
+    font-size:1rem;
+    font-weight:500;
+    line-height:1.35;
+  }
+  .entry-title a:hover{text-decoration:underline;text-decoration-color:var(--gold);}
+  .badge-new{
+    display:inline-block;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.64rem;
+    letter-spacing:0.08em;
+    background:var(--gold-soft);
+    color:#7a5715;
+    padding:0.12rem 0.4rem;
+    margin-left:0.5rem;
+    border-radius:2px;
+    vertical-align:middle;
+  }
+
+  .entry-summary{
+    font-size:0.85rem;
+    color:var(--ink-soft);
+    margin-top:0.35rem;
+    line-height:1.4;
+  }
+  .entry-details{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.72rem;
+    color:#7a5715;
+    background:var(--gold-soft);
+    display:inline-block;
+    padding:0.2rem 0.5rem;
+    margin-top:0.4rem;
+    border-radius:2px;
+  }
+  .source-warning{
+    max-width:1040px;
+    margin:1rem auto 0;
+    padding:0 1.5rem;
+  }
+  .source-warning details{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.76rem;
+    color:var(--seal);
+    border:1px solid var(--seal-soft);
+    background:var(--seal-soft);
+    padding:0.6rem 0.9rem;
+    border-radius:2px;
+  }
+  .source-warning summary{cursor:pointer;font-weight:600;}
+  .source-warning ul{margin:0.5rem 0 0;padding-left:1.2rem;}
+
+  .empty, .loading{
+    padding:3rem 1rem;
+    text-align:center;
+    color:var(--ink-soft);
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.85rem;
+  }
+
+  footer{
+    max-width:1040px;
+    margin:0 auto 3rem;
+    padding:1.5rem 1.5rem 0;
+    border-top:1px solid var(--line);
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.72rem;
+    color:var(--ink-soft);
+  }
+  a.src-link{color:var(--seal);}
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <p class="eyebrow">Türkiye · Hibe &amp; Destek Programları</p>
+  <div class="masthead-top">
+    <h1>Duyuru Panosu</h1>
+    <div class="last-updated" id="lastUpdated">yükleniyor…</div>
+  </div>
+  <p class="sub">Kalkınma Ajansları, KOSGEB, TKDK, İŞKUR ve TÜBİTAK kaynaklarından otomatik olarak toplanan güncel çağrı ve destek duyuruları.</p>
+</div>
+
+<div class="controls">
+  <input type="search" id="search" placeholder="Başlıkta ara… (örn. Ar-Ge, ihracat, kadın girişimci)">
+  <select id="sourceFilter">
+    <option value="">Tüm kaynaklar</option>
+  </select>
+  <button class="chip active" data-range="all">Tümü</button>
+  <button class="chip" data-range="30">Son 30 gün</button>
+  <button class="chip" data-range="7">Son 7 gün</button>
+  <label class="toggle-others">
+    <input type="checkbox" id="showOthers">
+    Haber / sonuç ilanlarını da göster
+  </label>
+</div>
+
+<div class="stats" id="stats"></div>
+<div class="source-warning" id="sourceWarning" style="display:none;"></div>
+
+<main id="list">
+  <div class="loading">Duyurular yükleniyor…</div>
+</main>
+
+<footer>
+  Veri kaynağı: data/duyurular.json — GitHub Actions ile günde iki kez otomatik güncellenir.<br>
+  Kaynaklar: <a class="src-link" href="https://www.yatirimadestek.gov.tr/duyurular" target="_blank">yatirimadestek.gov.tr</a>,
+  <a class="src-link" href="https://tubitak.gov.tr/tr/duyuru" target="_blank">tubitak.gov.tr</a>
+</footer>
+
+<script>
+let ALL_ITEMS = [];
+let activeRange = "all";
+
+function daysAgo(dateStr){
+  if(!dateStr) return Infinity;
+  const d = new Date(dateStr);
+  const diff = (Date.now() - d.getTime()) / (1000*60*60*24);
+  return diff;
+}
+
+function render(){
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const src = document.getElementById('sourceFilter').value;
+  const showOthers = document.getElementById('showOthers').checked;
+  const list = document.getElementById('list');
+
+  let items = ALL_ITEMS.filter(it => {
+    if(q && !it.title.toLowerCase().includes(q)) return false;
+    if(src && it.source !== src) return false;
+    if(activeRange !== "all"){
+      const age = daysAgo(it.first_seen || it.date);
+      if(age > Number(activeRange)) return false;
+    }
+    if(!showOthers){
+      const tur = it.details && it.details.tur;
+      // details henüz yoksa (AI ile işlenmemiş) yine de göster; sadece AI
+      // "hibe_duyurusu" DEĞİL dediyse gizle.
+      if(tur && tur !== "hibe_duyurusu") return false;
+    }
+    return true;
+  });
+
+  items.sort((a,b) => (b.date||b.first_seen||"").localeCompare(a.date||a.first_seen||""));
+
+  document.getElementById('stats').innerHTML =
+    `<span><b>${items.length}</b> duyuru gösteriliyor</span><span><b>${ALL_ITEMS.length}</b> toplam kayıt</span>`;
+
+  if(items.length === 0){
+    list.innerHTML = '<div class="empty">Eşleşen duyuru bulunamadı.</div>';
+    return;
+  }
+
+  list.innerHTML = items.map(it => {
+    const isNew = daysAgo(it.first_seen) <= 7;
+    const dateLabel = it.date || it.first_seen || "—";
+    const d = it.details;
+    const detailBits = [];
+    if (d) {
+      if (d.kimler_basvurabilir) detailBits.push(`<b>Kimler:</b> ${d.kimler_basvurabilir}`);
+      if (d.hibe_miktari) detailBits.push(`<b>Miktar:</b> ${d.hibe_miktari}`);
+      if (d.son_basvuru_tarihi) detailBits.push(`<b>Son tarih:</b> ${d.son_basvuru_tarihi}`);
+      if (d.desteklenen_aktiviteler) detailBits.push(`<b>Kapsam:</b> ${d.desteklenen_aktiviteler}`);
+    }
+    const otherTag = d && d.tur && d.tur !== "hibe_duyurusu"
+      ? `<span class="tag-other">${d.tur.replace(/_/g,' ')}</span>` : '';
+    return `
+      <div class="entry">
+        <div class="entry-date">${dateLabel}</div>
+        <div class="entry-body">
+          <div class="entry-source">${it.source}</div>
+          <div class="entry-title">
+            <a href="${it.url}" target="_blank" rel="noopener">${it.title}</a>
+            ${isNew ? '<span class="badge-new">YENİ</span>' : ''}
+            ${otherTag}
+          </div>
+          ${d && d.ozet ? `<div class="entry-summary">${d.ozet}</div>` : ''}
+          ${detailBits.length ? `<div class="entry-details">${detailBits.join(' &nbsp;·&nbsp; ')}</div>` : ''}
+        </div>
+      </div>`;
+  }).join("");
+}
+
+async function init(){
+  try{
+    const res = await fetch('data/duyurular.json', {cache:"no-store"});
+    const data = await res.json();
+    ALL_ITEMS = Object.values(data.items || {});
+    document.getElementById('lastUpdated').textContent =
+      data.last_updated ? `Son güncelleme: ${data.last_updated}` : "";
+
+    const sources = [...new Set(ALL_ITEMS.map(i => i.source))];
+    const sel = document.getElementById('sourceFilter');
+    sources.forEach(s => {
+      const opt = document.createElement('option');
+      opt.value = s; opt.textContent = s;
+      sel.appendChild(opt);
+    });
+
+    const failed = Object.entries(data.source_status || {})
+      .filter(([id, st]) => !st.ok || st.found === 0);
+    if (failed.length) {
+      const box = document.getElementById('sourceWarning');
+      box.style.display = 'block';
+      box.innerHTML = `<details><summary>${failed.length} kaynağa şu an ulaşılamadı ya da içerik bulunamadı</summary>
+        <ul>${failed.map(([id, st]) => `<li>${id} ${st.error ? '— ' + st.error : '(0 sonuç)'}</li>`).join('')}</ul>
+      </details>`;
+    }
+
+    render();
+  }catch(e){
+    document.getElementById('list').innerHTML =
+      '<div class="empty">Veri henüz yok. scrape.py bir kez çalıştırıldığında burada görünecek.</div>';
+    document.getElementById('lastUpdated').textContent = "";
+    console.error(e);
+  }
+}
+
+document.getElementById('search').addEventListener('input', render);
+document.getElementById('sourceFilter').addEventListener('change', render);
+document.getElementById('showOthers').addEventListener('change', render);
+document.querySelectorAll('.chip').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.chip').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeRange = btn.dataset.range;
+    render();
+  });
+});
+
+init();
+</script>
+</body>
+</html>
