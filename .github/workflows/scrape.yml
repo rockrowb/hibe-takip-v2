@@ -25,20 +25,27 @@ jobs:
       - name: Bağımlılıkları kur
         run: pip install -r requirements.txt
 
-      - name: Tara
+      - name: Tara (Katman 1 - ham veri)
         run: python scrape.py
 
-      - name: AI ile zenginleştir (opsiyonel - ANTHROPIC_API_KEY ya da GEMINI_API_KEY secret'ı tanımlıysa çalışır)
+      - name: Sınıflandır (Katman 2 - ücretsiz, anahtar kelime)
+        run: python classify.py
+
+      - name: AI ile zenginleştir (Katman 3 - opsiyonel, ANTHROPIC_API_KEY ya da GEMINI_API_KEY secret'ı tanımlıysa çalışır)
         if: ${{ env.HAS_AI_KEY == 'true' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python enrich.py --limit 30
 
+      - name: AI adımı atlandıysa bile paneli güncel tut
+        if: ${{ env.HAS_AI_KEY != 'true' }}
+        run: python enrich.py
+
       - name: Değişiklik varsa commit'le
         run: |
           git config user.name "hibe-takip-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/duyurular.json
+          git add data/raw.json data/classified.json data/duyurular.json
           git diff --cached --quiet || git commit -m "Otomatik güncelleme: $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
