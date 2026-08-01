@@ -19,7 +19,7 @@
     "yatirimadestek": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 10
     },
     "kosgeb": {
       "ok": true,
@@ -64,12 +64,12 @@
     "istka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 24
     },
     "ankaraka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 8
     },
     "izka": {
       "ok": true,
@@ -79,7 +79,7 @@
     "bebka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 28
     },
     "karacadag": {
       "ok": true,
@@ -89,17 +89,17 @@
     "cka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 19
     },
     "baka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 1
     },
     "dogaka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 76
     },
     "mevka": {
       "ok": true,
@@ -109,42 +109,42 @@
     "oka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 44
     },
     "doka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 21
     },
     "oran": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 84
     },
     "marka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 3
     },
     "gmka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 39
     },
     "geka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 70
     },
     "ika": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 2
     },
     "trakyaka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 60
     },
     "zafer": {
       "ok": true,
@@ -154,7 +154,7 @@
     "ahika": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 56
     },
     "kuzka": {
       "ok": true,
@@ -164,27 +164,27 @@
     "kudaka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 127
     },
     "serka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 147
     },
     "daka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 74
     },
     "fka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 65
     },
     "dika": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 0
+      "found": 27
     },
     "bakka": {
       "ok": true,
@@ -200,7 +200,8 @@
       "source": "Kalkınma Ajansları Genel Müdürlüğü - Güncel Destekler (26 ajans tek yerde)",
       "source_id": "ka_gov",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/bize-ulasin/kalkinma-ajanslari"
     },
     "https://ka.gov.tr/sayfalar/politika-alanlari--30": {
       "title": "Politika Alanları",
@@ -515,7 +516,7 @@
       "source": "TEKNOFEST",
       "source_id": "teknofest",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://ufukavrupa.org.tr/tr/alanlar-kumeler": {
       "title": "Alanlar / Kümeler",
@@ -987,7 +988,8 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://teknofest.org/tr/regulators/gdpr/"
     },
     "https://www.yatirimadestek.gov.tr/haber/kosgeb-teknoloji-merkezi-programi-aciklanmistir/148": {
       "title": "KOSGEB Teknoloji Merkezi Programı açıklanmıştır16.10.2025KOSGEB, 10 yıl boyunca Teknoloji Merkezlerinin kurulmasına, işletilmesine ve performanslarının artırılmasına yönelik destekleri içeren KOSGEB Teknoloji ...",
@@ -1518,7 +1520,8 @@
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.ua.gov.tr/programlar_/erasmus-programi/"
     },
     "https://www.ua.gov.tr/media/r25lkx2q/lump-sum-handbook-2026.pdf": {
       "title": "Handbook on the Lump Sum Funding Model (Götürü Usulü Hibe Modeli El Kitabı)",
@@ -2031,7 +2034,7 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://www.unesco.org.tr/Pages/119/163/Denetim-Kurulu": {
       "title": "Denetim Kurulu",
@@ -2256,7 +2259,8 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/502/194/Tavsiye-Kararlar%C4%B1"
     },
     "https://www.unesco.org.tr/Pages/3074/2426/MONDIACULT-Deklarasyonlar%C4%B1": {
       "title": "MONDIACULT Deklarasyonları",
@@ -2301,7 +2305,8 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/502/194/Tavsiye-Kararlar%C4%B1"
     },
     "https://www.unesco.org.tr/Pages/2000/1393/Anma-ve-Kutlama-Y%C4%B1l-D%C3%B6n%C3%BCmleri": {
       "title": "Anma ve Kutlama Yıl Dönümleri",
@@ -2463,7 +2468,8 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/86/2413/UNESCO-Genel-Konferans%C4%B1-"
     },
     "https://www.unesco.org.tr/Pages/511/200/UNESCO-Y%C3%BCr%C3%BCtme-Kurulu": {
       "title": "UNESCO Yürütme Kurulu",
@@ -2472,7 +2478,8 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/511/2414/UNESCO-Y%C3%BCr%C3%BCtme-Kurulu-"
     },
     "https://www.unesco.org.tr/Pages/523/202/B%C3%BCy%C3%BCk-Bulu%C5%9Fma-Hakk%C4%B1nda": {
       "title": "Büyük Buluşma Hakkında",
@@ -2834,7 +2841,8 @@
       "source": "İSTKA (İstanbul Kalkınma Ajansı)",
       "source_id": "istka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/kurumsal/etik-komisyonu/"
     },
     "https://www.istka.org.tr/destek-turleri": {
       "title": "Destek Türleri",
@@ -2933,7 +2941,8 @@
       "source": "İSTKA (İstanbul Kalkınma Ajansı)",
       "source_id": "istka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/iletisim/"
     },
     "https://www.istka.org.tr/bilgi-edinme-formu": {
       "title": "Bilgi Edinme Formu",
@@ -2960,7 +2969,8 @@
       "source": "İSTKA (İstanbul Kalkınma Ajansı)",
       "source_id": "istka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://teknofest.org/tr/corporate/faq/"
     },
     "https://www.istka.org.tr/duyuru/tc-ajansi-istanbul-kalkinma-ihale-ilani-qaqy": {
       "title": "T.C.   İSTANBUL KALKINMA AJANSI  İHALE  İLANI",
@@ -3059,7 +3069,8 @@
       "source": "ANKARAKA (Ankara Kalkınma Ajansı)",
       "source_id": "ankaraka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.istka.org.tr/kalkinma-ajanslari-hakkinda"
     },
     "https://www.ankaraka.org.tr/strateji-ve-planlama": {
       "title": "Strateji ve Planlama",
@@ -3086,7 +3097,7 @@
       "source": "ANKARAKA (Ankara Kalkınma Ajansı)",
       "source_id": "ankaraka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://www.ankaraka.org.tr/butce-uygulama-sonuclari": {
       "title": "Bütçe Uygulama Sonuçları",
@@ -3095,7 +3106,7 @@
       "source": "ANKARAKA (Ankara Kalkınma Ajansı)",
       "source_id": "ankaraka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://izka.org.tr/kalkinma-ajanslari-hakkinda/": {
       "title": "Kalkınma Ajansları Hakkında",
@@ -3104,7 +3115,8 @@
       "source": "İZKA (İzmir Kalkınma Ajansı)",
       "source_id": "izka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.istka.org.tr/kalkinma-ajanslari-hakkinda"
     },
     "https://izka.org.tr/bilgi-uretimi-2/": {
       "title": "Bilgi Üretimi",
@@ -3185,7 +3197,8 @@
       "source": "İZKA (İzmir Kalkınma Ajansı)",
       "source_id": "izka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://izka.org.tr/yesil-buyume-2/"
     },
     "http://izka.org.tr/hakkimizda/": {
       "title": "Vizyon Misyon",
@@ -3212,7 +3225,8 @@
       "source": "İZKA (İzmir Kalkınma Ajansı)",
       "source_id": "izka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ankaraka.org.tr/ihale-ilanlari"
     },
     "https://izka.org.tr/dokuman-merkezi/": {
       "title": "Doküman Merkezi",
@@ -3239,7 +3253,8 @@
       "source": "İZKA (İzmir Kalkınma Ajansı)",
       "source_id": "izka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.istka.org.tr/yasal-uyari-ve-gizlilik"
     },
     "https://bebka.org.tr/bolgesel-kalkinma-ve-ulkemizde-bolgesel-kalkinma-politikalarinin-gelisim-sureci/": {
       "title": "Bölgesel Kalkınma ve Ülkemizde Bölgesel Kalkınma Politikalarının Gelişim Süreci",
@@ -3311,7 +3326,7 @@
       "source": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)",
       "source_id": "bebka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://bebka.org.tr/acik-destek-programlari/": {
       "title": "Açık Destek Programları",
@@ -3320,7 +3335,8 @@
       "source": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)",
       "source_id": "bebka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.istka.org.tr/acik-destek-programlari"
     },
     "https://bebka.org.tr/kapanan-destek-programlari/": {
       "title": "Kapanan Destek Programları",
@@ -3410,7 +3426,8 @@
       "source": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)",
       "source_id": "bebka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://bebka.org.tr/teknik-destek-programi-kapsaminda-egitim-danismanlik-hizmetleri-satin-alim-ilani-22/"
     },
     "https://bebka.org.tr/kuresel-girisimcilik-etkinliklerine-katilim-cagrisi-3/": {
       "title": "2026 Yılı Küresel Girişimcilik Etkinliklerine Başvurular Başladı",
@@ -3437,7 +3454,8 @@
       "source": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)",
       "source_id": "bebka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://bebka.org.tr/teknik-destek-programi-kapsaminda-egitim-danismanlik-hizmetleri-satin-alim-ilani-22/"
     },
     "https://bebka.org.tr/bursada-lise-ogretmenlerine-yonelik-yapay-zeka-101-egitimi-basvurulari-basladi/": {
       "title": "Bursa’da Lise Öğretmenlerine Yönelik Yapay Zeka 101 Eğitimi Başvuruları Başladı",
@@ -3482,7 +3500,8 @@
       "source": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)",
       "source_id": "bebka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://izka.org.tr/dokuman-merkezi/"
     },
     "https://bebka.org.tr": {
       "title": "www.bebka.org.tr",
@@ -3500,7 +3519,8 @@
       "source": "Karacadağ Kalkınma Ajansı",
       "source_id": "karacadag",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/proje-uygulama/"
     },
     "https://www.karacadag.gov.tr/dokuman-merkezi/": {
       "title": "DOKÜMAN MERKEZİ",
@@ -3509,7 +3529,8 @@
       "source": "Karacadağ Kalkınma Ajansı",
       "source_id": "karacadag",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://izka.org.tr/dokuman-merkezi/"
     },
     "https://www.karacadag.gov.tr/kurumsal/8/etik-komisyonu-ve-rehberi/": {
       "title": "ETİK KOMİSYONU",
@@ -3617,7 +3638,8 @@
       "source": "Karacadağ Kalkınma Ajansı",
       "source_id": "karacadag",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/destekler/gudumlu-proje-destegi/"
     },
     "https://www.karacadag.gov.tr/destekler/4/cazibe-merkezlerini-destekleme-programi/": {
       "title": "Cazibe Merkezlerini Destekleme Programı",
@@ -3689,7 +3711,8 @@
       "source": "ÇKA (Çukurova Kalkınma Ajansı)",
       "source_id": "cka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/hakkimizda/#organizasyon"
     },
     "https://www.cka.org.tr/tr/sayfa/insan-kaynaklari": {
       "title": "İnsan Kaynakları",
@@ -3698,7 +3721,8 @@
       "source": "ÇKA (Çukurova Kalkınma Ajansı)",
       "source_id": "cka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.istka.org.tr/insan-kaynaklari"
     },
     "https://www.cka.org.tr/tr/sayfa/etik-komisyonu": {
       "title": "Etik Komisyonu",
@@ -3707,7 +3731,8 @@
       "source": "ÇKA (Çukurova Kalkınma Ajansı)",
       "source_id": "cka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/kurumsal/etik-komisyonu/"
     },
     "https://www.cka.org.tr/tr//sikca-sorulan-sorular": {
       "title": "Sıkça Sorulan Sorular",
@@ -3716,7 +3741,8 @@
       "source": "ÇKA (Çukurova Kalkınma Ajansı)",
       "source_id": "cka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://teknofest.org/tr/corporate/faq/"
     },
     "https://www.cka.org.tr/tr/sayfa/bolge-planlari": {
       "title": "Bölge Planları",
@@ -3860,7 +3886,8 @@
       "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
       "source_id": "dogaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.istka.org.tr/kalkinma-ajanslari-hakkinda"
     },
     "https://www.dogaka.gov.tr/kurumsal/vizyon-ve-misyon": {
       "title": "Vizyon ve Misyon",
@@ -3878,7 +3905,8 @@
       "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
       "source_id": "dogaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/hakkimizda/#organizasyon"
     },
     "https://www.dogaka.gov.tr/kurumsal/gorunurluk-rehberi": {
       "title": "Görünürlük Rehberi",
@@ -3905,7 +3933,8 @@
       "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
       "source_id": "dogaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.ankaraka.org.tr/butce-uygulama-sonuclari"
     },
     "https://www.dogaka.gov.tr/kurumsal/etik-komisyonu": {
       "title": "Etik Komisyonu",
@@ -3914,7 +3943,8 @@
       "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
       "source_id": "dogaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/kurumsal/etik-komisyonu/"
     },
     "https://www.dogaka.gov.tr/kurumsal/kvkk-bilgilendirme-ve-izin-metinleri": {
       "title": "KVKK Bilgilendirme ve İzin Metinleri",
@@ -3923,7 +3953,7 @@
       "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
       "source_id": "dogaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://www.dogaka.gov.tr/planlama/ust-olcekli-plan-ve-programlar": {
       "title": "Üst Ölçekli Plan ve Programlar",
@@ -3941,7 +3971,7 @@
       "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
       "source_id": "dogaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://www.dogaka.gov.tr/planlama/calisma-programlari": {
       "title": "Çalışma Programları",
@@ -4004,7 +4034,8 @@
       "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
       "source_id": "dogaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.karacadag.gov.tr/destekler/3/teknik-destek-programi/"
     },
     "https://www.dogaka.gov.tr/destekler/dogrudan-faaliyet-destegi": {
       "title": "Doğrudan Faaliyet Desteği",
@@ -4013,7 +4044,8 @@
       "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
       "source_id": "dogaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.karacadag.gov.tr/destekler/8/dogrudan-faaliyet-destegi/"
     },
     "https://www.dogaka.gov.tr/destekler/fizibilite-destegi": {
       "title": "Fizibilite Desteği",
@@ -4022,7 +4054,8 @@
       "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
       "source_id": "dogaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.karacadag.gov.tr/destekler/13/fizibilite-destegi/"
     },
     "https://www.dogaka.gov.tr/destekler/mali-destek-programi": {
       "title": "Mali Destek Programı",
@@ -4049,7 +4082,8 @@
       "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
       "source_id": "dogaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.cka.org.tr/tr//izleme-degerlendirme"
     },
     "https://www.dogaka.gov.tr/destekler/diger-destekler": {
       "title": "Diğer Destekler",
@@ -4058,7 +4092,8 @@
       "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
       "source_id": "dogaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.kosgeb.gov.tr/site/tr/genel/destekler/3/destekler"
     },
     "https://www.dogaka.gov.tr/dogaka-sikca-sorulan-sorular": {
       "title": "Sıkça Sorulan Sorular",
@@ -4067,7 +4102,8 @@
       "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
       "source_id": "dogaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://teknofest.org/tr/corporate/faq/"
     },
     "https://www.dogaka.gov.tr/dogu-akdeniz": {
       "title": "Doğu Akdeniz",
@@ -4382,7 +4418,8 @@
       "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
       "source_id": "dogaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.karacadag.gov.tr/destekler/9/finansman-destegi-ve-faizsiz-kredi-destegi/"
     },
     "https://www.dogaka.gov.tr/destekler/mali-destek-programi/dogrudan-finansman-destegi": {
       "title": "Doğrudan Finansman Desteği",
@@ -4508,7 +4545,8 @@
       "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
       "source_id": "dogaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://teknofest.org/tr/corporate/faq/"
     },
     "https://www.dogaka.gov.tr/medya/guncel-haberler": {
       "title": "Güncel Haberler",
@@ -4553,7 +4591,7 @@
       "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
       "source_id": "oka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://oka.gov.tr/planlama/ulusal-planlar": {
       "title": "Ulusal Planlar",
@@ -4598,7 +4636,8 @@
       "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
       "source_id": "oka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.cka.org.tr/tr//onceki-donem-mali-destekler"
     },
     "https://oka.gov.tr/destekler/destekler-hakkinda": {
       "title": "Destekler Hakkında",
@@ -4607,7 +4646,8 @@
       "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
       "source_id": "oka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.cka.org.tr/tr//ajans-destekleri"
     },
     "https://oka.gov.tr/iletisim/faydali-linkler": {
       "title": "Faydalı Linkler",
@@ -4688,7 +4728,8 @@
       "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
       "source_id": "oka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://oka.gov.tr/yatirim-tesvik-sistemi"
     },
     "https://oka.gov.tr/haberler": {
       "title": "TÜM HABERLER",
@@ -4814,7 +4855,7 @@
       "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
       "source_id": "oka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://oka.gov.tr/duyuru/2026-yili-sosyal-kalkinma-ve-girisimcilik-teknik-destek-programi-1-donemde-basarili-olan-projelerin-teknik-sartnamesi-yayimlanmistir": {
       "title": "24TEMMUZ2026 Yılı Sosyal Kalkınma ve Girişimcilik Teknik Destek Programı 1. Dönemde Başarılı Olan Projelerin Teknik Şartnamesi Yayımlanmıştır",
@@ -4958,7 +4999,8 @@
       "source": "DOKA (Doğu Karadeniz Kalkınma Ajansı)",
       "source_id": "doka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/hakkimizda/"
     },
     "https://www.doka.org.tr/kurumsal.php?tab=organizasyon": {
       "title": "Organizasyon",
@@ -4967,7 +5009,8 @@
       "source": "DOKA (Doğu Karadeniz Kalkınma Ajansı)",
       "source_id": "doka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/organizasyon/"
     },
     "https://www.doka.org.tr/hakkimizda.php?tab=kalkinma-politikalari": {
       "title": "Bölgesel Kalkınma ve Ülkemizde Bölgesel Kalkınma Politikalarının Gelişim Süreci",
@@ -4976,7 +5019,8 @@
       "source": "DOKA (Doğu Karadeniz Kalkınma Ajansı)",
       "source_id": "doka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/bolgesel-kalkinma-ve-ulkemizde-bolgesel-kalkinma-politikalarinin-gelisim-sureci/"
     },
     "https://www.doka.org.tr/hakkimizda.php?tab=yonetisim-kalkinma-ajanslari": {
       "title": "Bölgesel Kalkınmanın Yönetişiminde Kalkınma Ajansları",
@@ -4985,7 +5029,8 @@
       "source": "DOKA (Doğu Karadeniz Kalkınma Ajansı)",
       "source_id": "doka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/bolgesel-kalkinmanin-yonetisiminde-kalkinma-ajanslari/"
     },
     "https://www.doka.org.tr/hakkimizda.php?tab=ibbs": {
       "title": "Kalkınma Planlamasında İstatistiki Bölge Birimleri Sınıflandırması",
@@ -4994,7 +5039,8 @@
       "source": "DOKA (Doğu Karadeniz Kalkınma Ajansı)",
       "source_id": "doka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/kalkinma-planlamasinda-istatistiki-bolge-birimleri-siniflandirmasi/"
     },
     "https://www.doka.org.tr/destekler.php?tab=destekler-hakkinda": {
       "title": "Destekler Hakkında",
@@ -5003,7 +5049,8 @@
       "source": "DOKA (Doğu Karadeniz Kalkınma Ajansı)",
       "source_id": "doka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.cka.org.tr/tr//ajans-destekleri"
     },
     "https://www.doka.org.tr/destekler.php?tab=acik": {
       "title": "Açık Destekler",
@@ -5048,7 +5095,8 @@
       "source": "DOKA (Doğu Karadeniz Kalkınma Ajansı)",
       "source_id": "doka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://izka.org.tr/dokuman-merkezi/"
     },
     "https://www.doka.org.tr/doka-portfolyo.php": {
       "title": "DOKA Portföy",
@@ -5102,7 +5150,8 @@
       "source": "DOKA (Doğu Karadeniz Kalkınma Ajansı)",
       "source_id": "doka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://oka.gov.tr/haberler"
     },
     "https://www.doka.org.tr/duyurular.php": {
       "title": "Tüm Duyurular",
@@ -5111,7 +5160,8 @@
       "source": "DOKA (Doğu Karadeniz Kalkınma Ajansı)",
       "source_id": "doka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://oka.gov.tr/duyurular"
     },
     "https://www.doka.org.tr/organizasyon.php": {
       "title": "Organizasyon Yapısı",
@@ -5120,7 +5170,8 @@
       "source": "DOKA (Doğu Karadeniz Kalkınma Ajansı)",
       "source_id": "doka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/hakkimizda/#organizasyon"
     },
     "https://www.oran.org.tr/tr/orta-anadolu-kalkinma-ajansi-hakkinda": {
       "title": "Orta Anadolu Kalkınma Ajansı Hakkında",
@@ -5138,7 +5189,8 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/bolgesel-kalkinma-ve-ulkemizde-bolgesel-kalkinma-politikalarinin-gelisim-sureci/"
     },
     "https://www.oran.org.tr/tr/kalkinma-ajanslari-hakkinda/bolgesel-kalkinmanin-yonetisiminde-kalkinma-ajanslari": {
       "title": "Bölgesel Kalkınmanın Yönetişiminde Kalkınma Ajansları",
@@ -5147,7 +5199,8 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/bolgesel-kalkinmanin-yonetisiminde-kalkinma-ajanslari/"
     },
     "https://www.oran.org.tr/tr/kalkinma-ajanslari-hakkinda/kalkinma-planlamasinda-istatistiki-bolge-birimleri-siniflandirmasi": {
       "title": "Kalkınma Planlamasında İstatistiki Bölge Birimleri Sınıflandırması",
@@ -5156,7 +5209,8 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/kalkinma-planlamasinda-istatistiki-bolge-birimleri-siniflandirmasi/"
     },
     "https://www.oran.org.tr/tr/kalkinma-kurulu/toplanti-tutanaklari": {
       "title": "Toplantı Tutanakları",
@@ -5174,7 +5228,8 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/116/159/Y%C3%B6netim-Kurulu-"
     },
     "https://www.oran.org.tr/tr/genel-sekreterlik": {
       "title": "Genel Sekreterlik",
@@ -5183,7 +5238,8 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/94/166/Genel-Sekreterlik-"
     },
     "https://www.oran.org.tr/tr/organizasyon-yapisi": {
       "title": "Organizasyon Yapısı",
@@ -5192,7 +5248,8 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/hakkimizda/#organizasyon"
     },
     "https://www.oran.org.tr/tr/misyon-ve-vizyon": {
       "title": "Misyon ve Vizyon",
@@ -5201,7 +5258,8 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/kurumsal/misyon-ve-vizyon/"
     },
     "https://www.oran.org.tr/tr/etik-komisyonu": {
       "title": "Etik Komisyonu",
@@ -5210,7 +5268,8 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/kurumsal/etik-komisyonu/"
     },
     "https://www.oran.org.tr/tr/dokuman-merkezi/yatirim-destek": {
       "title": "Yatırım Destek",
@@ -5219,7 +5278,8 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.istka.org.tr/yatirim-destek"
     },
     "https://www.oran.org.tr/tr/dokuman-merkezi/arastirma-ve-planlama": {
       "title": "Araştırma ve Planlama",
@@ -5552,7 +5612,8 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.cka.org.tr/tr//izleme-degerlendirme"
     },
     "https://www.oran.org.tr/tr/mali-destek-sss": {
       "title": "Mali Destek SSS",
@@ -5579,7 +5640,8 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://oka.gov.tr/2024-2028-bolge-plani"
     },
     "https://www.oran.org.tr/tr/2014-2023-bolge-plani": {
       "title": "2014-2023 Bölge Planı",
@@ -5606,7 +5668,8 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://oka.gov.tr/planlama/stratejik-plan"
     },
     "https://www.oran.org.tr/tr/kalkinma-ajanslari-hakkinda": {
       "title": "Kalkınma Ajansları Hakkında",
@@ -5615,7 +5678,8 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.istka.org.tr/kalkinma-ajanslari-hakkinda"
     },
     "https://www.oran.org.tr/tr/kalkinma-kurulu": {
       "title": "Kalkınma Kurulu",
@@ -5633,7 +5697,8 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://izka.org.tr/dokuman-merkezi/"
     },
     "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi": {
       "title": "İmalat Sanayi Sonuç Odaklı Programı",
@@ -5651,7 +5716,8 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/destekler/mali-destek-programi"
     },
     "https://www.oran.org.tr/tr/fizibilite-destek-programi": {
       "title": "Fizibilite Destek Programı",
@@ -5669,7 +5735,8 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.karacadag.gov.tr/destekler/3/teknik-destek-programi/"
     },
     "https://www.oran.org.tr/tr/finansman-destek-programi": {
       "title": "Finansman Destek Programı",
@@ -5732,7 +5799,7 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://www.oran.org.tr/duyuru/serhat-kalkinma-ajansi-personel-alim-ilani-2026": {
       "title": "Ocak 06, 2026Serhat Kalkınma Ajansı Personel Alım İlanı 2026Serhat Kalkınma Ajansı (SERKA), 4 Sayılı Cumhurbaşkanlığı Kararnamesi ile 29/5/2019 tarihli ve 30788 sayılı Resmi Gazetede yayımlanan Kalkınma Ajansla",
@@ -5750,7 +5817,7 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://www.oran.org.tr/duyuru/cukurova-kalkinma-ajansi-personel-alim-ilani": {
       "title": "Aralık 25, 2025Çukurova Kalkınma Ajansı Personel Alım İlanıÇukurova Kalkınma Ajansı 4 No'lu Cumhurbaşkanlığı Kararnamesi ve Kalkınma Ajansları Personel Yönetmeliği hükümleri çerçevesinde; Adana ve Mersin iller",
@@ -5858,7 +5925,7 @@
       "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
       "source_id": "oran",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://www.oran.org.tr/duyuru/2025-yili-teknik-destek-programi-2-donem-basvuru-sonuclari": {
       "title": "Eylül 05, 20252025 Yılı Teknik Destek Programı 2. Dönem Başvuru SonuçlarıOrta Anadolu Kalkınma Ajansı\r\ntarafından yürütülen 2025 Yılı Teknik Destek Programı kapsamında yapılan başvuruların\r\ndeğerlendirme süreci tamamlanmışt",
@@ -5939,7 +6006,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.istka.org.tr/acik-destek-programlari"
     },
     "https://www.gmka.gov.tr/kapanan-destek-programlari": {
       "title": "Kapanan Destek Programları",
@@ -5948,7 +6016,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://bebka.org.tr/kapanan-destek-programlari/"
     },
     "https://www.gmka.gov.tr/proje-uygulama-dokumanlari": {
       "title": "Proje Uygulama Dokümanları",
@@ -5957,7 +6026,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.istka.org.tr/proje-uygulama-dokumanlari"
     },
     "https://www.gmka.gov.tr/sss": {
       "title": "Sıkça Sorulan Sorular",
@@ -5966,7 +6036,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://teknofest.org/tr/corporate/faq/"
     },
     "https://www.gmka.gov.tr/sss/2026-yili-yonetim-danismanligi-teknik-destek-programi": {
       "title": "Sıkça Sorulan Sorular",
@@ -5975,7 +6046,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://teknofest.org/tr/corporate/faq/"
     },
     "https://www.gmka.gov.tr/dokumanlar/programlar/2026-Yili-Yonetim-Danismanligi-TD-Basvuru-Rehberi.pdf": {
       "title": "Başvuru Rehberi",
@@ -6002,7 +6074,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://teknofest.org/tr/corporate/faq/"
     },
     "https://www.gmka.gov.tr/dokumanlar/programlar/2026-Yatirim-Ortaminin-Iyilestirilmesi-TD-Basvuru-Rehberi.pdf": {
       "title": "Başvuru Rehberi",
@@ -6011,7 +6084,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.gmka.gov.tr/dokumanlar/programlar/2026-Yili-Yonetim-Danismanligi-TD-Basvuru-Rehberi.pdf"
     },
     "https://www.gmka.gov.tr/dokumanlar/programlar/2026-Yili-Yatirim-Ortaminin-Iyilestirilmesi-TD-Rehber--Ekleri.rar": {
       "title": "Başvuru Rehberi ve Tüm Ekler",
@@ -6020,7 +6094,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.gmka.gov.tr/dokumanlar/programlar/2026-Yili-Yonetim-Danismanligi-TD-Rehber-Ekleri.rar"
     },
     "https://www.gmka.gov.tr/sss/tr22-26-bsgtd": {
       "title": "Sıkça Sorulan Sorular",
@@ -6029,7 +6104,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://teknofest.org/tr/corporate/faq/"
     },
     "https://www.gmka.gov.tr/dokumanlar/programlar/2026-Yili-Beseri-Sosyal-Gelisim-TD-Basvuru-Rehberi.pdf": {
       "title": "Başvuru Rehberi",
@@ -6038,7 +6114,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.gmka.gov.tr/dokumanlar/programlar/2026-Yili-Yonetim-Danismanligi-TD-Basvuru-Rehberi.pdf"
     },
     "https://www.gmka.gov.tr/dokumanlar/programlar/2026-Beseri-Sosyal-Gelisim-TD-Ekleri.rar": {
       "title": "Başvuru Rehberi ve Tüm Ekler",
@@ -6047,7 +6124,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.gmka.gov.tr/dokumanlar/programlar/2026-Yili-Yonetim-Danismanligi-TD-Rehber-Ekleri.rar"
     },
     "https://www.gmka.gov.tr/kalkinma-ajanslari-hakkinda": {
       "title": "Kalkınma Ajansları Hakkında",
@@ -6056,7 +6134,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.istka.org.tr/kalkinma-ajanslari-hakkinda"
     },
     "https://www.gmka.gov.tr/vizyon-misyon": {
       "title": "Vizyon-Misyon",
@@ -6065,7 +6144,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/hakkimizda/"
     },
     "https://www.gmka.gov.tr/organizasyon-yapisi": {
       "title": "Organizasyon Yapısı",
@@ -6074,7 +6154,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/hakkimizda/#organizasyon"
     },
     "https://www.gmka.gov.tr/yonetim-kurulu": {
       "title": "Yönetim Kurulu",
@@ -6083,7 +6164,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/116/159/Y%C3%B6netim-Kurulu-"
     },
     "https://www.gmka.gov.tr/genel-sekreterlik": {
       "title": "Genel Sekreterlik",
@@ -6092,7 +6174,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/94/166/Genel-Sekreterlik-"
     },
     "https://www.gmka.gov.tr/calisma-programlari": {
       "title": "Çalışma Programları",
@@ -6101,7 +6184,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/calisma-programlari"
     },
     "https://www.gmka.gov.tr/faaliyet-raporlari": {
       "title": "Faaliyet Raporları",
@@ -6110,7 +6194,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/faaliyet-raporlari"
     },
     "https://www.gmka.gov.tr/butce-uygulama-sonuclari": {
       "title": "Bütçe Uygulama Sonuçları",
@@ -6119,7 +6204,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.ankaraka.org.tr/butce-uygulama-sonuclari"
     },
     "https://www.gmka.gov.tr/dokumanlar/diger/GMKA-Hizmet-Standartlari.pdf": {
       "title": "Hizmet Standartları",
@@ -6137,7 +6223,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/kurumsal/etik-komisyonu/"
     },
     "https://www.gmka.gov.tr/marka-tescillerimiz": {
       "title": "Marka Tescillerimiz",
@@ -6209,7 +6296,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.cka.org.tr/tr/sayfa/bolge-planlari"
     },
     "https://www.gmka.gov.tr/stratejik-planlar": {
       "title": "Stratejik Planlar",
@@ -6218,7 +6306,7 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://www.gmka.gov.tr/dokuman-merkezi": {
       "title": "Doküman Merkezi",
@@ -6227,7 +6315,8 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://izka.org.tr/dokuman-merkezi/"
     },
     "https://www.gmka.gov.tr/vizyon-dergisi": {
       "title": "GMKA Vizyon Dergisi",
@@ -6263,7 +6352,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/destekler-tr/genel-bilgiler/"
     },
     "https://www.geka.gov.tr/tr/sayfa/ajansimizin-tanitimi": {
       "title": "Ajansımızın Tanıtımı",
@@ -6281,7 +6371,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/faaliyet-raporlari"
     },
     "https://www.geka.gov.tr/tr/sayfa/vizyon-ve-misyon": {
       "title": "Vizyon ve Misyon",
@@ -6290,7 +6381,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/kurumsal/vizyon-ve-misyon"
     },
     "https://www.geka.gov.tr/tr/sayfa/butce-uygulama-sonuclari": {
       "title": "Bütçe Uygulama Sonuçları",
@@ -6299,7 +6391,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.ankaraka.org.tr/butce-uygulama-sonuclari"
     },
     "https://www.geka.gov.tr/tr/sayfa/calisma-programi": {
       "title": "Çalışma Programı",
@@ -6317,7 +6410,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/kurumsal/kvkk-bilgilendirme-ve-izin-metinleri"
     },
     "https://www.geka.gov.tr/tr/sayfa/bolgesel-kalkinma-ve-ulkemizde-bolgesel-kalkinma-politikalarinin-gelisim-sureci": {
       "title": "Bölgesel Kalkınma ve Ülkemizde Bölgesel Kalkınma Politikalarının Gelişim Süreci",
@@ -6326,7 +6420,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/bolgesel-kalkinma-ve-ulkemizde-bolgesel-kalkinma-politikalarinin-gelisim-sureci/"
     },
     "https://www.geka.gov.tr/tr/sayfa/bolgesel-kalkinmanin-yonetisiminde-kalkinma-ajanslari": {
       "title": "Bölgesel Kalkınmanın Yönetişiminde Kalkınma Ajansları",
@@ -6335,7 +6430,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/bolgesel-kalkinmanin-yonetisiminde-kalkinma-ajanslari/"
     },
     "https://www.geka.gov.tr/tr/sayfa/kalkinma-planlamasinda-istatistiki-bolge-birimleri-siniflandirmasi": {
       "title": "Kalkınma Planlamasında İstatistiki Bölge Birimleri Sınıflandırması",
@@ -6344,7 +6440,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/kalkinma-planlamasinda-istatistiki-bolge-birimleri-siniflandirmasi/"
     },
     "https://www.geka.gov.tr/tr/yonetim-kurulu": {
       "title": "Yönetim Kurulu",
@@ -6353,7 +6450,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/116/159/Y%C3%B6netim-Kurulu-"
     },
     "https://www.geka.gov.tr/tr/sayfa/kalkinma-kurulu": {
       "title": "Kalkınma Kurulu",
@@ -6362,7 +6460,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.oran.org.tr/tr/kalkinma-kurulu"
     },
     "https://www.geka.gov.tr/tr/genel-sekreter": {
       "title": "Genel Sekreter",
@@ -6380,7 +6479,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/kurumsal/organizasyon-semasi/"
     },
     "https://www.geka.gov.tr/tr/sayfa/sonuc-odakli-programlar": {
       "title": "Sonuç Odaklı Programlar",
@@ -6389,7 +6489,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://bebka.org.tr/planlama/sonuc-odakli-programlar/"
     },
     "https://www.geka.gov.tr/tr/sayfa/analiz-ve-raporlar": {
       "title": "Analiz ve Raporlar",
@@ -6425,7 +6526,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.cka.org.tr/tr//guncel-destekler"
     },
     "https://www.geka.gov.tr/tr/basvurusu-tamamlanmis-destekler": {
       "title": "Geçmiş Yıllara Ait Destekler",
@@ -6668,7 +6770,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/destekler/gudumlu-proje-destegi/"
     },
     "https://www.geka.gov.tr/tr/sayfa/sosyal-gelismeyi-destekleme-programi-sogep": {
       "title": "Sosyal Gelişmeyi Destekleme Programı (SOGEP",
@@ -6677,7 +6780,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.karacadag.gov.tr/destekler/14/sosyal-gelismeyi-destekleme-programi-sogep/"
     },
     "https://www.geka.gov.tr/tr/iletisim": {
       "title": "İletişim Formu",
@@ -6713,7 +6817,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.karacadag.gov.tr/destekler/13/fizibilite-destegi/"
     },
     "https://www.geka.gov.tr/tr/basvurusu-devam-eden-destekler/destek/proje-teklif-cagrisi": {
       "title": "Proje Teklif Çağrısı",
@@ -6722,7 +6827,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.karacadag.gov.tr/destekler/2/proje-teklif-cagrisi/"
     },
     "https://www.geka.gov.tr/tr/basvurusu-devam-eden-destekler/destek/teknik-destek": {
       "title": "Teknik Destek",
@@ -6740,7 +6846,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.karacadag.gov.tr/destekler/14/sosyal-gelismeyi-destekleme-programi-sogep/"
     },
     "https://www.geka.gov.tr/tr/basvurusu-devam-eden-destekler/destek/faizsiz-kredi-destegi": {
       "title": "Faizsiz Kredi Desteği",
@@ -6776,7 +6883,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/116/159/Y%C3%B6netim-Kurulu-"
     },
     "https://www.geka.gov.tr/tr//genel-sekreter": {
       "title": "Genel Sekreter",
@@ -6785,7 +6893,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.geka.gov.tr/tr/genel-sekreter"
     },
     "https://www.geka.gov.tr/tr//organizasyon-semasi": {
       "title": "Organizasyon Şeması",
@@ -6794,7 +6903,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/kurumsal/organizasyon-semasi/"
     },
     "https://www.geka.gov.tr/tr/sayfa/ust-olcekli-plan-programlar": {
       "title": "Üst Ölçekli Plan Programlar",
@@ -6812,7 +6922,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.oran.org.tr/tr/2014-2023-bolge-plani"
     },
     "https://www.geka.gov.tr/tr/sayfa/turizm-envanteri": {
       "title": "Turizm Envanteri",
@@ -6821,7 +6932,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.geka.gov.tr/tr/turizm-envanteri"
     },
     "https://www.geka.gov.tr/tr/sayfa/kurumsal-stratejik-plan": {
       "title": "Kurumsal Stratejik Plan",
@@ -6830,7 +6942,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/kurumsal-stratejik-plan"
     },
     "https://www.geka.gov.tr/tr/sayfa/yerlesim-merkezleri-kademelenmesi": {
       "title": "Yerleşim Merkezleri Kademelenmesi",
@@ -6848,7 +6961,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.karacadag.gov.tr/destekler/2/proje-teklif-cagrisi/"
     },
     "https://www.geka.gov.tr/tr/destek/dogrudan-faaliyet-destegi": {
       "title": "Doğrudan Faaliyet Desteği",
@@ -6857,7 +6971,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.karacadag.gov.tr/destekler/8/dogrudan-faaliyet-destegi/"
     },
     "https://www.geka.gov.tr/tr/destek/guncel-destekler": {
       "title": "Güncel Destekler",
@@ -6866,7 +6981,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.cka.org.tr/tr//guncel-destekler"
     },
     "https://www.geka.gov.tr/tr/destek/teknik-destek": {
       "title": "Teknik Destek",
@@ -6875,7 +6991,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.geka.gov.tr/tr/basvurusu-devam-eden-destekler/destek/teknik-destek"
     },
     "https://www.geka.gov.tr/tr//iletisim": {
       "title": "İletişim Formu",
@@ -6884,7 +7001,8 @@
       "source": "GEKA (Güney Ege Kalkınma Ajansı)",
       "source_id": "geka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.geka.gov.tr/tr/iletisim"
     },
     "http://www.ika.org.tr/": {
       "title": "www.ika.org.tr",
@@ -6911,7 +7029,8 @@
       "source": "TRAKYAKA (Trakya Kalkınma Ajansı)",
       "source_id": "trakyaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/bolgesel-kalkinma-ve-ulkemizde-bolgesel-kalkinma-politikalarinin-gelisim-sureci/"
     },
     "https://www.trakyaka.org.tr/tr/120101/Bolgesel-Kalkinmanin-Yonetisiminde-Kalkinma-Ajanslari": {
       "title": "Bölgesel Kalkınmanın Yönetişiminde Kalkınma Ajansları",
@@ -6920,7 +7039,8 @@
       "source": "TRAKYAKA (Trakya Kalkınma Ajansı)",
       "source_id": "trakyaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/bolgesel-kalkinmanin-yonetisiminde-kalkinma-ajanslari/"
     },
     "https://www.trakyaka.org.tr/tr/120102/Kalkinma-Planlamasinda-Istatistiki-Bolge-Birimleri-Siniflandirmasi": {
       "title": "Kalkınma Planlamasında İstatistiki Bölge Birimleri Sınıflandırması",
@@ -6929,7 +7049,8 @@
       "source": "TRAKYAKA (Trakya Kalkınma Ajansı)",
       "source_id": "trakyaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/kalkinma-planlamasinda-istatistiki-bolge-birimleri-siniflandirmasi/"
     },
     "https://www.trakyaka.org.tr/tr/33167/Organizasyon-Yapisi": {
       "title": "Organizasyon Yapısı",
@@ -6938,7 +7059,8 @@
       "source": "TRAKYAKA (Trakya Kalkınma Ajansı)",
       "source_id": "trakyaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/hakkimizda/#organizasyon"
     },
     "https://www.trakyaka.org.tr/tr/33166/Misyon-Vizyon": {
       "title": "Misyon & Vizyon",
@@ -6956,7 +7078,8 @@
       "source": "TRAKYAKA (Trakya Kalkınma Ajansı)",
       "source_id": "trakyaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/faaliyet-raporlari"
     },
     "https://www.trakyaka.org.tr/tr/36720/Calisma-Programlari": {
       "title": "Çalışma Programları",
@@ -6965,7 +7088,8 @@
       "source": "TRAKYAKA (Trakya Kalkınma Ajansı)",
       "source_id": "trakyaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/calisma-programlari"
     },
     "https://www.trakyaka.org.tr/tr/35013/AB-Isleri-Temas-Noktasi": {
       "title": "AB İşleri Temas Noktası",
@@ -7019,7 +7143,8 @@
       "source": "TRAKYAKA (Trakya Kalkınma Ajansı)",
       "source_id": "trakyaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.gmka.gov.tr/ulusal-kalkinma-planlari"
     },
     "https://www.trakyaka.org.tr/tr/33275/Cevre-Duzeni-Plani": {
       "title": "Çevre Düzeni Planı",
@@ -7136,7 +7261,8 @@
       "source": "TRAKYAKA (Trakya Kalkınma Ajansı)",
       "source_id": "trakyaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.karacadag.gov.tr/destekler/2/proje-teklif-cagrisi/"
     },
     "https://www.trakyaka.org.tr/tr/120011/2025-Yili-Mali-Destek-Programi": {
       "title": "2025 Yılı Mali Destek Programı",
@@ -7172,7 +7298,8 @@
       "source": "TRAKYAKA (Trakya Kalkınma Ajansı)",
       "source_id": "trakyaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://izka.org.tr/destekler/teknik-destek-programlari/"
     },
     "https://www.trakyaka.org.tr/tr/47335/2023-Yili-Teknik-Destek-02-Programi": {
       "title": "2023 Yılı Teknik Destek-02 Programı",
@@ -7190,7 +7317,8 @@
       "source": "TRAKYAKA (Trakya Kalkınma Ajansı)",
       "source_id": "trakyaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.karacadag.gov.tr/destekler/13/fizibilite-destegi/"
     },
     "https://www.trakyaka.org.tr/tr/41360/COVID-19-ile-Mucadele-ve-Dayaniklilik-Programi": {
       "title": "COVID-19 ile Mücadele ve Dayanıklılık Programı",
@@ -7226,7 +7354,8 @@
       "source": "TRAKYAKA (Trakya Kalkınma Ajansı)",
       "source_id": "trakyaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://teknofest.org/tr/corporate/faq/"
     },
     "https://www.trakyaka.org.tr/tr/38813/Acik-Olan-Destek-Programlari-SSS": {
       "title": "Açık Olan Destek Programları (SSS)",
@@ -7271,7 +7400,8 @@
       "source": "TRAKYAKA (Trakya Kalkınma Ajansı)",
       "source_id": "trakyaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/proje-uygulama/"
     },
     "https://www.trakyaka.org.tr/tr/33566/Uygulama-Dokumanlari": {
       "title": "Uygulama Dokümanları",
@@ -7289,7 +7419,8 @@
       "source": "TRAKYAKA (Trakya Kalkınma Ajansı)",
       "source_id": "trakyaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://teknofest.org/tr/corporate/faq/"
     },
     "https://www.trakyaka.org.tr/tr/68594/Trakya-nin-Verimli-KOBI-leri": {
       "title": "Trakya’nın Verimli KOBİ’leri",
@@ -7307,7 +7438,8 @@
       "source": "TRAKYAKA (Trakya Kalkınma Ajansı)",
       "source_id": "trakyaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.cka.org.tr/tr/sayfa/arastirma-raporlari"
     },
     "https://www.trakyaka.org.tr/tr/33038/Ozel-Ihtisas-Komisyonlari": {
       "title": "Özel İhtisas Komisyonları",
@@ -7424,7 +7556,8 @@
       "source": "TRAKYAKA (Trakya Kalkınma Ajansı)",
       "source_id": "trakyaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.gmka.gov.tr/ulusal-kalkinma-planlari"
     },
     "https://www.trakyaka.org.tr/tr/33542/Sikca-Sorulan-Sorular": {
       "title": "Sıkça Sorulan Sorular",
@@ -7433,7 +7566,8 @@
       "source": "TRAKYAKA (Trakya Kalkınma Ajansı)",
       "source_id": "trakyaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://teknofest.org/tr/corporate/faq/"
     },
     "https://www.trakyaka.org.tr/tr/33573/Yardimci-Dokumanlar": {
       "title": "Yardımcı Dökümanlar",
@@ -7451,7 +7585,8 @@
       "source": "ZAFER (Zafer Kalkınma Ajansı)",
       "source_id": "zafer",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.istka.org.tr/kalkinma-ajanslari-hakkinda"
     },
     "https://zafer.gov.tr/kalkinma-ajanslari-hakkinda/bolgesel-kalkinma-politikalari": {
       "title": "Bölgesel Kalkınma ve Ülkemizde Bölgesel Kalkınma Politikalarının Gelişim Süreci",
@@ -7460,7 +7595,8 @@
       "source": "ZAFER (Zafer Kalkınma Ajansı)",
       "source_id": "zafer",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/bolgesel-kalkinma-ve-ulkemizde-bolgesel-kalkinma-politikalarinin-gelisim-sureci/"
     },
     "https://zafer.gov.tr/kalkinma-ajanslari-hakkinda/yonetisim": {
       "title": "Bölgesel Kalkınmanın Yönetişiminde Kalkınma Ajansları",
@@ -7469,7 +7605,8 @@
       "source": "ZAFER (Zafer Kalkınma Ajansı)",
       "source_id": "zafer",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/bolgesel-kalkinmanin-yonetisiminde-kalkinma-ajanslari/"
     },
     "https://zafer.gov.tr/kalkinma-ajanslari-hakkinda/istatistiki-bolge-birimleri": {
       "title": "Kalkınma Planlamasında İstatistiki Bölge Birimleri Sınıflandırması",
@@ -7478,7 +7615,8 @@
       "source": "ZAFER (Zafer Kalkınma Ajansı)",
       "source_id": "zafer",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/kalkinma-planlamasinda-istatistiki-bolge-birimleri-siniflandirmasi/"
     },
     "https://zafer.gov.tr/misyon-vizyon": {
       "title": "Misyon & Vizyon",
@@ -7487,7 +7625,8 @@
       "source": "ZAFER (Zafer Kalkınma Ajansı)",
       "source_id": "zafer",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.trakyaka.org.tr/tr/33166/Misyon-Vizyon"
     },
     "https://zafer.gov.tr/organizasyon-semasi": {
       "title": "Organizasyon Yapısı",
@@ -7496,7 +7635,8 @@
       "source": "ZAFER (Zafer Kalkınma Ajansı)",
       "source_id": "zafer",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/hakkimizda/#organizasyon"
     },
     "https://zafer.gov.tr/yonetim-kurulu": {
       "title": "Yönetim Kurulu",
@@ -7505,7 +7645,8 @@
       "source": "ZAFER (Zafer Kalkınma Ajansı)",
       "source_id": "zafer",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/116/159/Y%C3%B6netim-Kurulu-"
     },
     "https://zafer.gov.tr/kalkinma-kurulu": {
       "title": "Kalkınma Kurulu",
@@ -7514,7 +7655,8 @@
       "source": "ZAFER (Zafer Kalkınma Ajansı)",
       "source_id": "zafer",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.oran.org.tr/tr/kalkinma-kurulu"
     },
     "https://zafer.gov.tr/genel-sekreterlik": {
       "title": "Genel Sekreterlik",
@@ -7523,7 +7665,8 @@
       "source": "ZAFER (Zafer Kalkınma Ajansı)",
       "source_id": "zafer",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/94/166/Genel-Sekreterlik-"
     },
     "https://zafer.gov.tr/zaman-cizelgesi/calisma-programlari": {
       "title": "Çalışma Programları",
@@ -7532,7 +7675,8 @@
       "source": "ZAFER (Zafer Kalkınma Ajansı)",
       "source_id": "zafer",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/calisma-programlari"
     },
     "https://zafer.gov.tr/zaman-cizelgesi/faaliyet-raporlari": {
       "title": "Faaliyet Raporları",
@@ -7541,7 +7685,8 @@
       "source": "ZAFER (Zafer Kalkınma Ajansı)",
       "source_id": "zafer",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/faaliyet-raporlari"
     },
     "https://zafer.gov.tr/zaman-cizelgesi/butce-sonuclari": {
       "title": "Bütçe Sonuçları",
@@ -7595,7 +7740,8 @@
       "source": "ZAFER (Zafer Kalkınma Ajansı)",
       "source_id": "zafer",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.kosgeb.gov.tr/site/tr/genel/destekler/3/destekler"
     },
     "https://zafer.gov.tr/destek-programlari/sogep-anadoludakiler": {
       "title": "Sogep-Anadoludakiler",
@@ -7604,7 +7750,8 @@
       "source": "ZAFER (Zafer Kalkınma Ajansı)",
       "source_id": "zafer",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.trakyaka.org.tr/tr/68509/SOGEP-Anadoludakiler"
     },
     "https://zafer.gov.tr/destekler": {
       "title": "Tüm Destek Programları",
@@ -7649,7 +7796,8 @@
       "source": "ZAFER (Zafer Kalkınma Ajansı)",
       "source_id": "zafer",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://oka.gov.tr/genc-istihdami"
     },
     "https://zafer.gov.tr/kaynak-verimliligi": {
       "title": "Kaynak Verimliliği 2020-2021",
@@ -8153,7 +8301,8 @@
       "source": "ZAFER (Zafer Kalkınma Ajansı)",
       "source_id": "zafer",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/iletisim/bilgi-edinme/"
     },
     "https://zafer.gov.tr/etik-komisyonu": {
       "title": "Etik Komisyonu",
@@ -8162,7 +8311,8 @@
       "source": "ZAFER (Zafer Kalkınma Ajansı)",
       "source_id": "zafer",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/kurumsal/etik-komisyonu/"
     },
     "https://www.ahika.gov.tr/kurumsal/vizyon-ve-misyon/": {
       "title": "Vizyon ve Misyon",
@@ -8171,7 +8321,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/kurumsal/vizyon-ve-misyon"
     },
     "https://www.ahika.gov.tr/kurumsal/organizasyon-yapisi/": {
       "title": "Organizasyon Yapısı",
@@ -8180,7 +8331,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/hakkimizda/#organizasyon"
     },
     "https://www.ahika.gov.tr/kurumsal/organizasyon-yapisi/yonetim-kurulu/": {
       "title": "Yönetim Kurulu",
@@ -8189,7 +8341,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/116/159/Y%C3%B6netim-Kurulu-"
     },
     "https://www.ahika.gov.tr/kurumsal/organizasyon-yapisi/kalkinma-kurulu/": {
       "title": "Kalkınma Kurulu",
@@ -8198,7 +8351,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.oran.org.tr/tr/kalkinma-kurulu"
     },
     "https://www.ahika.gov.tr/kurumsal/organizasyon-yapisi/genel-sekreterlik/": {
       "title": "Genel Sekreterlik",
@@ -8207,7 +8361,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/94/166/Genel-Sekreterlik-"
     },
     "https://www.ahika.gov.tr/kurumsal/organizasyon-yapisi/genel-sekreterlige-bagli-calisma-birimleri/": {
       "title": "Genel Sekreterliğe Bağlı Çalışma Birimleri",
@@ -8225,7 +8380,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/kurumsal/etik-komisyonu/"
     },
     "https://www.ahika.gov.tr/kurumsal/bilgi-dokuman-birimi/": {
       "title": "Bilgi Doküman Birimi",
@@ -8342,7 +8498,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.gmka.gov.tr/ust-olcekli-planlar"
     },
     "https://www.ahika.gov.tr/dokuman-merkezi/orta-vadeli-programlar/": {
       "title": "Orta Vadeli Programlar",
@@ -8360,7 +8517,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.cka.org.tr/tr/sayfa/bolge-planlari"
     },
     "https://www.ahika.gov.tr/dokuman-merkezi/calisma-programlari/": {
       "title": "Çalışma Programları",
@@ -8369,7 +8527,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/calisma-programlari"
     },
     "https://www.ahika.gov.tr/dokuman-merkezi/faaliyet-raporlari/": {
       "title": "Faaliyet Raporları",
@@ -8378,7 +8537,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/faaliyet-raporlari"
     },
     "https://www.ahika.gov.tr/dokuman-merkezi/kurumsallasma-stratejik-planlari/": {
       "title": "Kurumsallaşma Stratejik Planları",
@@ -8387,7 +8547,7 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://www.ahika.gov.tr/projeler/proje-uygulama-dokumanlari/": {
       "title": "Proje Uygulama Dokümanları",
@@ -8396,7 +8556,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.istka.org.tr/proje-uygulama-dokumanlari"
     },
     "https://www.ahika.gov.tr/projeler/tamamlanan-projeler-arsivi/": {
       "title": "Tamamlanan Projeler Arşivi",
@@ -8468,7 +8629,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/iletisim/bilgi-edinme/"
     },
     "https://www.ahika.gov.tr/destekler/destek-programlari": {
       "title": "Destek Programları",
@@ -8477,7 +8639,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.ahika.gov.tr/destekler/destek-programlari/"
     },
     "https://www.ahika.gov.tr/destekler/nasil-destek-alinir": {
       "title": "Nasıl Destek Alınır ?",
@@ -8486,7 +8649,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.ahika.gov.tr/destekler/nasil-destek-alinir/"
     },
     "https://www.ahika.gov.tr/destekler/ahika-acik-destek-programlari": {
       "title": "AHİKA Açık Destek Programları",
@@ -8495,7 +8659,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.ahika.gov.tr/destekler/ahika-acik-destek-programlari/"
     },
     "https://www.ahika.gov.tr/destekler/ahika-acik-destek-programlari/2026-yili-tarimsal-uretimde-kapasite-gelistirme-teknik-destek-programi": {
       "title": "2026 Yılı Tarımsal Üretimde Kapasite Geliştirme Teknik Destek Programı",
@@ -8504,7 +8669,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.ahika.gov.tr/destekler/ahika-acik-destek-programlari/2026-yili-tarimsal-uretimde-kapasite-gelistirme-teknik-destek-programi/"
     },
     "https://www.ahika.gov.tr/destekler/ahika-acik-destek-programlari/2026-yili-anadoludakiler-gastronomi-danismanligi-teknik-destek-programi": {
       "title": "2026 Yılı Anadoludakiler - Gastronomi Danışmanlığı Teknik Destek Programı",
@@ -8513,7 +8679,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.ahika.gov.tr/destekler/ahika-acik-destek-programlari/2026-yili-anadoludakiler-gastronomi-danismanligi-teknik-destek-programi/"
     },
     "https://www.ahika.gov.tr/destekler/destek-programlari-arsivi": {
       "title": "Destek Programları Arşivi",
@@ -8522,7 +8689,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.ahika.gov.tr/destekler/destek-programlari-arsivi/"
     },
     "https://www.ahika.gov.tr/destekler/destekler-s-s-s": {
       "title": "Destekler S.S.S.",
@@ -8531,7 +8699,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.ahika.gov.tr/destekler/destekler-s-s-s/"
     },
     "https://www.ahika.gov.tr/destekler/diger-kurumlarin-destek-programlari": {
       "title": "Diğer Kurumların Destek Programları",
@@ -8540,7 +8709,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.ahika.gov.tr/destekler/diger-kurumlarin-destek-programlari/"
     },
     "https://www.ahika.gov.tr/kurumsal/vizyon-ve-misyon": {
       "title": "Vizyon ve Misyon",
@@ -8549,7 +8719,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/kurumsal/vizyon-ve-misyon"
     },
     "https://www.ahika.gov.tr/kurumsal/organizasyon-yapisi": {
       "title": "Organizasyon Yapısı",
@@ -8558,7 +8729,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/hakkimizda/#organizasyon"
     },
     "https://www.ahika.gov.tr/kurumsal/etik-komisyonu": {
       "title": "Etik Komisyonu",
@@ -8567,7 +8739,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/kurumsal/etik-komisyonu/"
     },
     "https://www.ahika.gov.tr/kurumsal/bilgi-dokuman-birimi": {
       "title": "Bilgi Doküman Birimi",
@@ -8576,7 +8749,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ahika.gov.tr/kurumsal/bilgi-dokuman-birimi/"
     },
     "https://www.ahika.gov.tr/kurumsal/kurumsal-kimlik-ve-logo": {
       "title": "Kurumsal Kimlik ve Logo",
@@ -8585,7 +8759,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ahika.gov.tr/kurumsal/kurumsal-kimlik-ve-logo/"
     },
     "https://www.ahika.gov.tr/dokuman-merkezi/ust-olcekli-planlar": {
       "title": "Üst Ölçekli Planlar",
@@ -8594,7 +8769,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.gmka.gov.tr/ust-olcekli-planlar"
     },
     "https://www.ahika.gov.tr/dokuman-merkezi/orta-vadeli-programlar": {
       "title": "Orta Vadeli Programlar",
@@ -8603,7 +8779,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.ahika.gov.tr/dokuman-merkezi/orta-vadeli-programlar/"
     },
     "https://www.ahika.gov.tr/dokuman-merkezi/bolge-planlari": {
       "title": "Bölge Planları",
@@ -8612,7 +8789,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.cka.org.tr/tr/sayfa/bolge-planlari"
     },
     "https://www.ahika.gov.tr/dokuman-merkezi/calisma-programlari": {
       "title": "Çalışma Programları",
@@ -8621,7 +8799,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/calisma-programlari"
     },
     "https://www.ahika.gov.tr/dokuman-merkezi/faaliyet-raporlari": {
       "title": "Faaliyet Raporları",
@@ -8630,7 +8809,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/faaliyet-raporlari"
     },
     "https://www.ahika.gov.tr/projeler/proje-uygulama-donemi-s-s-s": {
       "title": "Proje Uygulama Dönemi S.S.S.",
@@ -8639,7 +8819,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ahika.gov.tr/projeler/proje-uygulama-donemi-s-s-s/"
     },
     "https://www.ahika.gov.tr/projeler/tamamlanan-projeler-arsivi": {
       "title": "Tamamlanan Projeler Arşivi",
@@ -8648,7 +8829,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ahika.gov.tr/projeler/tamamlanan-projeler-arsivi/"
     },
     "https://www.ahika.gov.tr/projeler/proje-uygulama-dokumanlari": {
       "title": "Proje Uygulama Dokümanları",
@@ -8657,7 +8839,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.istka.org.tr/proje-uygulama-dokumanlari"
     },
     "https://www.ahika.gov.tr/iletisim/bilgi-edinme": {
       "title": "Bilgi Edinme",
@@ -8666,7 +8849,8 @@
       "source": "AHİKA (Ahiler Kalkınma Ajansı)",
       "source_id": "ahika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/iletisim/bilgi-edinme/"
     },
     "https://www.kuzka.gov.tr/kurumsal.asp?K=56&Kurumsal=genel-sekreter": {
       "title": "Genel Sekreter",
@@ -8675,7 +8859,8 @@
       "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
       "source_id": "kuzka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.geka.gov.tr/tr/genel-sekreter"
     },
     "https://www.kuzka.gov.tr/kurumsal.asp?K=71&Kurumsal=bölgesel-kalkýnma-ve-ülkemizde-bölgesel-kalkýnma-politikalarýnýn-geliþim-süreci": {
       "title": "Bölgesel Kalkýnma ve Ülkemizde Bölgesel Kalkýnma Politikalarýnýn Geliþim Süreci",
@@ -8720,7 +8905,8 @@
       "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
       "source_id": "kuzka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/kurumsal/etik-komisyonu/"
     },
     "https://www.kuzka.gov.tr/kurumsal.asp?K=37&Kurumsal=kurumsal-stratejik-plan": {
       "title": "Kurumsal Stratejik Plan",
@@ -8729,7 +8915,8 @@
       "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
       "source_id": "kuzka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/kurumsal-stratejik-plan"
     },
     "https://www.kuzka.gov.tr/kurumsal.asp?K=4&Kurumsal=calisma-programi-ve-butce": {
       "title": "Çalýþma Programý ve Bütçe",
@@ -8756,7 +8943,8 @@
       "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
       "source_id": "kuzka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/ust-olcekli-plan-ve-programlar"
     },
     "https://www.kuzka.gov.tr/planlama.asp?P=8&Planlama=tr82-bölge-planlarý": {
       "title": "TR82 Bölge Planlarý",
@@ -8774,7 +8962,8 @@
       "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
       "source_id": "kuzka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://oka.gov.tr/planlama/stratejik-plan"
     },
     "https://www.kuzka.gov.tr/planlama.asp?P=9&Planlama=ilce-analizleri": {
       "title": "Ýlçe Analizleri",
@@ -8900,7 +9089,8 @@
       "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
       "source_id": "kuzka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/iletisim/bilgi-edinme/"
     },
     "https://www.kuzka.gov.tr/proje-oneri-formu.asp": {
       "title": "Proje Öneri Formu",
@@ -8918,7 +9108,7 @@
       "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
       "source_id": "kuzka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://www.kuzka.gov.tr/basinda-detay.asp?H=3079&Haber=sosyal-giriþimcilik-programý-Ýçin-bilgilendirme-toplantýlarý-baþlýyor": {
       "title": "Sosyal Giriþimcilik Programý Ýçin Bilgilendirme Toplantýlarý",
@@ -9125,7 +9315,8 @@
       "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
       "source_id": "kuzka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.kuzka.gov.tr/basinda-detay.asp?H=1964&Haber=mal-alýmý-Ýçin-Ýhale-Ýlaný"
     },
     "https://www.kuzka.gov.tr/Icerik/Dosya/www.kuzka.gov.tr_49_YN4E39UK_Kuzka-Sogep-ihale-ilani.pdf": {
       "title": "SOGEP Yapým Ýþi Ýhale Ýlaný",
@@ -9271,7 +9462,8 @@
       "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
       "source_id": "kuzka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.kuzka.gov.tr/basinda-detay.asp?H=3077&Haber=sosyal-giriþimcilik-desteði-Ýçin-baþvurular-baþladý"
     },
     "https://kudaka.gov.tr/kurumsal/kalkinma-ajanslari-hakkinda": {
       "title": "Kalkınma Ajansları Hakkında",
@@ -9280,7 +9472,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.istka.org.tr/kalkinma-ajanslari-hakkinda"
     },
     "https://kudaka.gov.tr/kurumsal/etik-komisyonu": {
       "title": "Etik Komisyonu",
@@ -9289,7 +9482,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/kurumsal/etik-komisyonu/"
     },
     "https://kudaka.gov.tr/kurumsal/kvkk-aydinlatma-metni": {
       "title": "KVKK Aydınlatma Metni",
@@ -9298,7 +9492,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://teknofest.org/tr/regulators/gdpr/"
     },
     "https://kudaka.gov.tr/kurumsal/temel-degerler": {
       "title": "Temel Değerler",
@@ -9316,7 +9511,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/hakkimizda/"
     },
     "https://kudaka.gov.tr/kurumsal/mali-saydamlik": {
       "title": "Mali Saydamlık",
@@ -9334,7 +9530,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/hakkimizda/#organizasyon"
     },
     "https://kudaka.gov.tr/kurumsal/kurumsal-logolarimiz": {
       "title": "Kurumsal Logolarımız",
@@ -9361,7 +9558,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.istka.org.tr/acik-destek-programlari"
     },
     "https://kudaka.gov.tr/destekler/proje-teklif-cagrisi": {
       "title": "Proje Teklif Çağrısı",
@@ -9370,7 +9568,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.karacadag.gov.tr/destekler/2/proje-teklif-cagrisi/"
     },
     "https://kudaka.gov.tr/destekler/finansman-destegi-programi": {
       "title": "Finansman Desteği Programı",
@@ -9388,7 +9587,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://izka.org.tr/destekler/teknik-destek-programlari/"
     },
     "https://kudaka.gov.tr/destekler/gudumlu-proje-destegi": {
       "title": "Güdümlü Proje Desteği",
@@ -9397,7 +9597,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/destekler/gudumlu-proje-destegi/"
     },
     "https://kudaka.gov.tr/destekler/sosyal-kapsayici-yesil-gecis-projesi-sogreen": {
       "title": "Sosyal Kapsayıcı Yeşil Geçiş Projesi (SoGreen)",
@@ -9415,7 +9616,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.karacadag.gov.tr/destekler/14/sosyal-gelismeyi-destekleme-programi-sogep/"
     },
     "https://kudaka.gov.tr/destekler/cazibe-merkezlerini-destekleme-programi-cmdp": {
       "title": "Cazibe Merkezlerini Destekleme Programı (CMDP)",
@@ -9433,7 +9635,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/proje-uygulama/"
     },
     "https://kudaka.gov.tr/destekler/proje-basvurusu-nasil-yapilir": {
       "title": "Proje Başvurusu Nasıl Yapılır?",
@@ -9487,7 +9690,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.cka.org.tr/tr//strateji"
     },
     "https://kudaka.gov.tr/planlama/sektorel-arastirmalar": {
       "title": "Sektörel Araştırmalar",
@@ -9505,7 +9709,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/faaliyet-raporlari"
     },
     "https://kudaka.gov.tr/planlama/kurumsal-stratejik-plan": {
       "title": "Kurumsal Stratejik Plan",
@@ -9514,7 +9719,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/kurumsal-stratejik-plan"
     },
     "https://kudaka.gov.tr/planlama/diger-yayinlarimiz": {
       "title": "Diğer Yayınlarımız",
@@ -9550,7 +9756,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/iletisim/bilgi-edinme/"
     },
     "https://kudaka.gov.tr/hizli-menu/kudaka-acik-destekler": {
       "title": "KUDAKAAçık Destekler",
@@ -9613,7 +9820,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://oka.gov.tr/haberler"
     },
     "https://kudaka.gov.tr/haber/teknik-destek-programi-3-donem-mayis-haziran-sonuclari/720": {
       "title": "Teknik Destek Programı 3. Dönem (Mayıs-Haziran) Sonuçları22.07.2026 Çarşamba",
@@ -9739,7 +9947,7 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://kudaka.gov.tr/haber/bayburt-un-yatirim-potansiyeli-istanbul-da-tanitildi/705": {
       "title": "Bayburt’un Yatırım Potansiyeli İstanbul’da Tanıtıldı04.05.2026 Pazartesi",
@@ -9973,7 +10181,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://oka.gov.tr/duyurular"
     },
     "https://kudaka.gov.tr/ihale/2026-yili-2-donem-teknik-destek-programi-ihale-dokumanlari/264": {
       "title": "2026 Yılı 2. Dönem Teknik Destek Programı İhale Dökümanları",
@@ -10027,7 +10236,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://kudaka.gov.tr/ihale/huseyin-tekin-sifir-atik-pelet-uretimi-isimli-proje-kapsaminda-mal-alimi-ihale-ilani/262"
     },
     "https://kudaka.gov.tr/ihale/erzincan-akyazi-plastik-ve-gida-san-tic-ltd-sti-surdurulebilir-cevre-dostu-uretim-ve-istihdam-projesi-kapsaminda-mal-alim-ihale-ilani/258": {
       "title": "Erzincan Akyazı Plastik ve Gıda San. Tic. Ltd. Şti., “Sürdürülebilir Çevre Dostu Üretim ve İstihdam Projesi” Kapsamında Mal Alım İhale İlanı",
@@ -10162,7 +10372,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://oka.gov.tr/ihaleler"
     },
     "https://kudaka.gov.tr/kurumsal/kalkinma-ajanslari-hakkinda/hakkimizda": {
       "title": "HakkımızdaKalkınma ajansları olarak yerel kalkınma dinamiklerini harekete geçirme misyonumuz",
@@ -10270,7 +10481,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://kudaka.gov.tr/bolgemiz/erzurum/erzurum-gezilecek-yerler"
     },
     "https://kudaka.gov.tr/bolgemiz/erzincan/erzincan-gezilecek-yerler/otlukbeli-golu": {
       "title": "Otlukbeli GölüErzincan'ın en merak edilen noktalarından biridir Otlukbeli Gölü. Aynı ismi taşıdığı ilçede bulunan göl, özellikle yaz aylarında hem turistlerin ilgisini görüyor hem de yöre halkı tarafından sıkça mesire yeri olarak kullanılıyor.DAHA FAZLA BİLGİ",
@@ -10306,7 +10518,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://kudaka.gov.tr/bolgemiz/erzurum/erzurum-gezilecek-yerler"
     },
     "https://kudaka.gov.tr/bolgemiz/erzincan/erzincan-yoresel-urunler/cimin-uzumu": {
       "title": "Cimin ÜzümüDAHA FAZLA BİLGİ",
@@ -10342,7 +10555,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://kudaka.gov.tr/bolgemiz/erzurum/erzurum-gezilecek-yerler"
     },
     "https://kudaka.gov.tr/bolgemiz/bayburt/bayburt-gezilecek-yerler/bayburt-kalesi": {
       "title": "Bayburt KalesiBayburt Kalesi, Bayburt şehrine hakim bir tepede bulunan tarihî kale. Kalenin ilk defa ne zaman, kimler tarafından yaptırıldığı bilinmemektedir.DAHA FAZLA BİLGİ",
@@ -10378,7 +10592,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://kudaka.gov.tr/bolgemiz/erzurum/erzurum-gezilecek-yerler"
     },
     "https://kudaka.gov.tr/bolgemiz/bayburt/bayburt-yoresel-urunler/aydintepe-seker-fasulyesi": {
       "title": "Aydıntepe Şeker FasulyesiDAHA FAZLA BİLGİ",
@@ -10414,7 +10629,8 @@
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://kudaka.gov.tr/bolgemiz/erzurum/erzurum-gezilecek-yerler"
     },
     "https://www.serka.gov.tr/kurumsal/serhat-kalkinma-ajansi-hakkinda/": {
       "title": "Serhat Kalkınma Ajansı Hakkında",
@@ -10432,7 +10648,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.istka.org.tr/kalkinma-ajanslari-hakkinda"
     },
     "https://www.serka.gov.tr/kurumsal/kalkinma-ajanslari-hakkinda/bolgesel-kalkinma-ve-ulkemizde-bolgesel-kalkinma-politikalarinin-gelisim-sureci/": {
       "title": "Bölgesel Kalkınma ve Ülkemizde Bölgesel Kalkınma Politikalarının Gelişim Süreci",
@@ -10441,7 +10658,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/bolgesel-kalkinma-ve-ulkemizde-bolgesel-kalkinma-politikalarinin-gelisim-sureci/"
     },
     "https://www.serka.gov.tr/kurumsal/kalkinma-ajanslari-hakkinda/bolgesel-kalkinmanin-yonetisiminde-kalkinma-ajanslari/": {
       "title": "Bölgesel Kalkınmanın Yönetişiminde Kalkınma Ajansları",
@@ -10450,7 +10668,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/bolgesel-kalkinmanin-yonetisiminde-kalkinma-ajanslari/"
     },
     "https://www.serka.gov.tr/kurumsal/kalkinma-ajanslari-hakkinda/kalkinma-planlamasinda-istatistiki-bolge-birimleri-siniflandirmasi/": {
       "title": "Kalkınma Planlamasında İstatistiki Bölge Birimleri Sınıflandırması",
@@ -10459,7 +10678,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/kalkinma-planlamasinda-istatistiki-bolge-birimleri-siniflandirmasi/"
     },
     "https://www.serka.gov.tr/kurumsal/vizyon-ve-misyonumuz/": {
       "title": "Vizyon ve Misyonumuz",
@@ -10495,7 +10715,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/kurumsal-stratejik-plan"
     },
     "https://www.serka.gov.tr/kurumsal/organizasyon-yapisi/": {
       "title": "Organizasyon Yapısı",
@@ -10504,7 +10725,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/hakkimizda/#organizasyon"
     },
     "https://www.serka.gov.tr/kurumsal/organizasyon-yapisi/yonetim-kurulu/": {
       "title": "Yönetim Kurulu",
@@ -10513,7 +10735,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/116/159/Y%C3%B6netim-Kurulu-"
     },
     "https://www.serka.gov.tr/kurumsal/organizasyon-yapisi/genel-sekreterlik/": {
       "title": "Genel Sekreterlik",
@@ -10522,7 +10745,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/94/166/Genel-Sekreterlik-"
     },
     "https://www.serka.gov.tr/kurumsal/etik-komisyonu/": {
       "title": "Etik Komisyonu",
@@ -10531,7 +10755,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/kurumsal/etik-komisyonu/"
     },
     "https://www.serka.gov.tr/kurumsal/etik-komisyonu/nurullah-karaca/": {
       "title": "Nurullah KARACA",
@@ -10585,7 +10810,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://oka.gov.tr/kurumsal/kisisel-verilerin-korunmasi"
     },
     "https://www.serka.gov.tr/bolgemiz/agri/agri-da-gezilecek-yerler/": {
       "title": "Ağrı'da Gezilecek Yerler",
@@ -10747,7 +10973,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/ust-olcekli-plan-ve-programlar"
     },
     "https://www.serka.gov.tr/planlama/tra2-bolge-plani/": {
       "title": "TRA2 Bölge Planı",
@@ -10765,7 +10992,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.cka.org.tr/tr/sayfa/arastirma-raporlari"
     },
     "https://www.serka.gov.tr/planlama/faaliyet-raporlari/": {
       "title": "Faaliyet Raporları",
@@ -10774,7 +11002,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/faaliyet-raporlari"
     },
     "https://www.serka.gov.tr/planlama/calisma-programlari/": {
       "title": "Çalışma Programları",
@@ -10783,7 +11012,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/calisma-programlari"
     },
     "https://www.serka.gov.tr/planlama/butce-gerceklesmeleri/": {
       "title": "Bütçe Gerçekleşmeleri",
@@ -10846,7 +11076,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://kudaka.gov.tr/planlama/diger-yayinlarimiz"
     },
     "https://www.serka.gov.tr/proje-uygulama/": {
       "title": "Proje Uygulama",
@@ -10855,7 +11086,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/proje-uygulama/"
     },
     "https://www.serka.gov.tr/proje-uygulama/proje-uygulama-rehberi/": {
       "title": "Proje Uygulama Rehberi",
@@ -10954,7 +11186,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://teknofest.org/tr/corporate/faq/"
     },
     "https://www.serka.gov.tr/destekler/acik-destek-programlari/": {
       "title": "Açık Destek Programları",
@@ -10963,7 +11196,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.istka.org.tr/acik-destek-programlari"
     },
     "https://www.serka.gov.tr/destekler/acik-destek-programlari/2026-yili-fizibilite-destek-programi/": {
       "title": "2026 YILI FİZİBİLİTE DESTEK PROGRAMI",
@@ -11260,7 +11494,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/destekler/mali-destek-programi/2019-yili-mali-destek-programlari"
     },
     "https://www.serka.gov.tr/destekler/gecmis-mali-destek-programlari/2020-yili-mali-destek-programlari/": {
       "title": "2020 Yılı Mali Destek Programları",
@@ -11305,7 +11540,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.oran.org.tr/tr/teknik-destek-programi/2025-yili-teknik-destek-programi"
     },
     "https://www.serka.gov.tr/destekler/gecmis-teknik-destek-programlari/2024-yili-teknik-destek-programlari/": {
       "title": "2024 Yılı Teknik Destek Programları",
@@ -11458,7 +11694,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/iletisim/"
     },
     "https://www.serka.gov.tr/proje-uygulama": {
       "title": "Proje Uygulama",
@@ -11467,7 +11704,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/proje-uygulama/"
     },
     "https://www.serka.gov.tr/yatirim-destek-ofisi": {
       "title": "Yatırım Destek Ofisi",
@@ -11476,7 +11714,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.serka.gov.tr/yatirim-destek-ofisi/"
     },
     "https://www.serka.gov.tr/destekler/acik-destek-programlari": {
       "title": "Açık Destek Programları",
@@ -11485,7 +11724,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.istka.org.tr/acik-destek-programlari"
     },
     "https://www.serka.gov.tr/destekler/gecmis-fizibilite-destek-programlari": {
       "title": "Geçmiş Fizibilite Destek Programları",
@@ -11494,7 +11734,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.serka.gov.tr/destekler/gecmis-fizibilite-destek-programlari/"
     },
     "https://www.serka.gov.tr/destekler/gecmis-mali-destek-programlari": {
       "title": "Geçmiş Mali Destek Programları",
@@ -11503,7 +11744,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.serka.gov.tr/destekler/gecmis-mali-destek-programlari/"
     },
     "https://www.serka.gov.tr/destekler/gecmis-teknik-destek-programlari": {
       "title": "Geçmiş Teknik Destek Programları",
@@ -11512,7 +11754,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.serka.gov.tr/destekler/gecmis-teknik-destek-programlari/"
     },
     "https://www.serka.gov.tr/destekler/gecmis-dogrudan-faaliyet-destek-programlari": {
       "title": "Geçmiş Doğrudan Faaliyet Destek Programları",
@@ -11521,7 +11764,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.serka.gov.tr/destekler/gecmis-dogrudan-faaliyet-destek-programlari/"
     },
     "https://www.serka.gov.tr/destekler/gecmis-sosyal-gelismeyi-destekleme-programlari": {
       "title": "Geçmiş Sosyal Gelişmeyi Destekleme Programları",
@@ -11530,7 +11774,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.serka.gov.tr/destekler/gecmis-sosyal-gelismeyi-destekleme-programlari/"
     },
     "https://www.serka.gov.tr/kurumsal/serhat-kalkinma-ajansi-hakkinda": {
       "title": "Serhat Kalkınma Ajansı Hakkında",
@@ -11539,7 +11784,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.serka.gov.tr/kurumsal/serhat-kalkinma-ajansi-hakkinda/"
     },
     "https://www.serka.gov.tr/kurumsal/kalkinma-ajanslari-hakkinda": {
       "title": "Kalkınma Ajansları Hakkında",
@@ -11548,7 +11794,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.istka.org.tr/kalkinma-ajanslari-hakkinda"
     },
     "https://www.serka.gov.tr/kurumsal/vizyon-ve-misyonumuz": {
       "title": "Vizyon ve Misyonumuz",
@@ -11557,7 +11804,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.serka.gov.tr/kurumsal/vizyon-ve-misyonumuz/"
     },
     "https://www.serka.gov.tr/kurumsal/temel-degerlerimiz": {
       "title": "Temel Değerlerimiz",
@@ -11566,7 +11814,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.serka.gov.tr/kurumsal/temel-degerlerimiz/"
     },
     "https://www.serka.gov.tr/kurumsal/kalite-politikamiz": {
       "title": "Kalite Politikamız",
@@ -11575,7 +11824,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.serka.gov.tr/kurumsal/kalite-politikamiz/"
     },
     "https://www.serka.gov.tr/kurumsal/kurumsal-stratejik-plan": {
       "title": "Kurumsal Stratejik Plan",
@@ -11584,7 +11834,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/kurumsal-stratejik-plan"
     },
     "https://www.serka.gov.tr/kurumsal/organizasyon-yapisi": {
       "title": "Organizasyon Yapısı",
@@ -11593,7 +11844,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/hakkimizda/#organizasyon"
     },
     "https://www.serka.gov.tr/kurumsal/etik-komisyonu": {
       "title": "Etik Komisyonu",
@@ -11602,7 +11854,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/kurumsal/etik-komisyonu/"
     },
     "https://www.serka.gov.tr/kurumsal/etik-komisyon-toplantilari": {
       "title": "Etik Komisyon Toplantıları",
@@ -11611,7 +11864,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.serka.gov.tr/kurumsal/etik-komisyon-toplantilari/"
     },
     "https://www.serka.gov.tr/kurumsal/mevzuat-bilgileri": {
       "title": "Mevzuat Bilgileri",
@@ -11620,7 +11874,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.serka.gov.tr/kurumsal/mevzuat-bilgileri/"
     },
     "https://www.serka.gov.tr/kurumsal/kisisel-verilerin-korunmasi": {
       "title": "Kişisel Verilerin Korunması",
@@ -11629,7 +11884,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://oka.gov.tr/kurumsal/kisisel-verilerin-korunmasi"
     },
     "https://www.serka.gov.tr/planlama/ust-olcekli-plan-ve-programlar": {
       "title": "Üst Ölçekli Plan ve Programlar",
@@ -11638,7 +11894,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/ust-olcekli-plan-ve-programlar"
     },
     "https://www.serka.gov.tr/planlama/tra2-bolge-plani": {
       "title": "TRA2 Bölge Planı",
@@ -11647,7 +11904,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.serka.gov.tr/planlama/tra2-bolge-plani/"
     },
     "https://www.serka.gov.tr/planlama/arastirma-raporlari": {
       "title": "Araştırma Raporları",
@@ -11656,7 +11914,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.cka.org.tr/tr/sayfa/arastirma-raporlari"
     },
     "https://www.serka.gov.tr/planlama/faaliyet-raporlari": {
       "title": "Faaliyet Raporları",
@@ -11665,7 +11924,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/faaliyet-raporlari"
     },
     "https://www.serka.gov.tr/planlama/calisma-programlari": {
       "title": "Çalışma Programları",
@@ -11674,7 +11934,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/calisma-programlari"
     },
     "https://www.serka.gov.tr/planlama/butce-gerceklesmeleri": {
       "title": "Bütçe Gerçekleşmeleri",
@@ -11683,7 +11944,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.serka.gov.tr/planlama/butce-gerceklesmeleri/"
     },
     "https://www.serka.gov.tr/planlama/denetim-raporlari": {
       "title": "Denetim Raporları",
@@ -11692,7 +11954,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.serka.gov.tr/planlama/denetim-raporlari/"
     },
     "https://www.serka.gov.tr/planlama/turizm-ve-tanitim-yayinlari": {
       "title": "Turizm ve Tanıtım Yayınları",
@@ -11701,7 +11964,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.serka.gov.tr/planlama/turizm-ve-tanitim-yayinlari/"
     },
     "https://www.serka.gov.tr/planlama/tra2-bolgesi-rota-gps-koordinatlari": {
       "title": "TRA2 Bölgesi Rota GPS  Koordinatları",
@@ -11710,7 +11974,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.serka.gov.tr/planlama/tra2-bolgesi-rota-gps-koordinatlari/"
     },
     "https://www.serka.gov.tr/planlama/2017-il-yatirim-destek-ve-tanitim-stratejisi": {
       "title": "2017 İl Yatırım Destek ve  Tanıtım Stratejisi",
@@ -11719,7 +11984,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.serka.gov.tr/planlama/2017-il-yatirim-destek-ve-tanitim-stratejisi/"
     },
     "https://www.serka.gov.tr/planlama/ornek-dfd-projesi-ciktilari": {
       "title": "Örnek DFD Projesi Çıktıları",
@@ -11728,7 +11994,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.serka.gov.tr/planlama/ornek-dfd-projesi-ciktilari/"
     },
     "https://www.serka.gov.tr/planlama/diger-yayinlarimiz": {
       "title": "Diğer Yayınlarımız",
@@ -11737,7 +12004,8 @@
       "source": "SERKA (Serhat Kalkınma Ajansı)",
       "source_id": "serka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://kudaka.gov.tr/planlama/diger-yayinlarimiz"
     },
     "https://www.daka.org.tr/icerikler/71": {
       "title": "Kalkınma Ajansları Hakkında",
@@ -11746,7 +12014,8 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.istka.org.tr/kalkinma-ajanslari-hakkinda"
     },
     "https://www.daka.org.tr/icerikler/73": {
       "title": "Bölgesel Kalkınma ve Ülkemizde Bölgesel...",
@@ -11782,7 +12051,8 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/kurumsal/vizyon-ve-misyon"
     },
     "https://www.daka.org.tr/icerikler/teskilat": {
       "title": "Teşkilat Şeması",
@@ -11800,7 +12070,8 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/116/159/Y%C3%B6netim-Kurulu-"
     },
     "https://www.daka.org.tr/icerikler/kalkinmakurulu": {
       "title": "Kalkınma Kurulu",
@@ -11809,7 +12080,8 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.oran.org.tr/tr/kalkinma-kurulu"
     },
     "https://www.daka.org.tr/icerikler/genelsekreterlik": {
       "title": "Genel Sekreterlik",
@@ -11818,7 +12090,8 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/94/166/Genel-Sekreterlik-"
     },
     "https://www.daka.org.tr/icerikler/arabulucu": {
       "title": "Arabuluculuk Komisyonu",
@@ -11836,7 +12109,8 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/kurumsal/etik-komisyonu/"
     },
     "https://www.daka.org.tr/icerikler/kurumsalkimlik": {
       "title": "Marka Kimliği Rehberi ve Logo",
@@ -11854,7 +12128,8 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.cka.org.tr/tr/sayfa/bolge-planlari"
     },
     "https://www.daka.org.tr/icerikler/mda": {
       "title": "Mevcut Durum Analizi",
@@ -11881,7 +12156,8 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/faaliyet-raporlari"
     },
     "https://www.daka.org.tr/icerikler/destekturleri": {
       "title": "Destek Türleri",
@@ -11890,7 +12166,8 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.istka.org.tr/destek-turleri"
     },
     "https://www.daka.org.tr/icerikler/projeklavuz": {
       "title": "Proje Hazırlama & KAYS Kılavuzu",
@@ -11908,7 +12185,8 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.istka.org.tr/acik-destek-programlari"
     },
     "https://www.daka.org.tr/destekler/td2026": {
       "title": "2026 - Teknik Destek (TD) Programı",
@@ -12385,7 +12663,8 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/iletisim/"
     },
     "https://www.daka.org.tr/hibefonlar": {
       "title": "HİBE & FONLAR",
@@ -12421,7 +12700,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ua.gov.tr/kurumsal/misyon-ve-vizyon/"
     },
     "https://fka.gov.tr/organizasyon-yapisi-detayi-146357345429": {
       "title": "Organizasyon Yapısı",
@@ -12430,7 +12710,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/hakkimizda/#organizasyon"
     },
     "https://fka.gov.tr/yonetim-kurulu": {
       "title": "Yönetim Kurulu",
@@ -12439,7 +12720,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/116/159/Y%C3%B6netim-Kurulu-"
     },
     "https://fka.gov.tr/kalkinma-kurulu-detayi-14635735131319": {
       "title": "Kalkınma Kurulu",
@@ -12448,7 +12730,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.oran.org.tr/tr/kalkinma-kurulu"
     },
     "https://fka.gov.tr/genel-sekreterlik": {
       "title": "Genel Sekreterlik",
@@ -12457,7 +12740,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.unesco.org.tr/Pages/94/166/Genel-Sekreterlik-"
     },
     "https://fka.gov.tr/kalkinma-ajanslari-hakkinda-detayi-1777989057134": {
       "title": "Kalkınma Ajansları Hakkında",
@@ -12466,7 +12750,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.istka.org.tr/kalkinma-ajanslari-hakkinda"
     },
     "https://fka.gov.tr/bolgesel-kalkinma-ve-ulkemizde-bolgesel-kalkinma-politikalarinin-gelisim-sureci-detayi-177798926101": {
       "title": "Bölgesel Kalkınma ve Ülkemizde Bölgesel Kalkı",
@@ -12628,7 +12913,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.kuzka.gov.tr/destekler.asp?D=12&Destekler=teknik-destekler"
     },
     "https://fka.gov.tr/mali-destekler-detayi-1463574099720": {
       "title": "Mali Destekler",
@@ -12637,7 +12923,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.kuzka.gov.tr/destekler.asp?D=11&Destekler=mali-destekler"
     },
     "https://fka.gov.tr/fizibilite-destegi-detayi-1647239722819": {
       "title": "Fizibilite Desteği",
@@ -12646,7 +12933,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.karacadag.gov.tr/destekler/13/fizibilite-destegi/"
     },
     "https://fka.gov.tr/diger-destekler-detayi-1585669241514": {
       "title": "Diğer Destekler",
@@ -12655,7 +12943,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.kosgeb.gov.tr/site/tr/genel/destekler/3/destekler"
     },
     "https://fka.gov.tr/degerlendirme-sureci-detayi-14635741222014": {
       "title": "Değerlendirme Süreci",
@@ -12682,7 +12971,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.daka.org.tr/icerikler/idbsss"
     },
     "https://fka.gov.tr/gecmis-destekler": {
       "title": "Geçmiş Destekler",
@@ -12691,7 +12981,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.cka.org.tr/tr//onceki-donem-mali-destekler"
     },
     "https://fka.gov.tr/destekler-ve-tesvik-hakkinda": {
       "title": "Destekler ve Teşvik Hakkında",
@@ -12709,7 +13000,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/destekler/program-sonrasi-degerlendirme-raporlari"
     },
     "https://fka.gov.tr/kalkinma-planlari-detayi-1564726568912": {
       "title": "Kalkınma Planları",
@@ -12727,7 +13019,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/calisma-programlari"
     },
     "https://fka.gov.tr/faaliyet-raporlari-detayi-1463574299318": {
       "title": "Faaliyet Raporları",
@@ -12736,7 +13029,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/faaliyet-raporlari"
     },
     "https://fka.gov.tr/arastirma-raporlari-detayi-1463574266165": {
       "title": "Araştırma Raporları",
@@ -12745,7 +13039,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.cka.org.tr/tr/sayfa/arastirma-raporlari"
     },
     "https://fka.gov.tr/bolgesel-gelisme-ulusal-stratejisi-detayi-17352018972015": {
       "title": "Bölgesel Gelişme Ulusal Stratejisi",
@@ -12808,7 +13103,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://oka.gov.tr/haberler"
     },
     "https://fka.gov.tr/agin-leblebisinin-gelecegi-elazigda-duzenlenen-calistayda-ele-alindi-detayi-1785333053187": {
       "title": "Ağın Leblebisi'nin Geleceği Elazığ'da Düzenlenen Çalıştayda Ele Alındı",
@@ -12862,7 +13158,7 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://fka.gov.tr/afet-sonrasi-ogretmenlerde-psikososyal-iyilesme-programi-basariyla-tamamlandi-detayi-1781250910106": {
       "title": "\"Afet Sonrası Öğretmenlerde Psikososyal İyileşme Programı\" Başarıyla Tamamlandı",
@@ -12963,7 +13259,8 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://izka.org.tr/dokuman-merkezi/"
     },
     "https://fka.gov.tr/assets/frontend/webpage/images/ka_biz_kimiz.mp4": {
       "title": "Videoyu Başlat",
@@ -12993,6 +13290,7 @@
       "source_id": "fka",
       "first_seen": "2026-08-01",
       "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://fka.gov.tr/assets/frontend/webpage/images/ka_biz_kimiz.mp4",
       "details": {
         "tur": "haber_tahmini",
         "basvuruya_acik": false,
@@ -13013,6 +13311,7 @@
       "source_id": "fka",
       "first_seen": "2026-08-01",
       "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://fka.gov.tr/assets/frontend/webpage/images/ka_biz_kimiz.mp4",
       "details": {
         "tur": "haber_tahmini",
         "basvuruya_acik": false,
@@ -13033,6 +13332,7 @@
       "source_id": "fka",
       "first_seen": "2026-08-01",
       "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://fka.gov.tr/assets/frontend/webpage/images/ka_biz_kimiz.mp4",
       "details": {
         "tur": "haber_tahmini",
         "basvuruya_acik": false,
@@ -13052,7 +13352,8 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.istka.org.tr/kalkinma-ajanslari-hakkinda"
     },
     "https://www.dika.org.tr/kurumsal/vizyon-ve-misyon": {
       "title": "Vizyon ve Misyon",
@@ -13061,7 +13362,8 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/kurumsal/vizyon-ve-misyon"
     },
     "https://www.dika.org.tr/kurumsal/temel-degerlerimiz": {
       "title": "Temel Değerlerimiz",
@@ -13070,7 +13372,8 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.serka.gov.tr/kurumsal/temel-degerlerimiz/"
     },
     "https://www.dika.org.tr/kurumsal/gorevler-ve-yetkiler": {
       "title": "Görevler ve Yetkiler",
@@ -13088,7 +13391,8 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "http://izka.org.tr/hakkimizda/#organizasyon"
     },
     "https://www.dika.org.tr/kurumsal/calisma-programi": {
       "title": "Çalışma Programı",
@@ -13097,7 +13401,8 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.geka.gov.tr/tr/sayfa/calisma-programi"
     },
     "https://www.dika.org.tr/kurumsal/faaliyet-raporlari": {
       "title": "Faaliyet Raporları",
@@ -13106,7 +13411,8 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/faaliyet-raporlari"
     },
     "https://www.dika.org.tr/destekler/ajans-destekleri": {
       "title": "Ajans Destekleri",
@@ -13124,7 +13430,8 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.istka.org.tr/acik-destek-programlari"
     },
     "https://www.dika.org.tr/destekler/sosyal-gelismeyi-destekleme-programi-sogep": {
       "title": "Sosyal Gelişmeyi Destekleme Programı (SOGEP)",
@@ -13133,7 +13440,8 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.karacadag.gov.tr/destekler/14/sosyal-gelismeyi-destekleme-programi-sogep/"
     },
     "https://www.dika.org.tr/destekler/cazibe-merkezlerini-destekleme-programi-cmdp": {
       "title": "Cazibe Merkezlerini Destekleme Programı (CMDP)",
@@ -13142,7 +13450,8 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://kudaka.gov.tr/destekler/cazibe-merkezlerini-destekleme-programi-cmdp"
     },
     "https://www.dika.org.tr/destekler/sozlesme-belgeleri": {
       "title": "Sözleşme Belgeleri",
@@ -13187,7 +13496,8 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://kudaka.gov.tr/planlama/ust-olcekli-planlar-programlar"
     },
     "https://www.dika.org.tr/planlama/bolge-plani-dokumanlari": {
       "title": "Bölge Planı Dokümanları",
@@ -13196,7 +13506,8 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://kudaka.gov.tr/planlama/bolge-plani-dokumanlari"
     },
     "https://www.dika.org.tr/planlama/sektorel-arastirmalar": {
       "title": "Sektörel Araştırmalar",
@@ -13205,7 +13516,8 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://kudaka.gov.tr/planlama/sektorel-arastirmalar"
     },
     "https://www.dika.org.tr/planlama/kurumsal-stratejik-plan": {
       "title": "Kurumsal Stratejik Plan",
@@ -13214,7 +13526,8 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/kurumsal-stratejik-plan"
     },
     "https://www.dika.org.tr/planlama/diger-yayinlarimiz": {
       "title": "Diğer Yayınlarımız",
@@ -13223,7 +13536,8 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://kudaka.gov.tr/planlama/diger-yayinlarimiz"
     },
     "https://www.dika.org.tr/planlama/diger-kurumlar-tarafindan-hazirlanan-raporlar": {
       "title": "Diğer Kurumlar Tarafından Hazırlanan Raporlar",
@@ -13232,7 +13546,8 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://kudaka.gov.tr/planlama/diger-kurumlar-tarafindan-hazirlanan-raporlar"
     },
     "https://www.dika.org.tr/planlama/yoresel-urunler-katalogu": {
       "title": "Yöresel Ürünler Kataloğu",
@@ -13259,7 +13574,8 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.kuzka.gov.tr/destekler.asp?D=11&Destekler=mali-destekler"
     },
     "https://www.dika.org.tr/destekler/ajans-destekleri/teknik-destekler": {
       "title": "Teknik Destekler",
@@ -13268,7 +13584,8 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-01",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.kuzka.gov.tr/destekler.asp?D=12&Destekler=teknik-destekler"
     },
     "https://www.dika.org.tr/duyuru/2026-yili-teknik-destek-programi-ilani/298": {
       "title": "2026Yılı Teknik Destek Programı",
@@ -13349,7 +13666,7 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://bakka.gov.tr/tr/duyuru/mevlana-kalkinma-ajansi-personel-alim-ilani-15131": {
       "title": "202619ŞubatMevlana Kalkınma Ajansı Personel Alım İlanı",
@@ -13394,7 +13711,7 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "haber_olabilir"
     },
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#afd5c0c1c8dac3cbcec4d6cbc0efcdcec4c4ce81c8c0d981dbdd": {
       "title": "[email protected]",
@@ -13412,7 +13729,8 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#afd5c0c1c8dac3cbcec4d6cbc0efcdcec4c4ce81c8c0d981dbdd"
     },
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#12707360667b7c6b767d5270737979733c757d643c6660": {
       "title": "[email protected]",
@@ -13421,7 +13739,8 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#afd5c0c1c8dac3cbcec4d6cbc0efcdcec4c4ce81c8c0d981dbdd"
     },
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#364c595851435a52575d4f52597654575d5d5718515940184244": {
       "title": "[email protected]",
@@ -13430,7 +13749,8 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#afd5c0c1c8dac3cbcec4d6cbc0efcdcec4c4ce81c8c0d981dbdd"
     },
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#7e151f0c1f1c0b15071a113e1c1f15151f50191108500a0c": {
       "title": "[email protected]",
@@ -13439,7 +13759,8 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#afd5c0c1c8dac3cbcec4d6cbc0efcdcec4c4ce81c8c0d981dbdd"
     },
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#a2c0c3d0d6cbccdbc6cde2c0c3c9c9c38cc5cdd48cd6d0": {
       "title": "[email protected]",
@@ -13448,7 +13769,38 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-01",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#afd5c0c1c8dac3cbcec4d6cbc0efcdcec4c4ce81c8c0d981dbdd"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#017b6e6f66746d65606a78656e4163606a6a602f666e772f7573": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#017b6e6f66746d65606a78656e4163606a6a602f666e772f7573",
+      "date": null,
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-01",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#afd5c0c1c8dac3cbcec4d6cbc0efcdcec4c4ce81c8c0d981dbdd"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#e68d87948784938d9f8289a684878d8d87c8818990c89294": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e68d87948784938d9f8289a684878d8d87c8818990c89294",
+      "date": null,
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-01",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#afd5c0c1c8dac3cbcec4d6cbc0efcdcec4c4ce81c8c0d981dbdd"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#afcdcedddbc6c1d6cbc0efcdcec4c4ce81c8c0d981dbdd": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#afcdcedddbc6c1d6cbc0efcdcec4c4ce81c8c0d981dbdd",
+      "date": null,
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-01",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#afd5c0c1c8dac3cbcec4d6cbc0efcdcec4c4ce81c8c0d981dbdd"
     }
   }
 }
