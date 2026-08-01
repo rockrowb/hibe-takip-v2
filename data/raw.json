@@ -19,7 +19,7 @@
     "yatirimadestek": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 10
+      "found": 0
     },
     "kosgeb": {
       "ok": true,
@@ -64,12 +64,12 @@
     "istka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 24
+      "found": 0
     },
     "ankaraka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 8
+      "found": 0
     },
     "izka": {
       "ok": true,
@@ -79,7 +79,7 @@
     "bebka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 28
+      "found": 0
     },
     "karacadag": {
       "ok": true,
@@ -89,17 +89,17 @@
     "cka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 19
+      "found": 0
     },
     "baka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 1
+      "found": 0
     },
     "dogaka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 76
+      "found": 0
     },
     "mevka": {
       "ok": true,
@@ -109,42 +109,42 @@
     "oka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 44
+      "found": 0
     },
     "doka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 21
+      "found": 0
     },
     "oran": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 84
+      "found": 0
     },
     "marka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 3
+      "found": 0
     },
     "gmka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 39
+      "found": 0
     },
     "geka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 70
+      "found": 0
     },
     "ika": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 2
+      "found": 0
     },
     "trakyaka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 60
+      "found": 0
     },
     "zafer": {
       "ok": true,
@@ -154,7 +154,7 @@
     "ahika": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 56
+      "found": 0
     },
     "kuzka": {
       "ok": true,
@@ -164,27 +164,27 @@
     "kudaka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 127
+      "found": 0
     },
     "serka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 147
+      "found": 0
     },
     "daka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 74
+      "found": 0
     },
     "fka": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 65
+      "found": 0
     },
     "dika": {
       "ok": true,
       "checked": "2026-08-01",
-      "found": 27
+      "found": 0
     },
     "bakka": {
       "ok": true,
@@ -11684,6 +11684,30 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#12707360667b7c6b767d5270737979733c757d643c6660": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#12707360667b7c6b767d5270737979733c757d643c6660",
+      "date": null,
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-01"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#364c595851435a52575d4f52597654575d5d5718515940184244": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#364c595851435a52575d4f52597654575d5d5718515940184244",
+      "date": null,
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-01"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#7e151f0c1f1c0b15071a113e1c1f15151f50191108500a0c": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#7e151f0c1f1c0b15071a113e1c1f15151f50191108500a0c",
+      "date": null,
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-01"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#a2c0c3d0d6cbccdbc6cde2c0c3c9c9c38cc5cdd48cd6d0": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#a2c0c3d0d6cbccdbc6cde2c0c3c9c9c38cc5cdd48cd6d0",
       "date": null,
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
