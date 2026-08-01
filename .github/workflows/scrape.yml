@@ -36,7 +36,12 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python enrich.py --limit 30
+        # Not: üst sınır bilinçli olarak yüksek tutuldu (AI'ın birikmiş
+        # kayıtları hızlıca işlemesi için). Kota/limit dolarsa script kendini
+        # güvenle durdurur ve kaldığı yerden bir sonraki çalıştırmada devam
+        # eder (enrich.py'daki QuotaExceeded güvencesi) — bu yüzden yüksek
+        # limit vermek riskli değildir.
+        run: python enrich.py --limit 150
 
       - name: AI adımı atlandıysa bile paneli güncel tut
         if: ${{ env.HAS_AI_KEY != 'true' }}
