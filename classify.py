@@ -25,11 +25,20 @@ Kullanım:
     python classify.py
 """
 import json
+import re
+from difflib import SequenceMatcher
 from pathlib import Path
 
 ROOT = Path(__file__).parent
 RAW_FILE = ROOT / "data" / "raw.json"
 CLASSIFIED_FILE = ROOT / "data" / "classified.json"
+
+# Bu kaynaklar "merkezi/agregatör" niteliğinde — aynı destek başka bir ajans
+# kaynağında da bulunursa, tekilleştirmede AJANS kaynağı esas alınır, merkezi
+# kaynaktaki kopya "duplicate_of" ile işaretlenir (silinmez, sadece panelde
+# gizlenir).
+AGGREGATOR_SOURCE_IDS = {"ka_gov", "yatirimadestek"}
+DUPLICATE_SIMILARITY_THRESHOLD = 0.88
 
 HIBE_KEYWORDS = [
     "hibe", "destek", "çağrı", "cagri", "başvuru", "basvuru", "fon",
@@ -47,8 +56,9 @@ SONUC_KEYWORDS = [
     "ödül töreni", "ödül aldı", "birinci oldu",
 ]
 
-# Genel haber/basın bülteni kalıpları — bir hibe çağrısı DEĞİL, ama "sonuç"
-# da değil (ör. ziyaret, imza töreni, eğitim, video/rapor paylaşımı).
+# Genel haber/basın bülteni VE kurumsal/rapor tipi kalıplar — bir hibe çağrısı
+# DEĞİL, ama "sonuç ilanı" da değil (ör. ziyaret, imza töreni, anket, bütçe
+# raporu, stratejik plan gibi kurumsal/idari içerikler).
 HABER_KEYWORDS = [
     "ziyaret etti", "ziyaret gerçekleştir", "imza töreni", "imzalandı",
     "açılışını gerçekleştir", "açılışı yapıldı", "toplantısı gerçekleştirildi",
@@ -57,6 +67,13 @@ HABER_KEYWORDS = [
     "tebrik", "davet edildi", "katıldı", "katılım sağladı", "ağırladı",
     "işbirliği protokolü", "protokol imzalandı", "bilgilendirme toplantısı",
     "farkındalık", "anma etkinliği", "fuarına katıldı",
+    # kurumsal/idari/rapor içerikleri
+    "anket merkezi", "memnuniyet anketi", "bütçe uygulama sonuçları",
+    "faaliyet raporu", "stratejik plan", "insan kaynakları", "personel alımı",
+    "personel ilanı", "ihale ilanı", "mali tablo", "yönetim kurulu",
+    "genel kurul", "kvkk", "gizlilik politikası", "çerez politikası",
+    "iç kontrol", "denetim raporu", "sayıştay", "kamu zararı",
+    "basın bülteni", "basında biz",
 ]
 
 
@@ -75,6 +92,58 @@ def guess_type(title):
     return "belirsiz"
 
 
+def normalize_title(title):
+    t = title.lower()
+    t = re.sub(r"[^\wşğüöçı ]", " ", t)
+    t = re.sub(r"\s+", " ", t).strip()
+    return t
+
+
+def find_duplicates(classified):
+    """Farklı kaynaklardan gelen, başlığı çok benzeyen kayıtları eşleştirir.
+    Kanonik (asıl gösterilecek) kayıt tercihen AJANS kaynağıdır; agregatör
+    (ka_gov, yatirimadestek) kaynağındaki kopya 'duplicate_of' ile işaretlenir.
+    Hiçbir kayıt SİLİNMEZ, sadece panelde varsayılan olarak gizlenir."""
+    urls = list(classified.keys())
+    norm = {u: normalize_title(classified[u].get("title", "")) for u in urls}
+
+    # Aynı normalize başlığa sahip olanları grupla (hızlı ön-eşleştirme)
+    groups = {}
+    for u in urls:
+        groups.setdefault(norm[u], []).append(u)
+
+    dup_count = 0
+    for key, group_urls in groups.items():
+        if len(group_urls) < 2 or not key:
+            continue
+        # Kanonik: agregatör OLMAYAN bir kaynak varsa onu seç, yoksa ilkini seç.
+        non_aggregator = [u for u in group_urls
+                           if classified[u].get("source_id") not in AGGREGATOR_SOURCE_IDS]
+        canonical = non_aggregator[0] if non_aggregator else group_urls[0]
+        for u in group_urls:
+            if u != canonical:
+                classified[u]["duplicate_of"] = canonical
+                dup_count += 1
+
+    # Ekstra: tam eşleşmeyen ama çok benzeyen başlıkları da yakala (farklı
+    # kaynaklarda ufak yazım farkıyla geçen aynı program adı gibi). Sadece
+    # agregatör <-> ajans çiftlerine bakarak maliyeti düşük tutuyoruz.
+    aggregator_urls = [u for u in urls if classified[u].get("source_id") in AGGREGATOR_SOURCE_IDS
+                        and "duplicate_of" not in classified[u]]
+    agency_urls = [u for u in urls if classified[u].get("source_id") not in AGGREGATOR_SOURCE_IDS]
+    for au in aggregator_urls:
+        best_match, best_score = None, 0
+        for gu in agency_urls:
+            score = SequenceMatcher(None, norm[au], norm[gu]).ratio()
+            if score > best_score:
+                best_score, best_match = score, gu
+        if best_match and best_score >= DUPLICATE_SIMILARITY_THRESHOLD:
+            classified[au]["duplicate_of"] = best_match
+            dup_count += 1
+
+    return dup_count
+
+
 def main():
     if not RAW_FILE.exists():
         print("data/raw.json bulunamadı, önce scrape.py çalıştırılmalı.")
@@ -88,7 +157,11 @@ def main():
     for url, item in raw_items.items():
         tur = guess_type(item.get("title", ""))
         counts[tur] += 1
-        classified[url] = {**item, "olasi_tur": tur}
+        entry = {**item, "olasi_tur": tur}
+        entry.pop("duplicate_of", None)  # her çalıştırmada temiz baştan hesapla
+        classified[url] = entry
+
+    dup_count = find_duplicates(classified)
 
     out = {
         "last_updated": raw.get("last_updated"),
@@ -97,7 +170,8 @@ def main():
     }
     CLASSIFIED_FILE.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[classified.json] Toplam: {len(classified)} | " +
-          " | ".join(f"{k}: {v}" for k, v in counts.items()))
+          " | ".join(f"{k}: {v}" for k, v in counts.items()) +
+          f" | Tekilleştirilen (duplicate): {dup_count}")
 
 
 if __name__ == "__main__":
