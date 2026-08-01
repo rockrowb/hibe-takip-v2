@@ -1,45 +1,51 @@
 #!/usr/bin/env python3
 """
-OPSİYONEL AI zenginleştirme adımı.
+KATMAN 3/3 — OPSİYONEL AI ZENGİNLEŞTİRME
 
-data/duyurular.json içindeki her yeni (henüz "details" alanı olmayan) kayıt
-için TEK bir AI çağrısında iki şeyi birden yapar:
+data/classified.json'ı OKUR (data/raw.json değil — sınıflandırma katmanının
+üzerine inşa edilir), data/duyurular.json'a YAZAR. Panel (index.html) sadece
+data/duyurular.json'ı okur.
+
+Her yeni (henüz "details" alanı olmayan) kayıt için TEK bir AI çağrısında:
   1. Sınıflandırma: bu GERÇEKTEN AÇIK/GÜNCEL bir hibe-destek çağrısı mı, yoksa
      haber/sonuç ilanı/genel bilgilendirme mi? ("tur" alanı)
   2. Eğer açık bir hibe çağrısıysa: kimler başvurabilir, hibe miktarı, son
-     başvuru tarihi, desteklenen aktiviteler alanlarını metinden çıkarır.
+     başvuru tarihleri (birden fazla dönem/aşama varsa hepsi), desteklenen
+     temel hizmetler/aktiviteler, ve ilgili tema etiketleri (tekstil, yazılım,
+     tarım vb.) metinden çıkarılır.
+
+VERİ KATMANLARI VE NEDEN AYRI:
+  data/raw.json         <- scrape.py (ham, asla silinmez/üzerine yazılmaz)
+  data/classified.json  <- classify.py (ücretsiz olasi_tur etiketi, her
+                            çalıştırmada raw.json'dan yeniden üretilebilir)
+  data/duyurular.json   <- BU SCRIPT (+ AI detayları). Önceden AI ile
+                            işlenmiş "details" alanları HER ZAMAN korunur —
+                            classify.py/scrape.py'da bir değişiklik olsa bile
+                            daha önce parası ödenmiş AI sonuçları kaybolmaz.
 
 GÜVENCE 1 — Yeni kayıt yoksa AI'a KESİNLİKLE gidilmez:
   Script en başta "details" alanı olmayan kayıt var mı diye bakar. Hiç yoksa
   API sağlayıcısını sorgulamadan, hiçbir ağ isteği atmadan sys.exit(0) ile
-  çıkar. Yani her gün taramada yeni duyuru bulunmazsa bu script tamamen
-  boşta durur, tek bir AI çağrısı bile yapılmaz.
+  çıkar.
 
 GÜVENCE 2 — Kota/limit dolarsa o ana kadarki ilerleme kaybolmaz:
-  - Her kayıt işlendikten hemen sonra data/duyurular.json diske yazılır
-    (sadece döngü sonunda değil). Script ortasında kesilse/çökse bile o ana
-    kadar işlenenler kalıcıdır.
+  - Her kayıt işlendikten hemen sonra data/duyurular.json diske yazılır.
   - API "kota/limit doldu" tipi bir hata döndürürse (HTTP 429, ya da
     "insufficient_quota" / "RESOURCE_EXHAUSTED" / "rate_limit" içeren
-    mesajlar) script bunu ayırt eder, kalan kayıtlara hiç dokunmadan döngüyü
-    durdurur ve "X kayıt işlendi, kota bitti, kalanlar bir sonraki
-    çalıştırmada işlenecek" diye açıkça raporlar. Kalan kayıtlar zaten
-    "details" alanı almadığı için bir sonraki çalıştırmada otomatik olarak
-    tekrar kuyruğa girer.
+    mesajlar) döngü kalan kayıtlara dokunmadan durur, kalanlar bir sonraki
+    çalıştırmada otomatik kuyruğa girer.
 
-İKİ SAĞLAYICI DESTEKLENİR — hangisinin anahtarı tanımlıysa o kullanılır:
+İKİ SAĞLAYICI DESTEKLENİR:
   - ANTHROPIC_API_KEY tanımlıysa    -> Claude (claude-sonnet-4-6) (öncelikli)
   - yoksa GEMINI_API_KEY tanımlıysa -> Google Gemini (gemini-2.5-flash)
   - ikisi de tanımlı değilse        -> script sessizce çıkar
 
 Token tasarrufu katmanları:
-  A) scrape.py her kaydı ücretsiz anahtar kelime taramasından geçirip
-     "olasi_tur" etiketler (hibe_olabilir / sonuc_olabilir / belirsiz).
-  B) "sonuc_olabilir" etiketli kayıtlar AI'ya HİÇ GÖNDERİLMEZ, ücretsiz
-     olarak "sonuc_ilani_tahmini" işaretlenir.
-  C) "details" alanı zaten olan kayıtlar (daha önce işlenmiş, ya da kota
-     nedeniyle atlanmış olsa bile bir dahaki sefere kadar bekleyenler hariç)
-     tekrar gönderilmez.
+  A) classify.py her kaydı ücretsiz anahtar kelime taramasından geçirip
+     olasi_tur etiketler (hibe_olabilir / sonuc_olabilir / haber_olabilir / belirsiz).
+  B) "sonuc_olabilir" VE "haber_olabilir" etiketli kayıtlar AI'ya HİÇ
+     GÖNDERİLMEZ, ücretsiz olarak işaretlenir.
+  C) "details" alanı zaten olan kayıtlar tekrar gönderilmez.
 
 Kullanım:
     export ANTHROPIC_API_KEY=sk-ant-...    # ya da
@@ -59,6 +65,7 @@ import requests
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).parent
+CLASSIFIED_FILE = ROOT / "data" / "classified.json"
 DATA_FILE = ROOT / "data" / "duyurular.json"
 HEADERS_WEB = {"User-Agent": "Mozilla/5.0 (compatible; HibeTakipBot/1.0)"}
 
@@ -71,36 +78,50 @@ ANTHROPIC_MODEL = "claude-sonnet-4-6"
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 GEMINI_MODEL = "gemini-2.5-flash"
 
-# Kota/limit dolduğunu gösteren tipik hata imzaları (sağlayıcı fark etmeksizin).
 QUOTA_ERROR_SIGNS = [
     "429", "insufficient_quota", "resource_exhausted", "rate_limit",
     "quota", "too many requests", "billing",
 ]
 
-SYSTEM_PROMPT = """Sana bir Türkiye kamu/STK duyurusunun web sayfası metni verilecek.
+# Panelde filtre olarak sunulacak sabit tema listesi. AI bu listeden 0-4 tane
+# uygun olanı seçer; hiçbiri uymuyorsa boş bırakır (uydurma yeni etiket üretmez).
+TEMA_LISTESI = [
+    "tarım", "hayvancılık", "gıda", "tekstil", "turizm", "enerji", "çevre",
+    "yazılım", "donanım", "inovasyon", "ar-ge", "girişimcilik", "kadın girişimciliği",
+    "gençlik", "istihdam", "ihracat", "dijital dönüşüm", "yapay zeka", "sağlık",
+    "eğitim", "kültür-sanat", "sosyal girişimcilik", "kentsel dönüşüm",
+    "afet yönetimi", "ulaştırma", "savunma sanayii", "biyoteknoloji", "oyun",
+    "e-ticaret", "sivil toplum",
+]
+
+SYSTEM_PROMPT = f"""Sana bir Türkiye kamu/STK duyurusunun web sayfası metni verilecek.
 Aşağıdaki şemada SADECE JSON döndür, başka hiçbir şey yazma (açıklama, markdown işareti vb. ekleme):
 
-{
+{{
   "tur": "hibe_duyurusu" | "haber" | "sonuc_ilani" | "diger",
   "basvuruya_acik": true | false | null,
   "kimler_basvurabilir": "kısa açıklama veya null",
   "hibe_miktari": "tutar/oran bilgisi (ör. '%75 hibe, üst limit 500.000 TL') veya null",
-  "son_basvuru_tarihi": "YYYY-MM-DD veya null",
-  "desteklenen_aktiviteler": "hangi faaliyetler/harcamalar destekleniyor, kısa liste veya null",
+  "son_basvuru_tarihleri": ["YYYY-MM-DD", "..."] veya null (birden fazla aşama/dönem varsa hepsini listele, tek tarihse tek elemanlı liste),
+  "desteklenen_aktiviteler": "hangi temel hizmetler/faaliyetler/harcamalar destekleniyor, kısa liste veya null",
+  "temalar": ["..."] (aşağıdaki listeden 0-4 tane uygun olanı seç, listede yoksa boş bırak),
   "ozet": "1-2 cümlelik tarafsız özet"
-}
+}}
+
+Tema listesi (sadece bunlardan seç): {", ".join(TEMA_LISTESI)}
 
 "tur" alanını SIKI şekilde belirle — sadece "hibe_duyurusu" seçmek için metin
 AÇIKÇA yeni başvurulara açık, güncel bir hibe/destek/fon çağrısı olmalı
 (başvuru koşulları, son tarih veya başvuru şekli gibi somut bilgiler içermeli).
 - Sadece bir kurumdan/programdan genel bahseden, geçmişte açılmış bir çağrıyı
-  hatırlatan ama şu an başvuru almayan, ya da net bir çağrı içermeyen metinleri
-  "hibe_duyurusu" SAYMA — bunlar "haber" ya da "diger" olsun.
-- Başvuru sonuçları/kazananlar/asıl-yedek liste açıklanıyorsa "sonuc_ilani".
+  hatırlatan ama şu an başvuru almayan, ziyaret/imza töreni/toplantı/video gibi
+  genel haberler, ya da net bir çağrı içermeyen metinleri "hibe_duyurusu" SAYMA
+  — bunlar "haber" ya da "diger" olsun.
+- Başvuru sonuçları/kazananlar/asıl-yedek liste/yarışma sonucu açıklanıyorsa "sonuc_ilani".
 - "basvuruya_acik": metinde başvuru tarihinin geçmiş/gelecek olduğu netse true/false yap,
   emin değilsen null bırak.
-- tur "hibe_duyurusu" DEĞİLSE kimler_basvurabilir, hibe_miktari, son_basvuru_tarihi,
-  desteklenen_aktiviteler alanlarını null bırak, sadece ozet'i doldur.
+- tur "hibe_duyurusu" DEĞİLSE kimler_basvurabilir, hibe_miktari, son_basvuru_tarihleri,
+  desteklenen_aktiviteler, temalar alanlarını null/boş bırak, sadece ozet'i doldur.
 - Emin olmadığın alanları null bırak, metinde olmayan bilgiyi ASLA uydurma."""
 
 
@@ -121,7 +142,6 @@ def fetch_text(url, max_chars=6000):
 
 
 class QuotaExceeded(Exception):
-    """API kota/token/rate-limit sınırına ulaşıldığını belirtir."""
     pass
 
 
@@ -141,7 +161,7 @@ def call_claude(api_key, page_text):
         },
         json={
             "model": ANTHROPIC_MODEL,
-            "max_tokens": 500,
+            "max_tokens": 600,
             "system": SYSTEM_PROMPT,
             "messages": [{"role": "user", "content": page_text}],
         },
@@ -170,7 +190,7 @@ def call_gemini(api_key, page_text):
             "system_instruction": {"parts": [{"text": SYSTEM_PROMPT}]},
             "contents": [{"role": "user", "parts": [{"text": page_text}]}],
             "generationConfig": {
-                "maxOutputTokens": 500,
+                "maxOutputTokens": 600,
                 "responseMimeType": "application/json",
             },
         },
@@ -190,7 +210,6 @@ def call_gemini(api_key, page_text):
 
 
 def get_provider():
-    """Hangi anahtar tanımlıysa onu döndürür. Anthropic tanımlıysa o önceliklidir."""
     if os.environ.get("ANTHROPIC_API_KEY"):
         return "anthropic", os.environ["ANTHROPIC_API_KEY"]
     if os.environ.get("GEMINI_API_KEY"):
@@ -207,9 +226,28 @@ def call_ai(provider, api_key, page_text):
 
 
 def priority(item):
-    """AI bütçesi sınırlıysa en olası hibe duyurularını önce işle."""
-    order = {"hibe_olabilir": 0, "belirsiz": 1, "sonuc_olabilir": 2}
+    order = {"hibe_olabilir": 0, "belirsiz": 1, "sonuc_olabilir": 2, "haber_olabilir": 2}
     return order.get(item.get("olasi_tur"), 1)
+
+
+FREE_SKIP_DETAILS = {
+    "sonuc_olabilir": "sonuc_ilani_tahmini",
+    "haber_olabilir": "haber_tahmini",
+}
+
+
+def empty_details(tur_tahmini):
+    return {
+        "tur": tur_tahmini,
+        "basvuruya_acik": False,
+        "kimler_basvurabilir": None,
+        "hibe_miktari": None,
+        "son_basvuru_tarihleri": None,
+        "desteklenen_aktiviteler": None,
+        "temalar": [],
+        "ozet": None,
+        "ai_ile_dogrulandi": False,
+    }
 
 
 def save(store):
@@ -221,22 +259,44 @@ def main():
     parser.add_argument("--limit", type=int, default=None, help="Tek çalıştırmada işlenecek üst sınır")
     args = parser.parse_args()
 
-    if not DATA_FILE.exists():
-        print("data/duyurular.json bulunamadı, önce scrape.py çalıştırılmalı.")
+    if not CLASSIFIED_FILE.exists():
+        print("data/classified.json bulunamadı, önce scrape.py ve classify.py çalıştırılmalı.")
         sys.exit(1)
 
-    store = json.loads(DATA_FILE.read_text(encoding="utf-8"))
-    items = store.get("items", {})
+    classified = json.loads(CLASSIFIED_FILE.read_text(encoding="utf-8"))
+    classified_items = classified.get("items", {})
+
+    # Önceki AI sonuçlarını (data/duyurular.json) yükle — "details" alanları KORUNUR.
+    if DATA_FILE.exists():
+        existing = json.loads(DATA_FILE.read_text(encoding="utf-8"))
+        existing_items = existing.get("items", {})
+    else:
+        existing_items = {}
+
+    # classified.json'daki her kayıt duyurular.json'a taşınır; daha önce
+    # "details" işlenmişse o korunur, işlenmemişse pending kalır.
+    items = {}
+    for url, c_item in classified_items.items():
+        merged = dict(c_item)
+        if url in existing_items and "details" in existing_items[url]:
+            merged["details"] = existing_items[url]["details"]
+        items[url] = merged
 
     # --- GÜVENCE 1: yeni kayıt yoksa AI'a hiç gidilmez ---
     pending = [k for k, v in items.items() if "details" not in v]
     if not pending:
         print("Yeni/bekleyen kayıt yok — AI'a hiç gidilmedi, hiçbir çağrı yapılmadı.")
+        store = {"last_updated": classified.get("last_updated"),
+                  "source_status": classified.get("source_status", {}), "items": items}
+        save(store)
         sys.exit(0)
 
     provider, api_key = get_provider()
     if not provider:
         print(f"{len(pending)} bekleyen kayıt var ama ANTHROPIC_API_KEY/GEMINI_API_KEY tanımlı değil — AI atlanıyor.")
+        store = {"last_updated": classified.get("last_updated"),
+                  "source_status": classified.get("source_status", {}), "items": items}
+        save(store)
         sys.exit(0)
     print(f"Kullanılan AI sağlayıcı: {provider} | Bekleyen kayıt: {len(pending)}")
 
@@ -246,17 +306,9 @@ def main():
     to_call_ai = []
     for key in pending:
         item = items[key]
-        if item.get("olasi_tur") == "sonuc_olabilir":
-            item["details"] = {
-                "tur": "sonuc_ilani_tahmini",
-                "basvuruya_acik": False,
-                "kimler_basvurabilir": None,
-                "hibe_miktari": None,
-                "son_basvuru_tarihi": None,
-                "desteklenen_aktiviteler": None,
-                "ozet": None,
-                "ai_ile_dogrulandi": False,
-            }
+        tur_tahmini = FREE_SKIP_DETAILS.get(item.get("olasi_tur"))
+        if tur_tahmini:
+            item["details"] = empty_details(tur_tahmini)
             skipped_free += 1
         else:
             to_call_ai.append(key)
@@ -264,15 +316,14 @@ def main():
     if args.limit:
         to_call_ai = to_call_ai[: args.limit]
 
-    print(f"Ücretsiz filtre ile atlanan (muhtemel sonuç ilanı): {skipped_free}")
+    print(f"Ücretsiz filtre ile atlanan (muhtemel sonuç ilanı / haber): {skipped_free}")
     print(f"AI'ya gönderilecek kayıt: {len(to_call_ai)}")
 
-    # Ücretsiz katmanda etiketlenenleri hemen kaydet.
-    store["items"] = items
+    store = {"last_updated": classified.get("last_updated"),
+              "source_status": classified.get("source_status", {}), "items": items}
     save(store)
 
     processed = 0
-    quota_hit = False
     try:
         for key in to_call_ai:
             item = items[key]
@@ -290,17 +341,14 @@ def main():
             except QuotaExceeded as e:
                 print(f"\nAPI kotası/token limiti doldu ({e}).")
                 print(f"Bu çalıştırmada {processed} kayıt işlendi, kalanlar bir sonraki çalıştırmada devam edecek.")
-                quota_hit = True
                 break
             except Exception as e:
                 print(f"  AI hata (bu kayıt atlandı, devam ediliyor): {e} -> {item['title'][:60]}")
 
-            # --- GÜVENCE 2: her kayıttan hemen sonra diske yaz ---
             store["items"] = items
             save(store)
             time.sleep(0.4)
     finally:
-        # Script beklenmedik şekilde kesilse bile o ana kadarki ilerleme diskte kalsın.
         store["items"] = items
         save(store)
 

@@ -1,5 +1,27 @@
 [
   {
+    "id": "ka_gov",
+    "name": "Kalkınma Ajansları Genel Müdürlüğü - Güncel Destekler (26 ajans tek yerde)",
+    "homepage": "https://ka.gov.tr",
+    "paths": ["/destekler"],
+    "link_contains": [],
+    "note": "26 kalkınma ajansının desteklerini başlangıç/bitiş tarihleriyle tek sayfada listeleyen merkezi platform. Bireysel ajans kaynaklarıyla örtüşebilir, bu istenerek yapıldı (çapraz doğrulama)."
+  },
+  {
+    "id": "teknofest",
+    "name": "TEKNOFEST",
+    "homepage": "https://teknofest.org",
+    "paths": ["/tr/duyurular/"],
+    "link_contains": []
+  },
+  {
+    "id": "horizon_avrupa",
+    "name": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+    "homepage": "https://ufukavrupa.org.tr",
+    "paths": ["/tr/haberler", "/tr/horizon-europe"],
+    "link_contains": []
+  },
+  {
     "id": "yatirimadestek",
     "name": "Yatırıma Destek (Kalkınma Ajansları / KOSGEB / TKDK / İŞKUR)",
     "homepage": "https://www.yatirimadestek.gov.tr",
@@ -76,7 +98,7 @@
   {"id": "oran",      "name": "ORAN (Orta Anadolu Kalkınma Ajansı)",       "homepage": "https://www.oran.org.tr",      "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
   {"id": "marka",     "name": "MARKA (Doğu Marmara Kalkınma Ajansı)",      "homepage": "https://www.marka.org.tr",     "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
   {"id": "gmka",      "name": "GMKA (Güney Marmara Kalkınma Ajansı)",      "homepage": "https://www.gmka.gov.tr",      "paths": ["/acik-destek-programlari", "/duyurular"],             "link_contains": []},
-  {"id": "geka",      "name": "GEKA (Güney Ege Kalkınma Ajansı)",          "homepage": "https://geka.gov.tr",          "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
+  {"id": "geka",      "name": "GEKA (Güney Ege Kalkınma Ajansı)",          "homepage": "https://www.geka.gov.tr",      "paths": ["/tr/basvurusu-devam-eden-destekler", "/destekler"],  "link_contains": []},
   {"id": "ika",       "name": "İKA (İpekyolu Kalkınma Ajansı)",            "homepage": "https://www.ika.org.tr",       "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
   {"id": "trakyaka",  "name": "TRAKYAKA (Trakya Kalkınma Ajansı)",         "homepage": "https://www.trakyaka.org.tr",  "paths": ["/tr/33286/DESTEKLER", "/destekler"],                  "link_contains": []},
   {"id": "zafer",     "name": "ZAFER (Zafer Kalkınma Ajansı)",             "homepage": "https://zafer.gov.tr",         "paths": ["/destekler", "/"],                                    "link_contains": []},

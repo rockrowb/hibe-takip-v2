@@ -153,6 +153,56 @@
     border-radius:2px;
     vertical-align:middle;
   }
+  .badge-deadline{
+    display:inline-block;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.64rem;
+    letter-spacing:0.03em;
+    background:#e3e8de;
+    color:#3d5c3a;
+    padding:0.12rem 0.4rem;
+    margin-left:0.5rem;
+    border-radius:2px;
+    vertical-align:middle;
+  }
+  .badge-deadline.soon{background:var(--gold-soft);color:#7a5715;}
+  .badge-deadline.urgent{background:var(--seal-soft);color:var(--seal);font-weight:600;}
+
+  .tema-filter{
+    max-width:1040px;
+    margin:0.8rem auto 0;
+    padding:0 1.5rem;
+    display:flex;
+    flex-wrap:wrap;
+    gap:0.35rem;
+    align-items:center;
+  }
+  .tema-filter-label{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.72rem;
+    color:var(--ink-soft);
+    margin-right:0.2rem;
+  }
+  .tema-toggle{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.7rem;
+    padding:0.25rem 0.55rem;
+    border:1px solid var(--line);
+    background:var(--paper-raised);
+    color:var(--ink-soft);
+    cursor:pointer;
+    border-radius:12px;
+  }
+  .tema-toggle.active{background:var(--ink);color:var(--paper-raised);border-color:var(--ink);}
+  .entry-temalar{margin-top:0.4rem;display:flex;flex-wrap:wrap;gap:0.3rem;}
+  .tema-chip{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.64rem;
+    background:#eef0e9;
+    color:#4a5a45;
+    padding:0.1rem 0.4rem;
+    border-radius:10px;
+  }
 
   .stats{
     max-width:1040px;
@@ -299,6 +349,7 @@
 
 <div class="stats" id="stats"></div>
 <div class="source-warning" id="sourceWarning" style="display:none;"></div>
+<div class="tema-filter" id="temaFilter" style="display:none;"></div>
 
 <main id="list">
   <div class="loading">Duyurular yükleniyor…</div>
@@ -314,6 +365,7 @@
 let ALL_ITEMS = [];
 let activeRange = "all";
 let activeTab = "hibe";
+let activeTemalar = new Set();
 
 function daysAgo(dateStr){
   if(!dateStr) return Infinity;
@@ -322,40 +374,70 @@ function daysAgo(dateStr){
   return diff;
 }
 
+function earliestDeadline(it){
+  const arr = it.details && it.details.son_basvuru_tarihleri;
+  if(!arr || !arr.length) return null;
+  return [...arr].sort()[0];
+}
+
+function daysUntil(dateStr){
+  if(!dateStr) return null;
+  const d = new Date(dateStr);
+  return Math.ceil((d.getTime() - Date.now()) / (1000*60*60*24));
+}
+
+function tabOf(it){
+  const tur = it.details && it.details.tur;
+  if(tur){
+    if(tur === "hibe_duyurusu") return "hibe";
+    if(tur === "sonuc_ilani" || tur === "sonuc_ilani_tahmini") return "sonuc";
+    return "diger"; // haber, haber_tahmini, diger
+  }
+  // AI henüz işlememişse ücretsiz ön-tahmine göre yerleştir
+  const ot = it.olasi_tur;
+  if(ot === "sonuc_olabilir") return "sonuc";
+  if(ot === "haber_olabilir") return "diger";
+  return "hibe"; // hibe_olabilir veya belirsiz -> güvenli taraf
+}
+
 function render(){
   const q = document.getElementById('search').value.trim().toLowerCase();
   const src = document.getElementById('sourceFilter').value;
   const sortBy = document.getElementById('sortBy').value;
   const list = document.getElementById('list');
 
-  function tabOf(it){
-    const tur = it.details && it.details.tur;
-    if(!tur) return "hibe";                 // henüz AI ile işlenmemiş -> varsayılan olarak Hibe Çağrıları'nda göster
-    if(tur === "hibe_duyurusu") return "hibe";
-    if(tur === "sonuc_ilani" || tur === "sonuc_ilani_tahmini") return "sonuc";
-    return "diger";                          // haber, diger
-  }
-
   let items = ALL_ITEMS.filter(it => {
-    if(q && !it.title.toLowerCase().includes(q)) return false;
+    if(q){
+      const d = it.details || {};
+      const hay = [it.title, d.ozet, d.kimler_basvurabilir, ...(d.temalar||[])]
+        .filter(Boolean).join(' ').toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
     if(src && it.source !== src) return false;
     if(activeRange !== "all"){
       const age = daysAgo(it.first_seen || it.date);
       if(age > Number(activeRange)) return false;
     }
     if(tabOf(it) !== activeTab) return false;
+    if(activeTemalar.size){
+      const temalar = (it.details && it.details.temalar) || [];
+      if(![...activeTemalar].some(t => temalar.includes(t))) return false;
+    }
     return true;
   });
 
   if(sortBy === "deadline"){
-    items.sort((a,b) => {
-      const da = (a.details && a.details.son_basvuru_tarihi) || "9999-99-99";
-      const db = (b.details && b.details.son_basvuru_tarihi) || "9999-99-99";
-      return da.localeCompare(db); // en yakın son tarih önce, tarihi olmayanlar sona
-    });
+    items.sort((a,b) => (earliestDeadline(a) || "9999-99-99").localeCompare(earliestDeadline(b) || "9999-99-99"));
   } else {
     items.sort((a,b) => (b.date||b.first_seen||"").localeCompare(a.date||a.first_seen||""));
   }
+
+  // Sekme sayaçları
+  const counts = {hibe:0, sonuc:0, diger:0};
+  ALL_ITEMS.forEach(it => counts[tabOf(it)]++);
+  document.querySelector('.tab[data-tab="hibe"]').textContent = `Hibe Çağrıları (${counts.hibe})`;
+  document.querySelector('.tab[data-tab="sonuc"]').textContent = `Sonuç İlanları (${counts.sonuc})`;
+  document.querySelector('.tab[data-tab="diger"]').textContent = `Diğer / Haberler (${counts.diger})`;
 
   document.getElementById('stats').innerHTML =
     `<span><b>${items.length}</b> duyuru gösteriliyor</span><span><b>${ALL_ITEMS.length}</b> toplam kayıt</span>`;
@@ -373,11 +455,28 @@ function render(){
     if (d) {
       if (d.kimler_basvurabilir) detailBits.push(`<b>Kimler:</b> ${d.kimler_basvurabilir}`);
       if (d.hibe_miktari) detailBits.push(`<b>Miktar:</b> ${d.hibe_miktari}`);
-      if (d.son_basvuru_tarihi) detailBits.push(`<b>Son tarih:</b> ${d.son_basvuru_tarihi}`);
+      if (d.son_basvuru_tarihleri && d.son_basvuru_tarihleri.length){
+        const label = d.son_basvuru_tarihleri.length > 1 ? "Son tarihler" : "Son tarih";
+        detailBits.push(`<b>${label}:</b> ${d.son_basvuru_tarihleri.join(', ')}`);
+      }
       if (d.desteklenen_aktiviteler) detailBits.push(`<b>Kapsam:</b> ${d.desteklenen_aktiviteler}`);
     }
     const otherTag = d && d.tur && d.tur !== "hibe_duyurusu"
       ? `<span class="tag-other">${d.tur.replace(/_/g,' ')}</span>` : '';
+
+    const deadline = earliestDeadline(it);
+    const dleft = deadline ? daysUntil(deadline) : null;
+    let deadlineBadge = '';
+    if(dleft !== null){
+      if(dleft < 0) deadlineBadge = '';
+      else if(dleft <= 7) deadlineBadge = `<span class="badge-deadline urgent">${dleft} gün kaldı</span>`;
+      else if(dleft <= 30) deadlineBadge = `<span class="badge-deadline soon">${dleft} gün kaldı</span>`;
+      else deadlineBadge = `<span class="badge-deadline">${dleft} gün kaldı</span>`;
+    }
+
+    const temaChips = (d && d.temalar && d.temalar.length)
+      ? `<div class="entry-temalar">${d.temalar.map(t => `<span class="tema-chip">${t}</span>`).join('')}</div>` : '';
+
     return `
       <div class="entry">
         <div class="entry-date">${dateLabel}</div>
@@ -387,9 +486,11 @@ function render(){
             <a href="${it.url}" target="_blank" rel="noopener">${it.title}</a>
             ${isNew ? '<span class="badge-new">YENİ</span>' : ''}
             ${otherTag}
+            ${deadlineBadge}
           </div>
           ${d && d.ozet ? `<div class="entry-summary">${d.ozet}</div>` : ''}
           ${detailBits.length ? `<div class="entry-details">${detailBits.join(' &nbsp;·&nbsp; ')}</div>` : ''}
+          ${temaChips}
         </div>
       </div>`;
   }).join("");
@@ -419,6 +520,23 @@ async function init(){
       box.innerHTML = `<details><summary>${failed.length} kaynağa şu an ulaşılamadı ya da içerik bulunamadı</summary>
         <ul>${failed.map(([id, st]) => `<li>${id} ${st.error ? '— ' + st.error : '(0 sonuç)'}</li>`).join('')}</ul>
       </details>`;
+    }
+
+    const allTemalar = new Set();
+    ALL_ITEMS.forEach(it => (it.details && it.details.temalar || []).forEach(t => allTemalar.add(t)));
+    if(allTemalar.size){
+      const box = document.getElementById('temaFilter');
+      box.style.display = 'flex';
+      box.innerHTML = '<span class="tema-filter-label">Tema:</span>' + [...allTemalar].sort().map(t =>
+        `<button class="tema-toggle" data-tema="${t}">${t}</button>`).join('');
+      box.querySelectorAll('.tema-toggle').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const t = btn.dataset.tema;
+          if(activeTemalar.has(t)){ activeTemalar.delete(t); btn.classList.remove('active'); }
+          else { activeTemalar.add(t); btn.classList.add('active'); }
+          render();
+        });
+      });
     }
 
     render();
