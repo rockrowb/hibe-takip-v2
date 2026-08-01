@@ -4,32 +4,48 @@ OPSİYONEL AI zenginleştirme adımı.
 
 data/duyurular.json içindeki her yeni (henüz "details" alanı olmayan) kayıt
 için TEK bir AI çağrısında iki şeyi birden yapar:
-  1. Sınıflandırma: bu bir hibe/destek duyurusu mu, yoksa haber/sonuç ilanı/
-     başka bir şey mi? ("tur" alanı)
-  2. Eğer hibe duyurusuysa: kimler başvurabilir, hibe miktarı, son başvuru
-     tarihi, desteklenen aktiviteler alanlarını metinden çıkarır.
-     Değilse bu alanlar null bırakılır (gereksiz ayrıntı çıkarılmaz).
+  1. Sınıflandırma: bu GERÇEKTEN AÇIK/GÜNCEL bir hibe-destek çağrısı mı, yoksa
+     haber/sonuç ilanı/genel bilgilendirme mi? ("tur" alanı)
+  2. Eğer açık bir hibe çağrısıysa: kimler başvurabilir, hibe miktarı, son
+     başvuru tarihi, desteklenen aktiviteler alanlarını metinden çıkarır.
+
+GÜVENCE 1 — Yeni kayıt yoksa AI'a KESİNLİKLE gidilmez:
+  Script en başta "details" alanı olmayan kayıt var mı diye bakar. Hiç yoksa
+  API sağlayıcısını sorgulamadan, hiçbir ağ isteği atmadan sys.exit(0) ile
+  çıkar. Yani her gün taramada yeni duyuru bulunmazsa bu script tamamen
+  boşta durur, tek bir AI çağrısı bile yapılmaz.
+
+GÜVENCE 2 — Kota/limit dolarsa o ana kadarki ilerleme kaybolmaz:
+  - Her kayıt işlendikten hemen sonra data/duyurular.json diske yazılır
+    (sadece döngü sonunda değil). Script ortasında kesilse/çökse bile o ana
+    kadar işlenenler kalıcıdır.
+  - API "kota/limit doldu" tipi bir hata döndürürse (HTTP 429, ya da
+    "insufficient_quota" / "RESOURCE_EXHAUSTED" / "rate_limit" içeren
+    mesajlar) script bunu ayırt eder, kalan kayıtlara hiç dokunmadan döngüyü
+    durdurur ve "X kayıt işlendi, kota bitti, kalanlar bir sonraki
+    çalıştırmada işlenecek" diye açıkça raporlar. Kalan kayıtlar zaten
+    "details" alanı almadığı için bir sonraki çalıştırmada otomatik olarak
+    tekrar kuyruğa girer.
 
 İKİ SAĞLAYICI DESTEKLENİR — hangisinin anahtarı tanımlıysa o kullanılır:
-  - ANTHROPIC_API_KEY tanımlıysa   -> Claude (claude-sonnet-4-6) kullanılır (öncelikli)
-  - yoksa GEMINI_API_KEY tanımlıysa -> Google Gemini (gemini-2.5-flash) kullanılır
-  - ikisi de tanımlı değilse        -> script sessizce çıkar, sistemin geri kalanını etkilemez
+  - ANTHROPIC_API_KEY tanımlıysa    -> Claude (claude-sonnet-4-6) (öncelikli)
+  - yoksa GEMINI_API_KEY tanımlıysa -> Google Gemini (gemini-2.5-flash)
+  - ikisi de tanımlı değilse        -> script sessizce çıkar
 
-Token tasarrufu için üç katman var:
-  A) scrape.py zaten her kaydı ücretsiz anahtar kelime taramasından geçirip
+Token tasarrufu katmanları:
+  A) scrape.py her kaydı ücretsiz anahtar kelime taramasından geçirip
      "olasi_tur" etiketler (hibe_olabilir / sonuc_olabilir / belirsiz).
-  B) Bu script, "sonuc_olabilir" etiketli kayıtları AI'ya HİÇ GÖNDERMEZ —
-     doğrudan tur="sonuc_ilani_tahmini" olarak işaretler (ai_ile_dogrulandi=false).
-     Bu, en belirgin "sonuçlandı/kazananlar açıklandı" gibi başlıklarda AI
-     çağrısını tamamen atlar.
-  C) "details" alanı zaten olan kayıtlar (daha önce işlenmiş) tekrar
-     gönderilmez — sonraki her çalıştırmada sadece YENİ kayıtlar işlenir.
+  B) "sonuc_olabilir" etiketli kayıtlar AI'ya HİÇ GÖNDERİLMEZ, ücretsiz
+     olarak "sonuc_ilani_tahmini" işaretlenir.
+  C) "details" alanı zaten olan kayıtlar (daha önce işlenmiş, ya da kota
+     nedeniyle atlanmış olsa bile bir dahaki sefere kadar bekleyenler hariç)
+     tekrar gönderilmez.
 
 Kullanım:
     export ANTHROPIC_API_KEY=sk-ant-...    # ya da
     export GEMINI_API_KEY=AIza...
     python enrich.py                # bekleyen tüm kayıtları işler
-    python enrich.py --limit 20     # maliyeti sınırlamak için ilk 20 kayıt
+    python enrich.py --limit 20     # tek çalıştırmada işlenecek üst sınır
 """
 import argparse
 import json
@@ -50,16 +66,23 @@ ANTHROPIC_API_URL = "https://api.anthropic.com/v1/messages"
 ANTHROPIC_MODEL = "claude-sonnet-4-6"
 
 # Not: Google, gemini-2.5-flash modelini Ekim 2026'da kullanımdan kaldıracağını
-# duyurdu. O tarihten sonra buradaki model adını güncel bir Gemini Flash
-# modeliyle değiştirmek gerekebilir (ai.google.dev/api/generate-content'ten kontrol edin).
+# duyurdu. O tarihten sonra model adını güncel bir Gemini Flash modeliyle
+# değiştirmek gerekebilir (ai.google.dev/api/generate-content'ten kontrol edin).
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 GEMINI_MODEL = "gemini-2.5-flash"
+
+# Kota/limit dolduğunu gösteren tipik hata imzaları (sağlayıcı fark etmeksizin).
+QUOTA_ERROR_SIGNS = [
+    "429", "insufficient_quota", "resource_exhausted", "rate_limit",
+    "quota", "too many requests", "billing",
+]
 
 SYSTEM_PROMPT = """Sana bir Türkiye kamu/STK duyurusunun web sayfası metni verilecek.
 Aşağıdaki şemada SADECE JSON döndür, başka hiçbir şey yazma (açıklama, markdown işareti vb. ekleme):
 
 {
   "tur": "hibe_duyurusu" | "haber" | "sonuc_ilani" | "diger",
+  "basvuruya_acik": true | false | null,
   "kimler_basvurabilir": "kısa açıklama veya null",
   "hibe_miktari": "tutar/oran bilgisi (ör. '%75 hibe, üst limit 500.000 TL') veya null",
   "son_basvuru_tarihi": "YYYY-MM-DD veya null",
@@ -67,13 +90,18 @@ Aşağıdaki şemada SADECE JSON döndür, başka hiçbir şey yazma (açıklama
   "ozet": "1-2 cümlelik tarafsız özet"
 }
 
-Kurallar:
-- "tur" alanını dikkatle belirle: yeni bir hibe/destek/çağrı ilanıysa "hibe_duyurusu";
-  genel bir haber/etkinlik duyurusuysa "haber"; başvuru sonuçları/kazananlar/asıl-yedek
-  liste açıklanıyorsa "sonuc_ilani"; hiçbiri değilse "diger".
-- tur "hibe_duyurusu" DEĞİLSE diğer alanları (kimler_basvurabilir, hibe_miktari,
-  son_basvuru_tarihi, desteklenen_aktiviteler) null bırak, sadece ozet'i doldur.
-- Emin olmadığın alanları null bırak, metinde olmayan bilgiyi uydurma."""
+"tur" alanını SIKI şekilde belirle — sadece "hibe_duyurusu" seçmek için metin
+AÇIKÇA yeni başvurulara açık, güncel bir hibe/destek/fon çağrısı olmalı
+(başvuru koşulları, son tarih veya başvuru şekli gibi somut bilgiler içermeli).
+- Sadece bir kurumdan/programdan genel bahseden, geçmişte açılmış bir çağrıyı
+  hatırlatan ama şu an başvuru almayan, ya da net bir çağrı içermeyen metinleri
+  "hibe_duyurusu" SAYMA — bunlar "haber" ya da "diger" olsun.
+- Başvuru sonuçları/kazananlar/asıl-yedek liste açıklanıyorsa "sonuc_ilani".
+- "basvuruya_acik": metinde başvuru tarihinin geçmiş/gelecek olduğu netse true/false yap,
+  emin değilsen null bırak.
+- tur "hibe_duyurusu" DEĞİLSE kimler_basvurabilir, hibe_miktari, son_basvuru_tarihi,
+  desteklenen_aktiviteler alanlarını null bırak, sadece ozet'i doldur.
+- Emin olmadığın alanları null bırak, metinde olmayan bilgiyi ASLA uydurma."""
 
 
 def fetch_text(url, max_chars=6000):
@@ -92,6 +120,17 @@ def fetch_text(url, max_chars=6000):
     return text[:max_chars], None
 
 
+class QuotaExceeded(Exception):
+    """API kota/token/rate-limit sınırına ulaşıldığını belirtir."""
+    pass
+
+
+def _check_quota_error(exc, response_text=""):
+    blob = f"{exc} {response_text}".lower()
+    if any(sign in blob for sign in QUOTA_ERROR_SIGNS):
+        raise QuotaExceeded(str(exc))
+
+
 def call_claude(api_key, page_text):
     resp = requests.post(
         ANTHROPIC_API_URL,
@@ -108,7 +147,13 @@ def call_claude(api_key, page_text):
         },
         timeout=30,
     )
-    resp.raise_for_status()
+    if resp.status_code == 429:
+        raise QuotaExceeded(f"HTTP 429: {resp.text[:200]}")
+    try:
+        resp.raise_for_status()
+    except requests.HTTPError as e:
+        _check_quota_error(e, resp.text)
+        raise
     data = resp.json()
     text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
     text = re.sub(r"^```json|```$", "", text.strip(), flags=re.MULTILINE).strip()
@@ -131,7 +176,13 @@ def call_gemini(api_key, page_text):
         },
         timeout=30,
     )
-    resp.raise_for_status()
+    if resp.status_code == 429:
+        raise QuotaExceeded(f"HTTP 429: {resp.text[:200]}")
+    try:
+        resp.raise_for_status()
+    except requests.HTTPError as e:
+        _check_quota_error(e, resp.text)
+        raise
     data = resp.json()
     text = data["candidates"][0]["content"]["parts"][0]["text"]
     text = re.sub(r"^```json|```$", "", text.strip(), flags=re.MULTILINE).strip()
@@ -161,16 +212,14 @@ def priority(item):
     return order.get(item.get("olasi_tur"), 1)
 
 
+def save(store):
+    DATA_FILE.write_text(json.dumps(store, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--limit", type=int, default=None, help="AI'ya gönderilecek maksimum kayıt sayısı")
+    parser.add_argument("--limit", type=int, default=None, help="Tek çalıştırmada işlenecek üst sınır")
     args = parser.parse_args()
-
-    provider, api_key = get_provider()
-    if not provider:
-        print("ANTHROPIC_API_KEY ya da GEMINI_API_KEY tanımlı değil — AI zenginleştirme atlanıyor (opsiyonel, sorun değil).")
-        sys.exit(0)
-    print(f"Kullanılan AI sağlayıcı: {provider}")
 
     if not DATA_FILE.exists():
         print("data/duyurular.json bulunamadı, önce scrape.py çalıştırılmalı.")
@@ -179,7 +228,18 @@ def main():
     store = json.loads(DATA_FILE.read_text(encoding="utf-8"))
     items = store.get("items", {})
 
+    # --- GÜVENCE 1: yeni kayıt yoksa AI'a hiç gidilmez ---
     pending = [k for k, v in items.items() if "details" not in v]
+    if not pending:
+        print("Yeni/bekleyen kayıt yok — AI'a hiç gidilmedi, hiçbir çağrı yapılmadı.")
+        sys.exit(0)
+
+    provider, api_key = get_provider()
+    if not provider:
+        print(f"{len(pending)} bekleyen kayıt var ama ANTHROPIC_API_KEY/GEMINI_API_KEY tanımlı değil — AI atlanıyor.")
+        sys.exit(0)
+    print(f"Kullanılan AI sağlayıcı: {provider} | Bekleyen kayıt: {len(pending)}")
+
     pending.sort(key=lambda k: priority(items[k]))
 
     skipped_free = 0
@@ -187,9 +247,9 @@ def main():
     for key in pending:
         item = items[key]
         if item.get("olasi_tur") == "sonuc_olabilir":
-            # Ücretsiz katman: başlık kalıbı çok net "sonuç ilanı" diyor, AI'ya sormaya gerek yok.
             item["details"] = {
                 "tur": "sonuc_ilani_tahmini",
+                "basvuruya_acik": False,
                 "kimler_basvurabilir": None,
                 "hibe_miktari": None,
                 "son_basvuru_tarihi": None,
@@ -207,27 +267,46 @@ def main():
     print(f"Ücretsiz filtre ile atlanan (muhtemel sonuç ilanı): {skipped_free}")
     print(f"AI'ya gönderilecek kayıt: {len(to_call_ai)}")
 
-    processed = 0
-    for key in to_call_ai:
-        item = items[key]
-        text, err = fetch_text(item["url"])
-        if err:
-            print(f"  atlandı ({err}): {item['title'][:60]}")
-            continue
-        try:
-            details = call_ai(provider, api_key, text)
-            details["ai_ile_dogrulandi"] = True
-            details["ai_saglayici"] = provider
-            item["details"] = details
-            processed += 1
-            print(f"  OK [{details.get('tur')}]: {item['title'][:60]}")
-        except Exception as e:
-            print(f"  AI hata: {e} -> {item['title'][:60]}")
-        time.sleep(0.4)
-
+    # Ücretsiz katmanda etiketlenenleri hemen kaydet.
     store["items"] = items
-    DATA_FILE.write_text(json.dumps(store, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"\nTamamlandı. Ücretsiz: {skipped_free} | AI ile işlenen: {processed}")
+    save(store)
+
+    processed = 0
+    quota_hit = False
+    try:
+        for key in to_call_ai:
+            item = items[key]
+            text, err = fetch_text(item["url"])
+            if err:
+                print(f"  atlandı ({err}): {item['title'][:60]}")
+                continue
+            try:
+                details = call_ai(provider, api_key, text)
+                details["ai_ile_dogrulandi"] = True
+                details["ai_saglayici"] = provider
+                item["details"] = details
+                processed += 1
+                print(f"  OK [{details.get('tur')}]: {item['title'][:60]}")
+            except QuotaExceeded as e:
+                print(f"\nAPI kotası/token limiti doldu ({e}).")
+                print(f"Bu çalıştırmada {processed} kayıt işlendi, kalanlar bir sonraki çalıştırmada devam edecek.")
+                quota_hit = True
+                break
+            except Exception as e:
+                print(f"  AI hata (bu kayıt atlandı, devam ediliyor): {e} -> {item['title'][:60]}")
+
+            # --- GÜVENCE 2: her kayıttan hemen sonra diske yaz ---
+            store["items"] = items
+            save(store)
+            time.sleep(0.4)
+    finally:
+        # Script beklenmedik şekilde kesilse bile o ana kadarki ilerleme diskte kalsın.
+        store["items"] = items
+        save(store)
+
+    remaining = sum(1 for k in to_call_ai if "details" not in items[k])
+    print(f"\nTamamlandı. Ücretsiz: {skipped_free} | AI ile işlenen: {processed}"
+          + (f" | Bir sonraki çalıştırmaya kalan: {remaining}" if remaining else ""))
 
 
 if __name__ == "__main__":
