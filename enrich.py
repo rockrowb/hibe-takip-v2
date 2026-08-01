@@ -117,6 +117,10 @@ AÇIKÇA yeni başvurulara açık, güncel bir hibe/destek/fon çağrısı olmal
   hatırlatan ama şu an başvuru almayan, ziyaret/imza töreni/toplantı/video gibi
   genel haberler, ya da net bir çağrı içermeyen metinleri "hibe_duyurusu" SAYMA
   — bunlar "haber" ya da "diger" olsun.
+- Kurumsal/idari içerikler (anket merkezi, bütçe uygulama sonuçları, faaliyet
+  raporu, stratejik plan, insan kaynakları/personel ilanı, ihale ilanı,
+  yönetim kurulu/genel kurul kararları, KVKK/gizlilik metinleri, denetim
+  raporu gibi) KESİNLİKLE "diger" olsun, bunları asla "hibe_duyurusu" sayma.
 - Başvuru sonuçları/kazananlar/asıl-yedek liste/yarışma sonucu açıklanıyorsa "sonuc_ilani".
 - "basvuruya_acik": metinde başvuru tarihinin geçmiş/gelecek olduğu netse true/false yap,
   emin değilsen null bırak.
@@ -231,8 +235,13 @@ def priority(item):
 
 
 FREE_SKIP_DETAILS = {
+    # SADECE çok net "sonuç ilanı" kalıpları ücretsiz elenir (ör. "kazananlar
+    # açıklandı"). "haber_olabilir" (kurumsal/basın bülteni gibi görünenler)
+    # ARTIK AI'a gönderiliyor — AI'ın sınıflandırmadaki rolünü güçlendirmek
+    # için bilinçli tercih: anahtar kelime kalıpları yanılabilir (ör. "Anket
+    # Merkezi" gerçekten alakasızdır ama farklı bir başlık yanlış pozitif
+    # olabilir), AI son sözü söylesin.
     "sonuc_olabilir": "sonuc_ilani_tahmini",
-    "haber_olabilir": "haber_tahmini",
 }
 
 
@@ -283,7 +292,10 @@ def main():
         items[url] = merged
 
     # --- GÜVENCE 1: yeni kayıt yoksa AI'a hiç gidilmez ---
-    pending = [k for k, v in items.items() if "details" not in v]
+    # Not: "duplicate_of" işaretli kayıtlar (classify.py'ın tekilleştirmesi)
+    # AI kuyruğuna hiç girmez — zaten başka bir kayıtla aynı, gereksiz
+    # maliyet/kota harcamamak için burada elenir.
+    pending = [k for k, v in items.items() if "details" not in v and not v.get("duplicate_of")]
     if not pending:
         print("Yeni/bekleyen kayıt yok — AI'a hiç gidilmedi, hiçbir çağrı yapılmadı.")
         store = {"last_updated": classified.get("last_updated"),
