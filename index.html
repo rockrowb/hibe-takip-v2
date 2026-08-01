@@ -68,6 +68,28 @@
     max-width:60ch;
   }
 
+  .tabs{
+    max-width:1040px;
+    margin:1.6rem auto 0;
+    padding:0 1.5rem;
+    display:flex;
+    gap:0.4rem;
+    border-bottom:1px solid var(--line);
+  }
+  .tab{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.8rem;
+    padding:0.6rem 0.9rem;
+    border:none;
+    background:transparent;
+    color:var(--ink-soft);
+    cursor:pointer;
+    border-bottom:2px solid transparent;
+    margin-bottom:-1px;
+  }
+  .tab.active{color:var(--ink);border-bottom-color:var(--seal);font-weight:600;}
+  .tab:hover{color:var(--ink);}
+
   .controls{
     max-width:1040px;
     margin:1.6rem auto 0;
@@ -255,18 +277,24 @@
   <p class="sub">Kalkınma Ajansları, KOSGEB, TKDK, İŞKUR ve TÜBİTAK kaynaklarından otomatik olarak toplanan güncel çağrı ve destek duyuruları.</p>
 </div>
 
+<div class="tabs">
+  <button class="tab active" data-tab="hibe">Hibe Çağrıları</button>
+  <button class="tab" data-tab="sonuc">Sonuç İlanları</button>
+  <button class="tab" data-tab="diger">Diğer / Haberler</button>
+</div>
+
 <div class="controls">
   <input type="search" id="search" placeholder="Başlıkta ara… (örn. Ar-Ge, ihracat, kadın girişimci)">
   <select id="sourceFilter">
     <option value="">Tüm kaynaklar</option>
   </select>
+  <select id="sortBy">
+    <option value="date">Yayın tarihine göre sırala</option>
+    <option value="deadline">Son başvuru tarihine göre sırala</option>
+  </select>
   <button class="chip active" data-range="all">Tümü</button>
   <button class="chip" data-range="30">Son 30 gün</button>
   <button class="chip" data-range="7">Son 7 gün</button>
-  <label class="toggle-others">
-    <input type="checkbox" id="showOthers">
-    Haber / sonuç ilanlarını da göster
-  </label>
 </div>
 
 <div class="stats" id="stats"></div>
@@ -285,6 +313,7 @@
 <script>
 let ALL_ITEMS = [];
 let activeRange = "all";
+let activeTab = "hibe";
 
 function daysAgo(dateStr){
   if(!dateStr) return Infinity;
@@ -296,8 +325,16 @@ function daysAgo(dateStr){
 function render(){
   const q = document.getElementById('search').value.trim().toLowerCase();
   const src = document.getElementById('sourceFilter').value;
-  const showOthers = document.getElementById('showOthers').checked;
+  const sortBy = document.getElementById('sortBy').value;
   const list = document.getElementById('list');
+
+  function tabOf(it){
+    const tur = it.details && it.details.tur;
+    if(!tur) return "hibe";                 // henüz AI ile işlenmemiş -> varsayılan olarak Hibe Çağrıları'nda göster
+    if(tur === "hibe_duyurusu") return "hibe";
+    if(tur === "sonuc_ilani" || tur === "sonuc_ilani_tahmini") return "sonuc";
+    return "diger";                          // haber, diger
+  }
 
   let items = ALL_ITEMS.filter(it => {
     if(q && !it.title.toLowerCase().includes(q)) return false;
@@ -306,16 +343,19 @@ function render(){
       const age = daysAgo(it.first_seen || it.date);
       if(age > Number(activeRange)) return false;
     }
-    if(!showOthers){
-      const tur = it.details && it.details.tur;
-      // details henüz yoksa (AI ile işlenmemiş) yine de göster; sadece AI
-      // "hibe_duyurusu" DEĞİL dediyse gizle.
-      if(tur && tur !== "hibe_duyurusu") return false;
-    }
+    if(tabOf(it) !== activeTab) return false;
     return true;
   });
 
-  items.sort((a,b) => (b.date||b.first_seen||"").localeCompare(a.date||a.first_seen||""));
+  if(sortBy === "deadline"){
+    items.sort((a,b) => {
+      const da = (a.details && a.details.son_basvuru_tarihi) || "9999-99-99";
+      const db = (b.details && b.details.son_basvuru_tarihi) || "9999-99-99";
+      return da.localeCompare(db); // en yakın son tarih önce, tarihi olmayanlar sona
+    });
+  } else {
+    items.sort((a,b) => (b.date||b.first_seen||"").localeCompare(a.date||a.first_seen||""));
+  }
 
   document.getElementById('stats').innerHTML =
     `<span><b>${items.length}</b> duyuru gösteriliyor</span><span><b>${ALL_ITEMS.length}</b> toplam kayıt</span>`;
@@ -392,12 +432,20 @@ async function init(){
 
 document.getElementById('search').addEventListener('input', render);
 document.getElementById('sourceFilter').addEventListener('change', render);
-document.getElementById('showOthers').addEventListener('change', render);
+document.getElementById('sortBy').addEventListener('change', render);
 document.querySelectorAll('.chip').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.chip').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     activeRange = btn.dataset.range;
+    render();
+  });
+});
+document.querySelectorAll('.tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeTab = btn.dataset.tab;
     render();
   });
 });
