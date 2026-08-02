@@ -156,6 +156,31 @@
   .entry-info-value.ok{color:var(--green);}
   .entry-info-empty{color:var(--ink-soft);font-style:italic;font-size:0.7rem;}
 
+  /* ---------- Düzenle butonu + form ---------- */
+  .edit-btn{
+    border:none;background:transparent;cursor:pointer;font-size:0.78rem;
+    padding:0 0.2rem;opacity:0.55;vertical-align:middle;margin-left:0.3rem;
+  }
+  .edit-btn:hover{opacity:1;}
+  .edit-form{
+    grid-column:1 / -1;margin-top:0.8rem;padding:0.9rem 1rem;
+    border:1px dashed var(--seal-soft);border-radius:4px;background:var(--paper);
+  }
+  .edit-form h4{margin:0 0 0.6rem;font-family:'IBM Plex Mono',monospace;font-size:0.75rem;color:var(--seal);text-transform:uppercase;letter-spacing:0.05em;}
+  .edit-label{display:block;font-family:'IBM Plex Mono',monospace;font-size:0.68rem;color:var(--ink-soft);margin:0.6rem 0 0.25rem;}
+  .edit-form input[type="text"], .edit-form input[type="date"], .edit-form textarea{
+    width:100%;padding:0.5rem 0.6rem;border:1.5px solid var(--line);background:var(--paper-raised);
+    color:var(--ink);font-family:'Inter',sans-serif;font-size:0.85rem;border-radius:2px;
+  }
+  .edit-temalar{max-height:120px;overflow-y:auto;border:1px solid var(--line);border-radius:2px;padding:0.5rem;background:var(--paper-raised);}
+  .edit-actions{display:flex;align-items:center;gap:0.6rem;margin-top:0.8rem;}
+  .edit-actions button{
+    font-family:'IBM Plex Mono',monospace;font-size:0.76rem;padding:0.45rem 0.8rem;border-radius:2px;cursor:pointer;
+  }
+  .edit-save{background:var(--ink);color:var(--paper-raised);border:1.5px solid var(--ink);}
+  .edit-cancel{background:transparent;color:var(--ink-soft);border:1.5px solid var(--line);}
+  .edit-status{font-family:'IBM Plex Mono',monospace;font-size:0.72rem;color:var(--ink-soft);}
+
   .empty, .loading{padding:3rem 1rem;text-align:center;color:var(--ink-soft);font-family:'IBM Plex Mono',monospace;font-size:0.85rem;}
 
   footer{max-width:1080px;margin:0 auto 3rem;padding:1.5rem 1.5rem 0;border-top:1px solid var(--line);font-family:'IBM Plex Mono',monospace;font-size:0.72rem;color:var(--ink-soft);}
@@ -302,21 +327,22 @@ document.getElementById('themeToggle').addEventListener('click', () => {
   applyTheme(current === 'dark' ? 'light' : 'dark');
 });
 
-/* ---------- GitHub Actions'ı panelden tetikleme ---------- */
+/* ---------- GitHub Actions'ı panelden tetikleme + panelden düzenleme ---------- */
 /* GÜVENLİK NOTU: Bu sayfa herkese açık statik bir GitHub Pages sayfasıdır.
-   GitHub'ın tarama işlemini başlatabilmesi için bir yetki anahtarı (Personal
-   Access Token) gerekir. Bu anahtar HİÇBİR ZAMAN bu dosyaya/koda gömülmez —
-   gömülseydi sayfayı ziyaret eden HERKES anahtarını görüp kötüye
-   kullanabilirdi. Bunun yerine, butona bastığında anahtarı SEN tarayıcı
-   penceresine yapıştırıyorsun; anahtar sadece o an tarayıcı belleğinde durur
-   (istersen "bu tarayıcıda hatırla" ile yerel olarak saklanabilir, GitHub'a
-   ya da başka bir sunucuya hiç gönderilmez — sadece api.github.com'a,
-   doğrudan senin tarayıcından).
+   GitHub'da bir işlem yapabilmek (tarama başlatma ya da düzenleme kaydetme)
+   için bir yetki anahtarı (Personal Access Token) gerekir. Bu anahtar
+   HİÇBİR ZAMAN bu dosyaya/koda gömülmez — gömülseydi sayfayı ziyaret eden
+   HERKES anahtarını görüp kötüye kullanabilirdi. Bunun yerine, ilk işlemde
+   anahtarı SEN tarayıcı penceresine yapıştırıyorsun; anahtar sadece o an
+   tarayıcı belleğinde durur (istersen "bu tarayıcıda hatırla" ile yerel
+   olarak saklanabilir, GitHub'a ya da başka bir sunucuya hiç gönderilmez —
+   sadece api.github.com'a, doğrudan senin tarayıcından).
    Önerilen anahtar türü: GitHub'da "Fine-grained personal access token",
-   SADECE bu depoya ve SADECE "Actions: Read and write" iznine sahip olacak
-   şekilde oluşturulmalı — böylece anahtar bir şekilde ele geçse bile en
-   kötü ihtimalle sadece gereksiz tarama çalıştırılabilir, kodun/verinin
-   kendisi değiştirilemez ya da başka bir depoya erişilemez. */
+   SADECE bu depoya, "Actions: Read and write" (tarama tetiklemek için) VE
+   "Contents: Read and write" (düzenleme kaydetmek için) izinleriyle
+   oluşturulmalı — böylece anahtar bir şekilde ele geçse bile sadece bu
+   depoda tarama çalıştırılabilir/veri dosyaları güncellenebilir, kod
+   çalıştırılamaz, başka bir depoya erişilemez. */
 function detectRepo(){
   // https://kullanici.github.io/repo-adi/  ->  {owner: kullanici, repo: repo-adi}
   const host = window.location.hostname; // kullanici.github.io
@@ -331,25 +357,34 @@ function showTriggerStatus(text, kind){
   box.style.color = kind === 'error' ? 'var(--seal)' : kind === 'ok' ? 'var(--green)' : 'var(--gold)';
   box.textContent = text;
 }
+function getGithubToken(promptText){
+  let token = null;
+  try{ token = localStorage.getItem('hibe-takip-gh-token'); }catch(e){}
+  if(!token){
+    token = window.prompt(promptText);
+    if(!token) return null;
+    const remember = window.confirm('Bu anahtarı bu tarayıcıda hatırlayayım mı? (Onaylarsan bir daha sormam, ama bu bilgisayara/tarayıcıya erişen biri de kullanabilir.)');
+    if(remember){ try{ localStorage.setItem('hibe-takip-gh-token', token); }catch(e){} }
+  }
+  return token;
+}
+function forgetGithubToken(){
+  try{ localStorage.removeItem('hibe-takip-gh-token'); }catch(e){}
+}
+
 document.getElementById('triggerScan').addEventListener('click', async () => {
   const repoInfo = detectRepo();
   if(!repoInfo){
     showTriggerStatus('Bu sayfa GitHub Pages üzerinde (kullanici.github.io/depo-adi/ biçiminde) çalışmıyor gibi görünüyor, otomatik depo tespiti yapılamadı.', 'error');
     return;
   }
-  let token = null;
-  try{ token = localStorage.getItem('hibe-takip-gh-token'); }catch(e){}
-  if(!token){
-    token = window.prompt(
-      'Taramayı başlatmak için bir GitHub Personal Access Token gerekiyor.\n\n' +
-      'GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token.\n' +
-      'Sadece bu depoyu ve sadece "Actions: Read and write" iznini seç.\n\n' +
-      'Anahtarı buraya yapıştır (tarayıcından başka hiçbir yere gönderilmez):'
-    );
-    if(!token) return;
-    const remember = window.confirm('Bu anahtarı bu tarayıcıda hatırlayayım mı? (Onaylarsan bir daha sormam, ama bu bilgisayara/tarayıcıya erişen biri de kullanabilir.)');
-    if(remember){ try{ localStorage.setItem('hibe-takip-gh-token', token); }catch(e){} }
-  }
+  const token = getGithubToken(
+    'Taramayı başlatmak için bir GitHub Personal Access Token gerekiyor.\n\n' +
+    'GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token.\n' +
+    'Sadece bu depoyu, "Actions: Read and write" ve "Contents: Read and write" izinlerini seç.\n\n' +
+    'Anahtarı buraya yapıştır (tarayıcından başka hiçbir yere gönderilmez):'
+  );
+  if(!token) return;
 
   showTriggerStatus('Tarama başlatılıyor…', 'info');
   try{
@@ -366,7 +401,7 @@ document.getElementById('triggerScan').addEventListener('click', async () => {
       showTriggerStatus('Tarama başlatıldı ✓ — GitHub Actions sekmesinden takip edebilirsin, birkaç dakika sonra bu sayfayı yenile.', 'ok');
     } else if(res.status === 401 || res.status === 403){
       showTriggerStatus('Yetki reddedildi — anahtarın süresi dolmuş ya da izinleri yetersiz olabilir. Sayfayı yenileyip tekrar dener misin?', 'error');
-      try{ localStorage.removeItem('hibe-takip-gh-token'); }catch(e){}
+      forgetGithubToken();
     } else {
       const body = await res.text();
       showTriggerStatus(`Beklenmeyen yanıt (HTTP ${res.status}): ${body.slice(0,150)}`, 'error');
@@ -375,6 +410,129 @@ document.getElementById('triggerScan').addEventListener('click', async () => {
     showTriggerStatus('İstek gönderilemedi (ağ hatası ya da tarayıcı GitHub API isteğini engelledi): ' + e.message, 'error');
   }
 });
+
+/* ---------- Panelden düzenleme (etiket ekle/çıkar, miktar/tarih düzelt, not al) ---------- */
+/* Düzenlemeler data/user_edits.json içinde AI çıktısının ÜZERİNE yazılan ayrı
+   bir katmanda tutulur (AI'ın kendi çıktısı asla silinmez/değiştirilmez).
+   GitHub'a kaydedilemezse (token yok/izin yok) otomatik olarak SADECE bu
+   tarayıcıda (localStorage) saklanır — bu durumda değişiklik başka
+   cihazlarda/ziyaretçilerde görünmez, panelde bunu açıkça belirtiyoruz. */
+let USER_EDITS = {};       // GitHub'daki data/user_edits.json + bu tarayıcının yerel taslakları birleşmiş hali
+let USER_EDITS_SHA = null; // GitHub Contents API için — dosyayı güncellemek üzere gereken sürüm imzası
+
+function loadLocalEdits(){
+  try{ return JSON.parse(localStorage.getItem('hibe-takip-local-edits') || '{}'); }catch(e){ return {}; }
+}
+function saveLocalEdits(edits){
+  try{ localStorage.setItem('hibe-takip-local-edits', JSON.stringify(edits)); }catch(e){}
+}
+function effectiveDetails(it){
+  // Panelde gösterilecek nihai değerler: AI çıktısı + varsa üzerine yazan manuel düzenleme.
+  const base = it.details || {};
+  const edit = USER_EDITS[it.url];
+  if(!edit) return base;
+  return { ...base, ...edit, _edited: true };
+}
+
+async function saveEditToGithub(updatedAllEdits){
+  const repoInfo = detectRepo();
+  if(!repoInfo) return { ok:false, reason:'norepo' };
+  const token = getGithubToken(
+    'Düzenlemeyi kaydetmek için bir GitHub Personal Access Token gerekiyor.\n\n' +
+    'GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token.\n' +
+    'Sadece bu depoyu ve "Contents: Read and write" iznini seç.\n\n' +
+    'Anahtarı buraya yapıştır (tarayıcından başka hiçbir yere gönderilmez):'
+  );
+  if(!token) return { ok:false, reason:'notoken' };
+
+  try{
+    // Güncel sha'yı al (dosya değişmiş olabilir)
+    const getRes = await fetch(`https://api.github.com/repos/${repoInfo.owner}/${repoInfo.repo}/contents/data/user_edits.json`, {
+      headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' },
+    });
+    let sha = undefined;
+    if(getRes.ok){ const j = await getRes.json(); sha = j.sha; }
+
+    const jsonStr = JSON.stringify(updatedAllEdits, null, 2);
+    const content = btoa(unescape(encodeURIComponent(jsonStr))); // UTF-8 güvenli base64
+
+    const putRes = await fetch(`https://api.github.com/repos/${repoInfo.owner}/${repoInfo.repo}/contents/data/user_edits.json`, {
+      method: 'PUT',
+      headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: 'Panel üzerinden manuel düzenleme', content, sha, branch: 'main' }),
+    });
+    if(putRes.ok){ return { ok:true }; }
+    if(putRes.status === 401 || putRes.status === 403){ forgetGithubToken(); return { ok:false, reason:'auth' }; }
+    return { ok:false, reason:'http', status: putRes.status };
+  } catch(e){
+    return { ok:false, reason:'network', message: e.message };
+  }
+}
+
+function openEditForm(url){
+  const it = ALL_ITEMS.find(i => i.url === url);
+  if(!it) return;
+  const d = effectiveDetails(it);
+  const formId = 'editform-' + btoa(url).replace(/[^a-zA-Z0-9]/g,'');
+  const existing = document.getElementById(formId);
+  if(existing){ existing.remove(); return; } // tekrar tıklanırsa kapat
+
+  const temaOptions = TEMA_LISTESI.map(t =>
+    `<label style="display:inline-flex;align-items:center;gap:0.3rem;margin:0.15rem 0.5rem 0.15rem 0;font-size:0.78rem;">
+      <input type="checkbox" value="${t}" ${(d.temalar||[]).includes(t) ? 'checked' : ''}> ${t}
+    </label>`).join('');
+
+  const form = document.createElement('div');
+  form.id = formId;
+  form.className = 'edit-form';
+  form.innerHTML = `
+    <h4>Düzenle</h4>
+    <label class="edit-label">Hibe miktarı (serbest metin)</label>
+    <input type="text" class="edit-amount" value="${(d.hibe_miktari||'').replace(/"/g,'&quot;')}" placeholder="ör. %75 hibe, üst limit 500.000 TL">
+    <label class="edit-label">Son başvuru tarihi</label>
+    <input type="date" class="edit-deadline" value="${(d.son_basvuru_tarihleri && d.son_basvuru_tarihleri[0]) || ''}">
+    <label class="edit-label">Etiketler</label>
+    <div class="edit-temalar">${temaOptions}</div>
+    <label class="edit-label">Not (sadece bu panelde görünür, AI'a gönderilmez)</label>
+    <textarea class="edit-notlar" rows="2" placeholder="kendi notunu yaz…">${d.notlar || ''}</textarea>
+    <div class="edit-actions">
+      <button class="edit-save">Kaydet</button>
+      <button class="edit-cancel">Vazgeç</button>
+      <span class="edit-status"></span>
+    </div>
+  `;
+  const card = document.querySelector(`[data-entry-url="${CSS.escape(url)}"]`);
+  card.appendChild(form);
+
+  form.querySelector('.edit-cancel').addEventListener('click', () => form.remove());
+  form.querySelector('.edit-save').addEventListener('click', async () => {
+    const statusEl = form.querySelector('.edit-status');
+    const newAmount = form.querySelector('.edit-amount').value.trim();
+    const newDeadline = form.querySelector('.edit-deadline').value;
+    const newTemalar = [...form.querySelectorAll('.edit-temalar input:checked')].map(c => c.value);
+    const newNotlar = form.querySelector('.edit-notlar').value.trim();
+
+    const edit = {
+      hibe_miktari: newAmount || null,
+      son_basvuru_tarihleri: newDeadline ? [newDeadline] : (d.son_basvuru_tarihleri || null),
+      temalar: newTemalar,
+      notlar: newNotlar || null,
+      edited_at: new Date().toISOString(),
+    };
+    USER_EDITS[url] = edit;
+
+    statusEl.textContent = 'Kaydediliyor…';
+    const result = await saveEditToGithub(USER_EDITS);
+    if(result.ok){
+      statusEl.textContent = '✓ GitHub\'a kaydedildi, herkes görecek.';
+      const local = loadLocalEdits(); delete local[url]; saveLocalEdits(local);
+    } else {
+      statusEl.textContent = '⚠ GitHub\'a kaydedilemedi, sadece bu tarayıcıda saklandı.';
+      const local = loadLocalEdits(); local[url] = edit; saveLocalEdits(local);
+    }
+    setTimeout(() => { render(); }, 900);
+  });
+}
 
 document.getElementById('filterToggle').addEventListener('click', () => {
   document.getElementById('filterPanel').classList.toggle('open');
@@ -396,7 +554,8 @@ function daysAgo(dateStr){
   return (Date.now() - new Date(dateStr).getTime()) / (1000*60*60*24);
 }
 function earliestDeadline(it){
-  const arr = it.details && it.details.son_basvuru_tarihleri;
+  const eff = effectiveDetails(it);
+  const arr = eff.son_basvuru_tarihleri;
   if(arr && arr.length) return [...arr].sort()[0];
   const raw = it.on_tarihler;
   if(raw && raw.length) return [...raw].sort().slice(-1)[0];
@@ -515,7 +674,8 @@ function render(){
   list.innerHTML = items.map(it => {
     const isNew = daysAgo(it.first_seen) <= 7;
     const dateLabel = it.date || it.first_seen || "—";
-    const d = it.details;
+    const d = effectiveDetails(it);
+    const wasEdited = !!d._edited;
     const detailBits = [];
     if (d) {
       if (d.kimler_basvurabilir) detailBits.push(`<b>Kimler:</b> ${d.kimler_basvurabilir}`);
@@ -524,17 +684,15 @@ function render(){
     const otherTag = d && d.tur && d.tur !== "hibe_duyurusu"
       ? `<span class="badge badge-other">${d.tur.replace(/_/g,' ')}</span>` : '';
     const dupTag = it.duplicate_of ? `<span class="badge badge-other">kopya</span>` : '';
+    const editedTag = wasEdited ? `<span class="badge badge-other" title="Panelden manuel düzenlendi">elle düzenlendi</span>` : '';
 
     const status = aiStatusOf(it);
     const aiBadgeLabel = status === "verified" ? "AI onaylı" : status === "pending" ? "AI bekliyor" : "ücretsiz tahmin";
     const aiBadge = `<span class="badge badge-ai ${status}">${aiBadgeLabel}</span>`;
 
-    const temaChips = (d && d.temalar && d.temalar.length)
-      ? `<div class="entry-temalar">${d.temalar.map(t => `<span class="tema-chip">${t}</span>`).join('')}</div>` : '';
-
     /* Sağdaki tablo görünümlü bilgi paneli: son başvuru tarihi, kalan gün,
-       hibe miktarı — artık başlığın içinde küçük bir rozet değil, ayrı ve
-       net bir bölüm. */
+       hibe miktarı, etiketler — başlığın içinde küçük rozetler değil, ayrı
+       ve net, tablo gibi okunabilen bir bölüm. */
     const deadline = earliestDeadline(it);
     const dleft = deadline ? daysUntil(deadline) : null;
     const isEstimated = !(d && d.son_basvuru_tarihleri && d.son_basvuru_tarihleri.length);
@@ -555,9 +713,17 @@ function render(){
     const amountRow = d && d.hibe_miktari
       ? `<div class="entry-info-row"><span class="entry-info-label">Hibe miktarı</span><span class="entry-info-value">${d.hibe_miktari}</span></div>`
       : '';
+    const temaRow = (d && d.temalar && d.temalar.length)
+      ? `<div class="entry-info-row"><span class="entry-info-label">Etiketler</span>
+           <span class="entry-temalar">${d.temalar.map(t => `<span class="tema-chip">${t}</span>`).join('')}</span>
+         </div>`
+      : '';
+    const notlarRow = d && d.notlar
+      ? `<div class="entry-info-row"><span class="entry-info-label">Not</span><span class="entry-info-value">${d.notlar}</span></div>`
+      : '';
 
     return `
-      <div class="entry">
+      <div class="entry" data-entry-url="${it.url}">
         <div class="entry-date">${dateLabel}</div>
         <div class="entry-body">
           <div class="entry-source">${it.source}</div>
@@ -566,19 +732,29 @@ function render(){
             ${isNew ? '<span class="badge badge-new">YENİ</span>' : ''}
             ${otherTag}
             ${dupTag}
+            ${editedTag}
             ${aiBadge}
+            <button class="edit-btn" data-edit-url="${it.url}" title="Bu kaydı düzenle">✏️</button>
           </div>
           ${d && d.ozet ? `<div class="entry-summary">${d.ozet}</div>` : ''}
           ${detailBits.length ? `<div class="entry-details">${detailBits.join(' &nbsp;·&nbsp; ')}</div>` : ''}
-          ${temaChips}
         </div>
         <div class="entry-info">
           ${deadlineRow}
           ${amountRow}
+          ${temaRow}
+          ${notlarRow}
         </div>
       </div>`;
   }).join("");
 }
+
+// Düzenle butonu dinamik olarak eklendiği için tek bir delege edilmiş
+// listener kullanıyoruz (#list her render()'da yeniden oluşturuluyor).
+document.getElementById('list').addEventListener('click', (e) => {
+  const btn = e.target.closest('.edit-btn');
+  if(btn){ e.preventDefault(); openEditForm(btn.dataset.editUrl); }
+});
 
 async function init(){
   try{
@@ -588,6 +764,16 @@ async function init(){
     TEMA_LISTESI = data.tema_listesi || [];
     document.getElementById('lastUpdated').textContent =
       data.last_updated ? `Son güncelleme: ${data.last_updated}` : "";
+
+    // Manuel düzenlemeler: önce GitHub'daki paylaşılan dosyayı (herkes görür),
+    // sonra bu tarayıcının henüz GitHub'a kaydedilememiş yerel taslaklarını
+    // üzerine bindir (yerel taslak varsa o öncelikli — henüz senkronize
+    // edilmemiş en güncel hâlin).
+    try{
+      const editsRes = await fetch('data/user_edits.json', {cache:"no-store"});
+      const githubEdits = editsRes.ok ? await editsRes.json() : {};
+      USER_EDITS = { ...githubEdits, ...loadLocalEdits() };
+    }catch(e){ USER_EDITS = loadLocalEdits(); }
 
     const aiStatus = data.ai_status;
     if(aiStatus && aiStatus.quota_exceeded){

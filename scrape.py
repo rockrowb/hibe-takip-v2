@@ -35,6 +35,7 @@ Kullanım:
 """
 import argparse
 import re
+import ssl
 import sys
 import time
 import json
@@ -43,13 +44,23 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.ssl_ import create_urllib3_context
 from bs4 import BeautifulSoup
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                   "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
     "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
 }
 ROOT = Path(__file__).parent
 RAW_FILE = ROOT / "data" / "raw.json"
@@ -57,6 +68,26 @@ SOURCES_FILE = ROOT / "sources.json"
 TIMEOUT = 20
 MIN_TITLE_LEN = 12
 MIN_LINKS_TO_ACCEPT_PAGE = 4
+RETRYABLE_STATUS = {500, 502, 503, 504}
+
+
+class LegacySSLAdapter(HTTPAdapter):
+    """Bazı eski/özel yapılandırılmış sunucular (ör. bazı .gov.tr siteleri)
+    modern OpenSSL varsayılanlarıyla 'handshake failure' hatası veriyor.
+    Bu adaptör güvenlik seviyesini bilinçli olarak biraz düşürüp (SECLEVEL=1)
+    bu tip eski sunucularla da bağlantı kurabilmeyi sağlar. Sadece normal
+    bağlantı SSLError ile başarısız olduğunda, ikinci deneme olarak
+    kullanılır."""
+    def init_poolmanager(self, *args, **kwargs):
+        ctx = create_urllib3_context()
+        ctx.set_ciphers("DEFAULT@SECLEVEL=1")
+        ctx.options |= getattr(ssl, "OP_LEGACY_SERVER_CONNECT", 0)
+        kwargs["ssl_context"] = ctx
+        return super().init_poolmanager(*args, **kwargs)
+
+
+_legacy_session = requests.Session()
+_legacy_session.mount("https://", LegacySSLAdapter())
 
 NOISE_WORDS = {
     "anasayfa", "iletişim", "hakkımızda", "kurumsal", "giriş", "kayıt ol",
@@ -106,10 +137,34 @@ def parse_all_dates(text):
 
 
 def fetch(url):
-    r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-    status = r.status_code
-    r.raise_for_status()
-    return BeautifulSoup(r.text, "html.parser"), status, len(r.text)
+    """Normal istek dener; SSL hatası alırsa (bazı eski .gov.tr sunucuları)
+    esnetilmiş bir SSL bağlamıyla bir kez daha dener; 500/502/503/504 gibi
+    geçici sunucu hatalarında kısa bir bekleme sonrası bir kez daha dener."""
+    last_exc = None
+    for attempt in range(2):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+            if r.status_code in RETRYABLE_STATUS and attempt == 0:
+                time.sleep(2.0)
+                continue
+            r.raise_for_status()
+            return BeautifulSoup(r.text, "html.parser"), r.status_code, len(r.text)
+        except requests.exceptions.SSLError as e:
+            last_exc = e
+            try:
+                r = _legacy_session.get(url, headers=HEADERS, timeout=TIMEOUT)
+                r.raise_for_status()
+                return BeautifulSoup(r.text, "html.parser"), r.status_code, len(r.text)
+            except Exception as e2:
+                last_exc = e2
+                break
+        except requests.exceptions.HTTPError as e:
+            last_exc = e
+            if attempt == 0 and e.response is not None and e.response.status_code in RETRYABLE_STATUS:
+                time.sleep(2.0)
+                continue
+            raise
+    raise last_exc
 
 
 def looks_like_announcement(a, link_contains):
