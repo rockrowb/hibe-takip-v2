@@ -59,6 +59,7 @@ import os
 import re
 import sys
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
@@ -101,7 +102,9 @@ Aşağıdaki şemada SADECE JSON döndür, başka hiçbir şey yazma (açıklama
   "tur": "hibe_duyurusu" | "haber" | "sonuc_ilani" | "diger",
   "basvuruya_acik": true | false | null,
   "kimler_basvurabilir": "kısa açıklama veya null",
-  "hibe_miktari": "tutar/oran bilgisi (ör. '%75 hibe, üst limit 500.000 TL') veya null",
+  "hibe_miktari": "tutar/oran bilgisi, insan tarafından okunacak (ör. '%75 hibe, üst limit 500.000 TL') veya null",
+  "hibe_miktari_min_tl": sayı (üst/tek tutar TL cinsinden, sadece rakam, virgülsüz — ör. 500000) veya null,
+  "hibe_miktari_max_tl": sayı (aralık varsa üst sınır TL cinsinden) veya null (tek tutarsa min ile aynı değeri yaz),
   "son_basvuru_tarihleri": ["YYYY-MM-DD", "..."] veya null (birden fazla aşama/dönem varsa hepsini listele, tek tarihse tek elemanlı liste),
   "desteklenen_aktiviteler": "hangi temel hizmetler/faaliyetler/harcamalar destekleniyor, kısa liste veya null",
   "temalar": ["..."] (aşağıdaki listeden 0-4 tane uygun olanı seç, listede yoksa boş bırak),
@@ -124,8 +127,13 @@ AÇIKÇA yeni başvurulara açık, güncel bir hibe/destek/fon çağrısı olmal
 - Başvuru sonuçları/kazananlar/asıl-yedek liste/yarışma sonucu açıklanıyorsa "sonuc_ilani".
 - "basvuruya_acik": metinde başvuru tarihinin geçmiş/gelecek olduğu netse true/false yap,
   emin değilsen null bırak.
-- tur "hibe_duyurusu" DEĞİLSE kimler_basvurabilir, hibe_miktari, son_basvuru_tarihleri,
-  desteklenen_aktiviteler, temalar alanlarını null/boş bırak, sadece ozet'i doldur.
+- hibe_miktari_min_tl/max_tl: metinde döviz (EUR/USD) geçiyorsa TL'ye çevirmeye
+  ÇALIŞMA, o zaman null bırak (yanlış kur riskinden kaçın). Sadece TL cinsinden
+  net bir rakam varsa doldur. Yüzde (%) oranı tek başına verilmişse (tutar
+  belirtilmemişse) de null bırak.
+- tur "hibe_duyurusu" DEĞİLSE kimler_basvurabilir, hibe_miktari, hibe_miktari_min_tl,
+  hibe_miktari_max_tl, son_basvuru_tarihleri, desteklenen_aktiviteler, temalar
+  alanlarını null/boş bırak, sadece ozet'i doldur.
 - Emin olmadığın alanları null bırak, metinde olmayan bilgiyi ASLA uydurma."""
 
 
@@ -251,6 +259,8 @@ def empty_details(tur_tahmini):
         "basvuruya_acik": False,
         "kimler_basvurabilir": None,
         "hibe_miktari": None,
+        "hibe_miktari_min_tl": None,
+        "hibe_miktari_max_tl": None,
         "son_basvuru_tarihleri": None,
         "desteklenen_aktiviteler": None,
         "temalar": [],
@@ -274,6 +284,7 @@ def main():
 
     classified = json.loads(CLASSIFIED_FILE.read_text(encoding="utf-8"))
     classified_items = classified.get("items", {})
+    now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     # Önceki AI sonuçlarını (data/duyurular.json) yükle — "details" alanları KORUNUR.
     if DATA_FILE.exists():
@@ -291,6 +302,15 @@ def main():
             merged["details"] = existing_items[url]["details"]
         items[url] = merged
 
+    def build_store(ai_status):
+        return {
+            "last_updated": classified.get("last_updated"),
+            "source_status": classified.get("source_status", {}),
+            "tema_listesi": TEMA_LISTESI,  # panel filtre kutucuklarını hep bu sabit listeyle doldurur
+            "ai_status": ai_status,
+            "items": items,
+        }
+
     # --- GÜVENCE 1: yeni kayıt yoksa AI'a hiç gidilmez ---
     # Not: "duplicate_of" işaretli kayıtlar (classify.py'ın tekilleştirmesi)
     # AI kuyruğuna hiç girmez — zaten başka bir kayıtla aynı, gereksiz
@@ -298,17 +318,13 @@ def main():
     pending = [k for k, v in items.items() if "details" not in v and not v.get("duplicate_of")]
     if not pending:
         print("Yeni/bekleyen kayıt yok — AI'a hiç gidilmedi, hiçbir çağrı yapılmadı.")
-        store = {"last_updated": classified.get("last_updated"),
-                  "source_status": classified.get("source_status", {}), "items": items}
-        save(store)
+        save(build_store({"provider": None, "quota_exceeded": False, "checked_at": now_iso, "pending_count": 0}))
         sys.exit(0)
 
     provider, api_key = get_provider()
     if not provider:
         print(f"{len(pending)} bekleyen kayıt var ama ANTHROPIC_API_KEY/GEMINI_API_KEY tanımlı değil — AI atlanıyor.")
-        store = {"last_updated": classified.get("last_updated"),
-                  "source_status": classified.get("source_status", {}), "items": items}
-        save(store)
+        save(build_store({"provider": None, "quota_exceeded": False, "checked_at": now_iso, "pending_count": len(pending)}))
         sys.exit(0)
     print(f"Kullanılan AI sağlayıcı: {provider} | Bekleyen kayıt: {len(pending)}")
 
@@ -331,9 +347,10 @@ def main():
     print(f"Ücretsiz filtre ile atlanan (muhtemel sonuç ilanı / haber): {skipped_free}")
     print(f"AI'ya gönderilecek kayıt: {len(to_call_ai)}")
 
-    store = {"last_updated": classified.get("last_updated"),
-              "source_status": classified.get("source_status", {}), "items": items}
-    save(store)
+    quota_hit = False
+    quota_error_msg = None
+    ai_status = {"provider": provider, "quota_exceeded": False, "checked_at": now_iso, "pending_count": len(to_call_ai)}
+    save(build_store(ai_status))
 
     processed = 0
     try:
@@ -353,16 +370,25 @@ def main():
             except QuotaExceeded as e:
                 print(f"\nAPI kotası/token limiti doldu ({e}).")
                 print(f"Bu çalıştırmada {processed} kayıt işlendi, kalanlar bir sonraki çalıştırmada devam edecek.")
+                quota_hit = True
+                quota_error_msg = str(e)
                 break
             except Exception as e:
                 print(f"  AI hata (bu kayıt atlandı, devam ediliyor): {e} -> {item['title'][:60]}")
 
-            store["items"] = items
-            save(store)
+            ai_status["pending_count"] = sum(1 for k in to_call_ai if "details" not in items[k])
+            save(build_store(ai_status))
             time.sleep(0.4)
     finally:
-        store["items"] = items
-        save(store)
+        remaining_now = sum(1 for k in to_call_ai if "details" not in items[k])
+        ai_status = {
+            "provider": provider,
+            "quota_exceeded": quota_hit,
+            "quota_error": quota_error_msg,
+            "checked_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "pending_count": remaining_now,
+        }
+        save(build_store(ai_status))
 
     remaining = sum(1 for k in to_call_ai if "details" not in items[k])
     print(f"\nTamamlandı. Ücretsiz: {skipped_free} | AI ile işlenen: {processed}"

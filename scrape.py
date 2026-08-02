@@ -92,6 +92,19 @@ def parse_date(text):
     return None
 
 
+def parse_all_dates(text):
+    """Bloktaki TÜM tarihleri (tekrarsız, sırayla) döndürür — ör. bir kaynak
+    listelemesinde 'Başlangıç: ... Bitiş: ...' gibi iki tarih birden
+    geçiyorsa ikisini de yakalar. Bu, ka.gov.tr gibi sitelerde AI'ya hiç
+    gitmeden doğrudan tarih bilgisi elde etmek için kullanılır."""
+    found = []
+    for d, mo, y in re.findall(r"(\d{2})\.(\d{2})\.(\d{4})", text):
+        iso = f"{y}-{mo}-{d}"
+        if iso not in found:
+            found.append(iso)
+    return found
+
+
 def fetch(url):
     r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
     r.raise_for_status()
@@ -125,8 +138,14 @@ def scrape_page(url, link_contains):
         title = a.get_text(strip=True)
         href = urljoin(url, a["href"])
         block = a.find_parent(["div", "li", "article"]) or a
-        date_iso = parse_date(block.get_text(" ", strip=True))
-        entries.append({"title": title, "url": href, "date": date_iso})
+        block_text = block.get_text(" ", strip=True)
+        date_iso = parse_date(block_text)
+        # Ham, AI'sız tarih yakalama: bloktaki TÜM tarihler (ör. ka.gov.tr'de
+        # "Teklif Teslimi Başlangıç/Bitiş Tarihi" gibi iki tarih birden
+        # geçebiliyor). En sonuncusu genelde son başvuru/bitiş tarihidir —
+        # panel bunu AI çalışmasa bile ön-tahmin olarak kullanabilir.
+        all_dates = parse_all_dates(block_text)
+        entries.append({"title": title, "url": href, "date": date_iso, "on_tarihler": all_dates})
     return entries
 
 
@@ -211,6 +230,8 @@ def main():
                 items[key]["title"] = entry["title"] or items[key]["title"]
                 if entry.get("date"):
                     items[key]["date"] = entry["date"]
+                if entry.get("on_tarihler"):
+                    items[key]["on_tarihler"] = entry["on_tarihler"]
         added_total += added
         print(f"  -> yeni: {added}")
 

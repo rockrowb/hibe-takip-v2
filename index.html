@@ -8,274 +8,126 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --ink:#152238;
-    --ink-soft:#3b4a63;
-    --paper:#f4f1e9;
-    --paper-raised:#fffdf8;
+    --ink:#152238; --ink-soft:#3b4a63;
+    --paper:#f4f1e9; --paper-raised:#fffdf8;
     --line:#d8d2c2;
-    --seal:#a8471f;
-    --seal-soft:#f0ded3;
-    --gold:#b9862f;
-    --gold-soft:#f3e6c9;
-    --green:#3d5c3a;
-    --green-soft:#e3e8de;
+    --seal:#a8471f; --seal-soft:#f0ded3;
+    --gold:#b9862f; --gold-soft:#f3e6c9;
+    --green:#3d5c3a; --green-soft:#e3e8de;
     color-scheme: light;
   }
   html[data-theme="dark"]{
-    --ink:#ece7da;
-    --ink-soft:#a8a190;
-    --paper:#1b1a17;
-    --paper-raised:#242320;
+    --ink:#ece7da; --ink-soft:#a8a190;
+    --paper:#1b1a17; --paper-raised:#242320;
     --line:#3a3833;
-    --seal:#e07a4c;
-    --seal-soft:#3a271e;
-    --gold:#e0b866;
-    --gold-soft:#3a3120;
-    --green:#9bc496;
-    --green-soft:#26301f;
+    --seal:#e07a4c; --seal-soft:#3a271e;
+    --gold:#e0b866; --gold-soft:#3a3120;
+    --green:#9bc496; --green-soft:#26301f;
     color-scheme: dark;
   }
   *{box-sizing:border-box;}
   body{
-    margin:0;
-    background:var(--paper);
-    color:var(--ink);
-    font-family:'Inter',sans-serif;
-    -webkit-font-smoothing:antialiased;
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:'Inter',sans-serif; -webkit-font-smoothing:antialiased;
     transition:background 0.15s ease, color 0.15s ease;
   }
   a{color:inherit;}
+  .wrap{max-width:1080px;margin:0 auto;padding-left:1.5rem;padding-right:1.5rem;}
 
-  .masthead{
-    border-bottom:3px solid var(--ink);
-    padding:2.2rem 1.5rem 1.4rem;
-    max-width:1080px;
-    margin:0 auto;
-  }
-  .masthead-top{
-    display:flex;
-    justify-content:space-between;
-    align-items:flex-start;
-    flex-wrap:wrap;
-    gap:1rem;
-  }
-  .eyebrow{
-    font-family:'IBM Plex Mono',monospace;
-    font-size:0.72rem;
-    letter-spacing:0.14em;
-    text-transform:uppercase;
-    color:var(--seal);
-    margin:0 0 0.5rem;
-  }
-  h1{
-    font-family:'Fraunces',serif;
-    font-weight:700;
-    font-size:clamp(2rem,4.5vw,3.1rem);
-    margin:0;
-    line-height:1.02;
-    letter-spacing:-0.01em;
-  }
-  .masthead-right{
-    display:flex;
-    align-items:center;
-    gap:0.8rem;
-  }
-  .last-updated{
-    font-family:'IBM Plex Mono',monospace;
-    font-size:0.78rem;
-    color:var(--ink-soft);
-    text-align:right;
-  }
+  .masthead{border-bottom:3px solid var(--ink);padding:2.2rem 1.5rem 1.4rem;max-width:1080px;margin:0 auto;}
+  .masthead-top{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:1rem;}
+  .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:0.72rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--seal);margin:0 0 0.5rem;}
+  h1{font-family:'Fraunces',serif;font-weight:700;font-size:clamp(2rem,4.5vw,3.1rem);margin:0;line-height:1.02;letter-spacing:-0.01em;}
+  .masthead-right{display:flex;align-items:center;gap:0.8rem;}
+  .last-updated{font-family:'IBM Plex Mono',monospace;font-size:0.78rem;color:var(--ink-soft);text-align:right;}
   .theme-toggle{
-    width:2.3rem;
-    height:2.3rem;
-    border:1.5px solid var(--ink);
-    background:var(--paper-raised);
-    color:var(--ink);
-    border-radius:50%;
-    cursor:pointer;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:1.05rem;
-    flex-shrink:0;
+    width:2.3rem;height:2.3rem;border:1.5px solid var(--ink);background:var(--paper-raised);color:var(--ink);
+    border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1.05rem;flex-shrink:0;
   }
   .theme-toggle:hover{background:var(--ink);color:var(--paper);}
-  .sub{
-    font-size:0.95rem;
-    color:var(--ink-soft);
-    margin-top:0.6rem;
-    max-width:64ch;
-  }
+  .sub{font-size:0.95rem;color:var(--ink-soft);margin-top:0.6rem;max-width:64ch;}
 
-  .tabs{
-    max-width:1080px;
-    margin:1.6rem auto 0;
-    padding:0 1.5rem;
-    display:flex;
-    gap:0.4rem;
-    border-bottom:1px solid var(--line);
-    flex-wrap:wrap;
-  }
-  .tab{
-    font-family:'IBM Plex Mono',monospace;
-    font-size:0.8rem;
-    padding:0.6rem 0.9rem;
-    border:none;
-    background:transparent;
-    color:var(--ink-soft);
-    cursor:pointer;
-    border-bottom:2px solid transparent;
-    margin-bottom:-1px;
-  }
+  .banner{max-width:1080px;margin:0 auto;padding:0.7rem 1.5rem;font-family:'IBM Plex Mono',monospace;font-size:0.8rem;display:none;align-items:center;gap:0.6rem;}
+  .banner.show{display:flex;}
+  .banner-quota{background:var(--seal-soft);color:var(--seal);border-bottom:1px solid var(--seal);}
+  .banner-dot{width:0.5rem;height:0.5rem;border-radius:50%;background:currentColor;flex-shrink:0;}
+
+  .tabs{max-width:1080px;margin:1.4rem auto 0;padding:0 1.5rem;display:flex;gap:0.4rem;border-bottom:1px solid var(--line);flex-wrap:wrap;}
+  .tab{font-family:'IBM Plex Mono',monospace;font-size:0.8rem;padding:0.6rem 0.9rem;border:none;background:transparent;color:var(--ink-soft);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;}
   .tab.active{color:var(--ink);border-bottom-color:var(--seal);font-weight:600;}
   .tab:hover{color:var(--ink);}
 
-  .controls{
-    max-width:1080px;
-    margin:1rem auto 0;
-    padding:0 1.5rem;
-    display:flex;
-    gap:0.6rem;
-    flex-wrap:wrap;
-    align-items:center;
+  .searchbar{max-width:1080px;margin:1rem auto 0;padding:0 1.5rem;display:flex;gap:0.6rem;flex-wrap:wrap;align-items:center;}
+  input[type="search"], input[type="number"], input[type="date"]{
+    padding:0.65rem 0.9rem;border:1.5px solid var(--line);background:var(--paper-raised);
+    font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--ink);border-radius:2px;
   }
-  input[type="search"]{
-    flex:1 1 220px;
-    padding:0.65rem 0.9rem;
-    border:1.5px solid var(--line);
-    background:var(--paper-raised);
-    font-family:'Inter',sans-serif;
-    font-size:0.92rem;
-    color:var(--ink);
-    border-radius:2px;
-  }
-  input[type="search"]:focus{outline:2px solid var(--seal);outline-offset:1px;}
+  input[type="search"]{flex:1 1 220px;}
+  input[type="search"]:focus, input[type="number"]:focus, input[type="date"]:focus{outline:2px solid var(--seal);outline-offset:1px;}
   select{
-    padding:0.6rem 0.8rem;
-    border:1.5px solid var(--line);
-    background:var(--paper-raised);
-    font-family:'IBM Plex Mono',monospace;
-    font-size:0.8rem;
-    color:var(--ink);
-    border-radius:2px;
+    padding:0.6rem 0.8rem;border:1.5px solid var(--line);background:var(--paper-raised);
+    font-family:'IBM Plex Mono',monospace;font-size:0.8rem;color:var(--ink);border-radius:2px;
   }
-  .chip{
-    font-family:'IBM Plex Mono',monospace;
-    font-size:0.76rem;
-    padding:0.45rem 0.7rem;
-    border:1.5px solid var(--ink);
-    background:transparent;
-    color:var(--ink);
-    cursor:pointer;
-    border-radius:2px;
+  .filter-toggle{
+    font-family:'IBM Plex Mono',monospace;font-size:0.8rem;padding:0.6rem 0.9rem;
+    border:1.5px solid var(--ink);background:var(--paper-raised);color:var(--ink);cursor:pointer;border-radius:2px;
+    display:flex;align-items:center;gap:0.4rem;
   }
-  .chip.active{background:var(--ink);color:var(--paper-raised);}
+  .filter-toggle:hover{background:var(--ink);color:var(--paper-raised);}
+  .filter-toggle.has-filters{border-color:var(--seal);color:var(--seal);}
+  .filter-count{
+    background:var(--seal);color:var(--paper-raised);font-size:0.66rem;border-radius:8px;
+    padding:0.05rem 0.4rem;font-weight:600;
+  }
 
-  .tema-filter{
-    max-width:1080px;
-    margin:0.7rem auto 0;
-    padding:0 1.5rem;
-    display:flex;
-    flex-wrap:wrap;
-    gap:0.35rem;
-    align-items:center;
+  .filter-panel{max-width:1080px;margin:0.7rem auto 0;padding:0 1.5rem;display:none;}
+  .filter-panel.open{display:block;}
+  .filter-panel-inner{
+    border:1px solid var(--line);background:var(--paper-raised);border-radius:4px;padding:1.1rem 1.2rem;
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.1rem;
   }
-  .tema-filter-label{
-    font-family:'IBM Plex Mono',monospace;
-    font-size:0.72rem;
-    color:var(--ink-soft);
-    margin-right:0.2rem;
+  .filter-group h4{
+    font-family:'IBM Plex Mono',monospace;font-size:0.7rem;letter-spacing:0.06em;text-transform:uppercase;
+    color:var(--ink-soft);margin:0 0 0.5rem;
   }
+  .filter-group .clear-link{font-family:'IBM Plex Mono',monospace;font-size:0.68rem;color:var(--seal);cursor:pointer;text-decoration:underline;margin-left:0.5rem;}
+  .checklist{max-height:180px;overflow-y:auto;display:flex;flex-direction:column;gap:0.35rem;padding-right:0.3rem;}
+  .checklist label{display:flex;align-items:center;gap:0.45rem;font-size:0.82rem;cursor:pointer;color:var(--ink);}
+  .checklist input{cursor:pointer;accent-color:var(--seal);}
+  .range-row{display:flex;align-items:center;gap:0.5rem;}
+  .range-row input{width:100%;}
+  .range-row span{font-family:'IBM Plex Mono',monospace;font-size:0.72rem;color:var(--ink-soft);}
+  .tema-chips{display:flex;flex-wrap:wrap;gap:0.35rem;max-height:180px;overflow-y:auto;}
   .tema-toggle{
-    font-family:'IBM Plex Mono',monospace;
-    font-size:0.7rem;
-    padding:0.25rem 0.55rem;
-    border:1px solid var(--line);
-    background:var(--paper-raised);
-    color:var(--ink-soft);
-    cursor:pointer;
-    border-radius:12px;
+    font-family:'IBM Plex Mono',monospace;font-size:0.7rem;padding:0.25rem 0.55rem;border:1px solid var(--line);
+    background:var(--paper);color:var(--ink-soft);cursor:pointer;border-radius:12px;
   }
   .tema-toggle.active{background:var(--ink);color:var(--paper-raised);border-color:var(--ink);}
 
-  .notice-box{
-    max-width:1080px;
-    margin:1rem auto 0;
-    padding:0 1.5rem;
-  }
-  .notice-box details{
-    font-family:'IBM Plex Mono',monospace;
-    font-size:0.76rem;
-    border:1px solid var(--line);
-    background:var(--paper-raised);
-    padding:0.6rem 0.9rem;
-    border-radius:2px;
-    color:var(--ink-soft);
-  }
+  .chip{font-family:'IBM Plex Mono',monospace;font-size:0.76rem;padding:0.45rem 0.7rem;border:1.5px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;border-radius:2px;}
+  .chip.active{background:var(--ink);color:var(--paper-raised);}
+
+  .notice-box{max-width:1080px;margin:1rem auto 0;padding:0 1.5rem;}
+  .notice-box details{font-family:'IBM Plex Mono',monospace;font-size:0.76rem;border:1px solid var(--line);background:var(--paper-raised);padding:0.6rem 0.9rem;border-radius:2px;color:var(--ink-soft);}
   .notice-box.warn details{color:var(--seal);border-color:var(--seal-soft);background:var(--seal-soft);}
   .notice-box summary{cursor:pointer;font-weight:600;}
   .notice-box ul{margin:0.5rem 0 0;padding-left:1.2rem;}
 
-  .stats{
-    max-width:1080px;
-    margin:1rem auto 0;
-    padding:0 1.5rem;
-    display:flex;
-    gap:1.6rem;
-    font-family:'IBM Plex Mono',monospace;
-    font-size:0.78rem;
-    color:var(--ink-soft);
-    flex-wrap:wrap;
-  }
+  .stats{max-width:1080px;margin:1rem auto 0;padding:0 1.5rem;display:flex;gap:1.6rem;font-family:'IBM Plex Mono',monospace;font-size:0.78rem;color:var(--ink-soft);flex-wrap:wrap;}
   .stats b{color:var(--ink);font-size:0.95rem;}
 
   main{max-width:1080px;margin:1rem auto 4rem;padding:0 1.5rem;}
 
-  .entry{
-    display:grid;
-    grid-template-columns:92px 1fr;
-    gap:1rem;
-    padding:1.1rem 0;
-    border-bottom:1px solid var(--line);
-  }
+  .entry{display:grid;grid-template-columns:92px 1fr;gap:1rem;padding:1.1rem 0;border-bottom:1px solid var(--line);}
   .entry:hover{background:rgba(185,134,47,0.06);}
-  .entry-date{
-    font-family:'IBM Plex Mono',monospace;
-    font-size:0.78rem;
-    color:var(--ink-soft);
-    padding-top:0.15rem;
-  }
+  .entry-date{font-family:'IBM Plex Mono',monospace;font-size:0.78rem;color:var(--ink-soft);padding-top:0.15rem;}
   .entry-body{min-width:0;}
-  .entry-source{
-    font-family:'IBM Plex Mono',monospace;
-    font-size:0.68rem;
-    letter-spacing:0.05em;
-    text-transform:uppercase;
-    color:var(--seal);
-    margin-bottom:0.25rem;
-  }
+  .entry-source{font-family:'IBM Plex Mono',monospace;font-size:0.68rem;letter-spacing:0.05em;text-transform:uppercase;color:var(--seal);margin-bottom:0.25rem;}
   .entry-title{margin-bottom:0.1rem;}
-  .entry-title a{
-    color:var(--ink);
-    text-decoration:none;
-    font-size:1rem;
-    font-weight:500;
-    line-height:1.35;
-  }
+  .entry-title a{color:var(--ink);text-decoration:none;font-size:1rem;font-weight:500;line-height:1.35;}
   .entry-title a:hover{text-decoration:underline;text-decoration-color:var(--gold);}
 
-  .badge{
-    display:inline-block;
-    font-family:'IBM Plex Mono',monospace;
-    font-size:0.64rem;
-    letter-spacing:0.04em;
-    padding:0.12rem 0.4rem;
-    margin-left:0.45rem;
-    border-radius:2px;
-    vertical-align:middle;
-    white-space:nowrap;
-  }
+  .badge{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:0.64rem;letter-spacing:0.04em;padding:0.12rem 0.4rem;margin-left:0.45rem;border-radius:2px;vertical-align:middle;white-space:nowrap;}
   .badge-new{background:var(--gold-soft);color:var(--gold);font-weight:600;}
   .badge-other{background:var(--line);color:var(--ink-soft);}
   .badge-deadline{background:var(--green-soft);color:var(--green);}
@@ -285,55 +137,20 @@
   .badge-ai.verified{border-color:var(--green);color:var(--green);}
   .badge-ai.pending{border-color:var(--gold);color:var(--gold);}
 
-  .entry-summary{
-    font-size:0.85rem;
-    color:var(--ink-soft);
-    margin-top:0.35rem;
-    line-height:1.45;
-  }
-  .entry-details{
-    font-family:'IBM Plex Mono',monospace;
-    font-size:0.72rem;
-    color:var(--gold);
-    background:var(--gold-soft);
-    display:inline-block;
-    padding:0.25rem 0.55rem;
-    margin-top:0.45rem;
-    border-radius:2px;
-    line-height:1.6;
-  }
+  .entry-summary{font-size:0.85rem;color:var(--ink-soft);margin-top:0.35rem;line-height:1.45;}
+  .entry-details{font-family:'IBM Plex Mono',monospace;font-size:0.72rem;color:var(--gold);background:var(--gold-soft);display:inline-block;padding:0.25rem 0.55rem;margin-top:0.45rem;border-radius:2px;line-height:1.6;}
   .entry-temalar{margin-top:0.4rem;display:flex;flex-wrap:wrap;gap:0.3rem;}
-  .tema-chip{
-    font-family:'IBM Plex Mono',monospace;
-    font-size:0.64rem;
-    background:var(--green-soft);
-    color:var(--green);
-    padding:0.1rem 0.4rem;
-    border-radius:10px;
-  }
+  .tema-chip{font-family:'IBM Plex Mono',monospace;font-size:0.64rem;background:var(--green-soft);color:var(--green);padding:0.1rem 0.4rem;border-radius:10px;}
 
-  .empty, .loading{
-    padding:3rem 1rem;
-    text-align:center;
-    color:var(--ink-soft);
-    font-family:'IBM Plex Mono',monospace;
-    font-size:0.85rem;
-  }
+  .empty, .loading{padding:3rem 1rem;text-align:center;color:var(--ink-soft);font-family:'IBM Plex Mono',monospace;font-size:0.85rem;}
 
-  footer{
-    max-width:1080px;
-    margin:0 auto 3rem;
-    padding:1.5rem 1.5rem 0;
-    border-top:1px solid var(--line);
-    font-family:'IBM Plex Mono',monospace;
-    font-size:0.72rem;
-    color:var(--ink-soft);
-  }
+  footer{max-width:1080px;margin:0 auto 3rem;padding:1.5rem 1.5rem 0;border-top:1px solid var(--line);font-family:'IBM Plex Mono',monospace;font-size:0.72rem;color:var(--ink-soft);}
   footer a{color:var(--seal);}
 
   @media (max-width:520px){
     .entry{grid-template-columns:1fr;gap:0.3rem;}
     .entry-date{padding-top:0;}
+    .filter-panel-inner{grid-template-columns:1fr;}
   }
 </style>
 </head>
@@ -351,42 +168,77 @@
   <p class="sub">Kalkınma Ajansları, KOSGEB, TÜBİTAK, TEKNOFEST, Ufuk Avrupa ve daha fazla kaynaktan otomatik olarak toplanan, AI ile sınıflandırılan güncel çağrı ve destek duyuruları.</p>
 </div>
 
+<div class="banner banner-quota" id="quotaBanner">
+  <span class="banner-dot"></span>
+  <span id="quotaBannerText"></span>
+</div>
+
 <div class="tabs">
   <button class="tab active" data-tab="hibe">Hibe Çağrıları</button>
   <button class="tab" data-tab="sonuc">Sonuç İlanları</button>
   <button class="tab" data-tab="diger">Diğer / Haberler</button>
 </div>
 
-<div class="controls">
+<div class="searchbar">
   <input type="search" id="search" placeholder="Başlık, özet, kimler, temada ara…">
-  <select id="sourceFilter">
-    <option value="">Tüm kaynaklar</option>
-  </select>
-  <select id="aiFilter">
-    <option value="">AI durumu: tümü</option>
-    <option value="verified">AI ile onaylanmış</option>
-    <option value="pending">AI bekliyor (henüz işlenmedi)</option>
-    <option value="free">Ücretsiz tahmin (sonuç ilanı)</option>
-  </select>
   <select id="sortBy">
     <option value="date">Yayın tarihine göre sırala</option>
     <option value="deadline">Son başvuru tarihine göre sırala</option>
+    <option value="amount">Hibe miktarına göre sırala (çoktan aza)</option>
   </select>
   <button class="chip active" data-range="all">Tümü</button>
   <button class="chip" data-range="30">Son 30 gün</button>
   <button class="chip" data-range="7">Son 7 gün</button>
+  <button class="filter-toggle" id="filterToggle">
+    <span>⚙ Filtreler</span>
+    <span class="filter-count" id="filterCount" style="display:none;">0</span>
+  </button>
 </div>
 
-<div class="tema-filter" id="temaFilter" style="display:none;"></div>
+<div class="filter-panel" id="filterPanel">
+  <div class="filter-panel-inner">
+    <div class="filter-group">
+      <h4>Kaynak <span class="clear-link" data-clear="source">temizle</span></h4>
+      <div class="checklist" id="sourceChecklist"></div>
+    </div>
+    <div class="filter-group">
+      <h4>AI durumu <span class="clear-link" data-clear="ai">temizle</span></h4>
+      <div class="checklist" id="aiChecklist">
+        <label><input type="checkbox" value="verified"> AI ile onaylanmış</label>
+        <label><input type="checkbox" value="pending"> AI bekliyor (henüz işlenmedi)</label>
+        <label><input type="checkbox" value="free"> Ücretsiz tahmin (sonuç ilanı)</label>
+      </div>
+    </div>
+    <div class="filter-group">
+      <h4>Tema <span class="clear-link" data-clear="tema">temizle</span></h4>
+      <div class="tema-chips" id="temaChips"></div>
+    </div>
+    <div class="filter-group">
+      <h4>Hibe miktarı (TL) <span class="clear-link" data-clear="amount">temizle</span></h4>
+      <div class="range-row">
+        <input type="number" id="amountMin" placeholder="Min">
+        <span>—</span>
+        <input type="number" id="amountMax" placeholder="Maks">
+      </div>
+      <p style="font-family:'IBM Plex Mono',monospace;font-size:0.68rem;color:var(--ink-soft);margin:0.5rem 0 0;">Sadece AI'ın tutarını sayısal olarak çıkarabildiği kayıtlarda çalışır.</p>
+    </div>
+    <div class="filter-group">
+      <h4>Son başvuru tarihi aralığı <span class="clear-link" data-clear="deadline">temizle</span></h4>
+      <div class="range-row">
+        <input type="date" id="deadlineFrom">
+        <span>—</span>
+        <input type="date" id="deadlineTo">
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="notice-box warn" id="sourceWarning" style="display:none;"></div>
 <div class="notice-box" id="dupNotice" style="display:none;"></div>
 
 <div class="stats" id="stats"></div>
 
-<main id="list">
-  <div class="loading">Duyurular yükleniyor…</div>
-</main>
+<main id="list"><div class="loading">Duyurular yükleniyor…</div></main>
 
 <footer>
   Veri: <code>data/duyurular.json</code> — GitHub Actions ile otomatik güncellenir (Tara → Sınıflandır → AI zenginleştir).<br>
@@ -399,9 +251,12 @@
 
 <script>
 let ALL_ITEMS = [];
+let TEMA_LISTESI = [];
 let activeRange = "all";
 let activeTab = "hibe";
 let activeTemalar = new Set();
+let activeSources = new Set();
+let activeAiStatus = new Set();
 
 function applyTheme(theme){
   document.documentElement.setAttribute('data-theme', theme);
@@ -419,21 +274,41 @@ document.getElementById('themeToggle').addEventListener('click', () => {
   applyTheme(current === 'dark' ? 'light' : 'dark');
 });
 
+document.getElementById('filterToggle').addEventListener('click', () => {
+  document.getElementById('filterPanel').classList.toggle('open');
+});
+document.querySelectorAll('.clear-link').forEach(el => {
+  el.addEventListener('click', () => {
+    const which = el.dataset.clear;
+    if(which === 'source'){ activeSources.clear(); document.querySelectorAll('#sourceChecklist input').forEach(c=>c.checked=false); }
+    if(which === 'ai'){ activeAiStatus.clear(); document.querySelectorAll('#aiChecklist input').forEach(c=>c.checked=false); }
+    if(which === 'tema'){ activeTemalar.clear(); document.querySelectorAll('.tema-toggle').forEach(c=>c.classList.remove('active')); }
+    if(which === 'amount'){ document.getElementById('amountMin').value=''; document.getElementById('amountMax').value=''; }
+    if(which === 'deadline'){ document.getElementById('deadlineFrom').value=''; document.getElementById('deadlineTo').value=''; }
+    render();
+  });
+});
+
 function daysAgo(dateStr){
   if(!dateStr) return Infinity;
-  const d = new Date(dateStr);
-  const diff = (Date.now() - d.getTime()) / (1000*60*60*24);
-  return diff;
+  return (Date.now() - new Date(dateStr).getTime()) / (1000*60*60*24);
 }
 function earliestDeadline(it){
   const arr = it.details && it.details.son_basvuru_tarihleri;
-  if(!arr || !arr.length) return null;
-  return [...arr].sort()[0];
+  if(arr && arr.length) return [...arr].sort()[0];
+  const raw = it.on_tarihler;
+  if(raw && raw.length) return [...raw].sort().slice(-1)[0];
+  return null;
 }
 function daysUntil(dateStr){
   if(!dateStr) return null;
-  const d = new Date(dateStr);
-  return Math.ceil((d.getTime() - Date.now()) / (1000*60*60*24));
+  return Math.ceil((new Date(dateStr).getTime() - Date.now()) / (1000*60*60*24));
+}
+function maxAmount(it){
+  const d = it.details;
+  if(!d) return null;
+  return (d.hibe_miktari_max_tl !== undefined && d.hibe_miktari_max_tl !== null) ? d.hibe_miktari_max_tl
+       : (d.hibe_miktari_min_tl !== undefined ? d.hibe_miktari_min_tl : null);
 }
 function tabOf(it){
   const tur = it.details && it.details.tur;
@@ -454,11 +329,24 @@ function aiStatusOf(it){
   return "free";
 }
 
+function updateFilterCount(){
+  let n = activeSources.size + activeAiStatus.size + activeTemalar.size;
+  if(document.getElementById('amountMin').value || document.getElementById('amountMax').value) n++;
+  if(document.getElementById('deadlineFrom').value || document.getElementById('deadlineTo').value) n++;
+  const badge = document.getElementById('filterCount');
+  const toggle = document.getElementById('filterToggle');
+  if(n > 0){ badge.style.display='inline-block'; badge.textContent = n; toggle.classList.add('has-filters'); }
+  else { badge.style.display='none'; toggle.classList.remove('has-filters'); }
+}
+
 function render(){
+  updateFilterCount();
   const q = document.getElementById('search').value.trim().toLowerCase();
-  const src = document.getElementById('sourceFilter').value;
-  const aiStatus = document.getElementById('aiFilter').value;
   const sortBy = document.getElementById('sortBy').value;
+  const amountMin = parseFloat(document.getElementById('amountMin').value);
+  const amountMax = parseFloat(document.getElementById('amountMax').value);
+  const deadlineFrom = document.getElementById('deadlineFrom').value;
+  const deadlineTo = document.getElementById('deadlineTo').value;
   const list = document.getElementById('list');
 
   let items = ALL_ITEMS.filter(it => !it.duplicate_of);
@@ -470,22 +358,35 @@ function render(){
         .filter(Boolean).join(' ').toLowerCase();
       if(!hay.includes(q)) return false;
     }
-    if(src && it.source !== src) return false;
-    if(aiStatus && aiStatusOf(it) !== aiStatus) return false;
+    if(activeSources.size && !activeSources.has(it.source)) return false;
+    if(activeAiStatus.size && !activeAiStatus.has(aiStatusOf(it))) return false;
     if(activeRange !== "all"){
-      const age = daysAgo(it.first_seen || it.date);
-      if(age > Number(activeRange)) return false;
+      if(daysAgo(it.first_seen || it.date) > Number(activeRange)) return false;
     }
     if(tabOf(it) !== activeTab) return false;
     if(activeTemalar.size){
       const temalar = (it.details && it.details.temalar) || [];
       if(![...activeTemalar].some(t => temalar.includes(t))) return false;
     }
+    if(!isNaN(amountMin) || !isNaN(amountMax)){
+      const amt = maxAmount(it);
+      if(amt === null) return false;
+      if(!isNaN(amountMin) && amt < amountMin) return false;
+      if(!isNaN(amountMax) && amt > amountMax) return false;
+    }
+    if(deadlineFrom || deadlineTo){
+      const dl = earliestDeadline(it);
+      if(!dl) return false;
+      if(deadlineFrom && dl < deadlineFrom) return false;
+      if(deadlineTo && dl > deadlineTo) return false;
+    }
     return true;
   });
 
   if(sortBy === "deadline"){
     items.sort((a,b) => (earliestDeadline(a) || "9999-99-99").localeCompare(earliestDeadline(b) || "9999-99-99"));
+  } else if(sortBy === "amount"){
+    items.sort((a,b) => (maxAmount(b) ?? -1) - (maxAmount(a) ?? -1));
   } else {
     items.sort((a,b) => (b.date||b.first_seen||"").localeCompare(a.date||a.first_seen||""));
   }
@@ -501,7 +402,7 @@ function render(){
     `<span><b>${items.length}</b> duyuru gösteriliyor</span><span><b>${visibleAll.length}</b> toplam kayıt</span>`;
 
   if(items.length === 0){
-    list.innerHTML = '<div class="empty">Eşleşen duyuru bulunamadı.</div>';
+    list.innerHTML = '<div class="empty">Eşleşen duyuru bulunamadı. Filtreleri gözden geçirmeyi dene.</div>';
     return;
   }
 
@@ -527,7 +428,8 @@ function render(){
     let deadlineBadge = '';
     if(dleft !== null && dleft >= 0){
       const cls = dleft <= 7 ? 'urgent' : (dleft <= 30 ? 'soon' : '');
-      deadlineBadge = `<span class="badge badge-deadline ${cls}">${dleft} gün kaldı</span>`;
+      const kaynak = (d && d.son_basvuru_tarihleri) ? '' : ' (tahmini)';
+      deadlineBadge = `<span class="badge badge-deadline ${cls}">${dleft} gün kaldı${kaynak}</span>`;
     }
 
     const status = aiStatusOf(it);
@@ -562,21 +464,59 @@ async function init(){
     const res = await fetch('data/duyurular.json', {cache:"no-store"});
     const data = await res.json();
     ALL_ITEMS = Object.values(data.items || {});
+    TEMA_LISTESI = data.tema_listesi || [];
     document.getElementById('lastUpdated').textContent =
       data.last_updated ? `Son güncelleme: ${data.last_updated}` : "";
+
+    const aiStatus = data.ai_status;
+    if(aiStatus && aiStatus.quota_exceeded){
+      const banner = document.getElementById('quotaBanner');
+      banner.classList.add('show');
+      document.getElementById('quotaBannerText').textContent =
+        `AI günlük kota/limit sınırına ulaştı (${aiStatus.checked_at ? new Date(aiStatus.checked_at).toLocaleString('tr-TR') : ''}). `
+        + `${aiStatus.pending_count || 0} kayıt bir sonraki otomatik çalıştırmada işlenmeye devam edecek.`;
+    } else if(aiStatus && aiStatus.provider && aiStatus.pending_count > 0){
+      const banner = document.getElementById('quotaBanner');
+      banner.classList.add('show');
+      banner.classList.remove('banner-quota');
+      banner.style.background = 'var(--gold-soft)'; banner.style.color = 'var(--gold)';
+      document.getElementById('quotaBannerText').textContent =
+        `AI şu an ${aiStatus.pending_count} kaydı işlemeyi bekliyor (kota sorunu yok, sırada).`;
+    }
 
     const visible = ALL_ITEMS.filter(it => !it.duplicate_of);
 
     const sources = [...new Set(visible.map(i => i.source))].sort();
-    const sel = document.getElementById('sourceFilter');
-    sources.forEach(s => {
-      const opt = document.createElement('option');
-      opt.value = s; opt.textContent = s;
-      sel.appendChild(opt);
+    const sourceBox = document.getElementById('sourceChecklist');
+    sourceBox.innerHTML = sources.map(s =>
+      `<label><input type="checkbox" value="${s}"> ${s}</label>`).join('');
+    sourceBox.querySelectorAll('input').forEach(cb => {
+      cb.addEventListener('change', () => {
+        if(cb.checked) activeSources.add(cb.value); else activeSources.delete(cb.value);
+        render();
+      });
     });
 
-    const failed = Object.entries(data.source_status || {})
-      .filter(([id, st]) => !st.ok || st.found === 0);
+    document.getElementById('aiChecklist').querySelectorAll('input').forEach(cb => {
+      cb.addEventListener('change', () => {
+        if(cb.checked) activeAiStatus.add(cb.value); else activeAiStatus.delete(cb.value);
+        render();
+      });
+    });
+
+    const temaBox = document.getElementById('temaChips');
+    temaBox.innerHTML = TEMA_LISTESI.map(t =>
+      `<button class="tema-toggle" data-tema="${t}">${t}</button>`).join('');
+    temaBox.querySelectorAll('.tema-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const t = btn.dataset.tema;
+        if(activeTemalar.has(t)){ activeTemalar.delete(t); btn.classList.remove('active'); }
+        else { activeTemalar.add(t); btn.classList.add('active'); }
+        render();
+      });
+    });
+
+    const failed = Object.entries(data.source_status || {}).filter(([id, st]) => !st.ok || st.found === 0);
     if (failed.length) {
       const box = document.getElementById('sourceWarning');
       box.style.display = 'block';
@@ -594,23 +534,6 @@ async function init(){
       </details>`;
     }
 
-    const allTemalar = new Set();
-    visible.forEach(it => (it.details && it.details.temalar || []).forEach(t => allTemalar.add(t)));
-    if(allTemalar.size){
-      const box = document.getElementById('temaFilter');
-      box.style.display = 'flex';
-      box.innerHTML = '<span class="tema-filter-label">Tema:</span>' + [...allTemalar].sort().map(t =>
-        `<button class="tema-toggle" data-tema="${t}">${t}</button>`).join('');
-      box.querySelectorAll('.tema-toggle').forEach(btn => {
-        btn.addEventListener('click', () => {
-          const t = btn.dataset.tema;
-          if(activeTemalar.has(t)){ activeTemalar.delete(t); btn.classList.remove('active'); }
-          else { activeTemalar.add(t); btn.classList.add('active'); }
-          render();
-        });
-      });
-    }
-
     render();
   }catch(e){
     document.getElementById('list').innerHTML =
@@ -621,9 +544,11 @@ async function init(){
 }
 
 document.getElementById('search').addEventListener('input', render);
-document.getElementById('sourceFilter').addEventListener('change', render);
-document.getElementById('aiFilter').addEventListener('change', render);
 document.getElementById('sortBy').addEventListener('change', render);
+document.getElementById('amountMin').addEventListener('input', render);
+document.getElementById('amountMax').addEventListener('input', render);
+document.getElementById('deadlineFrom').addEventListener('input', render);
+document.getElementById('deadlineTo').addEventListener('input', render);
 document.querySelectorAll('.chip').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.chip').forEach(b => b.classList.remove('active'));
