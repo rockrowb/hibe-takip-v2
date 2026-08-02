@@ -107,8 +107,9 @@ def parse_all_dates(text):
 
 def fetch(url):
     r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+    status = r.status_code
     r.raise_for_status()
-    return BeautifulSoup(r.text, "html.parser")
+    return BeautifulSoup(r.text, "html.parser"), status, len(r.text)
 
 
 def looks_like_announcement(a, link_contains):
@@ -129,7 +130,7 @@ def looks_like_announcement(a, link_contains):
 
 
 def scrape_page(url, link_contains):
-    soup = fetch(url)
+    soup, status, html_len = fetch(url)
     candidates = soup.find_all("a", href=True)
     entries = []
     for a in candidates:
@@ -146,7 +147,8 @@ def scrape_page(url, link_contains):
         # panel bunu AI çalışmasa bile ön-tahmin olarak kullanabilir.
         all_dates = parse_all_dates(block_text)
         entries.append({"title": title, "url": href, "date": date_iso, "on_tarihler": all_dates})
-    return entries
+    diag = f"HTTP {status}, {html_len} byte HTML, {len(candidates)} link, {len(entries)} olası duyuru"
+    return entries, diag
 
 
 def scrape_source(source):
@@ -154,13 +156,25 @@ def scrape_source(source):
     link_contains = source.get("link_contains") or []
     best = []
     tried = []
+    last_diag = None
     for path in source["paths"]:
         url = base + path if path.startswith("/") else base + "/" + path
         tried.append(url)
         try:
-            entries = scrape_page(url, link_contains)
+            entries, diag = scrape_page(url, link_contains)
+            last_diag = f"{url} -> {diag}"
+        except requests.exceptions.Timeout:
+            last_diag = f"{url} -> ZAMAN AŞIMI ({TIMEOUT}sn içinde yanıt gelmedi)"
+            print(f"  [{source['id']}] {last_diag}")
+            continue
+        except requests.exceptions.HTTPError as e:
+            code = e.response.status_code if e.response is not None else "?"
+            last_diag = f"{url} -> HTTP {code} (muhtemelen erişim engellendi/bot koruması)"
+            print(f"  [{source['id']}] {last_diag}")
+            continue
         except Exception as e:
-            print(f"  [{source['id']}] {url} -> hata: {e}")
+            last_diag = f"{url} -> hata: {e}"
+            print(f"  [{source['id']}] {last_diag}")
             continue
         entries = [e for e in entries if urlparse(e["url"]).netloc == urlparse(base).netloc]
         seen = set()
@@ -181,7 +195,7 @@ def scrape_source(source):
     for e in best:
         e["source"] = source["name"]
         e["source_id"] = source["id"]
-    return best
+    return best, last_diag
 
 
 def load_existing():
@@ -211,8 +225,11 @@ def main():
     for source in sources:
         print(f"Taranıyor: {source['name']}")
         try:
-            entries = scrape_source(source)
-            source_status[source["id"]] = {"ok": True, "checked": today, "found": len(entries)}
+            entries, diag = scrape_source(source)
+            source_status[source["id"]] = {
+                "ok": len(entries) > 0, "checked": today, "found": len(entries),
+                "diag": diag,  # HTTP durum kodu + kaç link/duyuru bulundu — "0 sonuç"un GERÇEK sebebini gösterir
+            }
         except Exception as e:
             print(f"  [{source['id']}] KAYNAK ERİŞİLEMEDİ: {e}")
             source_status[source["id"]] = {"ok": False, "checked": today, "error": str(e)}
@@ -234,6 +251,8 @@ def main():
                     items[key]["on_tarihler"] = entry["on_tarihler"]
         added_total += added
         print(f"  -> yeni: {added}")
+        time.sleep(1.0)  # kaynaklar arasında kısa bekleme — art arda çok hızlı istek atıp
+                          # bot-koruması tetiklemekten kaçınmak için
 
     store["items"] = items
     store["source_status"] = source_status

@@ -118,7 +118,7 @@
 
   main{max-width:1080px;margin:1rem auto 4rem;padding:0 1.5rem;}
 
-  .entry{display:grid;grid-template-columns:92px 1fr;gap:1rem;padding:1.1rem 0;border-bottom:1px solid var(--line);}
+  .entry{display:grid;grid-template-columns:92px 1fr 190px;gap:1rem;padding:1.1rem 0;border-bottom:1px solid var(--line);}
   .entry:hover{background:rgba(185,134,47,0.06);}
   .entry-date{font-family:'IBM Plex Mono',monospace;font-size:0.78rem;color:var(--ink-soft);padding-top:0.15rem;}
   .entry-body{min-width:0;}
@@ -142,13 +142,28 @@
   .entry-temalar{margin-top:0.4rem;display:flex;flex-wrap:wrap;gap:0.3rem;}
   .tema-chip{font-family:'IBM Plex Mono',monospace;font-size:0.64rem;background:var(--green-soft);color:var(--green);padding:0.1rem 0.4rem;border-radius:10px;}
 
+  /* ---------- Sağdaki tablo görünümlü bilgi paneli (tarih/kalan gün/miktar) ---------- */
+  .entry-info{
+    display:flex;flex-direction:column;gap:0.35rem;
+    border-left:1px solid var(--line);padding-left:1rem;
+    font-family:'IBM Plex Mono',monospace;font-size:0.72rem;
+  }
+  .entry-info-row{display:flex;flex-direction:column;gap:0.1rem;}
+  .entry-info-label{color:var(--ink-soft);font-size:0.64rem;letter-spacing:0.03em;text-transform:uppercase;}
+  .entry-info-value{color:var(--ink);font-size:0.78rem;font-weight:500;}
+  .entry-info-value.urgent{color:var(--seal);font-weight:700;}
+  .entry-info-value.soon{color:var(--gold);font-weight:700;}
+  .entry-info-value.ok{color:var(--green);}
+  .entry-info-empty{color:var(--ink-soft);font-style:italic;font-size:0.7rem;}
+
   .empty, .loading{padding:3rem 1rem;text-align:center;color:var(--ink-soft);font-family:'IBM Plex Mono',monospace;font-size:0.85rem;}
 
   footer{max-width:1080px;margin:0 auto 3rem;padding:1.5rem 1.5rem 0;border-top:1px solid var(--line);font-family:'IBM Plex Mono',monospace;font-size:0.72rem;color:var(--ink-soft);}
   footer a{color:var(--seal);}
 
   @media (max-width:520px){
-    .entry{grid-template-columns:1fr;gap:0.3rem;}
+    .entry{grid-template-columns:1fr;gap:0.4rem;}
+    .entry-info{border-top:1px dashed var(--line);padding-top:0.5rem;margin-top:0.3rem;}
     .entry-date{padding-top:0;}
     .filter-panel-inner{grid-template-columns:1fr;}
   }
@@ -162,6 +177,7 @@
     <h1>Duyuru Panosu</h1>
     <div class="masthead-right">
       <div class="last-updated" id="lastUpdated">yükleniyor…</div>
+      <button class="filter-toggle" id="triggerScan" title="GitHub Actions üzerinden taramayı şimdi başlat">▶ Şimdi Tara</button>
       <button class="theme-toggle" id="themeToggle" title="Karanlık/aydınlık mod" aria-label="Tema değiştir">🌙</button>
     </div>
   </div>
@@ -172,6 +188,8 @@
   <span class="banner-dot"></span>
   <span id="quotaBannerText"></span>
 </div>
+
+<div class="banner" id="triggerStatus" style="max-width:1080px;margin:0 auto;padding:0.3rem 1.5rem 0;"></div>
 
 <div class="tabs">
   <button class="tab active" data-tab="hibe">Hibe Çağrıları</button>
@@ -212,6 +230,16 @@
     <div class="filter-group">
       <h4>Tema <span class="clear-link" data-clear="tema">temizle</span></h4>
       <div class="tema-chips" id="temaChips"></div>
+    </div>
+    <div class="filter-group">
+      <h4>Tekilleştirme</h4>
+      <label style="display:flex;align-items:center;gap:0.45rem;font-size:0.82rem;cursor:pointer;">
+        <input type="checkbox" id="hideDuplicates" checked style="cursor:pointer;accent-color:var(--seal);">
+        Aynı duyurunun kopyalarını gizle
+      </label>
+      <p style="font-family:'IBM Plex Mono',monospace;font-size:0.68rem;color:var(--ink-soft);margin:0.5rem 0 0;">
+        Kapatırsan, başka bir kaynakta da bulunan (ör. ka.gov.tr ile ajans sitesinde aynı anda geçen) kayıtlar da ayrı ayrı listelenir.
+      </p>
     </div>
     <div class="filter-group">
       <h4>Hibe miktarı (TL) <span class="clear-link" data-clear="amount">temizle</span></h4>
@@ -272,6 +300,80 @@ function applyTheme(theme){
 document.getElementById('themeToggle').addEventListener('click', () => {
   const current = document.documentElement.getAttribute('data-theme');
   applyTheme(current === 'dark' ? 'light' : 'dark');
+});
+
+/* ---------- GitHub Actions'ı panelden tetikleme ---------- */
+/* GÜVENLİK NOTU: Bu sayfa herkese açık statik bir GitHub Pages sayfasıdır.
+   GitHub'ın tarama işlemini başlatabilmesi için bir yetki anahtarı (Personal
+   Access Token) gerekir. Bu anahtar HİÇBİR ZAMAN bu dosyaya/koda gömülmez —
+   gömülseydi sayfayı ziyaret eden HERKES anahtarını görüp kötüye
+   kullanabilirdi. Bunun yerine, butona bastığında anahtarı SEN tarayıcı
+   penceresine yapıştırıyorsun; anahtar sadece o an tarayıcı belleğinde durur
+   (istersen "bu tarayıcıda hatırla" ile yerel olarak saklanabilir, GitHub'a
+   ya da başka bir sunucuya hiç gönderilmez — sadece api.github.com'a,
+   doğrudan senin tarayıcından).
+   Önerilen anahtar türü: GitHub'da "Fine-grained personal access token",
+   SADECE bu depoya ve SADECE "Actions: Read and write" iznine sahip olacak
+   şekilde oluşturulmalı — böylece anahtar bir şekilde ele geçse bile en
+   kötü ihtimalle sadece gereksiz tarama çalıştırılabilir, kodun/verinin
+   kendisi değiştirilemez ya da başka bir depoya erişilemez. */
+function detectRepo(){
+  // https://kullanici.github.io/repo-adi/  ->  {owner: kullanici, repo: repo-adi}
+  const host = window.location.hostname; // kullanici.github.io
+  const path = window.location.pathname.split('/').filter(Boolean); // ["repo-adi", ...]
+  if(!host.endsWith('.github.io') || path.length === 0) return null;
+  return { owner: host.replace('.github.io',''), repo: path[0] };
+}
+function showTriggerStatus(text, kind){
+  const box = document.getElementById('triggerStatus');
+  box.classList.add('show');
+  box.style.background = kind === 'error' ? 'var(--seal-soft)' : kind === 'ok' ? 'var(--green-soft)' : 'var(--gold-soft)';
+  box.style.color = kind === 'error' ? 'var(--seal)' : kind === 'ok' ? 'var(--green)' : 'var(--gold)';
+  box.textContent = text;
+}
+document.getElementById('triggerScan').addEventListener('click', async () => {
+  const repoInfo = detectRepo();
+  if(!repoInfo){
+    showTriggerStatus('Bu sayfa GitHub Pages üzerinde (kullanici.github.io/depo-adi/ biçiminde) çalışmıyor gibi görünüyor, otomatik depo tespiti yapılamadı.', 'error');
+    return;
+  }
+  let token = null;
+  try{ token = localStorage.getItem('hibe-takip-gh-token'); }catch(e){}
+  if(!token){
+    token = window.prompt(
+      'Taramayı başlatmak için bir GitHub Personal Access Token gerekiyor.\n\n' +
+      'GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token.\n' +
+      'Sadece bu depoyu ve sadece "Actions: Read and write" iznini seç.\n\n' +
+      'Anahtarı buraya yapıştır (tarayıcından başka hiçbir yere gönderilmez):'
+    );
+    if(!token) return;
+    const remember = window.confirm('Bu anahtarı bu tarayıcıda hatırlayayım mı? (Onaylarsan bir daha sormam, ama bu bilgisayara/tarayıcıya erişen biri de kullanabilir.)');
+    if(remember){ try{ localStorage.setItem('hibe-takip-gh-token', token); }catch(e){} }
+  }
+
+  showTriggerStatus('Tarama başlatılıyor…', 'info');
+  try{
+    const res = await fetch(`https://api.github.com/repos/${repoInfo.owner}/${repoInfo.repo}/actions/workflows/scrape.yml/dispatches`, {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ ref: 'main' }),
+    });
+    if(res.status === 204){
+      showTriggerStatus('Tarama başlatıldı ✓ — GitHub Actions sekmesinden takip edebilirsin, birkaç dakika sonra bu sayfayı yenile.', 'ok');
+    } else if(res.status === 401 || res.status === 403){
+      showTriggerStatus('Yetki reddedildi — anahtarın süresi dolmuş ya da izinleri yetersiz olabilir. Sayfayı yenileyip tekrar dener misin?', 'error');
+      try{ localStorage.removeItem('hibe-takip-gh-token'); }catch(e){}
+    } else {
+      const body = await res.text();
+      showTriggerStatus(`Beklenmeyen yanıt (HTTP ${res.status}): ${body.slice(0,150)}`, 'error');
+    }
+  } catch(e){
+    showTriggerStatus('İstek gönderilemedi (ağ hatası ya da tarayıcı GitHub API isteğini engelledi): ' + e.message, 'error');
+  }
 });
 
 document.getElementById('filterToggle').addEventListener('click', () => {
@@ -349,7 +451,9 @@ function render(){
   const deadlineTo = document.getElementById('deadlineTo').value;
   const list = document.getElementById('list');
 
-  let items = ALL_ITEMS.filter(it => !it.duplicate_of);
+  let items = document.getElementById('hideDuplicates').checked
+    ? ALL_ITEMS.filter(it => !it.duplicate_of)
+    : ALL_ITEMS.slice();
 
   items = items.filter(it => {
     if(q){
@@ -391,7 +495,9 @@ function render(){
     items.sort((a,b) => (b.date||b.first_seen||"").localeCompare(a.date||a.first_seen||""));
   }
 
-  const visibleAll = ALL_ITEMS.filter(it => !it.duplicate_of);
+  const visibleAll = document.getElementById('hideDuplicates').checked
+    ? ALL_ITEMS.filter(it => !it.duplicate_of)
+    : ALL_ITEMS.slice();
   const counts = {hibe:0, sonuc:0, diger:0};
   visibleAll.forEach(it => counts[tabOf(it)]++);
   document.querySelector('.tab[data-tab="hibe"]').textContent = `Hibe Çağrıları (${counts.hibe})`;
@@ -413,24 +519,11 @@ function render(){
     const detailBits = [];
     if (d) {
       if (d.kimler_basvurabilir) detailBits.push(`<b>Kimler:</b> ${d.kimler_basvurabilir}`);
-      if (d.hibe_miktari) detailBits.push(`<b>Miktar:</b> ${d.hibe_miktari}`);
-      if (d.son_basvuru_tarihleri && d.son_basvuru_tarihleri.length){
-        const label = d.son_basvuru_tarihleri.length > 1 ? "Son tarihler" : "Son tarih";
-        detailBits.push(`<b>${label}:</b> ${d.son_basvuru_tarihleri.join(', ')}`);
-      }
       if (d.desteklenen_aktiviteler) detailBits.push(`<b>Kapsam:</b> ${d.desteklenen_aktiviteler}`);
     }
     const otherTag = d && d.tur && d.tur !== "hibe_duyurusu"
       ? `<span class="badge badge-other">${d.tur.replace(/_/g,' ')}</span>` : '';
-
-    const deadline = earliestDeadline(it);
-    const dleft = deadline ? daysUntil(deadline) : null;
-    let deadlineBadge = '';
-    if(dleft !== null && dleft >= 0){
-      const cls = dleft <= 7 ? 'urgent' : (dleft <= 30 ? 'soon' : '');
-      const kaynak = (d && d.son_basvuru_tarihleri) ? '' : ' (tahmini)';
-      deadlineBadge = `<span class="badge badge-deadline ${cls}">${dleft} gün kaldı${kaynak}</span>`;
-    }
+    const dupTag = it.duplicate_of ? `<span class="badge badge-other">kopya</span>` : '';
 
     const status = aiStatusOf(it);
     const aiBadgeLabel = status === "verified" ? "AI onaylı" : status === "pending" ? "AI bekliyor" : "ücretsiz tahmin";
@@ -438,6 +531,30 @@ function render(){
 
     const temaChips = (d && d.temalar && d.temalar.length)
       ? `<div class="entry-temalar">${d.temalar.map(t => `<span class="tema-chip">${t}</span>`).join('')}</div>` : '';
+
+    /* Sağdaki tablo görünümlü bilgi paneli: son başvuru tarihi, kalan gün,
+       hibe miktarı — artık başlığın içinde küçük bir rozet değil, ayrı ve
+       net bir bölüm. */
+    const deadline = earliestDeadline(it);
+    const dleft = deadline ? daysUntil(deadline) : null;
+    const isEstimated = !(d && d.son_basvuru_tarihleri && d.son_basvuru_tarihleri.length);
+    let deadlineRow = `<div class="entry-info-empty">Son tarih bilgisi yok</div>`;
+    if (deadline) {
+      let cls = 'ok';
+      if (dleft !== null && dleft < 0) cls = '';
+      else if (dleft !== null && dleft <= 7) cls = 'urgent';
+      else if (dleft !== null && dleft <= 30) cls = 'soon';
+      const kalanText = dleft === null ? '' : (dleft < 0 ? 'süresi doldu' : `${dleft} gün kaldı`);
+      deadlineRow = `
+        <div class="entry-info-row">
+          <span class="entry-info-label">Son başvuru${isEstimated ? ' (tahmini)' : ''}</span>
+          <span class="entry-info-value">${deadline}</span>
+        </div>
+        ${kalanText ? `<div class="entry-info-row"><span class="entry-info-label">Kalan süre</span><span class="entry-info-value ${cls}">${kalanText}</span></div>` : ''}`;
+    }
+    const amountRow = d && d.hibe_miktari
+      ? `<div class="entry-info-row"><span class="entry-info-label">Hibe miktarı</span><span class="entry-info-value">${d.hibe_miktari}</span></div>`
+      : '';
 
     return `
       <div class="entry">
@@ -448,12 +565,16 @@ function render(){
             <a href="${it.url}" target="_blank" rel="noopener">${it.title}</a>
             ${isNew ? '<span class="badge badge-new">YENİ</span>' : ''}
             ${otherTag}
-            ${deadlineBadge}
+            ${dupTag}
             ${aiBadge}
           </div>
           ${d && d.ozet ? `<div class="entry-summary">${d.ozet}</div>` : ''}
           ${detailBits.length ? `<div class="entry-details">${detailBits.join(' &nbsp;·&nbsp; ')}</div>` : ''}
           ${temaChips}
+        </div>
+        <div class="entry-info">
+          ${deadlineRow}
+          ${amountRow}
         </div>
       </div>`;
   }).join("");
@@ -521,7 +642,8 @@ async function init(){
       const box = document.getElementById('sourceWarning');
       box.style.display = 'block';
       box.innerHTML = `<details><summary>${failed.length} kaynağa şu an ulaşılamadı ya da içerik bulunamadı</summary>
-        <ul>${failed.map(([id, st]) => `<li>${id} ${st.error ? '— ' + st.error : '(0 sonuç)'}</li>`).join('')}</ul>
+        <ul>${failed.map(([id, st]) => `<li><b>${id}</b> ${st.error ? '— ' + st.error : (st.diag ? '— ' + st.diag : '(0 sonuç)')}</li>`).join('')}</ul>
+        <p style="margin-top:0.6rem;font-size:0.7rem;">"HTTP 403/429" görürsen o site bot korumasıyla erişimi engelliyordur. "ZAMAN AŞIMI" görürsen site yavaş/erişilemez durumdadır. "HTTP 200" ama "0 olası duyuru" görürsen sayfa açılıyor ama içindeki linkler beklenen kalıba uymuyordur — bu durumda sayfa yapısının yeniden incelenmesi gerekir.</p>
       </details>`;
     }
 
@@ -548,6 +670,7 @@ document.getElementById('sortBy').addEventListener('change', render);
 document.getElementById('amountMin').addEventListener('input', render);
 document.getElementById('amountMax').addEventListener('input', render);
 document.getElementById('deadlineFrom').addEventListener('input', render);
+document.getElementById('hideDuplicates').addEventListener('change', render);
 document.getElementById('deadlineTo').addEventListener('input', render);
 document.querySelectorAll('.chip').forEach(btn => {
   btn.addEventListener('click', () => {
