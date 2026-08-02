@@ -59,7 +59,7 @@
       "ok": false,
       "checked": "2026-08-02",
       "found": 0,
-      "diag": "https://www.sivildusun.net/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 26675 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://www.sivildusun.net/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 26673 byte HTML, 0 link, 0 olası duyuru"
     },
     "stgm": {
       "ok": false,
@@ -95,7 +95,7 @@
       "ok": false,
       "checked": "2026-08-02",
       "found": 0,
-      "diag": "https://bebka.org.tr/duyurular -> HTTP 200, 52163 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://bebka.org.tr/duyurular -> HTTP 200, 52142 byte HTML, 0 link, 0 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -113,7 +113,7 @@
       "ok": false,
       "checked": "2026-08-02",
       "found": 0,
-      "diag": "https://www.baka.org.tr/duyurular -> HTTP 200, 7580 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://www.baka.org.tr/duyurular -> HTTP 200, 7582 byte HTML, 0 link, 0 olası duyuru"
     },
     "dogaka": {
       "ok": false,
@@ -137,7 +137,7 @@
       "ok": false,
       "checked": "2026-08-02",
       "found": 0,
-      "diag": "https://www.doka.org.tr/ -> HTTP 200, 30040 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://www.doka.org.tr/ -> HTTP 200, 30019 byte HTML, 0 link, 0 olası duyuru"
     },
     "oran": {
       "ok": false,
@@ -149,13 +149,13 @@
       "ok": false,
       "checked": "2026-08-02",
       "found": 0,
-      "diag": "https://www.marka.org.tr/duyurular -> HTTP 200, 62560 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://www.marka.org.tr/duyurular -> HTTP 200, 62738 byte HTML, 0 link, 0 olası duyuru"
     },
     "gmka": {
       "ok": false,
       "checked": "2026-08-02",
       "found": 0,
-      "diag": "https://www.gmka.gov.tr/duyurular -> HTTP 200, 8405 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://www.gmka.gov.tr/duyurular -> HTTP 200, 8389 byte HTML, 0 link, 0 olası duyuru"
     },
     "geka": {
       "ok": false,
@@ -179,13 +179,13 @@
       "ok": true,
       "checked": "2026-08-02",
       "found": 80,
-      "diag": "https://zafer.gov.tr/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "https://zafer.gov.tr/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": false,
       "checked": "2026-08-02",
       "found": 0,
-      "diag": "https://www.ahika.gov.tr/haberler -> HTTP 200, 5915 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://www.ahika.gov.tr/haberler -> HTTP 200, 5923 byte HTML, 0 link, 0 olası duyuru"
     },
     "kuzka": {
       "ok": true,
@@ -203,7 +203,7 @@
       "ok": false,
       "checked": "2026-08-02",
       "found": 0,
-      "diag": "https://www.serka.gov.tr/duyurular -> HTTP 200, 10220 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://www.serka.gov.tr/duyurular -> HTTP 200, 10218 byte HTML, 0 link, 0 olası duyuru"
     },
     "daka": {
       "ok": false,
@@ -227,7 +227,7 @@
       "ok": false,
       "checked": "2026-08-02",
       "found": 0,
-      "diag": "https://bakka.gov.tr/ -> HTTP 200, 31756 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://bakka.gov.tr/ -> HTTP 200, 31935 byte HTML, 0 link, 0 olası duyuru"
     }
   },
   "items": {
