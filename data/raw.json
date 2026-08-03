@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-08-03",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 148309 byte HTML, 107 link, 37 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 148298 byte HTML, 107 link, 37 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-08-03",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 37985 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 38266 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -35,7 +35,7 @@
       "ok": true,
       "checked": "2026-08-03",
       "found": 18,
-      "diag": "/tr/duyuru -> HTTP 200, 95243 byte HTML, 214 link, 18 olası duyuru"
+      "diag": "/tr/duyuru -> HTTP 200, 95311 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": true,
@@ -131,7 +131,7 @@
       "ok": true,
       "checked": "2026-08-03",
       "found": 44,
-      "diag": "/ -> HTTP 200, 122597 byte HTML, 277 link, 63 olası duyuru"
+      "diag": "/ -> HTTP 200, 122549 byte HTML, 277 link, 63 olası duyuru"
     },
     "doka": {
       "ok": true,
@@ -161,7 +161,7 @@
       "ok": true,
       "checked": "2026-08-03",
       "found": 129,
-      "diag": "/ -> HTTP 200, 213049 byte HTML, 358 link, 212 olası duyuru"
+      "diag": "/ -> HTTP 200, 213018 byte HTML, 358 link, 212 olası duyuru"
     },
     "ika": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-08-03",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260949 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -190,8 +190,8 @@
     "kuzka": {
       "ok": true,
       "checked": "2026-08-03",
-      "found": 66,
-      "diag": "/ -> HTTP 200, 69363 byte HTML, 198 link, 107 olası duyuru"
+      "found": 67,
+      "diag": "/ -> HTTP 200, 177452 byte HTML, 233 link, 91 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,13 +239,13 @@
       "ok": true,
       "checked": "2026-08-03",
       "found": 69,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15889 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 270756 byte HTML, 238 link, 167 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15889 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 270340 byte HTML, 238 link, 167 olası duyuru"
     },
     "gsb": {
       "ok": true,
       "checked": "2026-08-03",
       "found": 22,
-      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54561 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54542 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "items": {
@@ -18950,6 +18950,692 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#8ae8ebf8fee3e4f3eee5cae8ebe1e1eba4ede5fca4fef8": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#8ae8ebf8fee3e4f3eee5cae8ebe1e1eba4ede5fca4fef8",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-03"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-kanser-misyonu-ve-yenilikci-saglik-girisimi-cagrilari-ortak-0": {
+      "title": "Ufuk Avrupa Sağlık Kümesi, Kanser Misyonu ve Yenilikçi Sağlık Girişimi Çağrıları Ortak Arama Duyurusu",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-kanser-misyonu-ve-yenilikci-saglik-girisimi-cagrilari-ortak-0",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-03"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-saglik-alanindaki-arastirma-ve-yenilik-firsatlari-dokumani": {
+      "title": "Ufuk Avrupa Sağlık Kümesi - Sağlık Alanındaki Araştırma ve Yenilik Fırsatları Dokümanı Yayımlandı",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-saglik-alanindaki-arastirma-ve-yenilik-firsatlari-dokumani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-03"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/1507-tubitak-kobi-ar-ge-baslangic-destek-programi-2026-yili-1-cagrisinin-degerlendirme-sonuclari-aciklandi": {
+      "title": "1507–TÜBİTAK KOBİ Ar-Ge Başlangıç Destek Programı 2026 Yılı 1. Çağrısının Değerlendirme Sonuçları Açıklandı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/1507-tubitak-kobi-ar-ge-baslangic-destek-programi-2026-yili-1-cagrisinin-degerlendirme-sonuclari-aciklandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/301020-bakan-dr-osman-askin-bak-batmanda": {
+      "title": "BAKAN DR. OSMAN AŞKIN BAK BATMAN’DA17.07.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/301020-bakan-dr-osman-askin-bak-batmanda",
+      "date": "2026-07-17",
+      "on_tarihler": [
+        "2026-07-17"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-08-03"
+    },
+    "https://oka.gov.tr/haber/carsamba-da-kadin-ureticilere-dijital-ticaret-destegi": {
+      "title": "10TEMMUZ2026Çarşamba’da Kadın Üreticilere Dijital Ticaret Desteği",
+      "url": "https://oka.gov.tr/haber/carsamba-da-kadin-ureticilere-dijital-ticaret-destegi",
+      "date": "2026-07-10",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-08-03"
+    },
+    "https://geka.gov.tr/tr/haber/2026-yili-teknik-destek-programi-hizmet-alimlari-duyurusu": {
+      "title": "2026 Yılı Teknik Destek Programı Hizmet Alımları Duyurusu",
+      "url": "https://geka.gov.tr/tr/haber/2026-yili-teknik-destek-programi-hizmet-alimlari-duyurusu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "GEKA (Güney Ege Kalkınma Ajansı)",
+      "source_id": "geka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/tel_3A44800123456": {
+      "title": "+90 (366) 212 58 52(KUZKA)",
+      "url": "https://www.kuzka.gov.tr/tel_3A44800123456",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/genel-sekreter-270": {
+      "title": "Genel Sekreter",
+      "url": "https://www.kuzka.gov.tr/page/genel-sekreter-270",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/organizasyon-semasi-274": {
+      "title": "Organizasyon Şeması",
+      "url": "https://www.kuzka.gov.tr/page/organizasyon-semasi-274",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/organizasyon-yapisi-272": {
+      "title": "Yönetim Kurulu",
+      "url": "https://www.kuzka.gov.tr/page/organizasyon-yapisi-272",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/etik-ilkeler-yonergesi-275": {
+      "title": "Etik İlkeler Yönergesi",
+      "url": "https://www.kuzka.gov.tr/page/etik-ilkeler-yonergesi-275",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/etik-komisyonun-dayanagi-ve-gorevleri-276": {
+      "title": "Etik Komisyonun Dayanağı ve Görevleri",
+      "url": "https://www.kuzka.gov.tr/page/etik-komisyonun-dayanagi-ve-gorevleri-276",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/ilgili-mevzuaat-277": {
+      "title": "İlgili Mevzuat",
+      "url": "https://www.kuzka.gov.tr/page/ilgili-mevzuaat-277",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/etik-komisyonu-uyeleri-278": {
+      "title": "Etik Komisyonu Üyeleri",
+      "url": "https://www.kuzka.gov.tr/page/etik-komisyonu-uyeleri-278",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/kurumsal-stratejik-plan-280": {
+      "title": "Kurumsal Stratejik Plan",
+      "url": "https://www.kuzka.gov.tr/page/kurumsal-stratejik-plan-280",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2026-yili-calisma-programi-ve-butcesi-281": {
+      "title": "2026 Yılı Çalışma Programı ve Bütçesi",
+      "url": "https://www.kuzka.gov.tr/page/2026-yili-calisma-programi-ve-butcesi-281",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2025-yili-calisma-programi-ve-butcesi-282": {
+      "title": "2025 Yılı Çalışma Programı ve Bütçesi",
+      "url": "https://www.kuzka.gov.tr/page/2025-yili-calisma-programi-ve-butcesi-282",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2024-yili-calisma-programi-ve-butcesi-283": {
+      "title": "2024 Yılı Çalışma Programı ve Bütçesi",
+      "url": "https://www.kuzka.gov.tr/page/2024-yili-calisma-programi-ve-butcesi-283",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2023-yili-calisma-programi-ve-butcesi-284": {
+      "title": "2023 Yılı Çalışma Programı ve Bütçesi",
+      "url": "https://www.kuzka.gov.tr/page/2023-yili-calisma-programi-ve-butcesi-284",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2022-yili-calisma-programi-ve-butcesi-285": {
+      "title": "2022 Yılı Çalışma Programı ve Bütçesi",
+      "url": "https://www.kuzka.gov.tr/page/2022-yili-calisma-programi-ve-butcesi-285",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2021-yili-calisma-programi-ve-butcesi-286": {
+      "title": "2021 Yılı Çalışma Programı ve Bütçesi",
+      "url": "https://www.kuzka.gov.tr/page/2021-yili-calisma-programi-ve-butcesi-286",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2020-yili-calisma-programi-ve-butcesi-287": {
+      "title": "2020 Yılı Çalışma Programı ve Bütçesi",
+      "url": "https://www.kuzka.gov.tr/page/2020-yili-calisma-programi-ve-butcesi-287",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2025-yili-faaliyet-raporu-288": {
+      "title": "2025 Yılı Faaliyet Raporu",
+      "url": "https://www.kuzka.gov.tr/page/2025-yili-faaliyet-raporu-288",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2024-yili-faaliyet-raporu-289": {
+      "title": "2024 Yılı Faaliyet Raporu",
+      "url": "https://www.kuzka.gov.tr/page/2024-yili-faaliyet-raporu-289",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2023-yili-faaliyet-raporu-290": {
+      "title": "2023 Yılı Faaliyet Raporu",
+      "url": "https://www.kuzka.gov.tr/page/2023-yili-faaliyet-raporu-290",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2022-yili-faaliyet-raporu-291": {
+      "title": "2022 Yılı Faaliyet Raporu",
+      "url": "https://www.kuzka.gov.tr/page/2022-yili-faaliyet-raporu-291",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2021-yili-faaliyet-raporu-292": {
+      "title": "2021 Yılı Faaliyet Raporu",
+      "url": "https://www.kuzka.gov.tr/page/2021-yili-faaliyet-raporu-292",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2020-yili-faaliyet-raporu-293": {
+      "title": "2020 Yılı Faaliyet Raporu",
+      "url": "https://www.kuzka.gov.tr/page/2020-yili-faaliyet-raporu-293",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/ust-olcekli-plan-ve-programlar-294": {
+      "title": "Üst Ölçekli Plan ve Programlar",
+      "url": "https://www.kuzka.gov.tr/page/ust-olcekli-plan-ve-programlar-294",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/tr82-bolge-planlari-295": {
+      "title": "TR82 Bölge Planları",
+      "url": "https://www.kuzka.gov.tr/page/tr82-bolge-planlari-295",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/kurumsal-stratecij-plan-296": {
+      "title": "Kurumsal Stratejik Plan",
+      "url": "https://www.kuzka.gov.tr/page/kurumsal-stratecij-plan-296",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/kastamonu-il-turizm-eylem-plani-301": {
+      "title": "Kastamonu İl Turizm Eylem Planı",
+      "url": "https://www.kuzka.gov.tr/page/kastamonu-il-turizm-eylem-plani-301",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/sektorel-raporlar-ve-analizler-330": {
+      "title": "Sektörel Raporlar ve Analizler",
+      "url": "https://www.kuzka.gov.tr/page/sektorel-raporlar-ve-analizler-330",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2025-yili-sektorel-raporlar-ve-analizler-303": {
+      "title": "2025 Yılı Sektörel Raporlar ve Analizler",
+      "url": "https://www.kuzka.gov.tr/page/2025-yili-sektorel-raporlar-ve-analizler-303",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2024-yili-sektorel-raporlar-ve-analizler-331": {
+      "title": "2024 Yılı Sektörel Raporlar ve Analizler",
+      "url": "https://www.kuzka.gov.tr/page/2024-yili-sektorel-raporlar-ve-analizler-331",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2023-yili-sektorel-raporlar-ve-analizler-332": {
+      "title": "2023 Yılı Sektörel Raporlar ve Analizler",
+      "url": "https://www.kuzka.gov.tr/page/2023-yili-sektorel-raporlar-ve-analizler-332",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2022-yili-sektorel-raporlar-ve-analizler-333": {
+      "title": "2022 Yılı Sektörel Raporlar ve Analizler",
+      "url": "https://www.kuzka.gov.tr/page/2022-yili-sektorel-raporlar-ve-analizler-333",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2021-yili-sektorel-raporlar-ve-analizler-334": {
+      "title": "2021 Yılı Sektörel Raporlar ve Analizler",
+      "url": "https://www.kuzka.gov.tr/page/2021-yili-sektorel-raporlar-ve-analizler-334",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2020-yili-sektorel-raporlar-ve-analizler-335": {
+      "title": "2020 Yılı Sektörel Raporlar ve Analizler",
+      "url": "https://www.kuzka.gov.tr/page/2020-yili-sektorel-raporlar-ve-analizler-335",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/mali-destekler-304": {
+      "title": "Mali Destekler",
+      "url": "https://www.kuzka.gov.tr/page/mali-destekler-304",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/acik-teknik-destek-programlari-309": {
+      "title": "Açık Mali Destekler",
+      "url": "https://www.kuzka.gov.tr/page/acik-teknik-destek-programlari-309",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/gecmis-yillara-ait-mali-destek-programlari-306": {
+      "title": "Geçmiş Yıllara Ait Mali Destek Programları",
+      "url": "https://www.kuzka.gov.tr/page/gecmis-yillara-ait-mali-destek-programlari-306",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/mali-destek-istatistikleri-307": {
+      "title": "Mali Destek İstatistikleri",
+      "url": "https://www.kuzka.gov.tr/page/mali-destek-istatistikleri-307",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/teknik-destekler-308": {
+      "title": "Teknik Destekler",
+      "url": "https://www.kuzka.gov.tr/page/teknik-destekler-308",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/gecmis-yillara-ait-teknik-destek-programlari-310": {
+      "title": "Geçmiş Yıllara Ait Teknik Destek Programları",
+      "url": "https://www.kuzka.gov.tr/page/gecmis-yillara-ait-teknik-destek-programlari-310",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/yatirim-danismanligi-311": {
+      "title": "Yatırım Danışmanlığı",
+      "url": "https://www.kuzka.gov.tr/page/yatirim-danismanligi-311",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/kastamonu-yatirim-ortami-312": {
+      "title": "Kastamonu Yatırım Ortamı",
+      "url": "https://www.kuzka.gov.tr/page/kastamonu-yatirim-ortami-312",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/sogep-anadoludakiler-proje-teklif-cagrisi-313": {
+      "title": "SOGEP - Anadoludakiler Proje Teklif Çağrısı",
+      "url": "https://www.kuzka.gov.tr/page/sogep-anadoludakiler-proje-teklif-cagrisi-313",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/tesvik-uygulamalari-314": {
+      "title": "Teşvik Uygulamaları",
+      "url": "https://www.kuzka.gov.tr/page/tesvik-uygulamalari-314",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/sinop-il-yatirim-destek-ve-tanitim-stratejisi-316": {
+      "title": "Sinop İl Yatırım Destek ve Tanıtım Stratejisi",
+      "url": "https://www.kuzka.gov.tr/page/sinop-il-yatirim-destek-ve-tanitim-stratejisi-316",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/cankiri-il-yatirim-destek-ve-tanitim-stratejisi-317": {
+      "title": "Çankırı İl Yatırım Destek ve Tanıtım Stratejisi",
+      "url": "https://www.kuzka.gov.tr/page/cankiri-il-yatirim-destek-ve-tanitim-stratejisi-317",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/kastamonu-il-yatirim-destek-ve-tanitim-stratejisi-318": {
+      "title": "Kastamonu İl Yatırım Destek ve Tanıtım Stratejisi",
+      "url": "https://www.kuzka.gov.tr/page/kastamonu-il-yatirim-destek-ve-tanitim-stratejisi-318",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/tr82-bolgesi-321": {
+      "title": "TR82 Bölgesi",
+      "url": "https://www.kuzka.gov.tr/page/tr82-bolgesi-321",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/turk-dunyasi-baskenti-323": {
+      "title": "Türk Dünyası Başkenti",
+      "url": "https://www.kuzka.gov.tr/page/turk-dunyasi-baskenti-323",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/etkinlikler": {
+      "title": "Etkinlik Takvimi",
+      "url": "https://www.kuzka.gov.tr/etkinlikler",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/ihaleler": {
+      "title": "İhale İlanları",
+      "url": "https://www.kuzka.gov.tr/ihaleler",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/page/2025-yili-faaliyet-raporu-336": {
+      "title": "Proje Uygulama",
+      "url": "https://www.kuzka.gov.tr/page/2025-yili-faaliyet-raporu-336",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/haberler": {
+      "title": "Tüm Haberler",
+      "url": "https://www.kuzka.gov.tr/haberler",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/news/techankara-proje-pazari-2026-basvurulari-acildi-188": {
+      "title": "10HaziranTechankara Proje Pazarı 2026 Başvuruları Açıldı",
+      "url": "https://www.kuzka.gov.tr/news/techankara-proje-pazari-2026-basvurulari-acildi-188",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/news/orman-banyosu-shinrin-yoku-egiticilerin-egitimi-187": {
+      "title": "18MayısOrman Banyosu (shinrin-yoku) Eğiticilerin Eğitimi",
+      "url": "https://www.kuzka.gov.tr/news/orman-banyosu-shinrin-yoku-egiticilerin-egitimi-187",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/news/kastamonu-da-yatirim-destekleri-bilgilendirme-toplantisi-yapilacak-186": {
+      "title": "04MayısKastamonu'da Yatırım Destekleri Bilgilendirme Toplantısı Yapılacak",
+      "url": "https://www.kuzka.gov.tr/news/kastamonu-da-yatirim-destekleri-bilgilendirme-toplantisi-yapilacak-186",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/news/t-c-ahiler-kalkinma-ajansi-personel-alim-i-lani-184": {
+      "title": "13NisanT.C. Ahiler Kalkınma Ajansı Personel Alım İlanı",
+      "url": "https://www.kuzka.gov.tr/news/t-c-ahiler-kalkinma-ajansi-personel-alim-i-lani-184",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/duyurular": {
+      "title": "Tüm Duyurular",
+      "url": "https://www.kuzka.gov.tr/duyurular",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/news/kastamonu-milli-emlak-kiralama-tasinir-ve-tasinmaz-i-hale-satis-i-lani-268": {
+      "title": "12EylülKastamonu Milli Emlak Kiralama, Taşınır ve Taşınmaz İhale Satış İlanı",
+      "url": "https://www.kuzka.gov.tr/news/kastamonu-milli-emlak-kiralama-tasinir-ve-tasinmaz-i-hale-satis-i-lani-268",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/news/t-c-ahiler-kalkinma-ajansi-i-hale-i-lani-267": {
+      "title": "20AğustosT.C. Ahiler Kalkınma Ajansı İhale İlanı",
+      "url": "https://www.kuzka.gov.tr/news/t-c-ahiler-kalkinma-ajansi-i-hale-i-lani-267",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/news/t-c-guney-ege-kalkinma-ajansi-i-hale-i-lani-266": {
+      "title": "30HaziranT.C. Güney Ege Kalkınma Ajansı İhale İlanı",
+      "url": "https://www.kuzka.gov.tr/news/t-c-guney-ege-kalkinma-ajansi-i-hale-i-lani-266",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/news/mal-alimi-i-cin-i-hale-i-lani-265": {
+      "title": "12MayısMal Alımı İçin İhale İlanı",
+      "url": "https://www.kuzka.gov.tr/news/mal-alimi-i-cin-i-hale-i-lani-265",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/document/2026-yili-sosyal-girisimciligin-gelistirilmesi-mali-destek-programi-sosgip-329": {
+      "title": "Detay2026 Yılı Sosyal Girişimciliğin Geliştirilmesi Mali Destek Programı (SOSGİP)",
+      "url": "https://www.kuzka.gov.tr/document/2026-yili-sosyal-girisimciligin-gelistirilmesi-mali-destek-programi-sosgip-329",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/document/2026-calisma-programi-328": {
+      "title": "Detay2026 Çalışma Programı",
+      "url": "https://www.kuzka.gov.tr/document/2026-calisma-programi-328",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/document/kurumsal-stratejik-plan-327": {
+      "title": "DetayKurumsal Stratejik Plan",
+      "url": "https://www.kuzka.gov.tr/document/kurumsal-stratejik-plan-327",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/document/2025-yili-ajans-faaliyet-raporu-326": {
+      "title": "Detay2025 YILI AJANS FAALİYET RAPORU",
+      "url": "https://www.kuzka.gov.tr/document/2025-yili-ajans-faaliyet-raporu-326",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/fotograf-galerisi.php": {
+      "title": "Tüm Galeriler",
+      "url": "https://www.kuzka.gov.tr/fotograf-galerisi.php",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.kuzka.gov.tr/video-galerisi.php": {
+      "title": "Tüm Videolar",
+      "url": "https://www.kuzka.gov.tr/video-galerisi.php",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-03"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#443e2b2a23312820252f3d202b0426252f2f256a232b326a3036": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#443e2b2a23312820252f3d202b0426252f2f256a232b326a3036",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-03"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#365d57445754435d4f52597654575d5d5718515940184244": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#365d57445754435d4f52597654575d5d5718515940184244",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-03"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#3b595a494f5255425f547b595a50505a155c544d154f49": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#3b595a494f5255425f547b595a50505a155c544d154f49",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
