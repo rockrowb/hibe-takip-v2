@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-08-03",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 56017 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55924 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-08-03",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -18923,6 +18923,33 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#f2909380869b9c8b969db29093999993dc959d84dc8680": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#f2909380869b9c8b969db29093999993dc959d84dc8680",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-03"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#ef958081889a838b8e84968b80af8d8e84848ec1888099c19b9d": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#ef958081889a838b8e84968b80af8d8e84848ec1888099c19b9d",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-03"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#53383221323126382a373c1331323838327d343c257d2721": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#53383221323126382a373c1331323838327d343c257d2721",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-03"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#8ae8ebf8fee3e4f3eee5cae8ebe1e1eba4ede5fca4fef8": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#8ae8ebf8fee3e4f3eee5cae8ebe1e1eba4ede5fca4fef8",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",

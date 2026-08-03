@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-08-03",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 56017 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55924 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-08-03",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -281,11 +281,11 @@
     "sivil toplum"
   ],
   "ai_status": {
-    "provider": "gemini",
+    "provider": "groq",
     "quota_exceeded": true,
-    "quota_error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
-    "checked_at": "2026-08-03T10:58:11Z",
-    "pending_count": 150
+    "quota_error": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kz3m3s4dfg4vxb8w1s8hawyg` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 1151",
+    "checked_at": "2026-08-03T11:06:49Z",
+    "pending_count": 143
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -644,7 +644,26 @@
       "source": "TEKNOFEST",
       "source_id": "teknofest",
       "first_seen": "2026-08-02",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_basvurabilir": "girişimci ve teknoloji meraklıları",
+        "hibe_miktari": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "son_basvuru_tarihleri": [
+          "2026-08-20"
+        ],
+        "desteklenen_aktiviteler": "yapay zeka, içerik ekonomisi ve kullanıcı deneyimi",
+        "temalar": [
+          "yapay zeka",
+          "dijital dönüşüm"
+        ],
+        "ozet": "TEKNOFEST 2026 NSosyal İnovasyon Yarışması başvuruları başladı, yerli dijital platformda yenilikçi projeler geliştirecek girişimcileri bekliyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://teknofest.org/tr/duyurular/teknofest-2026-mavi-vatan-resim-yarismasi-basvurulari-basladi/": {
       "title": "27.07.2026YARIŞMATEKNOFEST 2026 Mavi Vatan Resim Yarışması Başvuruları BaşladıHayal gücünü renklere dönüştürmeye ve Mavi Vatan'ı kendi gözünden resmetmeye hazır mısın?",
@@ -656,7 +675,26 @@
       "source": "TEKNOFEST",
       "source_id": "teknofest",
       "first_seen": "2026-08-02",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_basvurabilir": "İlkokul ve ortaokul seviyesindeki öğrenciler",
+        "hibe_miktari": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "son_basvuru_tarihleri": [
+          "2026-08-04"
+        ],
+        "desteklenen_aktiviteler": "Resim yarışması",
+        "temalar": [
+          "eğitim",
+          "kültür-sanat"
+        ],
+        "ozet": "TEKNOFEST 2026 Mavi Vatan Resim Yarışması başvuruları başladı. Öğrenciler, denizlerin mavisini ve milli teknolojilerin gücünü resmetmeye davet ediliyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://teknofest.org/tr/duyurular/kure-mavi-vatan-madde-yazim-yarismasi-basvurulari-basladi/": {
       "title": "25.07.2026YARIŞMAKÜRE Mavi Vatan Madde Yazım Yarışması Başvuruları Başladı!Milli dijital hafızamızda Mavi Vatan’a dair sizin de sözünüz olsun!",
@@ -668,7 +706,26 @@
       "source": "TEKNOFEST",
       "source_id": "teknofest",
       "first_seen": "2026-08-02",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_basvurabilir": "araştırmacı ve yazarlar",
+        "hibe_miktari": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "son_basvuru_tarihleri": [
+          "2026-08-03"
+        ],
+        "desteklenen_aktiviteler": "madde yazım",
+        "temalar": [
+          "eğitim",
+          "kültür-sanat"
+        ],
+        "ozet": "TEKNOFEST tarafından düzenlenen KÜRE Mavi Vatan Madde Yazım Yarışması başvuruları başladı.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://teknofest.org/tr/regulators/gdpr/": {
       "title": "KVKK Aydınlatma Metni",
@@ -898,7 +955,23 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-02",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "temalar": [
+          "ar-ge"
+        ],
+        "ozet": "TÜBİTAK, bilim, teknoloji ve yenilik çevrelerinin uluslararası işbirliği programlarına katılımlarını özendirmek amacıyla çeşitli destek ve ödül programları yürütmektedir. Bu programlar, Türkiye'de faaliyet gösteren kuruluşların Avrupa Birliği Çerçeve Programları kapsamındaki araştırma, geliştirme ve yenilik faaliyetlerine etkin katılımını sağlamayı amaçlamaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/h2020/avrupa-arastirma-konseyi": {
       "title": "Öncül Araştırma Bireysel Destekleri (European Research Council)",
@@ -908,7 +981,24 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-02",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_basvurabilir": "Araştırmacılar ve araştırmacı ekibi",
+        "hibe_miktari": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": "Öncül akademik araştırma projeleri",
+        "temalar": [
+          "ar-ge",
+          "inovasyon"
+        ],
+        "ozet": "Avrupa Araştırma Konseyi (ERC) öncül araştırma projelerini ve bilim insanlarını sadece bilimsel mükemmeliyet kriterine göre değerlendirerek fonlamaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/h2020/marie-curie": {
       "title": "Burs ve Dolaşım Destekleri (Marie Sklodowska Curie)",
@@ -918,7 +1008,25 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-02",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": null,
+        "kimler_basvurabilir": "Doktora derecesine sahip araştırmacılar veya en az 4 yıl araştırma deneyimine sahip araştırmacılar, üniversiteler, araştırma kuruluşları, sivil toplum kuruluşları, KOBİ’ler ve büyük sanayi kuruluşları",
+        "hibe_miktari": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": "Araştırma, yenilikçilik ve teknoloji alanındaki faaliyetler",
+        "temalar": [
+          "ar-ge",
+          "inovasyon",
+          "eğitim"
+        ],
+        "ozet": "Marie Skłodowska Curie Uluslararası Burs ve Araştırma Dolaşım Destekleri (MSCA), araştırmacıların kariyer gelişimini desteklemeyi, uluslararası ve sektörler arası araştırmacı dolaşımını teşvik etmeyi hedeflemektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/kobi-destekleri": {
       "title": "KOBİ Destekleri",
@@ -928,7 +1036,27 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-02",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": null,
+        "kimler_basvurabilir": "KOBİ'ler",
+        "hibe_miktari": "0,5-2,5 M.€ hibe, %70'i geçmeyecek şekilde",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "son_basvuru_tarihleri": [
+          "2020-05-19",
+          "2020-10-07"
+        ],
+        "desteklenen_aktiviteler": "demonstrasyon, test, pilot uygulama, ölçeklendirme ve pazar uygulamaları",
+        "temalar": [
+          "inovasyon",
+          "girişimcilik"
+        ],
+        "ozet": "Avrupa İnovasyon Konseyi Pilot Çalışma Programı kapsamında KOBİ Hızlandırıcı Programı ile hibe ve equity desteği sağlıyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-yolculugumuz-edirnede-devam-etti-ulkemizin-dort-bir-yaninda-arastirma-ve": {
       "title": "Ufuk Avrupa Yolculuğumuz Edirne'de Devam Etti: Ülkemizin Dört Bir Yanında Araştırma ve Yenilik Ekosistemini Güçlendiriyoruz",
@@ -21602,6 +21730,39 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#f2909380869b9c8b969db29093999993dc959d84dc8680": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#f2909380869b9c8b969db29093999993dc959d84dc8680",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-03",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#ef958081889a838b8e84968b80af8d8e84848ec1888099c19b9d": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#ef958081889a838b8e84968b80af8d8e84848ec1888099c19b9d",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-03",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#53383221323126382a373c1331323838327d343c257d2721": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#53383221323126382a373c1331323838327d343c257d2721",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-03",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#8ae8ebf8fee3e4f3eee5cae8ebe1e1eba4ede5fca4fef8": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#8ae8ebf8fee3e4f3eee5cae8ebe1e1eba4ede5fca4fef8",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
