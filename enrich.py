@@ -35,10 +35,13 @@ GÜVENCE 2 — Kota/limit dolarsa o ana kadarki ilerleme kaybolmaz:
     mesajlar) döngü kalan kayıtlara dokunmadan durur, kalanlar bir sonraki
     çalıştırmada otomatik kuyruğa girer.
 
-İKİ SAĞLAYICI DESTEKLENİR:
-  - ANTHROPIC_API_KEY tanımlıysa    -> Claude (claude-sonnet-4-6) (öncelikli)
-  - yoksa GEMINI_API_KEY tanımlıysa -> Google Gemini (gemini-2.5-flash)
-  - ikisi de tanımlı değilse        -> script sessizce çıkar
+ÜÇ SAĞLAYICI DESTEKLENİR — hangisinin anahtarı tanımlıysa öncelik sırasıyla o kullanılır:
+  - ANTHROPIC_API_KEY tanımlıysa    -> Claude (claude-sonnet-4-6) (1. öncelik)
+  - yoksa GEMINI_API_KEY tanımlıysa -> Google Gemini (gemini-2.5-flash) (2. öncelik)
+  - yoksa GROQ_API_KEY tanımlıysa   -> Groq (llama-3.3-70b-versatile) (3. öncelik) —
+    tamamen ücretsiz, kredi kartı istemeyen bir kademesi var (console.groq.com),
+    Gemini'nin ücretsiz kotası yetersiz kalırsa/çalışmazsa iyi bir alternatif.
+  - hiçbiri tanımlı değilse         -> script sessizce çıkar
 
 Token tasarrufu katmanları:
   A) classify.py her kaydı ücretsiz anahtar kelime taramasından geçirip
@@ -49,7 +52,8 @@ Token tasarrufu katmanları:
 
 Kullanım:
     export ANTHROPIC_API_KEY=sk-ant-...    # ya da
-    export GEMINI_API_KEY=AIza...
+    export GEMINI_API_KEY=AIza...          # ya da
+    export GROQ_API_KEY=gsk_...
     python enrich.py                # bekleyen tüm kayıtları işler
     python enrich.py --limit 20     # tek çalıştırmada işlenecek üst sınır
 """
@@ -78,6 +82,12 @@ ANTHROPIC_MODEL = "claude-sonnet-4-6"
 # değiştirmek gerekebilir (ai.google.dev/api/generate-content'ten kontrol edin).
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 GEMINI_MODEL = "gemini-2.5-flash"
+
+# Groq: tamamen ücretsiz, kredi kartı istemeyen bir kademesi var (2026 itibarıyla
+# dakikada 30 / günde 14.400 istek limiti — bu sistemin ihtiyacının çok üzerinde).
+# API'si OpenAI ile uyumlu format kullanıyor. console.groq.com'dan anahtar alınır.
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_MODEL = "llama-3.3-70b-versatile"
 
 QUOTA_ERROR_SIGNS = [
     "429", "insufficient_quota", "resource_exhausted", "rate_limit",
@@ -221,11 +231,48 @@ def call_gemini(api_key, page_text):
     return json.loads(text)
 
 
+def call_groq(api_key, page_text):
+    resp = requests.post(
+        GROQ_API_URL,
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        },
+        json={
+            "model": GROQ_MODEL,
+            "max_tokens": 600,
+            "response_format": {"type": "json_object"},
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": page_text},
+            ],
+        },
+        timeout=30,
+    )
+    if resp.status_code == 429:
+        raise QuotaExceeded(f"HTTP 429: {resp.text[:200]}")
+    try:
+        resp.raise_for_status()
+    except requests.HTTPError as e:
+        _check_quota_error(e, resp.text)
+        raise
+    data = resp.json()
+    text = data["choices"][0]["message"]["content"]
+    text = re.sub(r"^```json|```$", "", text.strip(), flags=re.MULTILINE).strip()
+    return json.loads(text)
+
+
 def get_provider():
+    """Hangi anahtar(lar) tanımlıysa öncelik sırasıyla kullanılır:
+    Anthropic > Gemini > Groq. Groq son sırada çünkü genelde en son eklenen
+    yedek/deneme seçeneği oluyor; öncelik sırasını değiştirmek istersen bu
+    fonksiyondaki sırayı değiştirmen yeterli."""
     if os.environ.get("ANTHROPIC_API_KEY"):
         return "anthropic", os.environ["ANTHROPIC_API_KEY"]
     if os.environ.get("GEMINI_API_KEY"):
         return "gemini", os.environ["GEMINI_API_KEY"]
+    if os.environ.get("GROQ_API_KEY"):
+        return "groq", os.environ["GROQ_API_KEY"]
     return None, None
 
 
@@ -234,6 +281,8 @@ def call_ai(provider, api_key, page_text):
         return call_claude(api_key, page_text)
     elif provider == "gemini":
         return call_gemini(api_key, page_text)
+    elif provider == "groq":
+        return call_groq(api_key, page_text)
     raise ValueError(f"Bilinmeyen sağlayıcı: {provider}")
 
 
