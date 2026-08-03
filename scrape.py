@@ -46,14 +46,23 @@ from urllib.parse import urljoin, urlparse
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.ssl_ import create_urllib3_context
+from urllib3.exceptions import InsecureRequestWarning
 from bs4 import BeautifulSoup
+
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                   "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
     "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7",
-    "Accept-Encoding": "gzip, deflate, br",
+    # ÖNEMLİ: Accept-Encoding BİLİNÇLİ OLARAK burada YOK. requests/urllib3 bunu
+    # otomatik ve ortamda gerçekten çözülebilen sıkıştırma yöntemlerine göre
+    # (gzip/deflate, brotli kütüphanesi kuruluysa br) kendisi ayarlıyor. Bunu
+    # burada sabit "br" olarak zorlarsak ve ortamda brotli decoder kurulu
+    # değilse, sunucu Brotli ile sıkıştırılmış yanıt döner ama biz onu doğru
+    # açamayız — sonuç: "HTTP 200" ama içerik bozuk/boş görünür, hiç link
+    # bulunamaz. Bu tam olarak yaşanan sorunun kök nedeniydi.
     "Connection": "keep-alive",
     "Upgrade-Insecure-Requests": "1",
     "Sec-Fetch-Dest": "document",
@@ -137,9 +146,12 @@ def parse_all_dates(text):
 
 
 def fetch(url):
-    """Normal istek dener; SSL hatası alırsa (bazı eski .gov.tr sunucuları)
-    esnetilmiş bir SSL bağlamıyla bir kez daha dener; 500/502/503/504 gibi
-    geçici sunucu hatalarında kısa bir bekleme sonrası bir kez daha dener."""
+    """Normal istek dener; SSL hatası alırsa önce esnetilmiş bir SSL bağlamıyla
+    (eski/zayıf şifreleme kullanan sunucular için), o da başarısız olursa
+    (özellikle 'sertifika doğrulanamadı' hatalarında — bazı .gov.tr siteleri
+    eksik sertifika zinciri gönderiyor) sertifika doğrulamasını atlayarak son
+    bir kez dener. 500/502/503/504 gibi geçici sunucu hatalarında kısa bir
+    bekleme sonrası bir kez daha dener."""
     last_exc = None
     for attempt in range(2):
         try:
@@ -155,6 +167,18 @@ def fetch(url):
                 r = _legacy_session.get(url, headers=HEADERS, timeout=TIMEOUT)
                 r.raise_for_status()
                 return BeautifulSoup(r.text, "html.parser"), r.status_code, len(r.text)
+            except requests.exceptions.SSLError as e2:
+                # Son çare: sertifika zinciri eksik/bozuk sunucular için
+                # doğrulamayı bilinçli olarak atla. Bu bir güvenlik ödünü
+                # ama burada sadece herkese açık bir duyuru sayfası
+                # okunuyor, hassas veri gönderilmiyor/alınmıyor.
+                try:
+                    r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, verify=False)
+                    r.raise_for_status()
+                    return BeautifulSoup(r.text, "html.parser"), r.status_code, len(r.text)
+                except Exception as e3:
+                    last_exc = e3
+                    break
             except Exception as e2:
                 last_exc = e2
                 break
@@ -211,25 +235,25 @@ def scrape_source(source):
     link_contains = source.get("link_contains") or []
     best = []
     tried = []
-    last_diag = None
+    all_diags = []  # denenen HER path'in sonucu — sadece sonuncusu değil, teşhis için hepsi saklanır
     for path in source["paths"]:
         url = base + path if path.startswith("/") else base + "/" + path
         tried.append(url)
         try:
             entries, diag = scrape_page(url, link_contains)
-            last_diag = f"{url} -> {diag}"
+            all_diags.append(f"{path} -> {diag}")
         except requests.exceptions.Timeout:
-            last_diag = f"{url} -> ZAMAN AŞIMI ({TIMEOUT}sn içinde yanıt gelmedi)"
-            print(f"  [{source['id']}] {last_diag}")
+            all_diags.append(f"{path} -> ZAMAN AŞIMI ({TIMEOUT}sn içinde yanıt gelmedi)")
+            print(f"  [{source['id']}] {all_diags[-1]}")
             continue
         except requests.exceptions.HTTPError as e:
             code = e.response.status_code if e.response is not None else "?"
-            last_diag = f"{url} -> HTTP {code} (muhtemelen erişim engellendi/bot koruması)"
-            print(f"  [{source['id']}] {last_diag}")
+            all_diags.append(f"{path} -> HTTP {code}")
+            print(f"  [{source['id']}] {all_diags[-1]}")
             continue
         except Exception as e:
-            last_diag = f"{url} -> hata: {e}"
-            print(f"  [{source['id']}] {last_diag}")
+            all_diags.append(f"{path} -> hata: {e}")
+            print(f"  [{source['id']}] {all_diags[-1]}")
             continue
         entries = [e for e in entries if urlparse(e["url"]).netloc == urlparse(base).netloc]
         seen = set()
@@ -250,7 +274,7 @@ def scrape_source(source):
     for e in best:
         e["source"] = source["name"]
         e["source_id"] = source["id"]
-    return best, last_diag
+    return best, " | ".join(all_diags)
 
 
 def load_existing():

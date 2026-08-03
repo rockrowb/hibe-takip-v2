@@ -139,22 +139,32 @@
 
   .entry-summary{font-size:0.85rem;color:var(--ink-soft);margin-top:0.35rem;line-height:1.45;}
   .entry-details{font-family:'IBM Plex Mono',monospace;font-size:0.72rem;color:var(--gold);background:var(--gold-soft);display:inline-block;padding:0.25rem 0.55rem;margin-top:0.45rem;border-radius:2px;line-height:1.6;}
-  .entry-temalar{margin-top:0.4rem;display:flex;flex-wrap:wrap;gap:0.3rem;}
+  .entry-temalar{display:flex;flex-wrap:wrap;gap:0.3rem;align-items:center;}
   .tema-chip{font-family:'IBM Plex Mono',monospace;font-size:0.64rem;background:var(--green-soft);color:var(--green);padding:0.1rem 0.4rem;border-radius:10px;}
 
   /* ---------- Sağdaki tablo görünümlü bilgi paneli (tarih/kalan gün/miktar) ---------- */
+  /* Gerçek bir tablo gibi: etiket ve değer YAN YANA (üst üste değil).
+     entry-info-row'lar display:contents ile kendi grid hücrelerine
+     "eriyerek" doğrudan bu grid'in satırlarını oluşturur. */
   .entry-info{
-    display:flex;flex-direction:column;gap:0.35rem;
+    display:grid;
+    grid-template-columns:auto 1fr;
+    row-gap:0.5rem; column-gap:0.7rem;
+    align-items:baseline;
     border-left:1px solid var(--line);padding-left:1rem;
     font-family:'IBM Plex Mono',monospace;font-size:0.72rem;
+    align-content:start;
   }
-  .entry-info-row{display:flex;flex-direction:column;gap:0.1rem;}
-  .entry-info-label{color:var(--ink-soft);font-size:0.64rem;letter-spacing:0.03em;text-transform:uppercase;}
+  .entry-info-row{display:contents;}
+  .entry-info-label{
+    color:var(--ink-soft);font-size:0.64rem;letter-spacing:0.03em;text-transform:uppercase;
+    white-space:nowrap;padding-top:0.1rem;
+  }
   .entry-info-value{color:var(--ink);font-size:0.78rem;font-weight:500;}
   .entry-info-value.urgent{color:var(--seal);font-weight:700;}
   .entry-info-value.soon{color:var(--gold);font-weight:700;}
   .entry-info-value.ok{color:var(--green);}
-  .entry-info-empty{color:var(--ink-soft);font-style:italic;font-size:0.7rem;}
+  .entry-info-empty{grid-column:1 / -1;color:var(--ink-soft);font-style:italic;font-size:0.7rem;}
 
   /* ---------- Düzenle butonu + form ---------- */
   .edit-btn{

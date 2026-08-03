@@ -84,8 +84,32 @@
     "paths": ["/ihaleler", "/duyurular", "/"],
     "link_contains": []
   },
+  {
+    "id": "ktb",
+    "name": "Kültür ve Turizm Bakanlığı",
+    "homepage": "https://www.ktb.gov.tr",
+    "paths": ["/TR-9857/duyurular.html", "/duyurular", "/"],
+    "link_contains": [],
+    "note": "Bakanlığın destekleri (kültür fonu, tiyatro desteği, kültür yatırımları vb.) farklı genel müdürlüklerin alt alan adlarında (yigm.ktb.gov.tr, kvmgm.ktb.gov.tr vb.) dağınık durumda — bu path tahmine dayalı, gerçek sonuca göre inceltilmesi gerekebilir."
+  },
+  {
+    "id": "tarim_orman",
+    "name": "Tarım ve Orman Bakanlığı",
+    "homepage": "https://www.tarimorman.gov.tr",
+    "paths": ["/Haberler", "/Duyuru", "/"],
+    "link_contains": [],
+    "note": "IPARD, kırsal kalkınma yatırımları desteği (KKYDP) gibi önemli hibe programlarını yürütüyor — path tahmine dayalı."
+  },
+  {
+    "id": "gsb",
+    "name": "Gençlik ve Spor Bakanlığı",
+    "homepage": "https://www.gsb.gov.tr",
+    "paths": ["/Haberler", "/Duyurular", "/"],
+    "link_contains": [],
+    "note": "Gençlik projeleri destek/hibe programları için — path tahmine dayalı."
+  },
   {"id": "istka",     "name": "İSTKA (İstanbul Kalkınma Ajansı)",          "homepage": "https://www.istka.org.tr",     "paths": ["/destekler", "/tr/basvuru-cagrilari", "/duyurular"], "link_contains": []},
-  {"id": "ankaraka",  "name": "ANKARAKA (Ankara Kalkınma Ajansı)",         "homepage": "https://www.ankaraka.org.tr",  "paths": ["/destekler", "/duyurular", "/tr/haberler"],           "link_contains": []},
+  {"id": "ankaraka",  "name": "ANKARAKA (Ankara Kalkınma Ajansı)",         "homepage": "https://ankaraka.org.tr",      "paths": ["/ajans-destek-programlari", "/destekler"],             "link_contains": []},
   {"id": "izka",      "name": "İZKA (İzmir Kalkınma Ajansı)",              "homepage": "https://izka.org.tr",          "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
   {"id": "bebka",     "name": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)", "homepage": "https://bebka.org.tr",    "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
   {"id": "karacadag", "name": "Karacadağ Kalkınma Ajansı",                 "homepage": "https://www.karacadag.gov.tr", "paths": ["/destekler/", "/destekler"],                          "link_contains": []},
@@ -98,7 +122,7 @@
   {"id": "oran",      "name": "ORAN (Orta Anadolu Kalkınma Ajansı)",       "homepage": "https://www.oran.org.tr",      "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
   {"id": "marka",     "name": "MARKA (Doğu Marmara Kalkınma Ajansı)",      "homepage": "https://www.marka.org.tr",     "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
   {"id": "gmka",      "name": "GMKA (Güney Marmara Kalkınma Ajansı)",      "homepage": "https://www.gmka.gov.tr",      "paths": ["/acik-destek-programlari", "/duyurular"],             "link_contains": []},
-  {"id": "geka",      "name": "GEKA (Güney Ege Kalkınma Ajansı)",          "homepage": "https://www.geka.gov.tr",      "paths": ["/tr/basvurusu-devam-eden-destekler", "/destekler"],  "link_contains": []},
+  {"id": "geka",      "name": "GEKA (Güney Ege Kalkınma Ajansı)",          "homepage": "https://geka.gov.tr",          "paths": ["/", "/tr/basvurusu-devam-eden-destekler"],            "link_contains": []},
   {"id": "ika",       "name": "İKA (İpekyolu Kalkınma Ajansı)",            "homepage": "https://www.ika.org.tr",       "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
   {"id": "trakyaka",  "name": "TRAKYAKA (Trakya Kalkınma Ajansı)",         "homepage": "https://www.trakyaka.org.tr",  "paths": ["/tr/33286/DESTEKLER", "/destekler"],                  "link_contains": []},
   {"id": "zafer",     "name": "ZAFER (Zafer Kalkınma Ajansı)",             "homepage": "https://zafer.gov.tr",         "paths": ["/destekler", "/"],                                    "link_contains": []},
