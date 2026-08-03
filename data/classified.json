@@ -1,233 +1,233 @@
 {
-  "last_updated": "2026-08-02",
+  "last_updated": "2026-08-03",
   "source_status": {
     "ka_gov": {
       "ok": true,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 3,
       "diag": "https://ka.gov.tr/destekler -> HTTP 200, 605377 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 22,
       "diag": "https://teknofest.org/tr/duyurular/ -> HTTP 200, 148309 byte HTML, 107 link, 37 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 50,
-      "diag": "https://ufukavrupa.org.tr/tr/haberler -> HTTP 200, 38111 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "https://ufukavrupa.org.tr/tr/haberler -> HTTP 200, 37985 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
-      "diag": "https://www.yatirimadestek.gov.tr/duyurular -> HTTP 200, 4064 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://www.yatirimadestek.gov.tr/duyurular -> HTTP 200, 4061 byte HTML, 0 link, 0 olası duyuru"
     },
     "kosgeb": {
       "ok": true,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 1,
       "diag": "https://www.kosgeb.gov.tr/site/tr/genel/duyurular -> HTTP 200, 64834 byte HTML, 129 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 18,
       "diag": "https://tubitak.gov.tr/tr/duyuru -> HTTP 200, 95243 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": true,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 4,
       "diag": "https://ticaret.gov.tr/destekler -> HTTP 200, 56017 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 51,
       "diag": "https://www.ua.gov.tr/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96397 byte HTML, 206 link, 153 olası duyuru"
     },
     "unesco_turkiye": {
       "ok": true,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 81,
       "diag": "https://www.unesco.org.tr/ -> HTTP 200, 705271 byte HTML, 121 link, 81 olası duyuru"
     },
     "sivil_dusun": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
-      "diag": "https://www.sivildusun.net/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 26673 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://www.sivildusun.net/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 26695 byte HTML, 0 link, 0 olası duyuru"
     },
     "stgm": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
       "diag": "https://www.stgm.org.tr/hibe-duyurulari -> HTTP 403 (muhtemelen erişim engellendi/bot koruması)"
     },
     "cssp": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
       "diag": "https://www.cfcu.gov.tr/ -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
     },
     "istka": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
       "diag": "https://www.istka.org.tr/duyurular -> HTTP 200, 16985 byte HTML, 0 link, 0 olası duyuru"
     },
     "ankaraka": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
       "diag": "https://www.ankaraka.org.tr/tr/haberler -> HTTP 404 (muhtemelen erişim engellendi/bot koruması)"
     },
     "izka": {
       "ok": true,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 16,
       "diag": "https://izka.org.tr/destekler -> HTTP 200, 68229 byte HTML, 54 link, 21 olası duyuru"
     },
     "bebka": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
-      "diag": "https://bebka.org.tr/duyurular -> HTTP 200, 52142 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://bebka.org.tr/duyurular -> HTTP 200, 50647 byte HTML, 0 link, 0 olası duyuru"
     },
     "karacadag": {
       "ok": true,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 20,
       "diag": "https://www.karacadag.gov.tr/destekler/ -> HTTP 200, 49452 byte HTML, 56 link, 31 olası duyuru"
     },
     "cka": {
       "ok": true,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 19,
       "diag": "https://www.cka.org.tr/tr/guncel-destekler -> HTTP 200, 35124 byte HTML, 103 link, 43 olası duyuru"
     },
     "baka": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
-      "diag": "https://www.baka.org.tr/duyurular -> HTTP 200, 7582 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://www.baka.org.tr/duyurular -> HTTP 200, 7580 byte HTML, 0 link, 0 olası duyuru"
     },
     "dogaka": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
       "diag": "https://www.dogaka.gov.tr/medya/guncel-duyurular -> HTTP 200, 6510 byte HTML, 0 link, 0 olası duyuru"
     },
     "mevka": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
       "diag": "https://www.mevka.org.tr/destekler/guncel-destek-programlari -> HTTP 500 (muhtemelen erişim engellendi/bot koruması)"
     },
     "oka": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
       "diag": "https://oka.gov.tr/duyurular -> HTTP 200, 6450 byte HTML, 0 link, 0 olası duyuru"
     },
     "doka": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
-      "diag": "https://www.doka.org.tr/ -> HTTP 200, 30019 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://www.doka.org.tr/ -> HTTP 200, 30040 byte HTML, 0 link, 0 olası duyuru"
     },
     "oran": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
-      "diag": "https://www.oran.org.tr/duyurular -> HTTP 200, 12215 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://www.oran.org.tr/duyurular -> HTTP 200, 12249 byte HTML, 0 link, 0 olası duyuru"
     },
     "marka": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
-      "diag": "https://www.marka.org.tr/duyurular -> HTTP 200, 62738 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://www.marka.org.tr/duyurular -> HTTP 200, 62626 byte HTML, 0 link, 0 olası duyuru"
     },
     "gmka": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
-      "diag": "https://www.gmka.gov.tr/duyurular -> HTTP 200, 8389 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://www.gmka.gov.tr/duyurular -> HTTP 200, 8296 byte HTML, 0 link, 0 olası duyuru"
     },
     "geka": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
       "diag": "https://www.geka.gov.tr/destekler -> HTTP 404 (muhtemelen erişim engellendi/bot koruması)"
     },
     "ika": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
       "diag": "https://www.ika.org.tr/duyurular -> HTTP 200, 6926 byte HTML, 0 link, 0 olası duyuru"
     },
     "trakyaka": {
       "ok": true,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 60,
       "diag": "https://www.trakyaka.org.tr/tr/33286/DESTEKLER -> HTTP 200, 32629 byte HTML, 139 link, 90 olası duyuru"
     },
     "zafer": {
       "ok": true,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 80,
-      "diag": "https://zafer.gov.tr/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "https://zafer.gov.tr/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
-      "diag": "https://www.ahika.gov.tr/haberler -> HTTP 200, 5923 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://www.ahika.gov.tr/haberler -> HTTP 200, 5636 byte HTML, 0 link, 0 olası duyuru"
     },
     "kuzka": {
       "ok": true,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 66,
       "diag": "https://www.kuzka.gov.tr/ -> HTTP 200, 69363 byte HTML, 198 link, 107 olası duyuru"
     },
     "kudaka": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
       "diag": "https://kudaka.gov.tr/ -> HTTP 200, 17386 byte HTML, 0 link, 0 olası duyuru"
     },
     "serka": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
       "diag": "https://www.serka.gov.tr/duyurular -> HTTP 200, 10218 byte HTML, 0 link, 0 olası duyuru"
     },
     "daka": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
       "diag": "https://www.daka.org.tr/duyurular -> HTTP 200, 5435 byte HTML, 0 link, 0 olası duyuru"
     },
     "fka": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
       "diag": "https://fka.gov.tr/ -> HTTP 200, 8661 byte HTML, 0 link, 0 olası duyuru"
     },
     "dika": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
       "diag": "https://www.dika.org.tr/duyurular -> HTTP 200, 5357 byte HTML, 0 link, 0 olası duyuru"
     },
     "bakka": {
       "ok": false,
-      "checked": "2026-08-02",
+      "checked": "2026-08-03",
       "found": 0,
-      "diag": "https://bakka.gov.tr/ -> HTTP 200, 31935 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "https://bakka.gov.tr/ -> HTTP 200, 32054 byte HTML, 0 link, 0 olası duyuru"
     }
   },
   "items": {
@@ -5704,6 +5704,26 @@
       "first_seen": "2026-08-02",
       "olasi_tur": "belirsiz",
       "duplicate_of": "https://www.kuzka.gov.tr/basinda-detay.asp?H=3077&Haber=sosyal-giriþimcilik-desteði-Ýçin-baþvurular-baþladý"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/horizon-cid-2026-01-02-cagrisi-hakkinda-aciklama-gono-go-milestone-oncesi-yapilan": {
+      "title": "HORIZON-CID-2026-01-02 Çağrısı Hakkında Açıklama: Go/No-Go Milestone Öncesi Yapılan Harcamalar",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/horizon-cid-2026-01-02-cagrisi-hakkinda-aciklama-gono-go-milestone-oncesi-yapilan",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-03",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/maria-leptin-embo-bilim-gazeteciligi-burslarina-basvurular-icin-son-basvuru-tarihi-30": {
+      "title": "Maria Leptin – EMBO Bilim Gazeteciliği Burslarına Başvurular için Son Başvuru Tarihi: 30 Eylül 2026",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/maria-leptin-embo-bilim-gazeteciligi-burslarina-basvurular-icin-son-basvuru-tarihi-30",
+      "date": "2026-09-30",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-03",
+      "olasi_tur": "hibe_olabilir"
     }
   }
 }
