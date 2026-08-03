@@ -131,7 +131,7 @@
       "ok": true,
       "checked": "2026-08-03",
       "found": 44,
-      "diag": "/ -> HTTP 200, 122590 byte HTML, 277 link, 63 olası duyuru"
+      "diag": "/ -> HTTP 200, 122597 byte HTML, 277 link, 63 olası duyuru"
     },
     "doka": {
       "ok": true,
@@ -140,10 +140,10 @@
       "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 174584 byte HTML, 130 link, 53 olası duyuru"
     },
     "oran": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-03",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 84,
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 111471 byte HTML, 189 link, 125 olası duyuru"
     },
     "marka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-08-03",
       "found": 69,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15889 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 270884 byte HTML, 239 link, 167 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15889 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 270756 byte HTML, 238 link, 167 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -18136,6 +18136,793 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#8fedeefdfbe6e1f6ebe0cfedeee4e4eea1e8e0f9a1fbfd": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#8fedeefdfbe6e1f6ebe0cfedeee4e4eea1e8e0f9a1fbfd",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/orta-anadolu-kalkinma-ajansi-hakkinda": {
+      "title": "Orta Anadolu Kalkınma Ajansı Hakkında",
+      "url": "https://www.oran.org.tr/tr/orta-anadolu-kalkinma-ajansi-hakkinda",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/kalkinma-ajanslari-hakkinda/bolgesel-kalkinma-ve-ulkemizde-bolgesel-kalkinma-politikalarinin-gelisim-sureci": {
+      "title": "Bölgesel Kalkınma ve Ülkemizde Bölgesel Kalkınma Politikalarının Gelişim Süreci",
+      "url": "https://www.oran.org.tr/tr/kalkinma-ajanslari-hakkinda/bolgesel-kalkinma-ve-ulkemizde-bolgesel-kalkinma-politikalarinin-gelisim-sureci",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/kalkinma-ajanslari-hakkinda/bolgesel-kalkinmanin-yonetisiminde-kalkinma-ajanslari": {
+      "title": "Bölgesel Kalkınmanın Yönetişiminde Kalkınma Ajansları",
+      "url": "https://www.oran.org.tr/tr/kalkinma-ajanslari-hakkinda/bolgesel-kalkinmanin-yonetisiminde-kalkinma-ajanslari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/kalkinma-ajanslari-hakkinda/kalkinma-planlamasinda-istatistiki-bolge-birimleri-siniflandirmasi": {
+      "title": "Kalkınma Planlamasında İstatistiki Bölge Birimleri Sınıflandırması",
+      "url": "https://www.oran.org.tr/tr/kalkinma-ajanslari-hakkinda/kalkinma-planlamasinda-istatistiki-bolge-birimleri-siniflandirmasi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/kalkinma-kurulu/toplanti-tutanaklari": {
+      "title": "Toplantı Tutanakları",
+      "url": "https://www.oran.org.tr/tr/kalkinma-kurulu/toplanti-tutanaklari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/yonetim-kurulu": {
+      "title": "Yönetim Kurulu",
+      "url": "https://www.oran.org.tr/tr/yonetim-kurulu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/genel-sekreterlik": {
+      "title": "Genel Sekreterlik",
+      "url": "https://www.oran.org.tr/tr/genel-sekreterlik",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/organizasyon-yapisi": {
+      "title": "Organizasyon Yapısı",
+      "url": "https://www.oran.org.tr/tr/organizasyon-yapisi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/misyon-ve-vizyon": {
+      "title": "Misyon ve Vizyon",
+      "url": "https://www.oran.org.tr/tr/misyon-ve-vizyon",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/etik-komisyonu": {
+      "title": "Etik Komisyonu",
+      "url": "https://www.oran.org.tr/tr/etik-komisyonu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/dokuman-merkezi/yatirim-destek": {
+      "title": "Yatırım Destek",
+      "url": "https://www.oran.org.tr/tr/dokuman-merkezi/yatirim-destek",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/dokuman-merkezi/arastirma-ve-planlama": {
+      "title": "Araştırma ve Planlama",
+      "url": "https://www.oran.org.tr/tr/dokuman-merkezi/arastirma-ve-planlama",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/dokuman-merkezi/mali-destek-projeleri": {
+      "title": "Mali Destek Projeleri",
+      "url": "https://www.oran.org.tr/tr/dokuman-merkezi/mali-destek-projeleri",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/dokuman-merkezi/teknik-destek-projeleri": {
+      "title": "Teknik Destek Projeleri",
+      "url": "https://www.oran.org.tr/tr/dokuman-merkezi/teknik-destek-projeleri",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/teknik-destekler-saha-calismalari": {
+      "title": "Teknik Destekler – Saha Çalışmaları",
+      "url": "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/teknik-destekler-saha-calismalari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/ureten-sehirler-tematik-teknik-destegi": {
+      "title": "Üreten Şehirler Tematik Teknik Desteği",
+      "url": "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/ureten-sehirler-tematik-teknik-destegi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/imalat-sanayi-finansman-destegi": {
+      "title": "İmalat Sanayi Finansman Desteği",
+      "url": "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/imalat-sanayi-finansman-destegi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/deger-zinciri-analizi-calismalari": {
+      "title": "Değer Zinciri Analizi Çalışmaları",
+      "url": "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/deger-zinciri-analizi-calismalari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/verimlilik-koordinasyon-ofisi-projesi": {
+      "title": "Verimlilik Koordinasyon Ofisi Projesi",
+      "url": "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/verimlilik-koordinasyon-ofisi-projesi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/sivas-inovasyon-merkezi-projesi": {
+      "title": "Sivas İnovasyon Merkezi Projesi",
+      "url": "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/sivas-inovasyon-merkezi-projesi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/kayseri-e-ticaret-ve-e-ihracat-danismanlik-ofisi-projesi": {
+      "title": "Kayseri E-Ticaret ve E-İhracat Danışmanlık Ofisi Projesi",
+      "url": "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/kayseri-e-ticaret-ve-e-ihracat-danismanlik-ofisi-projesi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/dijital-yol-projesi": {
+      "title": "Dijital Yol Projesi",
+      "url": "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/dijital-yol-projesi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/uzman-raporlari": {
+      "title": "Uzman Raporları",
+      "url": "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/uzman-raporlari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/sivas-cmdp-projeleri": {
+      "title": "Sivas CMDP Projeleri",
+      "url": "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/sivas-cmdp-projeleri",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/tr72-imalat-sanayinde-genc-istihdami-faaliyetleri": {
+      "title": "TR72 İmalat Sanayinde Genç İstihdamı Faaliyetleri",
+      "url": "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi/tr72-imalat-sanayinde-genc-istihdami-faaliyetleri",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/turizm-imkanlarinin-gelistirilmesi-sonuc-odakli-programi": {
+      "title": "Alternatif  Turizm  İmkânlarının Geliştirilmesi Sonuç Odaklı Programı",
+      "url": "https://www.oran.org.tr/tr/turizm-imkanlarinin-gelistirilmesi-sonuc-odakli-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/kirsalda-yasayan-bireylerin-sosyo-ekonomik-gelisimlerinin-saglanmasi-sonuc-odakli-programi": {
+      "title": "Kırsalda Yaşayan Bireylerin Sosyo-Ekonomik Gelişimlerinin Sağlanması Sonuç Odaklı Programı",
+      "url": "https://www.oran.org.tr/tr/kirsalda-yasayan-bireylerin-sosyo-ekonomik-gelisimlerinin-saglanmasi-sonuc-odakli-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/mali-destek-programi/2021-yozgat-kirsal-kalkinma-mali-destek-programi": {
+      "title": "2021 Yozgat Kırsal Kalkınma Mali Destek Programı",
+      "url": "https://www.oran.org.tr/tr/mali-destek-programi/2021-yozgat-kirsal-kalkinma-mali-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/mali-destek-programi/2020-kirsal-kalkinmanin-desteklenmesi-mali-destek-programi": {
+      "title": "2020 Kırsal Kalkınmanın Desteklenmesi Mali Destek Programı",
+      "url": "https://www.oran.org.tr/tr/mali-destek-programi/2020-kirsal-kalkinmanin-desteklenmesi-mali-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/mali-destek-programi/2020-yili-covid-19-ile-mucadele-ve-dayaniklilik-programi": {
+      "title": "2020 Yılı Covid-19 Ile Mücadele Ve Dayanıklılık Programı",
+      "url": "https://www.oran.org.tr/tr/mali-destek-programi/2020-yili-covid-19-ile-mucadele-ve-dayaniklilik-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/mali-destek-programi/2019-yili-mesleki-egitim-mali-destek-programi": {
+      "title": "2019 YILI MESLEKI EGITIM MALI DESTEK PROGRAMI",
+      "url": "https://www.oran.org.tr/tr/mali-destek-programi/2019-yili-mesleki-egitim-mali-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/fizibilite-destek-programi/2024-yili-turizm-fizibilite-destek-programi": {
+      "title": "2024 Yılı Turizm Fizibilite Destek Programı",
+      "url": "https://www.oran.org.tr/tr/fizibilite-destek-programi/2024-yili-turizm-fizibilite-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/fizibilite-destek-programi/2020-fizibilite-destek-programi": {
+      "title": "2020 Fizibilite Destek Programı",
+      "url": "https://www.oran.org.tr/tr/fizibilite-destek-programi/2020-fizibilite-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/fizibilite-destek-programi/2019-yili-fizibilite-destek-programi": {
+      "title": "2019 Yılı Fizibilite Destek Programı",
+      "url": "https://www.oran.org.tr/tr/fizibilite-destek-programi/2019-yili-fizibilite-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/fizibilite-destek-programi/2018-yili-fizibilite-destek-programi": {
+      "title": "2018 Yılı Fizibilite Destek Programı",
+      "url": "https://www.oran.org.tr/tr/fizibilite-destek-programi/2018-yili-fizibilite-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/teknik-destek-programi/anadoludakiler-kirsal-kalkinma-teknik-destek-programi": {
+      "title": "Anadoludakiler-Kırsal Kalkınma Teknik Destek Programı",
+      "url": "https://www.oran.org.tr/tr/teknik-destek-programi/anadoludakiler-kirsal-kalkinma-teknik-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/teknik-destek-programi/2025-yili-teknik-destek-programi": {
+      "title": "2025 Yılı Teknik Destek Programı",
+      "url": "https://www.oran.org.tr/tr/teknik-destek-programi/2025-yili-teknik-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/teknik-destek-programi/2024-yili-ureten-sehirler-teknik-destek-programi": {
+      "title": "2024 Yılı Üreten Şehirler Teknik Destek Programı",
+      "url": "https://www.oran.org.tr/tr/teknik-destek-programi/2024-yili-ureten-sehirler-teknik-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/teknik-destek-programi/2024-yili-imalat-sanayi-teknik-destek-programi": {
+      "title": "2024 Yılı İmalat Sanayi Teknik Destek Programı",
+      "url": "https://www.oran.org.tr/tr/teknik-destek-programi/2024-yili-imalat-sanayi-teknik-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/teknik-destek-programi/2024-yili-kirsal-kalkinma-teknik-destek-programi": {
+      "title": "2024 Yılı Kırsal Kalkınma Teknik Destek Programı",
+      "url": "https://www.oran.org.tr/tr/teknik-destek-programi/2024-yili-kirsal-kalkinma-teknik-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/teknik-destek-programi/2023-yili-ureten-sehirler-tematik-teknik-destek-programi": {
+      "title": "2023 Yılı Üreten Şehirler Tematik Teknik Destek Programı",
+      "url": "https://www.oran.org.tr/tr/teknik-destek-programi/2023-yili-ureten-sehirler-tematik-teknik-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/teknik-destek-programi/2023-yili-kirsal-kalkinma-ve-turizm-destek-programi": {
+      "title": "2023 Yılı Kırsal Kalkınma ve Turizm Destek Programı",
+      "url": "https://www.oran.org.tr/tr/teknik-destek-programi/2023-yili-kirsal-kalkinma-ve-turizm-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/teknik-destek-programi/2022-yili-imalat-sanayi-teknik-destek-programi": {
+      "title": "2022 Yılı İmalat Sanayi Teknik Destek Programı",
+      "url": "https://www.oran.org.tr/tr/teknik-destek-programi/2022-yili-imalat-sanayi-teknik-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/teknik-destek-programi/2026-yilik-teknik-destek-programi": {
+      "title": "2026 Yılık Teknik Destek Programı",
+      "url": "https://www.oran.org.tr/tr/teknik-destek-programi/2026-yilik-teknik-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/finansman-destek-programi/2022-yili-finansman-destek-programi": {
+      "title": "2022 Yılı Finansman Destek Programı",
+      "url": "https://www.oran.org.tr/tr/finansman-destek-programi/2022-yili-finansman-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/sogreen-destekleri/2025-sogreen-hizlandirici-hibe-destek-programi": {
+      "title": "2025 SOGREEN Hızlandırıcı Hibe Destek Programı",
+      "url": "https://www.oran.org.tr/tr/sogreen-destekleri/2025-sogreen-hizlandirici-hibe-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/sogreen-destekleri/2026-sogreen-geri-odemeli-finansman-destek-programi": {
+      "title": "2026 Sogreen Geri Ödemeli Finansman Destek Programı",
+      "url": "https://www.oran.org.tr/tr/sogreen-destekleri/2026-sogreen-geri-odemeli-finansman-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/izleme-ve-degerlendirme": {
+      "title": "İzleme ve Değerlendirme",
+      "url": "https://www.oran.org.tr/tr/izleme-ve-degerlendirme",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/mali-destek-sss": {
+      "title": "Mali Destek SSS",
+      "url": "https://www.oran.org.tr/tr/mali-destek-sss",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/proje-uygulama-donemi-sss": {
+      "title": "Proje Uygulama Dönemi SSS",
+      "url": "https://www.oran.org.tr/tr/proje-uygulama-donemi-sss",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/2024-2028-bolge-plani": {
+      "title": "2024-2028 Bölge Planı",
+      "url": "https://www.oran.org.tr/tr/2024-2028-bolge-plani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/2014-2023-bolge-plani": {
+      "title": "2014-2023 Bölge Planı",
+      "url": "https://www.oran.org.tr/tr/2014-2023-bolge-plani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/2010-2013-bolge-plan": {
+      "title": "2010-2013 Bölge Plan",
+      "url": "https://www.oran.org.tr/tr/2010-2013-bolge-plan",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/stratejik-plan": {
+      "title": "Stratejik Plan",
+      "url": "https://www.oran.org.tr/tr/stratejik-plan",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/kalkinma-ajanslari-hakkinda": {
+      "title": "Kalkınma Ajansları Hakkında",
+      "url": "https://www.oran.org.tr/tr/kalkinma-ajanslari-hakkinda",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/kalkinma-kurulu": {
+      "title": "Kalkınma Kurulu",
+      "url": "https://www.oran.org.tr/tr/kalkinma-kurulu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/dokuman-merkezi": {
+      "title": "Doküman Merkezi",
+      "url": "https://www.oran.org.tr/tr/dokuman-merkezi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi": {
+      "title": "İmalat Sanayi Sonuç Odaklı Programı",
+      "url": "https://www.oran.org.tr/tr/imalat-sanayi-sonuc-odakli-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/mali-destek-programi": {
+      "title": "Mali Destek Programı",
+      "url": "https://www.oran.org.tr/tr/mali-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/fizibilite-destek-programi": {
+      "title": "Fizibilite Destek Programı",
+      "url": "https://www.oran.org.tr/tr/fizibilite-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/teknik-destek-programi": {
+      "title": "Teknik Destek Programı",
+      "url": "https://www.oran.org.tr/tr/teknik-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/finansman-destek-programi": {
+      "title": "Finansman Destek Programı",
+      "url": "https://www.oran.org.tr/tr/finansman-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/tr/sogreen-destekleri": {
+      "title": "SoGreen Destekleri",
+      "url": "https://www.oran.org.tr/tr/sogreen-destekleri",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/karacadag-kalkinma-ajansi-personel-alim-ilani": {
+      "title": "Nisan 14, 2026Karacadağ Kalkınma Ajansı Personel Alım İlanıKaracadağ Kalkınma Ajansı 4 No’lu Cumhurbaşkanlığı Kararnamesi ile Kalkınma Ajansları Personel\r\nYönetmeliği hükümleri çerçevesinde; Diyarbakır ve Şanl",
+      "url": "https://www.oran.org.tr/duyuru/karacadag-kalkinma-ajansi-personel-alim-ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/ahiler-kalkinma-ajansi-personel-alim-ilani": {
+      "title": "Nisan 03, 2026Ahiler Kalkınma Ajansı Personel Alım İlanıAhiler Kalkınma Ajansı, 15 Temmuz 2018 tarihli ve 30479 sayılı Resmi Gazete 'de yayımlanan 4 sayılı Cumhurbaşkanlığı Kararnamesi ile 29 Mayıs 2019 tar",
+      "url": "https://www.oran.org.tr/duyuru/ahiler-kalkinma-ajansi-personel-alim-ilani",
+      "date": "2018-07-15",
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/bati-karadeniz-kalkinma-ajansi-personel-alim-ilani": {
+      "title": "Mart 05, 2026Batı Karadeniz Kalkınma Ajansı Personel Alım İlanı04.03.2026 tarih ve 33186 sayılı Resmi Gazete’de yayımlanan ilan ile Kalkınma Ajansları Personel Yönetmeliği hükümleri çerçevesinde, TR81 Batı Karaden",
+      "url": "https://www.oran.org.tr/duyuru/bati-karadeniz-kalkinma-ajansi-personel-alim-ilani",
+      "date": "2026-03-04",
+      "on_tarihler": [
+        "2026-03-04"
+      ],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/firat-kalkinma-ajansi-personel-alim-ilani-2026": {
+      "title": "Şubat 13, 2026Fırat Kalkınma Ajansı Personel Alım İlanı 2026Fırat Kalkınma Ajansı,15 Temmuz 2018 tarih ve 30479 sayılı Resmi Gazetede yayımlanan Bakanlıklara Bağlı, İlgili, İlişkili Kurum ve Kuruluşlar ile Diğe",
+      "url": "https://www.oran.org.tr/duyuru/firat-kalkinma-ajansi-personel-alim-ilani-2026",
+      "date": "2018-07-15",
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/dogu-anadolu-kalkinma-ajansi-daka-personel-alimi-ilani-2026": {
+      "title": "Ocak 13, 2026Doğu Anadolu Kalkınma Ajansı (DAKA) Personel Alımı İlanı 2026Doğu Anadolu Kalkınma Ajansı (DAKA), 4 Sayılı Bakanlıklara Bağlı, İlgili, İlişkili Kurum ve Kuruluşlar ile Diğer Kurum ve Kuruluşların Teşkilatı Hakkı",
+      "url": "https://www.oran.org.tr/duyuru/dogu-anadolu-kalkinma-ajansi-daka-personel-alimi-ilani-2026",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/serhat-kalkinma-ajansi-personel-alim-ilani-2026": {
+      "title": "Ocak 06, 2026Serhat Kalkınma Ajansı Personel Alım İlanı 2026Serhat Kalkınma Ajansı (SERKA), 4 Sayılı Cumhurbaşkanlığı Kararnamesi ile 29/5/2019 tarihli ve 30788 sayılı Resmi Gazetede yayımlanan Kalkınma Ajansla",
+      "url": "https://www.oran.org.tr/duyuru/serhat-kalkinma-ajansi-personel-alim-ilani-2026",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/guney-ege-kalkinma-ajansi-personel-alimi-ilani": {
+      "title": "Aralık 25, 2025Güney Ege Kalkınma Ajansı Personel Alımı İlanıGüney Ege Kalkınma Ajansı, 15 Temmuz 2018 tarih ve 30479 sayılı Resmi Gazetede yayımlanan Bakanlıklara Bağlı, İlgili, İlişkili Kurum ve Kuruluşlar ile",
+      "url": "https://www.oran.org.tr/duyuru/guney-ege-kalkinma-ajansi-personel-alimi-ilani",
+      "date": "2018-07-15",
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/cukurova-kalkinma-ajansi-personel-alim-ilani": {
+      "title": "Aralık 25, 2025Çukurova Kalkınma Ajansı Personel Alım İlanıÇukurova Kalkınma Ajansı 4 No'lu Cumhurbaşkanlığı Kararnamesi ve Kalkınma Ajansları Personel Yönetmeliği hükümleri çerçevesinde; Adana ve Mersin iller",
+      "url": "https://www.oran.org.tr/duyuru/cukurova-kalkinma-ajansi-personel-alim-ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/dogu-akdeniz-kalkinma-ajansi-personel-alim-ilani": {
+      "title": "Aralık 25, 2025Doğu Akdeniz Kalkınma Ajansı Personel Alım İlanıDoğu Akdeniz Kalkınma Ajansı, 15 Temmuz 2018 tarih ve 30479 sayılı Resmi Gazetede yayımlanan Bakanlıklara Bağlı, İlgili, İlişkili Kurum ve Kuruluşlar",
+      "url": "https://www.oran.org.tr/duyuru/dogu-akdeniz-kalkinma-ajansi-personel-alim-ilani",
+      "date": "2018-07-15",
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/teknik-destek-programi-son-basvuru-tarihi-uzatildi": {
+      "title": "Aralık 23, 2025Teknik Destek Programı Son Başvuru Tarihi Uzatıldı2025 Yılı Teknik Destek Programı son başvuru dönemi&nbsp;31 Aralık 2025 Saat 17:00’a kadar uzatılmıştır.&nbsp;Başvuruların belirtilen tarih ve saatten",
+      "url": "https://www.oran.org.tr/duyuru/teknik-destek-programi-son-basvuru-tarihi-uzatildi",
+      "date": "2025-12-31",
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/2025-yili-teknik-destek-programi-4-donem-basvuru-sonuclari": {
+      "title": "Aralık 05, 20252025 Yılı Teknik Destek Programı 4. Dönem Başvuru SonuçlarıOrta Anadolu Kalkınma Ajansı\r\ntarafından yürütülen 2025 Yılı Teknik Destek Programı kapsamında yapılan başvuruların\r\ndeğerlendirme süreci tamamlanmışt",
+      "url": "https://www.oran.org.tr/duyuru/2025-yili-teknik-destek-programi-4-donem-basvuru-sonuclari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/tr72-sosyal-kapsayici-ve-yesil-gecis-sogreen-hizlandirici-hibe-destegi-basvuru-sonuclari": {
+      "title": "Kasım 20, 2025TR72 Sosyal Kapsayıcı Ve Yeşil Geçiş (SOGREEN) Hızlandırıcı Hibe Desteği Başvuru SonuçlarıDeğerli Kamuoyu,\r\n\r\nT.C. Orta Anadolu Kalkınma\r\nAjansı (ORAN) tarafından yürütülen TR72 Sosyal Kapsayıcı ve Yeşil Geçiş (SOGREEN)\r\nHızlandırıcı Hibe P",
+      "url": "https://www.oran.org.tr/duyuru/tr72-sosyal-kapsayici-ve-yesil-gecis-sogreen-hizlandirici-hibe-destegi-basvuru-sonuclari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/bebka-personel-alim-ilani": {
+      "title": "Ekim 21, 2025BEBKA Personel Alım İlanıBEBKA, Kalkınma Ajansları Personel Yönetmeliği hükümleri çerçevesinde; Bursa, Eskişehir ve Bilecik illerinde istihdam edilmek üzere toplam 5 (beş) Uzm",
+      "url": "https://www.oran.org.tr/duyuru/bebka-personel-alim-ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/istanbul-kalkinma-ajansi-personel-alim-ilani": {
+      "title": "Ekim 16, 2025İstanbul Kalkınma Ajansı Personel Alım İlanıİstanbul Kalkınma Ajansı 29.09.2019 Tarih ve 30788 Sayılı Resmi Gazete'de yayınlanan Kalkınma Ajansları Personel Yönetmeliği hükümleri çerçevesinde; İ",
+      "url": "https://www.oran.org.tr/duyuru/istanbul-kalkinma-ajansi-personel-alim-ilani",
+      "date": "2019-09-29",
+      "on_tarihler": [
+        "2019-09-29"
+      ],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/kuzeydogu-anadolu-kalkinma-ajansi-personel-alim-ilani": {
+      "title": "Ekim 13, 2025Kuzeydoğu Anadolu Kalkınma Ajansı Personel Alım İlanıKuzeydoğu Anadolu Kalkınma Ajansı, 15/7/2018 tarihli ve 30479 sayılı Resmi Gazete’de yayımlanan\r\n4 sayılı Bakanlıklara Bağlı, İlgili, İlişkili Kurum v",
+      "url": "https://www.oran.org.tr/duyuru/kuzeydogu-anadolu-kalkinma-ajansi-personel-alim-ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/2025-yili-teknik-destek-programi-3-donem-basvuru-sonuclari": {
+      "title": "Ekim 13, 20252025 Yılı Teknik Destek Programı 3. Dönem Başvuru SonuçlarıOrta Anadolu Kalkınma Ajansı\r\ntarafından yürütülen 2025 Yılı Teknik Destek Programı kapsamında yapılan başvuruların\r\ndeğerlendirme süreci tamamlanmışt",
+      "url": "https://www.oran.org.tr/duyuru/2025-yili-teknik-destek-programi-3-donem-basvuru-sonuclari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/yerel-kalkinma-hamlesi-programi-on-basvuru-sureci-tamamlandi": {
+      "title": "Ekim 09, 2025Yerel Kalkınma Hamlesi Programı Ön Başvuru Süreci TamamlandıSanayi ve Teknoloji Bakanlığı Kalkınma Ajansları Genel Müdürlüğü koordinasyonunda yürütülen Yerel Kalkınma Hamlesi Programı&nbsp;illerin kendi ekonomi",
+      "url": "https://www.oran.org.tr/duyuru/yerel-kalkinma-hamlesi-programi-on-basvuru-sureci-tamamlandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/dogu-karadeniz-kalkinma-ajansi-personel-alim-ilani-2025": {
+      "title": "Eylül 24, 2025Doğu Karadeniz Kalkınma Ajansı Personel Alım İlanı 2025Doğu Karadeniz Kalkınma Ajansı, 4\r\nsayılı Bakanlıklara Bağlı, İlgili, İlişkili Kurum ve Kuruluşlar İle Diğer Kurum\r\nve Kuruluşların Teşkilatı Hakkınd",
+      "url": "https://www.oran.org.tr/duyuru/dogu-karadeniz-kalkinma-ajansi-personel-alim-ilani-2025",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/tc-sanayi-ve-teknoloji-bakanligi-dogu-anadolu-projesi-bolge-kalkinma-idaresi-baskanligi-personel-alimi-ilani": {
+      "title": "Eylül 15, 2025T.C. Sanayi Ve Teknoloji Bakanlığı Doğu Anadolu Projesi Bölge Kalkınma İdaresi Başkanlığı Personel Alımı İlanıDAP Bölge Kalkınma İdaresi Başkanlığı birimlerinde, 657 sayılı Devlet Memurları Kanununun\r\n4 üncü maddesinin (B) fıkrasına göre istihdam edilmek ve gi",
+      "url": "https://www.oran.org.tr/duyuru/tc-sanayi-ve-teknoloji-bakanligi-dogu-anadolu-projesi-bolge-kalkinma-idaresi-baskanligi-personel-alimi-ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/duyuru/2025-yili-teknik-destek-programi-2-donem-basvuru-sonuclari": {
+      "title": "Eylül 05, 20252025 Yılı Teknik Destek Programı 2. Dönem Başvuru SonuçlarıOrta Anadolu Kalkınma Ajansı\r\ntarafından yürütülen 2025 Yılı Teknik Destek Programı kapsamında yapılan başvuruların\r\ndeğerlendirme süreci tamamlanmışt",
+      "url": "https://www.oran.org.tr/duyuru/2025-yili-teknik-destek-programi-2-donem-basvuru-sonuclari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://www.oran.org.tr/iletisim": {
+      "title": "Kayseri İletişim Bilgileri",
+      "url": "https://www.oran.org.tr/iletisim",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-03"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#bfc5d0d1d8cad3dbded4c6dbd0ffddded4d4de91d8d0c991cbcd": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#bfc5d0d1d8cad3dbded4c6dbd0ffddded4d4de91d8d0c991cbcd",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-03"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#3b505a495a594e50425f547b595a50505a155c544d154f49": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#3b505a495a594e50425f547b595a50505a155c544d154f49",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-03"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#f2909380869b9c8b969db29093999993dc959d84dc8680": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#f2909380869b9c8b969db29093999993dc959d84dc8680",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
