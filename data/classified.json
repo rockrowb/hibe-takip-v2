@@ -5,19 +5,19 @@
       "ok": true,
       "checked": "2026-08-04",
       "found": 3,
-      "diag": "/destekler -> HTTP 200, 605377 byte HTML, 29 link, 23 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 605447 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
       "checked": "2026-08-04",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 148298 byte HTML, 107 link, 37 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 148879 byte HTML, 109 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-08-04",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 38358 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 38651 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-08-04",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -190,8 +190,8 @@
     "kuzka": {
       "ok": true,
       "checked": "2026-08-04",
-      "found": 77,
-      "diag": "/ -> HTTP 200, 178159 byte HTML, 236 link, 100 olası duyuru"
+      "found": 86,
+      "diag": "/ -> HTTP 200, 181598 byte HTML, 246 link, 110 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,13 +239,13 @@
       "ok": true,
       "checked": "2026-08-04",
       "found": 69,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15889 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 270573 byte HTML, 238 link, 167 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15889 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 270989 byte HTML, 238 link, 167 olası duyuru"
     },
     "gsb": {
       "ok": true,
       "checked": "2026-08-04",
       "found": 22,
-      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54542 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54676 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "items": {
@@ -21394,7 +21394,7 @@
       "olasi_tur": "hibe_olabilir"
     },
     "https://www.kuzka.gov.tr/tel_3A44800123456": {
-      "title": "+90 (366) 212 58 52(KUZKA)",
+      "title": "+90 (366) 212 58 52",
       "url": "https://www.kuzka.gov.tr/tel_3A44800123456",
       "date": null,
       "on_tarihler": [],
@@ -22310,6 +22310,232 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#dbb9baa9afb2b5a2bfb49bb9bab0b0baf5bcb4adf5afa9": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dbb9baa9afb2b5a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ramp-ham-maddeler-ortakligi-proje-onerilerinin-degerlendirilmesine-destek-saglayacak": {
+      "title": "RAMP Ham Maddeler Ortaklığı, Proje Önerilerinin Değerlendirilmesine Destek Sağlayacak Bağımsız Uzmanlar Arıyor",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ramp-ham-maddeler-ortakligi-proje-onerilerinin-degerlendirilmesine-destek-saglayacak",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-tek-saglik-one-health-yaklasimi-kapsamindaki-cagri-ve": {
+      "title": "Ufuk Avrupa Sağlık Kümesi-Tek Sağlık (One Health) Yaklaşımı Kapsamındaki Çağrı ve Faaliyetler",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-tek-saglik-one-health-yaklasimi-kapsamindaki-cagri-ve",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/yenilikci-saglik-girisimi-ihi-temmuz-2026-bulteni-saglik-arastirmalari-ve-yenilik": {
+      "title": "Yenilikçi Sağlık Girişimi (IHI)- Temmuz 2026 Bülteni: Sağlık Araştırmaları ve Yenilik Alanındaki Güncel Gelişmeler",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/yenilikci-saglik-girisimi-ihi-temmuz-2026-bulteni-saglik-arastirmalari-ve-yenilik",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/avrupanin-derin-teknoloji-girisimleri-icin-yeni-finansman-donemi-5-milyar-avroluk-scaleup": {
+      "title": "Avrupa'nın Derin Teknoloji Girişimleri İçin Yeni Finansman Dönemi: 5 Milyar Avroluk Scaleup Europe Fund Hayata Geçiyor",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/avrupanin-derin-teknoloji-girisimleri-icin-yeni-finansman-donemi-5-milyar-avroluk-scaleup",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/built4people-paydas-forumu-7-ekim-2026-bruksel": {
+      "title": "Built4People Paydaş Forumu- 7 Ekim 2026, Brüksel",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/built4people-paydas-forumu-7-ekim-2026-bruksel",
+      "date": "2026-10-07",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler?page=224": {
+      "title": "Last pageLast »",
+      "url": "https://ufukavrupa.org.tr/tr/haberler?page=224",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://ufukavrupa.org.tr/tr/haberler?page=223"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7203/Bakan-Yumakli-Kahverengi-Kokarcaya-Karsi-1-Milyon-650-Bin-Samuray-Arisi-Salimi-Yaptik": {
+      "title": "BAKAN YUMAKLI: KAHVERENGİ KOKARCAYA KARŞI 1 MİLYON 650 BİN SAMURAY ARISI SALIMI YAPTIK",
+      "url": "https://www.tarimorman.gov.tr/Haber/7203/Bakan-Yumakli-Kahverengi-Kokarcaya-Karsi-1-Milyon-650-Bin-Samuray-Arisi-Salimi-Yaptik",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/301026-bakan-baktan-milli-para-bisikletciler-icin-tebrik-mesaji": {
+      "title": "BAKAN BAK’TAN MİLLİ PARA BİSİKLETÇİLER İÇİN TEBRİK MESAJI18.07.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/301026-bakan-baktan-milli-para-bisikletciler-icin-tebrik-mesaji",
+      "date": "2026-07-18",
+      "on_tarihler": [
+        "2026-07-18"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.kuzka.gov.tr/page/2019-yili-faaliyet-raporu-349": {
+      "title": "2019 Yılı Faaliyet Raporu",
+      "url": "https://www.kuzka.gov.tr/page/2019-yili-faaliyet-raporu-349",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "haber_olabilir"
+    },
+    "https://www.kuzka.gov.tr/page/2018-yili-faaliyet-raporu-350": {
+      "title": "2018 Yılı Faaliyet Raporu",
+      "url": "https://www.kuzka.gov.tr/page/2018-yili-faaliyet-raporu-350",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "haber_olabilir"
+    },
+    "https://www.kuzka.gov.tr/page/2017-yili-faaliyet-raporu-351": {
+      "title": "2017 Yılı Faaliyet Raporu",
+      "url": "https://www.kuzka.gov.tr/page/2017-yili-faaliyet-raporu-351",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "haber_olabilir"
+    },
+    "https://www.kuzka.gov.tr/page/2016-yili-faaliyet-raporu-352": {
+      "title": "2016 Yılı Faaliyet Raporu",
+      "url": "https://www.kuzka.gov.tr/page/2016-yili-faaliyet-raporu-352",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "haber_olabilir"
+    },
+    "https://www.kuzka.gov.tr/page/2015-yili-faaliyet-raporu-353": {
+      "title": "2015 Yılı Faaliyet Raporu",
+      "url": "https://www.kuzka.gov.tr/page/2015-yili-faaliyet-raporu-353",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "haber_olabilir"
+    },
+    "https://www.kuzka.gov.tr/page/2014-yili-faaliyet-raporu-354": {
+      "title": "2014 Yılı Faaliyet Raporu",
+      "url": "https://www.kuzka.gov.tr/page/2014-yili-faaliyet-raporu-354",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "haber_olabilir"
+    },
+    "https://www.kuzka.gov.tr/page/2013-yili-faaliyet-raporu-355": {
+      "title": "2013 Yılı Faaliyet Raporu",
+      "url": "https://www.kuzka.gov.tr/page/2013-yili-faaliyet-raporu-355",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "haber_olabilir"
+    },
+    "https://www.kuzka.gov.tr/page/2012-yili-faaliyet-raporu-356": {
+      "title": "2012 Yılı Faaliyet Raporu",
+      "url": "https://www.kuzka.gov.tr/page/2012-yili-faaliyet-raporu-356",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "haber_olabilir"
+    },
+    "https://www.kuzka.gov.tr/page/2011-yili-faaliyet-raporu-357": {
+      "title": "2011 Yılı Faaliyet Raporu",
+      "url": "https://www.kuzka.gov.tr/page/2011-yili-faaliyet-raporu-357",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "haber_olabilir"
+    },
+    "https://www.kuzka.gov.tr/news/tc-kuzey-anadolu-kalkinma-ajansi-personel-alim-ilani-362": {
+      "title": "29TemmuzT.C. Kuzey Anadolu Kalkınma Ajansı Personel Alım İlanı",
+      "url": "https://www.kuzka.gov.tr/news/tc-kuzey-anadolu-kalkinma-ajansi-personel-alim-ilani-362",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.kuzka.gov.tr/news/sosyal-girisimcilik-programi-icin-bilgilendirme-toplantilari-basliyor-361": {
+      "title": "24TemmuzSosyal Girişimcilik Programı İçin Bilgilendirme Toplantıları Başlıyor",
+      "url": "https://www.kuzka.gov.tr/news/sosyal-girisimcilik-programi-icin-bilgilendirme-toplantilari-basliyor-361",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#562c393831233a32373d2f32391634373d3d3778313920782224": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#562c393831233a32373d2f32391634373d3d3778313920782224",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#e48f85968586918f9d808ba486858f8f85ca838b92ca9096": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e48f85968586918f9d808ba486858f8f85ca838b92ca9096",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-04",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#b3d1d2c1c7daddcad7dcf3d1d2d8d8d29dd4dcc59dc7c1": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#b3d1d2c1c7daddcad7dcf3d1d2d8d8d29dd4dcc59dc7c1",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
