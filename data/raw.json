@@ -11,25 +11,25 @@
       "ok": true,
       "checked": "2026-08-05",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 148879 byte HTML, 109 link, 39 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 148926 byte HTML, 109 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-08-05",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 38651 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 38825 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 10,
-      "diag": "/gelismis-arama -> HTTP 200, 1387724 byte HTML, 2015 link, 0 olası duyuru | /duyurular -> HTTP 200, 22098 byte HTML, 41 link, 10 olası duyuru"
+      "found": 0,
+      "diag": "/gelismis-arama -> HTTP 200, 11907 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11948 byte HTML, 0 link, 0 olası duyuru"
     },
     "kosgeb": {
       "ok": true,
       "checked": "2026-08-05",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 72965 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 64834 byte HTML, 129 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 72965 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 65845 byte HTML, 130 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -56,10 +56,10 @@
       "diag": "/ -> HTTP 200, 705271 byte HTML, 121 link, 81 olası duyuru"
     },
     "sivil_dusun": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 25,
-      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 154614 byte HTML, 92 link, 28 olası duyuru"
+      "found": 0,
+      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 11926 byte HTML, 0 link, 0 olası duyuru"
     },
     "stgm": {
       "ok": false,
@@ -74,16 +74,16 @@
       "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)')))"
     },
     "istka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 24,
-      "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 134617 byte HTML, 127 link, 60 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11994 byte HTML, 0 link, 0 olası duyuru | /tr/basvuru-cagrilari -> HTTP 200, 11861 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11953 byte HTML, 0 link, 0 olası duyuru"
     },
     "ankaraka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 70,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54250 byte HTML, 122 link, 85 olası duyuru"
+      "found": 0,
+      "diag": "/ajans-destek-programlari -> HTTP 200, 11842 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11822 byte HTML, 0 link, 0 olası duyuru"
     },
     "izka": {
       "ok": true,
@@ -92,10 +92,10 @@
       "diag": "/destekler -> HTTP 200, 68229 byte HTML, 54 link, 21 olası duyuru"
     },
     "bebka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 28,
-      "diag": "/destekler -> HTTP 200, 144089 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 289400 byte HTML, 309 link, 66 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11890 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11880 byte HTML, 0 link, 0 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -104,76 +104,76 @@
       "diag": "/destekler/ -> HTTP 200, 49452 byte HTML, 56 link, 31 olası duyuru"
     },
     "cka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 19,
-      "diag": "/tr/guncel-destekler -> HTTP 200, 35124 byte HTML, 103 link, 43 olası duyuru"
+      "found": 0,
+      "diag": "/tr/guncel-destekler -> HTTP 200, 11848 byte HTML, 0 link, 0 olası duyuru | /tr/guncel-destek -> HTTP 200, 11900 byte HTML, 0 link, 0 olası duyuru"
     },
     "baka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 1,
-      "diag": "/destekler -> HTTP 200, 28248 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35444 byte HTML, 94 link, 44 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11871 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11867 byte HTML, 0 link, 0 olası duyuru"
     },
     "dogaka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 76,
-      "diag": "/destekler/destekler -> HTTP 200, 41640 byte HTML, 185 link, 112 olası duyuru"
+      "found": 0,
+      "diag": "/destekler/destekler -> HTTP 200, 11891 byte HTML, 0 link, 0 olası duyuru | /medya/guncel-duyurular -> HTTP 200, 11834 byte HTML, 0 link, 0 olası duyuru"
     },
     "mevka": {
       "ok": false,
       "checked": "2026-08-05",
       "found": 0,
-      "diag": "/destekler/guncel-destek-programlari -> HTTP 500"
+      "diag": "/destekler/guncel-destek-programlari -> HTTP 200, 11971 byte HTML, 0 link, 0 olası duyuru"
     },
     "oka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 44,
-      "diag": "/ -> HTTP 200, 122540 byte HTML, 277 link, 63 olası duyuru"
+      "found": 0,
+      "diag": "/ -> HTTP 200, 11906 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11841 byte HTML, 0 link, 0 olası duyuru"
     },
     "doka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 21,
-      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 174555 byte HTML, 130 link, 53 olası duyuru"
+      "found": 0,
+      "diag": "/acik-destekler -> HTTP 200, 11852 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11946 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11885 byte HTML, 0 link, 0 olası duyuru"
     },
     "oran": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 84,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 111471 byte HTML, 189 link, 125 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11777 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11902 byte HTML, 0 link, 0 olası duyuru"
     },
     "marka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 3,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 482754 byte HTML, 649 link, 177 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11848 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11894 byte HTML, 0 link, 0 olası duyuru"
     },
     "gmka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 39,
-      "diag": "/acik-destek-programlari -> HTTP 200, 71450 byte HTML, 94 link, 51 olası duyuru"
+      "found": 0,
+      "diag": "/acik-destek-programlari -> HTTP 200, 11851 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11888 byte HTML, 0 link, 0 olası duyuru"
     },
     "geka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 129,
-      "diag": "/ -> HTTP 200, 213018 byte HTML, 358 link, 212 olası duyuru"
+      "found": 0,
+      "diag": "/ -> HTTP 200, 11901 byte HTML, 0 link, 0 olası duyuru | /tr/basvurusu-devam-eden-destekler -> HTTP 200, 11875 byte HTML, 0 link, 0 olası duyuru"
     },
     "ika": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 2,
-      "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37201 byte HTML, 120 link, 61 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11941 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11916 byte HTML, 0 link, 0 olası duyuru"
     },
     "trakyaka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 60,
-      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32620 byte HTML, 139 link, 90 olası duyuru"
+      "found": 0,
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 11845 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11871 byte HTML, 0 link, 0 olası duyuru"
     },
     "zafer": {
       "ok": true,
@@ -182,52 +182,52 @@
       "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 56,
-      "diag": "/destekler -> HTTP 200, 29760 byte HTML, 158 link, 95 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11944 byte HTML, 0 link, 0 olası duyuru | /haberler -> HTTP 200, 11815 byte HTML, 0 link, 0 olası duyuru"
     },
     "kuzka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 86,
-      "diag": "/ -> HTTP 200, 181640 byte HTML, 246 link, 110 olası duyuru"
+      "found": 0,
+      "diag": "/ -> HTTP 200, 11855 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11841 byte HTML, 0 link, 0 olası duyuru"
     },
     "kudaka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 127,
-      "diag": "/home -> HTTP 200, 101646 byte HTML, 196 link, 134 olası duyuru"
+      "found": 0,
+      "diag": "/home -> HTTP 200, 11797 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11921 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11829 byte HTML, 0 link, 0 olası duyuru"
     },
     "serka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 147,
-      "diag": "/destekler -> HTTP 200, 62109 byte HTML, 258 link, 200 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11868 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11954 byte HTML, 0 link, 0 olası duyuru"
     },
     "daka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 74,
-      "diag": "/destekler -> HTTP 200, 21411 byte HTML, 155 link, 109 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11883 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12003 byte HTML, 0 link, 0 olası duyuru"
     },
     "fka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 65,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66934 byte HTML, 167 link, 73 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11806 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11822 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11900 byte HTML, 0 link, 0 olası duyuru"
     },
     "dika": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-08-05",
-      "found": 27,
-      "diag": "/destekler -> HTTP 200, 58243 byte HTML, 161 link, 61 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11873 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11852 byte HTML, 0 link, 0 olası duyuru"
     },
     "bakka": {
       "ok": true,
       "checked": "2026-08-05",
       "found": 15,
-      "diag": "/duyurular -> HTTP 200, 156314 byte HTML, 39 link, 17 olası duyuru"
+      "diag": "/duyurular -> HTTP 200, 156334 byte HTML, 39 link, 17 olası duyuru"
     },
     "ktb": {
       "ok": true,
@@ -239,13 +239,13 @@
       "ok": true,
       "checked": "2026-08-05",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15889 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 271211 byte HTML, 239 link, 167 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15889 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 271247 byte HTML, 238 link, 167 olası duyuru"
     },
     "gsb": {
       "ok": true,
       "checked": "2026-08-05",
       "found": 22,
-      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54676 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54749 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "items": {
@@ -9413,7 +9413,7 @@
     "https://www.gsb.gov.tr/tr/duyuru/301254-rehberlik-ve-teftis-baskanligi-mufettis-yardimciligi-giris-sinavi-sozlu-sinav-duyurusu": {
       "title": "31Temmuz2026REHBERLİK VE TEFTİŞ BAŞKANLIĞI MÜFETTİŞ YARDIMCILIĞI GİRİŞ SINAVI SÖZLÜ SINAV DUYURUSU",
       "url": "https://www.gsb.gov.tr/tr/duyuru/301254-rehberlik-ve-teftis-baskanligi-mufettis-yardimciligi-giris-sinavi-sozlu-sinav-duyurusu",
-      "date": "2026-07-31",
+      "date": "2026-08-05",
       "on_tarihler": [],
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
@@ -9422,7 +9422,7 @@
     "https://www.gsb.gov.tr/tr/duyuru/300997-2026-yili-sozlesmeli-diyetisyen-psikolog-ve-sosyal-calismaci-alimi-duyurusu": {
       "title": "17Temmuz20262026 YILI SÖZLEŞMELİ DİYETİSYEN, PSİKOLOG ve SOSYAL ÇALIŞMACI ALIMI DUYURUSU",
       "url": "https://www.gsb.gov.tr/tr/duyuru/300997-2026-yili-sozlesmeli-diyetisyen-psikolog-ve-sosyal-calismaci-alimi-duyurusu",
-      "date": "2026-07-31",
+      "date": "2026-08-05",
       "on_tarihler": [],
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
@@ -9431,7 +9431,7 @@
     "https://www.gsb.gov.tr/tr/duyuru/300992-tc-genclik-ve-spor-bakanligi-kredi-ve-yurtlar-genel-mudurlugu-isletici-duyurusu": {
       "title": "16Temmuz2026T.C. GENÇLİK VE SPOR BAKANLIĞI KREDİ VE YURTLAR GENEL MÜDÜRLÜĞÜ İŞLETİCİ DUYURUSU",
       "url": "https://www.gsb.gov.tr/tr/duyuru/300992-tc-genclik-ve-spor-bakanligi-kredi-ve-yurtlar-genel-mudurlugu-isletici-duyurusu",
-      "date": "2026-07-31",
+      "date": "2026-08-05",
       "on_tarihler": [],
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
@@ -20070,6 +20070,162 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#a8cac9dadcc1c6d1ccc7e8cac9c3c3c986cfc7de86dcda": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#a8cac9dadcc1c6d1ccc7e8cac9c3c3c986cfc7de86dcda",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-05"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-mavi-vatan-ziyaretci-kayitlari-basladi-2/": {
+      "title": "05.08.2026GENELTEKNOFEST Mavi Vatan Ziyaretçi Kayıtları Başladı!Milli Teknoloji Hamlesi vizyonunun denizlerdeki yansıması kapsamında düzenlenecek TEKNOFEST Mavi Va…",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-mavi-vatan-ziyaretci-kayitlari-basladi-2/",
+      "date": "2026-08-05",
+      "on_tarihler": [
+        "2026-08-05"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-05"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-2026-su-alti-roket-yarismasi-kritik-tasarim-raporu-sonuclari-aciklandi/": {
+      "title": "05.08.2026YARIŞMATEKNOFEST 2026 Su Altı Roket Yarışması Kritik Tasarım Raporu Sonuçları AçıklandıKritik Tasarım Raporu sonuçları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-2026-su-alti-roket-yarismasi-kritik-tasarim-raporu-sonuclari-aciklandi/",
+      "date": "2026-08-05",
+      "on_tarihler": [
+        "2026-08-05"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-05"
+    },
+    "https://teknofest.org/tr/duyurular/insansiz-kara-araci-yarismasi-kritik-tasarim-raporu-sonuclari-aciklandi/": {
+      "title": "05.08.2026YARIŞMAİnsansız Kara Aracı Yarışması Kritik Tasarım Raporu Sonuçları AçıklandıKritik Tasarım Raporu sonuçları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/insansiz-kara-araci-yarismasi-kritik-tasarim-raporu-sonuclari-aciklandi/",
+      "date": "2026-08-05",
+      "on_tarihler": [
+        "2026-08-05"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-05"
+    },
+    "https://teknofest.org/tr/duyurular/hyperloop-gelistirme-yarismasi-tanimli-problem-cozme-kategorisi-tanimli-problem-cozme-raporu-sonuclari-aciklandi/": {
+      "title": "05.08.2026YARIŞMAHyperloop Geliştirme Yarışması Tanımlı Problem Çözme Kategorisi Tanımlı Problem Çözme Raporu Sonuçl…Tanımlı Problem Çözme Kategorisi Tanımlı Problem Çözme Raporu sonuçları açıklanmıştır.",
+      "url": "https://teknofest.org/tr/duyurular/hyperloop-gelistirme-yarismasi-tanimli-problem-cozme-kategorisi-tanimli-problem-cozme-raporu-sonuclari-aciklandi/",
+      "date": "2026-08-05",
+      "on_tarihler": [
+        "2026-08-05"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-05"
+    },
+    "https://teknofest.org/tr/duyurular/hyperloop-gelistirme-yarismasi-teknoloji-gosterim-kategorisi-video-degerlendirme-sonuclari-aciklandi/": {
+      "title": "05.08.2026YARIŞMAHyperloop Geliştirme Yarışması Teknoloji Gösterim Kategorisi Video Değerlendirme Sonuçları AçıklandıTeknoloji Gösterim Kategorisi Video Değerlendirme sonuçları açıklanmıştır.",
+      "url": "https://teknofest.org/tr/duyurular/hyperloop-gelistirme-yarismasi-teknoloji-gosterim-kategorisi-video-degerlendirme-sonuclari-aciklandi/",
+      "date": "2026-08-05",
+      "on_tarihler": [
+        "2026-08-05"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-05"
+    },
+    "https://teknofest.org/tr/duyurular/hyperloop-gelistirme-yarismasi-performans-kategorisi-video-degerlendirme-sonuclari-aciklandi/": {
+      "title": "05.08.2026YARIŞMAHyperloop Geliştirme Yarışması Performans Kategorisi Video Değerlendirme Sonuçları AçıklandıHyperloop Geliştirme Yarışması Performans Kategorisi Video Değerlendirme sonuçları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/hyperloop-gelistirme-yarismasi-performans-kategorisi-video-degerlendirme-sonuclari-aciklandi/",
+      "date": "2026-08-05",
+      "on_tarihler": [
+        "2026-08-05"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-05"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-kanser-misyonu-kanserle-mucadelede-bes-yillik-ilerleme-ve-2030-hedeflerine": {
+      "title": "Ufuk Avrupa Kanser Misyonu-Kanserle Mücadelede Beş Yıllık İlerleme ve 2030 Hedeflerine Doğru Etkinliği",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-kanser-misyonu-kanserle-mucadelede-bes-yillik-ilerleme-ve-2030-hedeflerine",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-05"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-enerji-alani-yeni-cagrisi-acildi-kapanis-tarihi-1-aralik-2026": {
+      "title": "Ufuk Avrupa Enerji Alanı Yeni Çağrısı Açıldı- Kapanış Tarihi: 1 Aralık 2026",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-enerji-alani-yeni-cagrisi-acildi-kapanis-tarihi-1-aralik-2026",
+      "date": "2026-12-01",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-05"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/2027-kadin-yenilikciler-odulune-basvuru-zamani-yaklasiyor-bilgi-gunu-17-eylul-2026": {
+      "title": "2027 Kadın Yenilikçiler Ödülüne Başvuru Zamanı Yaklaşıyor! Bilgi Günü: 17 Eylül 2026",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/2027-kadin-yenilikciler-odulune-basvuru-zamani-yaklasiyor-bilgi-gunu-17-eylul-2026",
+      "date": "2026-09-17",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-05"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7206/Temmuz-Ayinda-107-Bin-113-Gida-Denetimi-Gerceklestirildi": {
+      "title": "TEMMUZ AYINDA 107 BİN 113 GIDA DENETİMİ GERÇEKLEŞTİRİLDİ",
+      "url": "https://www.tarimorman.gov.tr/Haber/7206/Temmuz-Ayinda-107-Bin-113-Gida-Denetimi-Gerceklestirildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-05"
+    },
+    "https://www.gsb.gov.tr/tr/duyuru/301326-2026-yili-sozlesmeli-yurt-yonetim-personeli-ve-genclik-calisani-alimi-sozlu-sinava-katilim-duyurusu": {
+      "title": "5Ağustos20262026 YILI SÖZLEŞMELİ YURT YÖNETİM PERSONELİ ve  GENÇLİK ÇALIŞANI ALIMI SÖZLÜ SINAVA KATILIM DUYURUSU",
+      "url": "https://www.gsb.gov.tr/tr/duyuru/301326-2026-yili-sozlesmeli-yurt-yonetim-personeli-ve-genclik-calisani-alimi-sozlu-sinava-katilim-duyurusu",
+      "date": "2026-08-05",
+      "on_tarihler": [],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-08-05"
+    },
+    "https://www.gsb.gov.tr/tr/duyuru/301325-2026-yili-sozlesmeli-diyetisyen-psikolog-ve-sosyal-calismaci-alimi-sozlu-sinava-katilim-duyurusu": {
+      "title": "5Ağustos20262026 YILI SÖZLEŞMELİ DİYETİSYEN, PSİKOLOG VE  SOSYAL ÇALIŞMACI ALIMI SÖZLÜ SINAVA KATILIM DUYURUSU",
+      "url": "https://www.gsb.gov.tr/tr/duyuru/301325-2026-yili-sozlesmeli-diyetisyen-psikolog-ve-sosyal-calismaci-alimi-sozlu-sinava-katilim-duyurusu",
+      "date": "2026-08-05",
+      "on_tarihler": [],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-08-05"
+    },
+    "https://bakka.gov.tr/tr/duyuru/tc-kuzey-anadolu-kalkinma-ajansi-personel-alim-ilani-15223": {
+      "title": "20265AğustosT.C. Kuzey Anadolu Kalkınma Ajansı Personel Alım İlanı",
+      "url": "https://bakka.gov.tr/tr/duyuru/tc-kuzey-anadolu-kalkinma-ajansi-personel-alim-ilani-15223",
+      "date": "2026-04-03",
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-05"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#e59f8a8b82908981848e9c818aa587848e8e84cb828a93cb9197": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e59f8a8b82908981848e9c818aa587848e8e84cb828a93cb9197",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-05"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#aac1cbd8cbc8dfc1d3cec5eac8cbc1c1cb84cdc5dc84ded8": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#aac1cbd8cbc8dfc1d3cec5eac8cbc1c1cb84cdc5dc84ded8",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-05"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#5f3d3e2d2b3631263b301f3d3e34343e71383029712b2d": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#5f3d3e2d2b3631263b301f3d3e34343e71383029712b2d",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
