@@ -17,7 +17,7 @@
       "ok": true,
       "checked": "2026-08-07",
       "found": 44,
-      "diag": "/tr/haberler -> HTTP 200, 37800 byte HTML, 117 link, 49 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37671 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-08-07",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -53,7 +53,7 @@
       "ok": true,
       "checked": "2026-08-07",
       "found": 81,
-      "diag": "/ -> HTTP 200, 705271 byte HTML, 121 link, 81 olası duyuru"
+      "diag": "/ -> HTTP 200, 860062 byte HTML, 122 link, 81 olası duyuru"
     },
     "sivil_dusun": {
       "ok": true,
@@ -100,8 +100,8 @@
     "karacadag": {
       "ok": true,
       "checked": "2026-08-07",
-      "found": 20,
-      "diag": "/destekler/ -> HTTP 200, 49452 byte HTML, 56 link, 31 olası duyuru"
+      "found": 19,
+      "diag": "/destekler/ -> HTTP 200, 48875 byte HTML, 55 link, 30 olası duyuru"
     },
     "cka": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-08-07",
       "found": 94,
-      "diag": "/ -> HTTP 200, 191060 byte HTML, 253 link, 114 olası duyuru"
+      "diag": "/ -> HTTP 200, 191035 byte HTML, 253 link, 114 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-08-07",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15889 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 271885 byte HTML, 238 link, 167 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15889 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 271652 byte HTML, 238 link, 167 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -20498,6 +20498,69 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#fb999a898f9295829f94bb999a90909ad59c948dd58f89": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#fb999a898f9295829f94bb999a90909ad59c948dd58f89",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-07"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ready4eic-ile-girisiminizi-avrupanin-hibe-ve-yatirim-programlarina-hazirlayin-son-basvuru": {
+      "title": "Ready4EIC ile Girişiminizi Avrupa'nın Hibe ve Yatırım Programlarına Hazırlayın! - Son Başvuru: 16 Ağustos 2026",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ready4eic-ile-girisiminizi-avrupanin-hibe-ve-yatirim-programlarina-hazirlayin-son-basvuru",
+      "date": "2026-08-16",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-07"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/upstream-projesi-kapsaminda-yer-alan-ikinci-cagri-basvurulara-acildi": {
+      "title": "UPSTREAM Projesi Kapsamında Yer Alan İkinci Çağrı Başvurulara Açıldı",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/upstream-projesi-kapsaminda-yer-alan-ikinci-cagri-basvurulara-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-07"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/knowledge-valorisation-action-results-policy-8-ekim-2026-bruksel-hibrit": {
+      "title": "Knowledge Valorisation in Action: from Results to Policy - 8 Ekim 2026, Brüksel (Hibrit)",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/knowledge-valorisation-action-results-policy-8-ekim-2026-bruksel-hibrit",
+      "date": "2026-10-08",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-07"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7211/Bakan-Yumakli-Acikladi-17-Milyon-Buyukbasa-Dijital-Kupe-Geliyor": {
+      "title": "BAKAN YUMAKLI AÇIKLADI: 17 MİLYON BÜYÜKBAŞA DİJİTAL KÜPE GELİYOR",
+      "url": "https://www.tarimorman.gov.tr/Haber/7211/Bakan-Yumakli-Acikladi-17-Milyon-Buyukbasa-Dijital-Kupe-Geliyor",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-07"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#b5cfdadbd2c0d9d1d4deccd1daf5d7d4deded49bd2dac39bc1c7": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#b5cfdadbd2c0d9d1d4deccd1daf5d7d4deded49bd2dac39bc1c7",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-07"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#85eee4f7e4e7f0eefce1eac5e7e4eeeee4abe2eaf3abf1f7": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#85eee4f7e4e7f0eefce1eac5e7e4eeeee4abe2eaf3abf1f7",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-07"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#dfbdbeadabb6b1a6bbb09fbdbeb4b4bef1b8b0a9f1abad": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dfbdbeadabb6b1a6bbb09fbdbeb4b4bef1b8b0a9f1abad",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",

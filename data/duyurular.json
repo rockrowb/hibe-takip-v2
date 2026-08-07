@@ -17,7 +17,7 @@
       "ok": true,
       "checked": "2026-08-07",
       "found": 44,
-      "diag": "/tr/haberler -> HTTP 200, 37800 byte HTML, 117 link, 49 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37671 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-08-07",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -53,7 +53,7 @@
       "ok": true,
       "checked": "2026-08-07",
       "found": 81,
-      "diag": "/ -> HTTP 200, 705271 byte HTML, 121 link, 81 olası duyuru"
+      "diag": "/ -> HTTP 200, 860062 byte HTML, 122 link, 81 olası duyuru"
     },
     "sivil_dusun": {
       "ok": true,
@@ -100,8 +100,8 @@
     "karacadag": {
       "ok": true,
       "checked": "2026-08-07",
-      "found": 20,
-      "diag": "/destekler/ -> HTTP 200, 49452 byte HTML, 56 link, 31 olası duyuru"
+      "found": 19,
+      "diag": "/destekler/ -> HTTP 200, 48875 byte HTML, 55 link, 30 olası duyuru"
     },
     "cka": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-08-07",
       "found": 94,
-      "diag": "/ -> HTTP 200, 191060 byte HTML, 253 link, 114 olası duyuru"
+      "diag": "/ -> HTTP 200, 191035 byte HTML, 253 link, 114 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-08-07",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15889 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 271885 byte HTML, 238 link, 167 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15889 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 271652 byte HTML, 238 link, 167 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": "groq",
     "quota_exceeded": true,
-    "quota_error": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kz3m3s4dfg4vxb8w1s8hawyg` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 1115",
-    "checked_at": "2026-08-07T07:21:06Z",
+    "quota_error": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kz3m3s4dfg4vxb8w1s8hawyg` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 1096",
+    "checked_at": "2026-08-07T15:53:53Z",
     "pending_count": 146
   },
   "items": {
@@ -2782,7 +2782,27 @@
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
       "first_seen": "2026-08-02",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_basvurabilir": "yasal olarak program ülkelerinde veya ortak ülkelerde kurulmuş olan kurum/kuruluşlar",
+        "hibe_miktari": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "son_basvuru_tarihleri": [
+          "2027-12-31"
+        ],
+        "desteklenen_aktiviteler": "gönüllülük faaliyeti, dayanışma projeleri",
+        "temalar": [
+          "gönüllülük",
+          "gençlik",
+          "dayanışma"
+        ],
+        "ozet": "Avrupa Dayanışma Programı kapsamında gönüllülük faaliyeti ve dayanışma projelerine katılmak isteyen kurum/kuruluşların Kalite Sertifikası alması gerekmektedir. Başvurular tüm program dönemi boyunca herhangi bir zamanda yapılabilmektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ua.gov.tr/programlar/gruplar/gencler-genclik-calisanlari-icin/gonulluluk/": {
       "title": "Gönüllülük Projeleri",
@@ -3334,7 +3354,24 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-02",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_basvurabilir": "Genç kadın araştırmacılar",
+        "hibe_miktari": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": "Yaşam Bilimleri ve Fiziki Bilimler/Malzeme Bilimleri alanlarında araştırma",
+        "temalar": [
+          "bilim",
+          "kadın girişimciliği"
+        ],
+        "ozet": "UNESCO Türkiye Millî Komisyonu ve L’Oréal Türkiye, genç kadın araştırmacılara destek bursları vermektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/1970/1381/UNESCO-%C5%9Eehir-A%C4%9Flar%C4%B1-ve-Programlar%C4%B1": {
       "title": "UNESCO Şehir Ağları ve Programları",
@@ -3344,7 +3381,26 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-02",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "temalar": [
+          "kültür-sanat",
+          "eğitim",
+          "sürdürülebilir kalkınma",
+          "kentleşme"
+        ],
+        "ozet": "UNESCO Türkiye Millî Komisyonu'nun şehirler için yaptığı çalışmalara veprogramlara genel bakış.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/89/130/ASPnet-(Karde%C5%9F-Okullar-A%C4%9F%C4%B1)": {
       "title": "ASPnet (Kardeş Okullar Ağı)",
@@ -3444,7 +3500,24 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-02",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "temalar": [
+          "kültür-sanat",
+          "eğitim"
+        ],
+        "ozet": "UNESCO Dünya Belleği Programı, Türkiye'den 12 önemli belgesel mirasının Dünya Belleği Uluslararası Kütüğüne kaydedilmesini sağlamıştır. Bu eserler arasında Boğazköy Hitit Tabletleri, Boğaziçi Üniversitesi Gözlem ve Deprem Araştırma Enstitüsü Kandilli Rasathanesi El Yazmaları, İstanbul Süleymaniye Kütüphanesi İbn-i Sina Yazmaları Koleksiyonu, Evliya Çelebi Seyahatnamesi ve Kültepe Tabletleri bulunmaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/128/125/UNESCO-D%C3%BCnya-Biyosfer-Rezervleri-A%C4%9F%C4%B1-": {
       "title": "UNESCO Dünya Biyosfer Rezervleri Ağı",
@@ -24215,6 +24288,79 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#fb999a898f9295829f94bb999a90909ad59c948dd58f89": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#fb999a898f9295829f94bb999a90909ad59c948dd58f89",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-07",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ready4eic-ile-girisiminizi-avrupanin-hibe-ve-yatirim-programlarina-hazirlayin-son-basvuru": {
+      "title": "Ready4EIC ile Girişiminizi Avrupa'nın Hibe ve Yatırım Programlarına Hazırlayın! - Son Başvuru: 16 Ağustos 2026",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ready4eic-ile-girisiminizi-avrupanin-hibe-ve-yatirim-programlarina-hazirlayin-son-basvuru",
+      "date": "2026-08-16",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-07",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/upstream-projesi-kapsaminda-yer-alan-ikinci-cagri-basvurulara-acildi": {
+      "title": "UPSTREAM Projesi Kapsamında Yer Alan İkinci Çağrı Başvurulara Açıldı",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/upstream-projesi-kapsaminda-yer-alan-ikinci-cagri-basvurulara-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-07",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/knowledge-valorisation-action-results-policy-8-ekim-2026-bruksel-hibrit": {
+      "title": "Knowledge Valorisation in Action: from Results to Policy - 8 Ekim 2026, Brüksel (Hibrit)",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/knowledge-valorisation-action-results-policy-8-ekim-2026-bruksel-hibrit",
+      "date": "2026-10-08",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-07",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7211/Bakan-Yumakli-Acikladi-17-Milyon-Buyukbasa-Dijital-Kupe-Geliyor": {
+      "title": "BAKAN YUMAKLI AÇIKLADI: 17 MİLYON BÜYÜKBAŞA DİJİTAL KÜPE GELİYOR",
+      "url": "https://www.tarimorman.gov.tr/Haber/7211/Bakan-Yumakli-Acikladi-17-Milyon-Buyukbasa-Dijital-Kupe-Geliyor",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-07",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#b5cfdadbd2c0d9d1d4deccd1daf5d7d4deded49bd2dac39bc1c7": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#b5cfdadbd2c0d9d1d4deccd1daf5d7d4deded49bd2dac39bc1c7",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-07",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#85eee4f7e4e7f0eefce1eac5e7e4eeeee4abe2eaf3abf1f7": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#85eee4f7e4e7f0eefce1eac5e7e4eeeee4abe2eaf3abf1f7",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-07",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#dfbdbeadabb6b1a6bbb09fbdbeb4b4bef1b8b0a9f1abad": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dfbdbeadabb6b1a6bbb09fbdbeb4b4bef1b8b0a9f1abad",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
