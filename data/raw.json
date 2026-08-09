@@ -1,251 +1,251 @@
 {
-  "last_updated": "2026-08-08",
+  "last_updated": "2026-08-09",
   "source_status": {
     "ka_gov": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "teknofest": {
       "ok": true,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 22,
       "diag": "/tr/duyurular/ -> HTTP 200, 148940 byte HTML, 109 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 44,
       "diag": "/tr/haberler -> HTTP 200, 37603 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/gelismis-arama -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "kosgeb": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/site/tr/genel/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /site/tr/genel/duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "tubitak": {
       "ok": true,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 18,
       "diag": "/tr/duyuru -> HTTP 200, 94962 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": true,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /haber/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "unesco_turkiye": {
       "ok": true,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 81,
       "diag": "/ -> HTTP 200, 860062 byte HTML, 122 link, 81 olası duyuru"
     },
     "sivil_dusun": {
-      "ok": true,
-      "checked": "2026-08-08",
-      "found": 25,
-      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 154614 byte HTML, 92 link, 28 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-09",
+      "found": 0,
+      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 12001 byte HTML, 0 link, 0 olası duyuru"
     },
     "stgm": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/hibe-duyurulari -> HTTP 403"
     },
     "cssp": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/ihaleler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "istka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /tr/basvuru-cagrilari -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "ankaraka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/ajans-destek-programlari -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "izka": {
       "ok": true,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 16,
       "diag": "/destekler -> HTTP 200, 68229 byte HTML, 54 link, 21 olası duyuru"
     },
     "bebka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "karacadag": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/destekler/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "cka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/tr/guncel-destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /tr/guncel-destek -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "baka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "dogaka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/destekler/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /medya/guncel-duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "mevka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/destekler/guncel-destek-programlari -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "oka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "doka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/acik-destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "oran": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "marka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "gmka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/acik-destek-programlari -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "geka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /tr/basvurusu-devam-eden-destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "ika": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "trakyaka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/tr/33286/DESTEKLER -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "zafer": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "ahika": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "kuzka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "kudaka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/home -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "serka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "daka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "fka": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "dika": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "bakka": {
       "ok": true,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 15,
       "diag": "/duyurular -> HTTP 200, 156334 byte HTML, 39 link, 17 olası duyuru"
     },
     "ktb": {
       "ok": false,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 0,
       "diag": "/TR-9857/duyurular.html -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "tarim_orman": {
       "ok": true,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15889 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 271640 byte HTML, 238 link, 167 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15889 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 271407 byte HTML, 238 link, 167 olası duyuru"
     },
     "gsb": {
       "ok": true,
-      "checked": "2026-08-08",
+      "checked": "2026-08-09",
       "found": 22,
-      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54873 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54725 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "items": {
@@ -20694,6 +20694,53 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-08"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7213/81-Ildeki-Aile-Kamplarina-Yogun-Ilgi": {
+      "title": "81 İLDEKİ AİLE KAMPLARINA YOĞUN İLGİ",
+      "url": "https://www.tarimorman.gov.tr/Haber/7213/81-Ildeki-Aile-Kamplarina-Yogun-Ilgi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-09"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/301078-bakan-bak-turkiye-minikler-gures-sampiyonasini-izledi": {
+      "title": "BAKAN BAK TÜRKİYE MİNİKLER GÜREŞ ŞAMPİYONASI'NI İZLEDİ22.07.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/301078-bakan-bak-turkiye-minikler-gures-sampiyonasini-izledi",
+      "date": "2026-07-22",
+      "on_tarihler": [
+        "2026-07-22"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-08-09"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#7d0712131a0811191c160419123d1f1c16161c531a120b53090f": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#7d0712131a0811191c160419123d1f1c16161c531a120b53090f",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-09"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#4a212b382b283f21332e250a282b21212b642d253c643e38": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#4a212b382b283f21332e250a282b21212b642d253c643e38",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-09"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#3153504345585f48555e7153505a5a501f565e471f4543": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#3153504345585f48555e7153505a5a501f565e471f4543",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-09"
     }
   }
 }
