@@ -2,10 +2,10 @@
   "last_updated": "2026-08-09",
   "source_status": {
     "ka_gov": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 3,
+      "diag": "/destekler -> HTTP 200, 605152 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
@@ -20,16 +20,16 @@
       "diag": "/tr/haberler -> HTTP 200, 37603 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/gelismis-arama -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 10,
+      "diag": "/gelismis-arama -> HTTP 200, 1387724 byte HTML, 2015 link, 0 olası duyuru | /duyurular -> HTTP 200, 22098 byte HTML, 41 link, 10 olası duyuru"
     },
     "kosgeb": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/site/tr/genel/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /site/tr/genel/duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 1,
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 74148 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 65845 byte HTML, 130 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -41,13 +41,13 @@
       "ok": true,
       "checked": "2026-08-09",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /haber/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 51,
+      "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96397 byte HTML, 206 link, 153 olası duyuru"
     },
     "unesco_turkiye": {
       "ok": true,
@@ -56,10 +56,10 @@
       "diag": "/ -> HTTP 200, 860062 byte HTML, 122 link, 81 olası duyuru"
     },
     "sivil_dusun": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 12001 byte HTML, 0 link, 0 olası duyuru"
+      "found": 25,
+      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 154614 byte HTML, 92 link, 28 olası duyuru"
     },
     "stgm": {
       "ok": false,
@@ -71,19 +71,19 @@
       "ok": false,
       "checked": "2026-08-09",
       "found": 0,
-      "diag": "/ihaleler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)')))"
     },
     "istka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /tr/basvuru-cagrilari -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 24,
+      "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 134617 byte HTML, 127 link, 60 olası duyuru"
     },
     "ankaraka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/ajans-destek-programlari -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 71,
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54416 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
       "ok": true,
@@ -92,136 +92,136 @@
       "diag": "/destekler -> HTTP 200, 68229 byte HTML, 54 link, 21 olası duyuru"
     },
     "bebka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 28,
+      "diag": "/destekler -> HTTP 200, 144176 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 289487 byte HTML, 309 link, 66 olası duyuru"
     },
     "karacadag": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/destekler/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 19,
+      "diag": "/destekler/ -> HTTP 200, 48875 byte HTML, 55 link, 30 olası duyuru"
     },
     "cka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/tr/guncel-destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /tr/guncel-destek -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 19,
+      "diag": "/tr/guncel-destekler -> HTTP 200, 35124 byte HTML, 103 link, 43 olası duyuru"
     },
     "baka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 1,
+      "diag": "/destekler -> HTTP 200, 28248 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35444 byte HTML, 94 link, 44 olası duyuru"
     },
     "dogaka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/destekler/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /medya/guncel-duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 76,
+      "diag": "/destekler/destekler -> HTTP 200, 41640 byte HTML, 185 link, 112 olası duyuru"
     },
     "mevka": {
       "ok": false,
       "checked": "2026-08-09",
       "found": 0,
-      "diag": "/destekler/guncel-destek-programlari -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "diag": "/destekler/guncel-destek-programlari -> HTTP 500"
     },
     "oka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 44,
+      "diag": "/ -> HTTP 200, 122363 byte HTML, 277 link, 63 olası duyuru"
     },
     "doka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/acik-destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 21,
+      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 231741 byte HTML, 130 link, 53 olası duyuru"
     },
     "oran": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 84,
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 111471 byte HTML, 189 link, 125 olası duyuru"
     },
     "marka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 3,
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 482841 byte HTML, 649 link, 177 olası duyuru"
     },
     "gmka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/acik-destek-programlari -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 39,
+      "diag": "/acik-destek-programlari -> HTTP 200, 71443 byte HTML, 94 link, 51 olası duyuru"
     },
     "geka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /tr/basvurusu-devam-eden-destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 129,
+      "diag": "/ -> HTTP 200, 213018 byte HTML, 358 link, 212 olası duyuru"
     },
     "ika": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 2,
+      "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37201 byte HTML, 120 link, 61 olası duyuru"
     },
     "trakyaka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/tr/33286/DESTEKLER -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 60,
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32629 byte HTML, 139 link, 90 olası duyuru"
     },
     "zafer": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 80,
+      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 56,
+      "diag": "/destekler -> HTTP 200, 29760 byte HTML, 158 link, 95 olası duyuru"
     },
     "kuzka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 94,
+      "diag": "/ -> HTTP 200, 191039 byte HTML, 253 link, 114 olası duyuru"
     },
     "kudaka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/home -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 127,
+      "diag": "/home -> HTTP 200, 101646 byte HTML, 196 link, 134 olası duyuru"
     },
     "serka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 147,
+      "diag": "/destekler -> HTTP 200, 62109 byte HTML, 258 link, 200 olası duyuru"
     },
     "daka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 74,
+      "diag": "/destekler -> HTTP 200, 21411 byte HTML, 155 link, 109 olası duyuru"
     },
     "fka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 65,
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66934 byte HTML, 167 link, 73 olası duyuru"
     },
     "dika": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 27,
+      "diag": "/destekler -> HTTP 200, 58243 byte HTML, 161 link, 61 olası duyuru"
     },
     "bakka": {
       "ok": true,
@@ -230,10 +230,10 @@
       "diag": "/duyurular -> HTTP 200, 156334 byte HTML, 39 link, 17 olası duyuru"
     },
     "ktb": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-09",
-      "found": 0,
-      "diag": "/TR-9857/duyurular.html -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 355,
+      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215419 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
@@ -20736,6 +20736,33 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#3153504345585f48555e7153505a5a501f565e471f4543": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#3153504345585f48555e7153505a5a501f565e471f4543",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-09"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#c9b3a6a7aebca5ada8a2b0ada689aba8a2a2a8e7aea6bfe7bdbb": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#c9b3a6a7aebca5ada8a2b0ada689aba8a2a2a8e7aea6bfe7bdbb",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-09"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#13787261727166786a777c5371727878723d747c653d6761": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#13787261727166786a777c5371727878723d747c653d6761",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-09"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#e6848794928f889f8289a684878d8d87c8818990c89294": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e6848794928f889f8289a684878d8d87c8818990c89294",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
