@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-08-10",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 148940 byte HTML, 109 link, 39 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 149031 byte HTML, 109 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-08-10",
       "found": 44,
-      "diag": "/tr/haberler -> HTTP 200, 37476 byte HTML, 117 link, 49 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37084 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -41,13 +41,13 @@
       "ok": true,
       "checked": "2026-08-10",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
       "checked": "2026-08-10",
-      "found": 51,
-      "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96397 byte HTML, 206 link, 153 olası duyuru"
+      "found": 52,
+      "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96946 byte HTML, 209 link, 156 olası duyuru"
     },
     "unesco_turkiye": {
       "ok": true,
@@ -89,7 +89,7 @@
       "ok": true,
       "checked": "2026-08-10",
       "found": 16,
-      "diag": "/destekler -> HTTP 200, 68229 byte HTML, 54 link, 21 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 68236 byte HTML, 54 link, 21 olası duyuru"
     },
     "bebka": {
       "ok": true,
@@ -131,13 +131,13 @@
       "ok": true,
       "checked": "2026-08-10",
       "found": 44,
-      "diag": "/ -> HTTP 200, 122363 byte HTML, 277 link, 63 olası duyuru"
+      "diag": "/ -> HTTP 200, 122390 byte HTML, 277 link, 63 olası duyuru"
     },
     "doka": {
       "ok": true,
       "checked": "2026-08-10",
       "found": 21,
-      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 231741 byte HTML, 130 link, 53 olası duyuru"
+      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 226312 byte HTML, 130 link, 53 olası duyuru"
     },
     "oran": {
       "ok": true,
@@ -149,7 +149,7 @@
       "ok": true,
       "checked": "2026-08-10",
       "found": 3,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 482841 byte HTML, 649 link, 177 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 483171 byte HTML, 648 link, 177 olası duyuru"
     },
     "gmka": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-08-10",
       "found": 94,
-      "diag": "/ -> HTTP 200, 191075 byte HTML, 253 link, 114 olası duyuru"
+      "diag": "/ -> HTTP 200, 191033 byte HTML, 253 link, 114 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -233,19 +233,19 @@
       "ok": true,
       "checked": "2026-08-10",
       "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215419 byte HTML, 587 link, 392 olası duyuru"
+      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213513 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
       "checked": "2026-08-10",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 271789 byte HTML, 238 link, 167 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 269457 byte HTML, 238 link, 167 olası duyuru"
     },
     "gsb": {
       "ok": true,
       "checked": "2026-08-10",
       "found": 22,
-      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54725 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54393 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "tema_listesi": [
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-08-10T07:46:35Z",
-    "pending_count": 1721
+    "checked_at": "2026-08-10T15:57:11Z",
+    "pending_count": 1736
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -24671,6 +24671,193 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#d4b6b5a6a0bdbaadb0bb94b6b5bfbfb5fab3bba2faa0a6": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#d4b6b5a6a0bdbaadb0bb94b6b5bfbfb5fab3bba2faa0a6",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-finansal-teknolojiler-yarismasi-proje-sunum-sonuclari-aciklandi/": {
+      "title": "10.08.2026YARIŞMATEKNOFEST Finansal Teknolojiler Yarışması Proje Sunum Sonuçları AçıklandıFinansal Teknolojiler Yarışması proje sunum sonuçları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-finansal-teknolojiler-yarismasi-proje-sunum-sonuclari-aciklandi/",
+      "date": "2026-08-10",
+      "on_tarihler": [
+        "2026-08-10"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "sonuc_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ab-denizcilik-projeleri-gosterge-paneli-kullanima-acildi": {
+      "title": "AB Denizcilik Projeleri Gösterge Paneli Kullanıma Açıldı",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ab-denizcilik-projeleri-gosterge-paneli-kullanima-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-ortak-arama-duyurusu-virtual-human-twins-vhts-integrated": {
+      "title": "Ufuk Avrupa Sağlık Kümesi Ortak Arama Duyurusu: “Virtual Human Twins (VHTs) for integrated clinical decision support in prevention and diagnosis”",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-ortak-arama-duyurusu-virtual-human-twins-vhts-integrated",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-kume-5-bilgilendirme-gunu-19-kasim-2026-tarihinde-gerceklestirilecektir": {
+      "title": "Ufuk Avrupa Küme 5 Bilgilendirme Günü 19 Kasım 2026 Tarihinde Gerçekleştirilecektir",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-kume-5-bilgilendirme-gunu-19-kasim-2026-tarihinde-gerceklestirilecektir",
+      "date": "2026-11-19",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/girisiminiz-eit-destegi-ile-japonyada-son-basvuru-3-eylul-2026": {
+      "title": "Girişiminiz EIT Desteği ile Japonya'da! Son Başvuru: 3 Eylül 2026",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/girisiminiz-eit-destegi-ile-japonyada-son-basvuru-3-eylul-2026",
+      "date": "2026-09-03",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/karadeniz-proje-odulleri-2026-icin-basvurular-acildi": {
+      "title": "Karadeniz Proje Ödülleri 2026 İçin Başvurular Açıldı",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/karadeniz-proje-odulleri-2026-icin-basvurular-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/water4all-ortakligi-2026-cagrisi-degerlendirme-paneline-katilmak-uzere-uzman-daveti": {
+      "title": "Water4All Ortaklığı 2026 Çağrısı Değerlendirme Paneline Katılmak Üzere Uzman Daveti",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/water4all-ortakligi-2026-cagrisi-degerlendirme-paneline-katilmak-uzere-uzman-daveti",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.ua.gov.tr/kurumsal/ziyaretciler-icin-aydinlatma-metni/": {
+      "title": "Ziyaretçiler için Aydınlatma Metni",
+      "url": "https://www.ua.gov.tr/kurumsal/ziyaretciler-icin-aydinlatma-metni/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Erasmus+ Türkiye Ulusal Ajansı",
+      "source_id": "ua_erasmus",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.ktb.gov.tr/TR-470246/aspendos39ta-2-bin-400-yillik-guresci-mezari-kesfedildi.html": {
+      "title": "ASPENDOS'TA 2 BİN 400 YILLIK GÜREŞÇİ MEZARI KEŞFEDİLDİ",
+      "url": "https://www.ktb.gov.tr/TR-470246/aspendos39ta-2-bin-400-yillik-guresci-mezari-kesfedildi.html",
+      "date": "2026-08-10",
+      "on_tarihler": [],
+      "source": "Kültür ve Turizm Bakanlığı",
+      "source_id": "ktb",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7214/Bakan-Yumakli-Adana-Karatas-Sera-Organize-Tarim-Bolgesi-Yillik-100-Bin-Ton-Uretim-Kapasitesine-Sahip-Olacak": {
+      "title": "BAKAN YUMAKLI: “ADANA KARATAŞ SERA ORGANİZE TARIM BÖLGESİ YILLIK 100 BİN TON ÜRETİM KAPASİTESİNE SAHİP OLACAK”",
+      "url": "https://www.tarimorman.gov.tr/Haber/7214/Bakan-Yumakli-Adana-Karatas-Sera-Organize-Tarim-Bolgesi-Yillik-100-Bin-Ton-Uretim-Kapasitesine-Sahip-Olacak",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2651/Batman-Tarima-Dayali-Ihtisas-Organize-Sanayi-Bolgesi-Mutesebbis-Heyet-Baskanligindan-Ihale-Ilani": {
+      "title": "BATMAN TARIMA DAYALI İHTİSAS ORGANİZE SANAYİ BÖLGESİ MÜTEŞEBBİS HEYET BAŞKANLIĞI ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2651/Batman-Tarima-Dayali-Ihtisas-Organize-Sanayi-Bolgesi-Mutesebbis-Heyet-Baskanligindan-Ihale-Ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/301116-bakan-bak-spor-guvenligi-degerlendirme-toplantisinda-konustu": {
+      "title": "BAKAN BAK SPOR GÜVENLİĞİ DEĞERLENDİRME TOPLANTISI'NDA KONUŞTU24.07.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/301116-bakan-bak-spor-guvenligi-degerlendirme-toplantisinda-konustu",
+      "date": "2026-07-24",
+      "on_tarihler": [
+        "2026-07-24"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "belirsiz"
+    },
+    "https://oka.gov.tr/duyuru/2026-yili-ihracatta-ikiz-donusum-teknik-destek-programi-3-donem-mayis-haziran-desteklenmeye-hak-kazanan-projeler-aciklanmistir": {
+      "title": "10AĞUSTOS2026 Yılı İhracatta İkiz Dönüşüm Teknik Destek Programı 3. Dönem (Mayıs-Haziran) Desteklenmeye Hak Kazanan Projeler Açıklanmıştır",
+      "url": "https://oka.gov.tr/duyuru/2026-yili-ihracatta-ikiz-donusum-teknik-destek-programi-3-donem-mayis-haziran-desteklenmeye-hak-kazanan-projeler-aciklanmistir",
+      "date": "2026-08-10",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://oka.gov.tr/duyuru/2026-yili-anadoludakiler-turizm-ve-yoresel-degerler-teknik-destek-programi-3-donem-mayis-haziran-desteklenmeye-hak-kazanan-projeler-aciklanmistir": {
+      "title": "10AĞUSTOS2026 Yılı Anadoludakiler: Turizm ve Yöresel Değerler Teknik Destek Programı 3. Dönem (Mayıs-Haziran) Desteklenmeye Hak Kazanan Projeler Açıklanmıştır",
+      "url": "https://oka.gov.tr/duyuru/2026-yili-anadoludakiler-turizm-ve-yoresel-degerler-teknik-destek-programi-3-donem-mayis-haziran-desteklenmeye-hak-kazanan-projeler-aciklanmistir",
+      "date": "2026-08-10",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://oka.gov.tr/duyuru/2026-yili-sosyal-kalkinma-ve-girisimcilik-teknik-destek-programi-3-donem-mayis-haziran-desteklenmeye-hak-kazanan-projeler-aciklanmistir": {
+      "title": "10AĞUSTOS2026 Yılı Sosyal Kalkınma ve Girişimcilik Teknik Destek Programı 3. Dönem (Mayıs-Haziran) Desteklenmeye Hak Kazanan Projeler Açıklanmıştır",
+      "url": "https://oka.gov.tr/duyuru/2026-yili-sosyal-kalkinma-ve-girisimcilik-teknik-destek-programi-3-donem-mayis-haziran-desteklenmeye-hak-kazanan-projeler-aciklanmistir",
+      "date": "2026-08-10",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#3b4154555c4e575f5a50425f547b595a50505a155c544d154f49": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#3b4154555c4e575f5a50425f547b595a50505a155c544d154f49",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#91faf0e3f0f3e4fae8f5fed1f3f0fafaf0bff6fee7bfe5e3": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#91faf0e3f0f3e4fae8f5fed1f3f0fafaf0bff6fee7bfe5e3",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-10",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#e5878497918c8b9c818aa587848e8e84cb828a93cb9197": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e5878497918c8b9c818aa587848e8e84cb828a93cb9197",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
