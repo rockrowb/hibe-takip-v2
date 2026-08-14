@@ -17,7 +17,7 @@
       "ok": true,
       "checked": "2026-08-14",
       "found": 44,
-      "diag": "/tr/haberler -> HTTP 200, 36889 byte HTML, 117 link, 49 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 36955 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-08-14",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 74930 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 65845 byte HTML, 130 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 73637 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 65845 byte HTML, 130 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-08-14",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -131,7 +131,7 @@
       "ok": true,
       "checked": "2026-08-14",
       "found": 44,
-      "diag": "/ -> HTTP 200, 122392 byte HTML, 277 link, 63 olası duyuru"
+      "diag": "/ -> HTTP 200, 122403 byte HTML, 277 link, 63 olası duyuru"
     },
     "doka": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-08-14",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260949 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-08-14",
       "found": 111,
-      "diag": "/ -> HTTP 200, 189084 byte HTML, 269 link, 132 olası duyuru"
+      "diag": "/ -> HTTP 200, 189034 byte HTML, 269 link, 132 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -215,7 +215,7 @@
       "ok": true,
       "checked": "2026-08-14",
       "found": 65,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66762 byte HTML, 167 link, 73 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66681 byte HTML, 167 link, 73 olası duyuru"
     },
     "dika": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-08-14",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 338038 byte HTML, 256 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 338156 byte HTML, 257 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -24412,6 +24412,69 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#9efcffeceaf7f0e7faf1defcfff5f5ffb0f9f1e8b0eaec": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#9efcffeceaf7f0e7faf1defcfff5f5ffb0f9f1e8b0eaec",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/eic-kilavuz-pathfinder-stratejik-oncelik-cagrilari-bilgi-gunu-24-agustos-2026-cevrim-ici": {
+      "title": "EIC Kılavuz (Pathfinder) Stratejik Öncelik Çağrıları Bilgi Günü, 24 Ağustos 2026, Çevrim içi",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/eic-kilavuz-pathfinder-stratejik-oncelik-cagrilari-bilgi-gunu-24-agustos-2026-cevrim-ici",
+      "date": "2026-08-24",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/sundanse-acik-cagrisi-tatlisu-ekosistemlerinin-restorasyonu-icin-100000-avroya-kadar": {
+      "title": "SUNDANSE Açık Çağrısı: Tatlısu Ekosistemlerinin Restorasyonu İçin 100.000 Avro’ya Kadar Destek",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/sundanse-acik-cagrisi-tatlisu-ekosistemlerinin-restorasyonu-icin-100000-avroya-kadar",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://fka.gov.tr/bingol-balinin-katma-degerli-urunlere-donusturulmesi-icin-yol-haritasi-belirleniyor-detayi-1786714513131": {
+      "title": "Bingöl Balı’nın Katma Değerli Ürünlere Dönüştürülmesi İçin Yol Haritası Belirleniyor",
+      "url": "https://fka.gov.tr/bingol-balinin-katma-degerli-urunlere-donusturulmesi-icin-yol-haritasi-belirleniyor-detayi-1786714513131",
+      "date": "2026-08-12",
+      "on_tarihler": [],
+      "source": "FKA (Fırat Kalkınma Ajansı)",
+      "source_id": "fka",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#c3b9acada4b6afa7a2a8baa7ac83a1a2a8a8a2eda4acb5edb7b1": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#c3b9acada4b6afa7a2a8baa7ac83a1a2a8a8a2eda4acb5edb7b1",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#8de6ecffeceff8e6f4e9e2cdefece6e6eca3eae2fba3f9ff": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#8de6ecffeceff8e6f4e9e2cdefece6e6eca3eae2fba3f9ff",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#1173706365787f68757e5173707a7a703f767e673f6563": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#1173706365787f68757e5173707a7a703f767e673f6563",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
