@@ -11,7 +11,7 @@
       "ok": true,
       "checked": "2026-08-15",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 149058 byte HTML, 109 link, 39 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 149181 byte HTML, 109 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-08-15",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 74930 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 65845 byte HTML, 130 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 73624 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 65845 byte HTML, 130 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-08-15",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-08-15",
       "found": 111,
-      "diag": "/ -> HTTP 200, 189036 byte HTML, 269 link, 132 olası duyuru"
+      "diag": "/ -> HTTP 200, 189011 byte HTML, 269 link, 132 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-08-15",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 338426 byte HTML, 257 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337746 byte HTML, 254 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -21796,6 +21796,64 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#e3818291978a8d9a878ca38182888882cd848c95cd9791": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e3818291978a8d9a878ca38182888882cd848c95cd9791",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-15"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-yapay-zeka-film-yarismasi-proje-oneri-raporu-sonuclari-aciklandi/": {
+      "title": "15.08.2026YARIŞMATEKNOFEST Yapay Zeka Film Yarışması Proje Öneri Raporu Sonuçları AçıklandıYapay Zeka Film Yarışması Proje Öneri Raporu sonuçları açıklanmıştır.",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-yapay-zeka-film-yarismasi-proje-oneri-raporu-sonuclari-aciklandi/",
+      "date": "2026-08-15",
+      "on_tarihler": [
+        "2026-08-15"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-15"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-savasan-iha-avci-drone-yarismasi-simulasyon-ucus-kanit-video-sonuclari-aciklandi/": {
+      "title": "15.08.2026YARIŞMATEKNOFEST Savaşan İHA Avcı Drone Yarışması Simülasyon Uçuş Kanıt Video Sonuçları AçıklandıSavaşan İHA Avcı Drone Yarışması Simülasyon Uçuş Kanıt video sonuçları açıklanmıştır.",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-savasan-iha-avci-drone-yarismasi-simulasyon-ucus-kanit-video-sonuclari-aciklandi/",
+      "date": "2026-08-15",
+      "on_tarihler": [
+        "2026-08-15"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-15"
+    },
+    "https://www.kuzka.gov.tr/form/proje-oneri-formu-1": {
+      "title": "Proje Öneri Formu",
+      "url": "https://www.kuzka.gov.tr/form/proje-oneri-formu-1",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-15"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#f78d989990829b93969c8e9398b795969c9c96d9909881d98385": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#f78d989990829b93969c8e9398b795969c9c96d9909881d98385",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-15"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#23484251424156485a474c6341424848420d444c550d5751": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#23484251424156485a474c6341424848420d444c550d5751",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-15"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#90f2f1e2e4f9fee9f4ffd0f2f1fbfbf1bef7ffe6bee4e2": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#90f2f1e2e4f9fee9f4ffd0f2f1fbfbf1bef7ffe6bee4e2",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
