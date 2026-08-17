@@ -17,7 +17,7 @@
       "ok": true,
       "checked": "2026-08-17",
       "found": 44,
-      "diag": "/tr/haberler -> HTTP 200, 36955 byte HTML, 117 link, 49 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 36930 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-08-17",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 73624 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 65845 byte HTML, 130 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 73624 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 66853 byte HTML, 131 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-08-17",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -59,7 +59,7 @@
       "ok": true,
       "checked": "2026-08-17",
       "found": 25,
-      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 154614 byte HTML, 92 link, 28 olası duyuru"
+      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 154913 byte HTML, 92 link, 28 olası duyuru"
     },
     "stgm": {
       "ok": false,
@@ -83,7 +83,7 @@
       "ok": true,
       "checked": "2026-08-17",
       "found": 71,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54412 byte HTML, 123 link, 86 olası duyuru"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54413 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
       "ok": true,
@@ -131,7 +131,7 @@
       "ok": true,
       "checked": "2026-08-17",
       "found": 44,
-      "diag": "/ -> HTTP 200, 122403 byte HTML, 277 link, 63 olası duyuru"
+      "diag": "/ -> HTTP 200, 122404 byte HTML, 277 link, 63 olası duyuru"
     },
     "doka": {
       "ok": true,
@@ -184,20 +184,20 @@
     "ahika": {
       "ok": true,
       "checked": "2026-08-17",
-      "found": 56,
-      "diag": "/destekler -> HTTP 200, 29760 byte HTML, 158 link, 95 olası duyuru"
+      "found": 54,
+      "diag": "/destekler -> HTTP 200, 28988 byte HTML, 155 link, 92 olası duyuru"
     },
     "kuzka": {
       "ok": true,
       "checked": "2026-08-17",
       "found": 111,
-      "diag": "/ -> HTTP 200, 189081 byte HTML, 269 link, 132 olası duyuru"
+      "diag": "/ -> HTTP 200, 189007 byte HTML, 269 link, 132 olası duyuru"
     },
     "kudaka": {
       "ok": true,
       "checked": "2026-08-17",
       "found": 127,
-      "diag": "/home -> HTTP 200, 101624 byte HTML, 196 link, 134 olası duyuru"
+      "diag": "/home -> HTTP 200, 101627 byte HTML, 196 link, 134 olası duyuru"
     },
     "serka": {
       "ok": true,
@@ -14932,7 +14932,7 @@
     "https://kudaka.gov.tr/ihaleler": {
       "title": "TÜM İHALELER",
       "url": "https://kudaka.gov.tr/ihaleler",
-      "date": "2026-06-26",
+      "date": "2026-08-17",
       "on_tarihler": [],
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
@@ -21944,6 +21944,60 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#36545744425f584f52597654575d5d5718515940184244": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#36545744425f584f52597654575d5d5718515940184244",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-17"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/fikirden-etkiye-ufuk-avrupa-ulusal-bilgi-gunu-canakkalede-4-eylul-2026-fiziksel-etkinlik": {
+      "title": "Fikirden Etkiye: Ufuk Avrupa Ulusal Bilgi Günü Çanakkale'de 4 Eylül 2026 | Fiziksel Etkinlik",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/fikirden-etkiye-ufuk-avrupa-ulusal-bilgi-gunu-canakkalede-4-eylul-2026-fiziksel-etkinlik",
+      "date": "2026-09-04",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-17"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/kume-4-endustri-alani-kapsamindaki-2026-yili-tek-asamali-cagri-sonuclari-aciklandi": {
+      "title": "Küme 4 Endüstri Alanı kapsamındaki 2026 Yılı Tek Aşamalı Çağrı Sonuçları Açıklandı!",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/kume-4-endustri-alani-kapsamindaki-2026-yili-tek-asamali-cagri-sonuclari-aciklandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-17"
+    },
+    "https://oka.gov.tr/duyuru/kadin-muhendis-okulu-4-donemi-icin-on-talep-toplaniyor": {
+      "title": "17AĞUSTOSKadın Mühendis Okulu 4. Dönemi İçin Ön Talep Toplanıyor",
+      "url": "https://oka.gov.tr/duyuru/kadin-muhendis-okulu-4-donemi-icin-on-talep-toplaniyor",
+      "date": null,
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-08-17"
+    },
+    "https://kudaka.gov.tr/ihale/2026-yili-3-donem-teknik-destek-programi-ihale-dokumanlari/265": {
+      "title": "2026 Yılı 3. Dönem Teknik Destek Programı İhale Dökümanları",
+      "url": "https://kudaka.gov.tr/ihale/2026-yili-3-donem-teknik-destek-programi-ihale-dokumanlari/265",
+      "date": "2026-08-17",
+      "on_tarihler": [],
+      "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
+      "source_id": "kudaka",
+      "first_seen": "2026-08-17"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#ff859091988a939b9e94869b90bf9d9e94949ed1989089d18b8d": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#ff859091988a939b9e94869b90bf9d9e94949ed1989089d18b8d",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-17"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#c8a3a9baa9aabda3b1aca788aaa9a3a3a9e6afa7bee6bcba": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#c8a3a9baa9aabda3b1aca788aaa9a3a3a9e6afa7bee6bcba",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
