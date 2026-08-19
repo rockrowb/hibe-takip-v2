@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-08-19",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 149051 byte HTML, 107 link, 39 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 149011 byte HTML, 107 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-08-19",
       "found": 44,
-      "diag": "/tr/haberler -> HTTP 200, 36945 byte HTML, 117 link, 49 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37135 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-08-19",
       "found": 111,
-      "diag": "/ -> HTTP 200, 189015 byte HTML, 269 link, 132 olası duyuru"
+      "diag": "/ -> HTTP 200, 189007 byte HTML, 269 link, 132 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,13 +239,13 @@
       "ok": true,
       "checked": "2026-08-19",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337382 byte HTML, 256 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337498 byte HTML, 256 link, 186 olası duyuru"
     },
     "gsb": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-08-19",
-      "found": 0,
-      "diag": "/Haberler -> HTTP 404 | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 22,
+      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 53657 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "tema_listesi": [
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-08-19T06:49:07Z",
-    "pending_count": 1808
+    "checked_at": "2026-08-19T15:27:07Z",
+    "pending_count": 1818
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -11526,7 +11526,7 @@
     "https://www.gsb.gov.tr/tr/duyuru/301254-rehberlik-ve-teftis-baskanligi-mufettis-yardimciligi-giris-sinavi-sozlu-sinav-duyurusu": {
       "title": "31Temmuz2026REHBERLİK VE TEFTİŞ BAŞKANLIĞI MÜFETTİŞ YARDIMCILIĞI GİRİŞ SINAVI SÖZLÜ SINAV DUYURUSU",
       "url": "https://www.gsb.gov.tr/tr/duyuru/301254-rehberlik-ve-teftis-baskanligi-mufettis-yardimciligi-giris-sinavi-sozlu-sinav-duyurusu",
-      "date": "2026-08-05",
+      "date": "2026-08-19",
       "on_tarihler": [],
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
@@ -23914,7 +23914,7 @@
     "https://www.gsb.gov.tr/tr/duyuru/301326-2026-yili-sozlesmeli-yurt-yonetim-personeli-ve-genclik-calisani-alimi-sozlu-sinava-katilim-duyurusu": {
       "title": "5Ağustos20262026 YILI SÖZLEŞMELİ YURT YÖNETİM PERSONELİ ve  GENÇLİK ÇALIŞANI ALIMI SÖZLÜ SINAVA KATILIM DUYURUSU",
       "url": "https://www.gsb.gov.tr/tr/duyuru/301326-2026-yili-sozlesmeli-yurt-yonetim-personeli-ve-genclik-calisani-alimi-sozlu-sinava-katilim-duyurusu",
-      "date": "2026-08-05",
+      "date": "2026-08-19",
       "on_tarihler": [],
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
@@ -23924,7 +23924,7 @@
     "https://www.gsb.gov.tr/tr/duyuru/301325-2026-yili-sozlesmeli-diyetisyen-psikolog-ve-sosyal-calismaci-alimi-sozlu-sinava-katilim-duyurusu": {
       "title": "5Ağustos20262026 YILI SÖZLEŞMELİ DİYETİSYEN, PSİKOLOG VE  SOSYAL ÇALIŞMACI ALIMI SÖZLÜ SINAVA KATILIM DUYURUSU",
       "url": "https://www.gsb.gov.tr/tr/duyuru/301325-2026-yili-sozlesmeli-diyetisyen-psikolog-ve-sosyal-calismaci-alimi-sozlu-sinava-katilim-duyurusu",
-      "date": "2026-08-05",
+      "date": "2026-08-19",
       "on_tarihler": [],
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
@@ -26195,6 +26195,132 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#0163607375686f78656e4163606a6a602f666e772f7573": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#0163607375686f78656e4163606a6a602f666e772f7573",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-19",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-mavi-vatan-etkinlik-takvimi-aciklandi/": {
+      "title": "18.08.2026GENELTEKNOFEST Mavi Vatan Etkinlik Takvimi Açıklandı!Mavi Vatan coşkusuna ortak olmak için TEKNOFEST Mavi Vatan Etkinlik Takvimi'ne hemen göz atın!",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-mavi-vatan-etkinlik-takvimi-aciklandi/",
+      "date": "2026-08-18",
+      "on_tarihler": [
+        "2026-08-18"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-19",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/net4society-disiplinlerarasi-proje-pazari-etkinligi": {
+      "title": "Net4Society Disiplinlerarası Proje Pazarı Etkinliği",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/net4society-disiplinlerarasi-proje-pazari-etkinligi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-19",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/yenilikci-saglik-girisimi-ihi-ilac-guvenligi-yaslanma-immun-sistem-hastaliklari-ve-kobiler": {
+      "title": "Yenilikçi Sağlık Girişimi (IHI)-İlaç Güvenliği, Yaşlanma-İmmün Sistem Hastalıkları ve KOBİ’ler İçin Sağlıkta İnovasyon Çağrıları",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/yenilikci-saglik-girisimi-ihi-ilac-guvenligi-yaslanma-immun-sistem-hastaliklari-ve-kobiler",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-19",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/turkiyede-24-25-eylul-2026-tarihinde-avrupa-birligi-arastirmacilar-gecesi-etkinlikleri": {
+      "title": "Türkiye'de 24-25 Eylül 2026 tarihinde Avrupa Birliği Araştırmacılar Gecesi Etkinlikleri Düzenleniyor!",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/turkiyede-24-25-eylul-2026-tarihinde-avrupa-birligi-arastirmacilar-gecesi-etkinlikleri",
+      "date": "2026-09-25",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-19",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/kentsel-gecisleri-surdurulebilir-bir-gelecege-yonlendirme-ortakligi-dut-202728-cagri": {
+      "title": "Kentsel Geçişleri Sürdürülebilir Bir Geleceğe Yönlendirme Ortaklığı (DUT) 2027/28 Çağrı Konuları Belirlenecektir",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/kentsel-gecisleri-surdurulebilir-bir-gelecege-yonlendirme-ortakligi-dut-202728-cagri",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-19",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7230/Bakan-Yumakli-Nemrut-Kalderasi-Ulkemizin-53uncu-Milli-Parki-Oldu": {
+      "title": "BAKAN YUMAKLI: NEMRUT KALDERASI, ÜLKEMİZİN 53’ÜNCÜ MİLLİ PARKI OLDU",
+      "url": "https://www.tarimorman.gov.tr/Haber/7230/Bakan-Yumakli-Nemrut-Kalderasi-Ulkemizin-53uncu-Milli-Parki-Oldu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-19",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2676/Tarim-Ve-Orman-Bakanligi-1851-4_b-Sozlesmeli-Personel-Alimina-Iliskin-Duyuru": {
+      "title": "Tarım ve Orman Bakanlığı 1851 4/B Sözleşmeli Personel Alımına İlişkin Duyuru",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2676/Tarim-Ve-Orman-Bakanligi-1851-4_b-Sozlesmeli-Personel-Alimina-Iliskin-Duyuru",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-19",
+      "olasi_tur": "haber_olabilir"
+    },
+    "https://www.gsb.gov.tr/tr/duyuru/302554-2026-yili-surekli-isci-alimi-sozlu-sinav-sonuc-duyurusu": {
+      "title": "19Ağustos20262026 YILI SÜREKLİ İŞÇİ ALIMI SÖZLÜ SINAV SONUÇ DUYURUSU",
+      "url": "https://www.gsb.gov.tr/tr/duyuru/302554-2026-yili-surekli-isci-alimi-sozlu-sinav-sonuc-duyurusu",
+      "date": "2026-08-19",
+      "on_tarihler": [],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-08-19",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.gsb.gov.tr/tr/duyuru/302548-yurt-basvurulari-duyurusu": {
+      "title": "19Ağustos2026Yurt Başvuruları Duyurusu",
+      "url": "https://www.gsb.gov.tr/tr/duyuru/302548-yurt-basvurulari-duyurusu",
+      "date": "2026-08-19",
+      "on_tarihler": [],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-08-19",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/301268-genclik-ve-spor-bakanligindan-genclerin-universite-tercihlerinde-dijital-rehberlik-destegi": {
+      "title": "GENÇLİK VE SPOR BAKANLIĞINDAN GENÇLERİN ÜNİVERSİTE TERCİHLERİNDE DİJİTAL REHBERLİK DESTEĞİ31.07.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/301268-genclik-ve-spor-bakanligindan-genclerin-universite-tercihlerinde-dijital-rehberlik-destegi",
+      "date": "2026-07-31",
+      "on_tarihler": [
+        "2026-07-31"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-08-19",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#472c26352625322c3e23280725262c2c2669202831693335": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#472c26352625322c3e23280725262c2c2669202831693335",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-19",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#2a484b585e4344534e456a484b41414b044d455c045e58": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#2a484b585e4344534e456a484b41414b044d455c045e58",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
