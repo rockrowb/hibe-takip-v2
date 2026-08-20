@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-08-20",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 149011 byte HTML, 107 link, 39 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 150667 byte HTML, 107 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-08-20",
       "found": 44,
-      "diag": "/tr/haberler -> HTTP 200, 37224 byte HTML, 117 link, 49 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37050 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-08-20",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -95,7 +95,7 @@
       "ok": true,
       "checked": "2026-08-20",
       "found": 28,
-      "diag": "/destekler -> HTTP 200, 145330 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 289072 byte HTML, 310 link, 66 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 147446 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 289072 byte HTML, 310 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -190,8 +190,8 @@
     "kuzka": {
       "ok": true,
       "checked": "2026-08-20",
-      "found": 111,
-      "diag": "/ -> HTTP 200, 188971 byte HTML, 269 link, 132 olası duyuru"
+      "found": 112,
+      "diag": "/ -> HTTP 200, 189251 byte HTML, 265 link, 133 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -233,19 +233,19 @@
       "ok": true,
       "checked": "2026-08-20",
       "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213199 byte HTML, 587 link, 392 olası duyuru"
+      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213467 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
       "checked": "2026-08-20",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337498 byte HTML, 256 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337723 byte HTML, 257 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
       "checked": "2026-08-20",
       "found": 22,
-      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 53657 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54116 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "items": {
@@ -25189,6 +25189,135 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#b4d6d5c6c0dddacdd0dbf4d6d5dfdfd59ad3dbc29ac0c6": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#b4d6d5c6c0dddacdd0dbf4d6d5dfdfd59ad3dbc29ac0c6",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-20",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-mavi-vatanin-ilk-gunu-coskuyla-tamamlandi/": {
+      "title": "20.08.2026GENELTEKNOFEST Mavi Vatan’ın ilk günü coşkuyla tamamlandı!Dünyanın en büyük Denizcilik, Havacılık, Uzay ve Teknoloji Festivali TEKNOFEST Mavi Vatan, 20 Ağust…",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-mavi-vatanin-ilk-gunu-coskuyla-tamamlandi/",
+      "date": "2026-08-20",
+      "on_tarihler": [
+        "2026-08-20"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-20",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/yenilikci-saglik-girisimi-ihi-ihi-13-cagrisi-ortak-arama-duyurusu": {
+      "title": "Yenilikçi Sağlık Girişimi (IHI)-IHI 13 Çağrısı Ortak Arama Duyurusu",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/yenilikci-saglik-girisimi-ihi-ihi-13-cagrisi-ortak-arama-duyurusu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-20",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/kume-1-saglik-2025-yili-ve-2026-yili-cagri-sonuclari-aciklandi": {
+      "title": "Küme 1: Sağlık 2025 Yılı ve 2026 Yılı Çağrı Sonuçları Açıklandı!",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/kume-1-saglik-2025-yili-ve-2026-yili-cagri-sonuclari-aciklandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-20",
+      "olasi_tur": "sonuc_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/eitden-2026nin-son-ceyregine-dogru-herkese-yonelik-guncel-cagrilar": {
+      "title": "EIT'den 2026'nın Son Çeyreğine Doğru Herkese Yönelik Güncel Çağrılar!",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/eitden-2026nin-son-ceyregine-dogru-herkese-yonelik-guncel-cagrilar",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-20",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.ktb.gov.tr/TR-472296/nemrutun-dev-heykellerine-5-yillik-koruma-kalkani.html": {
+      "title": "NEMRUT’UN DEV HEYKELLERİNE 5 YILLIK KORUMA KALKANI",
+      "url": "https://www.ktb.gov.tr/TR-472296/nemrutun-dev-heykellerine-5-yillik-koruma-kalkani.html",
+      "date": "2026-08-20",
+      "on_tarihler": [],
+      "source": "Kültür ve Turizm Bakanlığı",
+      "source_id": "ktb",
+      "first_seen": "2026-08-20",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.ktb.gov.tr/TR-472295/bakan-ersoy-hitit-imparatorlugunun-izlerini-tasiyan-sergiyi-ziyaret-etti.html": {
+      "title": "BAKAN ERSOY, HİTİT İMPARATORLUĞUNUN İZLERİNİ TAŞIYAN SERGİYİ ZİYARET ETTİ",
+      "url": "https://www.ktb.gov.tr/TR-472295/bakan-ersoy-hitit-imparatorlugunun-izlerini-tasiyan-sergiyi-ziyaret-etti.html",
+      "date": "2026-08-20",
+      "on_tarihler": [],
+      "source": "Kültür ve Turizm Bakanlığı",
+      "source_id": "ktb",
+      "first_seen": "2026-08-20",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7231/Edirnenin-Bereketli-Topraklarina-2-7-Milyar-Liralik-Dev-Sulama-Yatirimi": {
+      "title": "EDİRNE’NİN BEREKETLİ TOPRAKLARINA 2.7 MİLYAR LİRALIK DEV SULAMA YATIRIMI",
+      "url": "https://www.tarimorman.gov.tr/Haber/7231/Edirnenin-Bereketli-Topraklarina-2-7-Milyar-Liralik-Dev-Sulama-Yatirimi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-20",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/301327-bakan-bak-tff-merkez-hakem-kurulu-yaz-seminerinde-konustu": {
+      "title": "BAKAN BAK TFF MERKEZ HAKEM KURULU YAZ SEMİNERİNDE KONUŞTU04.08.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/301327-bakan-bak-tff-merkez-hakem-kurulu-yaz-seminerinde-konustu",
+      "date": "2026-08-04",
+      "on_tarihler": [
+        "2026-08-04"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-08-20",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/301303-bakan-bak-istanbulda-ogrencilerle-bir-araya-geldi": {
+      "title": "BAKAN BAK İSTANBUL’DA ÖĞRENCİLERLE BİR ARAYA GELDİ03.08.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/301303-bakan-bak-istanbulda-ogrencilerle-bir-araya-geldi",
+      "date": "2026-08-03",
+      "on_tarihler": [
+        "2026-08-03"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-08-20",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.kuzka.gov.tr/diger-destekler": {
+      "title": "Diğer Destekler",
+      "url": "https://www.kuzka.gov.tr/diger-destekler",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-20",
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.kosgeb.gov.tr/site/tr/genel/destekler/3/destekler"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#f48e9b9a93819890959f8d909bb496959f9f95da939b82da8086": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#f48e9b9a93819890959f8d909bb496959f9f95da939b82da8086",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-20",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#147f75667576617f6d707b5476757f7f753a737b623a6066": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#147f75667576617f6d707b5476757f7f753a737b623a6066",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
