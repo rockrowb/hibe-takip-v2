@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-08-21",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 150667 byte HTML, 107 link, 39 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 151692 byte HTML, 109 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-08-21",
       "found": 44,
-      "diag": "/tr/haberler -> HTTP 200, 37050 byte HTML, 117 link, 49 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37142 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-08-21",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -83,7 +83,7 @@
       "ok": true,
       "checked": "2026-08-21",
       "found": 71,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54413 byte HTML, 123 link, 86 olası duyuru"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54469 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-08-21",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-08-21",
       "found": 112,
-      "diag": "/ -> HTTP 200, 189247 byte HTML, 265 link, 133 olası duyuru"
+      "diag": "/ -> HTTP 200, 185675 byte HTML, 266 link, 135 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-08-21",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 338003 byte HTML, 257 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337836 byte HTML, 256 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -25351,6 +25351,109 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#dab8bba8aeb3b4a3beb59ab8bbb1b1bbf4bdb5acf4aea8": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dab8bba8aeb3b4a3beb59ab8bbb1b1bbf4bdb5acf4aea8",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-21",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/25-agustos-2026-ab-programlari-ve-ufuk-avrupa-projeleri-bilgilendirme-gunu-ve-tecrube": {
+      "title": "25 Ağustos 2026- AB Programları ve Ufuk Avrupa Projeleri Bilgilendirme Günü ve Tecrübe Paylaşımı Etkinliği",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/25-agustos-2026-ab-programlari-ve-ufuk-avrupa-projeleri-bilgilendirme-gunu-ve-tecrube",
+      "date": "2026-08-25",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-21",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupada-birligine-dayali-projeler-icin-proje-yazim-rehberi-yayinlandi": {
+      "title": "Ufuk Avrupa’da “İş Birliğine Dayalı Projeler için Proje Yazım Rehberi” yayınlandı.",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupada-birligine-dayali-projeler-icin-proje-yazim-rehberi-yayinlandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-21",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/turkiyede-25-26-eylul-2026-tarihinde-avrupa-birligi-arastirmacilar-gecesi-etkinlikleri": {
+      "title": "Türkiye'de 25-26 Eylül 2026 tarihinde Avrupa Birliği Araştırmacılar Gecesi Etkinlikleri Düzenleniyor!",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/turkiyede-25-26-eylul-2026-tarihinde-avrupa-birligi-arastirmacilar-gecesi-etkinlikleri",
+      "date": "2026-09-26",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-21",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7233/1956-Milyon-Liralik-Tarimsal-Destekleme-Odemesi-Bugun-Hesaplara-Aktariliyor": {
+      "title": "195,6 MİLYON LİRALIK TARIMSAL DESTEKLEME ÖDEMESİ BUGÜN HESAPLARA AKTARILIYOR",
+      "url": "https://www.tarimorman.gov.tr/Haber/7233/1956-Milyon-Liralik-Tarimsal-Destekleme-Odemesi-Bugun-Hesaplara-Aktariliyor",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-21",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.kuzka.gov.tr/page/destinasyon-gelistirme-sonuc-odakli-programi-395": {
+      "title": "Destinasyon Geliştirme Sonuç Odaklı Programı",
+      "url": "https://www.kuzka.gov.tr/page/destinasyon-gelistirme-sonuc-odakli-programi-395",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-21",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.kuzka.gov.tr/page/tarimda-verimlilik-ve-katma-degerin-artirilmasi-sonuc-odakli-programi-396": {
+      "title": "Tarımda Verimlilik ve Katma Değerin Artırılması Sonuç Odaklı Programı",
+      "url": "https://www.kuzka.gov.tr/page/tarimda-verimlilik-ve-katma-degerin-artirilmasi-sonuc-odakli-programi-396",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-21",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.kuzka.gov.tr/page/temel-sektorlerde-rekabetciligin-gelistirilmesi-sonuc-odakli-programi-397": {
+      "title": "Temel Sektörlerde Rekabetçiliğin Geliştirilmesi Sonuç Odaklı Programı",
+      "url": "https://www.kuzka.gov.tr/page/temel-sektorlerde-rekabetciligin-gelistirilmesi-sonuc-odakli-programi-397",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-21",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#146e7b7a73617870757f6d707b5476757f7f753a737b623a6066": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#146e7b7a73617870757f6d707b5476757f7f753a737b623a6066",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-21",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#056e64776467706e7c616a4567646e6e642b626a732b7177": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#056e64776467706e7c616a4567646e6e642b626a732b7177",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-21",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#3c5e5d4e4855524558537c5e5d57575d125b534a12484e": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#3c5e5d4e4855524558537c5e5d57575d125b534a12484e",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
