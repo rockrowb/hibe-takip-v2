@@ -35,13 +35,13 @@
       "ok": true,
       "checked": "2026-08-22",
       "found": 18,
-      "diag": "/tr/duyuru -> HTTP 200, 94977 byte HTML, 214 link, 18 olası duyuru"
+      "diag": "/tr/duyuru -> HTTP 200, 95377 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-08-22",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -95,7 +95,7 @@
       "ok": true,
       "checked": "2026-08-22",
       "found": 28,
-      "diag": "/destekler -> HTTP 200, 147446 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 289072 byte HTML, 310 link, 66 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 147446 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 289757 byte HTML, 310 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-08-22",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-08-22",
       "found": 112,
-      "diag": "/ -> HTTP 200, 185647 byte HTML, 266 link, 135 olası duyuru"
+      "diag": "/ -> HTTP 200, 185663 byte HTML, 266 link, 135 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -233,13 +233,13 @@
       "ok": true,
       "checked": "2026-08-22",
       "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 213467 byte HTML, 587 link, 392 olası duyuru"
+      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213467 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
       "checked": "2026-08-22",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337504 byte HTML, 256 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337622 byte HTML, 257 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-08-22T06:44:36Z",
-    "pending_count": 1842
+    "checked_at": "2026-08-22T15:16:28Z",
+    "pending_count": 1847
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -26727,6 +26727,89 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#3d5f5c4f4954534459527d5f5c56565c135a524b13494f": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#3d5f5c4f4954534459527d5f5c56565c135a524b13494f",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-22",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/uluslararasi-elektrikli-arac-yarislari-teknik-onay-videosu-sonuclari-aciklandi": {
+      "title": "Uluslararası Elektrikli Araç Yarışları Teknik Onay Videosu Sonuçları Açıklandı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/uluslararasi-elektrikli-arac-yarislari-teknik-onay-videosu-sonuclari-aciklandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-08-22",
+      "olasi_tur": "sonuc_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/uluslararasi-insansiz-hava-araclari-yarismasi-ve-liseler-arasi-insansiz-hava-araclari-yarismasi-hazirlik-ve-gorev-videosu-sonuclari-aciklandi": {
+      "title": "Uluslararası İnsansız Hava Araçları Yarışması ve Liseler Arası İnsansız Hava Araçları Yarışması Hazırlık ve Görev Videosu Sonuçları Açıklandı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/uluslararasi-insansiz-hava-araclari-yarismasi-ve-liseler-arasi-insansiz-hava-araclari-yarismasi-hazirlik-ve-gorev-videosu-sonuclari-aciklandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-08-22",
+      "olasi_tur": "sonuc_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/dikey-inisli-roket-yarismasi-atisa-hazirlik-raporu-sonuclari-aciklandi-0": {
+      "title": "Dikey İnişli Roket Yarışması Atışa Hazırlık Raporu Sonuçları Açıklandı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/dikey-inisli-roket-yarismasi-atisa-hazirlik-raporu-sonuclari-aciklandi-0",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-08-22",
+      "olasi_tur": "sonuc_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/kuantum-teknolojileri-yarismasi-donanim-kategorisi-egitim-ve-ikinci-eleme-asamasi-sonuclari-aciklandi": {
+      "title": "Kuantum Teknolojileri Yarışması Donanım Kategorisi Eğitim ve İkinci Eleme Aşaması Sonuçları Açıklandı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/kuantum-teknolojileri-yarismasi-donanim-kategorisi-egitim-ve-ikinci-eleme-asamasi-sonuclari-aciklandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-08-22",
+      "olasi_tur": "sonuc_olabilir"
+    },
+    "https://bebka.org.tr/bursa-eskisehir-bilecik-kalkinma-ajansi-personel-alim-ilani-4/": {
+      "title": "Bursa Eskişehir Bilecik Kalkınma Ajansı Personel Alım İlanı",
+      "url": "https://bebka.org.tr/bursa-eskisehir-bilecik-kalkinma-ajansi-personel-alim-ilani-4/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)",
+      "source_id": "bebka",
+      "first_seen": "2026-08-22",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#c7bda8a9a0b2aba3a6acbea3a887a5a6acaca6e9a0a8b1e9b3b5": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#c7bda8a9a0b2aba3a6acbea3a887a5a6acaca6e9a0a8b1e9b3b5",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-22",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#84efe5f6e5e6f1effde0ebc4e6e5efefe5aae3ebf2aaf0f6": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#84efe5f6e5e6f1effde0ebc4e6e5efefe5aae3ebf2aaf0f6",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-22",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#04666576706d6a7d606b4466656f6f652a636b722a7076": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#04666576706d6a7d606b4466656f6f652a636b722a7076",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
