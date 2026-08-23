@@ -11,7 +11,7 @@
       "ok": true,
       "checked": "2026-08-23",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 151931 byte HTML, 109 link, 39 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 151939 byte HTML, 109 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-08-23",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-08-23",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-08-23",
       "found": 112,
-      "diag": "/ -> HTTP 200, 185669 byte HTML, 266 link, 135 olası duyuru"
+      "diag": "/ -> HTTP 200, 185649 byte HTML, 266 link, 135 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -25703,6 +25703,51 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#1d7f7c6f6974736479725d7f7c76767c337a726b33696f": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#1d7f7c6f6974736479725d7f7c76767c337a726b33696f",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-23",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/robotakside-otonom-surus-heyecani-kocaelide/": {
+      "title": "23.08.2026YARIŞMARobotaksi’de Otonom Sürüş Heyecanı Kocaeli’de1.199 takım arasından finale kalan 50 takım,          23-26 Ağustos 2026 tarihleri arasında Kocaeli…",
+      "url": "https://teknofest.org/tr/duyurular/robotakside-otonom-surus-heyecani-kocaelide/",
+      "date": "2026-08-23",
+      "on_tarihler": [
+        "2026-08-23"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-23",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#d7adb8b9b0a2bbb3b6bcaeb3b897b5b6bcbcb6f9b0b8a1f9a3a5": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#d7adb8b9b0a2bbb3b6bcaeb3b897b5b6bcbcb6f9b0b8a1f9a3a5",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-23",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#c9a2a8bba8abbca2b0ada689aba8a2a2a8e7aea6bfe7bdbb": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#c9a2a8bba8abbca2b0ada689aba8a2a2a8e7aea6bfe7bdbb",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-23",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#27454655534e495e43486745464c4c4609404851095355": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#27454655534e495e43486745464c4c4609404851095355",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
