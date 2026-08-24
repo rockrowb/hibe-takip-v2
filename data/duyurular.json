@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-08-24",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 151939 byte HTML, 109 link, 39 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 148728 byte HTML, 103 link, 37 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-08-24",
       "found": 44,
-      "diag": "/tr/haberler -> HTTP 200, 37105 byte HTML, 117 link, 49 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37118 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-08-24",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -83,7 +83,7 @@
       "ok": true,
       "checked": "2026-08-24",
       "found": 71,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54417 byte HTML, 123 link, 86 olası duyuru"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54413 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
       "ok": true,
@@ -131,13 +131,13 @@
       "ok": true,
       "checked": "2026-08-24",
       "found": 44,
-      "diag": "/ -> HTTP 200, 122404 byte HTML, 277 link, 63 olası duyuru"
+      "diag": "/ -> HTTP 200, 122492 byte HTML, 277 link, 63 olası duyuru"
     },
     "doka": {
       "ok": true,
       "checked": "2026-08-24",
       "found": 21,
-      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 226312 byte HTML, 130 link, 53 olası duyuru"
+      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 226329 byte HTML, 130 link, 53 olası duyuru"
     },
     "oran": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-08-24",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -190,8 +190,8 @@
     "kuzka": {
       "ok": true,
       "checked": "2026-08-24",
-      "found": 112,
-      "diag": "/ -> HTTP 200, 185665 byte HTML, 266 link, 135 olası duyuru"
+      "found": 111,
+      "diag": "/ -> HTTP 200, 187227 byte HTML, 245 link, 134 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -227,7 +227,7 @@
       "ok": true,
       "checked": "2026-08-24",
       "found": 15,
-      "diag": "/duyurular -> HTTP 200, 156364 byte HTML, 39 link, 17 olası duyuru"
+      "diag": "/duyurular -> HTTP 200, 156248 byte HTML, 39 link, 17 olası duyuru"
     },
     "ktb": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-08-24",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337287 byte HTML, 257 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337169 byte HTML, 256 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-08-24T07:03:31Z",
-    "pending_count": 1854
+    "checked_at": "2026-08-24T15:35:43Z",
+    "pending_count": 1858
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -26985,6 +26985,81 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#64060516100d0a1d000b2406050f0f054a030b124a1016": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#64060516100d0a1d000b2406050f0f054a030b124a1016",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-24",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-mavi-vatanda-4-gunluk-muhtesem-cosku-sona-erdi/": {
+      "title": "24.08.2026GENELTEKNOFEST Mavi Vatan’da 4 Günlük Muhteşem  Coşku Sona ErdiGölcük’te deniz, hava ve teknolojinin buluştuğu TEKNOFEST Mavi Vatan, yoğun ziyaretçi ilgisi, nefes…",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-mavi-vatanda-4-gunluk-muhtesem-cosku-sona-erdi/",
+      "date": "2026-08-24",
+      "on_tarihler": [
+        "2026-08-24"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-24",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/msca-2026-cagrilari-istanbul-bilgi-gunu-yildiz-teknik-universitesi-23-eylul-2026": {
+      "title": "MSCA 2026 Çağrıları İstanbul Bilgi Günü, Yıldız Teknik Üniversitesi, 23 Eylül 2026.",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/msca-2026-cagrilari-istanbul-bilgi-gunu-yildiz-teknik-universitesi-23-eylul-2026",
+      "date": "2026-09-23",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-24",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler?page=226": {
+      "title": "Last pageLast »",
+      "url": "https://ufukavrupa.org.tr/tr/haberler?page=226",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-24",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://ufukavrupa.org.tr/tr/haberler?page=223"
+    },
+    "https://oka.gov.tr/haber/konaklama-sektorunde-yesil-donusum-cavusoglu-tower-hotel-karbon-notr-donusumunu-tamamladi": {
+      "title": "24AĞUSTOS2026Konaklama Sektöründe Yeşil Dönüşüm: Çavuşoğlu Tower Hotel Karbon Nötr Dönüşümünü Tamamladı",
+      "url": "https://oka.gov.tr/haber/konaklama-sektorunde-yesil-donusum-cavusoglu-tower-hotel-karbon-notr-donusumunu-tamamladi",
+      "date": "2026-08-24",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-08-24",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/tr/duyuru/bursa-eskisehir-bilecik-kalkinma-ajansi-personel-alim-ilani-15227": {
+      "title": "202624AğustosBursa Eskişehir Bilecik Kalkınma Ajansı Personel Alım İlanı",
+      "url": "https://bakka.gov.tr/tr/duyuru/bursa-eskisehir-bilecik-kalkinma-ajansi-personel-alim-ilani-15227",
+      "date": "2026-04-03",
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-24",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#a4decbcac3d1c8c0c5cfddc0cbe4c6c5cfcfc58ac3cbd28ad0d6": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#a4decbcac3d1c8c0c5cfddc0cbe4c6c5cfcfc58ac3cbd28ad0d6",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-24",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#5c373d2e3d3e29372538331c3e3d37373d723b332a72282e": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#5c373d2e3d3e29372538331c3e3d37373d723b332a72282e",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
