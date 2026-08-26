@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-08-26",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 148728 byte HTML, 103 link, 37 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 149776 byte HTML, 105 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-08-26",
       "found": 44,
-      "diag": "/tr/haberler -> HTTP 200, 37412 byte HTML, 117 link, 49 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37503 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -53,7 +53,7 @@
       "ok": true,
       "checked": "2026-08-26",
       "found": 82,
-      "diag": "/ -> HTTP 200, 993925 byte HTML, 123 link, 82 olası duyuru"
+      "diag": "/ -> HTTP 200, 981237 byte HTML, 122 link, 82 olası duyuru"
     },
     "sivil_dusun": {
       "ok": true,
@@ -77,13 +77,13 @@
       "ok": true,
       "checked": "2026-08-26",
       "found": 24,
-      "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 134617 byte HTML, 127 link, 60 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 135958 byte HTML, 127 link, 60 olası duyuru"
     },
     "ankaraka": {
       "ok": true,
       "checked": "2026-08-26",
       "found": 71,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54413 byte HTML, 123 link, 86 olası duyuru"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54460 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-08-26",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-08-26",
       "found": 111,
-      "diag": "/ -> HTTP 200, 192011 byte HTML, 248 link, 135 olası duyuru"
+      "diag": "/ -> HTTP 200, 198769 byte HTML, 251 link, 135 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -233,13 +233,13 @@
       "ok": true,
       "checked": "2026-08-26",
       "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213396 byte HTML, 587 link, 392 olası duyuru"
+      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213454 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
       "checked": "2026-08-26",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 338591 byte HTML, 257 link, 187 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 338114 byte HTML, 257 link, 187 olası duyuru"
     },
     "gsb": {
       "ok": false,
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-08-26T06:54:31Z",
-    "pending_count": 1873
+    "checked_at": "2026-08-26T16:15:48Z",
+    "pending_count": 1878
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -27311,6 +27311,111 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#1e7c7f6c6a7770677a715e7c7f75757f30797168306a6c": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#1e7c7f6c6a7770677a715e7c7f75757f30797168306a6c",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ignite-neb-hanem-cesme-changemaker-degisim-oncusu-cagrisi-acildi-son-basvuru-1-eylul-2026": {
+      "title": "Ignite NEB: Hanem Çeşme ChangeMaker (Değişim Öncüsü) Çağrısı Açıldı! Son Başvuru: 1 Eylül 2026",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ignite-neb-hanem-cesme-changemaker-degisim-oncusu-cagrisi-acildi-son-basvuru-1-eylul-2026",
+      "date": "2026-09-01",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.ktb.gov.tr/TR-472439/sidede-390-metrelik-anitsal-antik-cadde-gun-yuzune-cikti.html": {
+      "title": "SİDE’DE 390 METRELİK ANITSAL ANTİK CADDE GÜN YÜZÜNE ÇIKTI",
+      "url": "https://www.ktb.gov.tr/TR-472439/sidede-390-metrelik-anitsal-antik-cadde-gun-yuzune-cikti.html",
+      "date": "2026-08-26",
+      "on_tarihler": [],
+      "source": "Kültür ve Turizm Bakanlığı",
+      "source_id": "ktb",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2682/15-Bolge-Mudurlugu-Sivas-Gokpinar-Golu-Tabiat-Parki-Cevre-Duzenleme-Isleri-Ihale-Ilani": {
+      "title": "15. Bölge Müdürlüğü Sivas Gökpınar Gölü Tabiat Parkı Çevre Düzenleme İşleri İhal ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2682/15-Bolge-Mudurlugu-Sivas-Gokpinar-Golu-Tabiat-Parki-Cevre-Duzenleme-Isleri-Ihale-Ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2683/9-Bolge-Mudurlugu-Ankara-Camkoru-Tabiat-Parki-Ihale-Isletmecilik-Ihale-Ilanlari": {
+      "title": "9. Bölge Müdürlüğü Ankara Çamkoru Tabiat Parkı İhale İşletmecilik İhale İlanları ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2683/9-Bolge-Mudurlugu-Ankara-Camkoru-Tabiat-Parki-Ihale-Isletmecilik-Ihale-Ilanlari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.istka.org.tr/duyuru/istanbul-kalkinma-ajansi-tarafindan-24-25-aralik-2025-tarihinde-gerceklestirilen-personel-alimi-sozlu-yarisma-sinavi-sonuclari-3iv4": {
+      "title": "İstanbul Kalkınma Ajansı Tarafından 24-25 Aralık 2025 Tarihinde Gerçekleştirilen Personel Alımı Sözlü Yarışma Sınavı Sonuçları Açıklandı",
+      "url": "https://www.istka.org.tr/duyuru/istanbul-kalkinma-ajansi-tarafindan-24-25-aralik-2025-tarihinde-gerceklestirilen-personel-alimi-sozlu-yarisma-sinavi-sonuclari-3iv4",
+      "date": "2026-01-29",
+      "on_tarihler": [],
+      "source": "İSTKA (İstanbul Kalkınma Ajansı)",
+      "source_id": "istka",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "sonuc_olabilir"
+    },
+    "https://www.kuzka.gov.tr/g/foto/1": {
+      "title": "Tüm Galeriler",
+      "url": "https://www.kuzka.gov.tr/g/foto/1",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.kuzka.gov.tr/fotograf-galerisi.php"
+    },
+    "https://www.kuzka.gov.tr/g/video/7": {
+      "title": "Tüm Videolar",
+      "url": "https://www.kuzka.gov.tr/g/video/7",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "haber_olabilir",
+      "duplicate_of": "https://www.kuzka.gov.tr/video-galerisi.php"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#f3899c9d94869f9792988a979cb39192989892dd949c85dd8781": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#f3899c9d94869f9792988a979cb39192989892dd949c85dd8781",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#6a010b180b081f01130e052a080b01010b440d051c441e18": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6a010b180b081f01130e052a080b01010b440d051c441e18",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#9af8fbe8eef3f4e3fef5daf8fbf1f1fbb4fdf5ecb4eee8": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#9af8fbe8eef3f4e3fef5daf8fbf1f1fbb4fdf5ecb4eee8",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
