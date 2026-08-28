@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-08-28",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 149756 byte HTML, 105 link, 39 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 150723 byte HTML, 107 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-08-28",
-      "found": 44,
-      "diag": "/tr/haberler -> HTTP 200, 37361 byte HTML, 117 link, 49 olası duyuru"
+      "found": 50,
+      "diag": "/tr/haberler -> HTTP 200, 38210 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -149,7 +149,7 @@
       "ok": true,
       "checked": "2026-08-28",
       "found": 3,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 483935 byte HTML, 648 link, 177 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 483909 byte HTML, 647 link, 178 olası duyuru"
     },
     "gmka": {
       "ok": true,
@@ -167,19 +167,19 @@
       "ok": true,
       "checked": "2026-08-28",
       "found": 2,
-      "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37201 byte HTML, 120 link, 61 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37195 byte HTML, 120 link, 61 olası duyuru"
     },
     "trakyaka": {
       "ok": true,
       "checked": "2026-08-28",
       "found": 60,
-      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32620 byte HTML, 139 link, 90 olası duyuru"
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32629 byte HTML, 139 link, 90 olası duyuru"
     },
     "zafer": {
       "ok": true,
       "checked": "2026-08-28",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -190,14 +190,14 @@
     "kuzka": {
       "ok": true,
       "checked": "2026-08-28",
-      "found": 112,
-      "diag": "/ -> HTTP 200, 198980 byte HTML, 252 link, 136 olası duyuru"
+      "found": 111,
+      "diag": "/ -> HTTP 200, 198992 byte HTML, 252 link, 136 olası duyuru"
     },
     "kudaka": {
       "ok": true,
       "checked": "2026-08-28",
       "found": 127,
-      "diag": "/home -> HTTP 200, 101627 byte HTML, 196 link, 134 olası duyuru"
+      "diag": "/home -> HTTP 200, 101658 byte HTML, 196 link, 134 olası duyuru"
     },
     "serka": {
       "ok": true,
@@ -238,8 +238,8 @@
     "tarim_orman": {
       "ok": true,
       "checked": "2026-08-28",
-      "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 338010 byte HTML, 257 link, 187 olası duyuru"
+      "found": 67,
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337928 byte HTML, 257 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": false,
@@ -23339,6 +23339,93 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#b1d3d0c3c5d8dfc8d5def1d3d0dadad09fd6dec79fc5c3": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#b1d3d0c3c5d8dfc8d5def1d3d0dadad09fd6dec79fc5c3",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-28"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-2026-tarim-teknolojileri-yarismasi-on-degerlendirme-raporu-sonuclari-aciklandi/": {
+      "title": "28.08.2026YARIŞMATEKNOFEST 2026 Tarım Teknolojileri Yarışması Ön Değerlendirme Raporu Sonuçları AçıklandıTEKNOFEST 2026 Tarım Teknolojileri Yarışması Ön Değerlendirme Raporu sonuçları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-2026-tarim-teknolojileri-yarismasi-on-degerlendirme-raporu-sonuclari-aciklandi/",
+      "date": "2026-08-28",
+      "on_tarihler": [
+        "2026-08-28"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-28"
+    },
+    "https://teknofest.org/tr/duyurular/elektronik-harp-yarismasi-sistem-tanimlama-videosu-sonuclari-aciklandi/": {
+      "title": "28.08.2026YARIŞMAElektronik Harp Yarışması Sistem Tanımlama Videosu Sonuçları AçıklandıTEKNOFEST Elektronik Harp Yarışması Sistem Tanımlama Video sonuçları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/elektronik-harp-yarismasi-sistem-tanimlama-videosu-sonuclari-aciklandi/",
+      "date": "2026-08-28",
+      "on_tarihler": [
+        "2026-08-28"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-28"
+    },
+    "https://teknofest.org/tr/duyurular/elektronik-harp-yarismasi-kritik-tasarim-raporu-sonuclari-aciklandi/": {
+      "title": "28.08.2026YARIŞMAElektronik Harp Yarışması Kritik Tasarım Raporu Sonuçları AçıklandıTEKNOFEST Elektronik Harp Yarışması Kritik Tasarım Raporu sonuçları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/elektronik-harp-yarismasi-kritik-tasarim-raporu-sonuclari-aciklandi/",
+      "date": "2026-08-28",
+      "on_tarihler": [
+        "2026-08-28"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-28"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupada-basvurudan-proje-uygulamasina-avrupa-komisyonundan-yeni-etkinlikler": {
+      "title": "Ufuk Avrupa’da Başvurudan Proje Uygulamasına: Avrupa Komisyonundan Yeni Etkinlikler",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupada-basvurudan-proje-uygulamasina-avrupa-komisyonundan-yeni-etkinlikler",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-28"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7241/Ciftcilerin-Hesaplarina-678-Milyon-Lira-Tarimsal-Destek-Odemesi-Aktariliyor": {
+      "title": "ÇİFTÇİLERİN HESAPLARINA 67,8 MİLYON LİRA TARIMSAL DESTEK ÖDEMESİ AKTARILIYOR",
+      "url": "https://www.tarimorman.gov.tr/Haber/7241/Ciftcilerin-Hesaplarina-678-Milyon-Lira-Tarimsal-Destek-Odemesi-Aktariliyor",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-28"
+    },
+    "https://kudaka.gov.tr/duyuru/t-c-bursa-eskisehir-bilecik-kalkinma-ajansi-bebka-personel-alim-ilani/259": {
+      "title": "T.C. BURSA ESKİŞEHİR BİLECİK KALKINMA AJANSI (BEBKA) PERSONEL ALIM İLANI",
+      "url": "https://kudaka.gov.tr/duyuru/t-c-bursa-eskisehir-bilecik-kalkinma-ajansi-bebka-personel-alim-ilani/259",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
+      "source_id": "kudaka",
+      "first_seen": "2026-08-28"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#d9a3b6b7beacb5bdb8b2a0bdb699bbb8b2b2b8f7beb6aff7adab": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#d9a3b6b7beacb5bdb8b2a0bdb699bbb8b2b2b8f7beb6aff7adab",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-28"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#90fbf1e2f1f2e5fbe9f4ffd0f2f1fbfbf1bef7ffe6bee4e2": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#90fbf1e2f1f2e5fbe9f4ffd0f2f1fbfbf1bef7ffe6bee4e2",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-28"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#2143405355484f58454e6143404a4a400f464e570f5553": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#2143405355484f58454e6143404a4a400f464e570f5553",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
