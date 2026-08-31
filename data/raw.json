@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-08-31",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -131,7 +131,7 @@
       "ok": true,
       "checked": "2026-08-31",
       "found": 44,
-      "diag": "/ -> HTTP 200, 122508 byte HTML, 277 link, 63 olası duyuru"
+      "diag": "/ -> HTTP 200, 122545 byte HTML, 277 link, 63 olası duyuru"
     },
     "doka": {
       "ok": true,
@@ -149,7 +149,7 @@
       "ok": true,
       "checked": "2026-08-31",
       "found": 3,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 483909 byte HTML, 647 link, 178 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 483720 byte HTML, 648 link, 179 olası duyuru"
     },
     "gmka": {
       "ok": true,
@@ -173,7 +173,7 @@
       "ok": true,
       "checked": "2026-08-31",
       "found": 60,
-      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32629 byte HTML, 139 link, 90 olası duyuru"
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32620 byte HTML, 139 link, 90 olası duyuru"
     },
     "zafer": {
       "ok": true,
@@ -191,13 +191,13 @@
       "ok": true,
       "checked": "2026-08-31",
       "found": 112,
-      "diag": "/ -> HTTP 200, 199923 byte HTML, 253 link, 137 olası duyuru"
+      "diag": "/ -> HTTP 200, 200698 byte HTML, 253 link, 137 olası duyuru"
     },
     "kudaka": {
       "ok": true,
       "checked": "2026-08-31",
       "found": 127,
-      "diag": "/home -> HTTP 200, 101658 byte HTML, 196 link, 134 olası duyuru"
+      "diag": "/home -> HTTP 200, 101669 byte HTML, 196 link, 134 olası duyuru"
     },
     "serka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-08-31",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337977 byte HTML, 257 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337859 byte HTML, 256 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -14743,7 +14743,7 @@
     "https://kudaka.gov.tr/duyurular": {
       "title": "TÜM DUYURULAR",
       "url": "https://kudaka.gov.tr/duyurular",
-      "date": "2026-07-13",
+      "date": "2026-08-31",
       "on_tarihler": [],
       "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
       "source_id": "kudaka",
@@ -23730,6 +23730,42 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#96f4f7e4e2fff8eff2f9d6f4f7fdfdf7b8f1f9e0b8e2e4": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#96f4f7e4e2fff8eff2f9d6f4f7fdfdf7b8f1f9e0b8e2e4",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-31"
+    },
+    "https://oka.gov.tr/haber/samsun-da-odak-sektorlerin-nitelikli-is-gucu-kapasitesi-guclendiriliyor": {
+      "title": "26AĞUSTOS2026Samsun’da Odak Sektörlerin Nitelikli İş Gücü Kapasitesi Güçlendiriliyor",
+      "url": "https://oka.gov.tr/haber/samsun-da-odak-sektorlerin-nitelikli-is-gucu-kapasitesi-guclendiriliyor",
+      "date": "2026-08-26",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-08-31"
+    },
+    "https://kudaka.gov.tr/duyuru/2026-yili-3-donem-teknik-destek-programi-ihale-sonuc-ilani/260": {
+      "title": "2026 Yılı 3. Dönem Teknik Destek Programı İhale Sonuç İlanı",
+      "url": "https://kudaka.gov.tr/duyuru/2026-yili-3-donem-teknik-destek-programi-ihale-sonuc-ilani/260",
+      "date": "2026-08-31",
+      "on_tarihler": [],
+      "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
+      "source_id": "kudaka",
+      "first_seen": "2026-08-31"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d060c1f0c0f18061409022d0f0c06060c430a021b43191f": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d060c1f0c0f18061409022d0f0c06060c430a021b43191f",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-31"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#2e4c4f5c5a4740574a416e4c4f45454f00494158005a5c": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#2e4c4f5c5a4740574a416e4c4f45454f00494158005a5c",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
