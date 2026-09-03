@@ -11,7 +11,7 @@
       "ok": true,
       "checked": "2026-09-03",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 150558 byte HTML, 107 link, 39 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 150497 byte HTML, 107 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
@@ -20,10 +20,10 @@
       "diag": "/tr/haberler -> HTTP 200, 38371 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/gelismis-arama -> HTTP 200, 11977 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11901 byte HTML, 0 link, 0 olası duyuru"
+      "found": 10,
+      "diag": "/gelismis-arama -> HTTP 200, 1387724 byte HTML, 2015 link, 0 olası duyuru | /duyurular -> HTTP 200, 22098 byte HTML, 41 link, 10 olası duyuru"
     },
     "kosgeb": {
       "ok": true,
@@ -56,10 +56,10 @@
       "diag": "/ -> HTTP 200, 550309 byte HTML, 120 link, 82 olası duyuru"
     },
     "sivil_dusun": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 25,
+      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 155430 byte HTML, 92 link, 28 olası duyuru"
     },
     "stgm": {
       "ok": false,
@@ -74,28 +74,28 @@
       "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)')))"
     },
     "istka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11893 byte HTML, 0 link, 0 olası duyuru | /tr/basvuru-cagrilari -> HTTP 200, 11896 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11852 byte HTML, 0 link, 0 olası duyuru"
+      "found": 24,
+      "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 135958 byte HTML, 127 link, 60 olası duyuru"
     },
     "ankaraka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 11962 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11916 byte HTML, 0 link, 0 olası duyuru"
+      "found": 71,
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54460 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 16,
+      "diag": "/destekler -> HTTP 200, 68236 byte HTML, 54 link, 21 olası duyuru"
     },
     "bebka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11938 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11943 byte HTML, 0 link, 0 olası duyuru"
+      "found": 28,
+      "diag": "/destekler -> HTTP 200, 147446 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 290822 byte HTML, 310 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -104,76 +104,76 @@
       "diag": "/destekler/ -> HTTP 200, 48875 byte HTML, 55 link, 30 olası duyuru"
     },
     "cka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/tr/guncel-destekler -> HTTP 200, 11853 byte HTML, 0 link, 0 olası duyuru | /tr/guncel-destek -> HTTP 200, 11990 byte HTML, 0 link, 0 olası duyuru"
+      "found": 19,
+      "diag": "/tr/guncel-destekler -> HTTP 200, 35124 byte HTML, 103 link, 43 olası duyuru"
     },
     "baka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11926 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11819 byte HTML, 0 link, 0 olası duyuru"
+      "found": 1,
+      "diag": "/destekler -> HTTP 200, 28248 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35444 byte HTML, 94 link, 44 olası duyuru"
     },
     "dogaka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/destekler/destekler -> HTTP 200, 11986 byte HTML, 0 link, 0 olası duyuru | /medya/guncel-duyurular -> HTTP 200, 11979 byte HTML, 0 link, 0 olası duyuru"
+      "found": 76,
+      "diag": "/destekler/destekler -> HTTP 200, 41640 byte HTML, 185 link, 112 olası duyuru"
     },
     "mevka": {
       "ok": false,
       "checked": "2026-09-03",
       "found": 0,
-      "diag": "/destekler/guncel-destek-programlari -> HTTP 200, 11955 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/destekler/guncel-destek-programlari -> HTTP 500"
     },
     "oka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/ -> HTTP 200, 11903 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11866 byte HTML, 0 link, 0 olası duyuru"
+      "found": 45,
+      "diag": "/ -> HTTP 200, 123752 byte HTML, 280 link, 64 olası duyuru"
     },
     "doka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/acik-destekler -> HTTP 200, 11885 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11931 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11844 byte HTML, 0 link, 0 olası duyuru"
+      "found": 21,
+      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 216506 byte HTML, 129 link, 53 olası duyuru"
     },
     "oran": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11864 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11931 byte HTML, 0 link, 0 olası duyuru"
+      "found": 88,
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 113935 byte HTML, 195 link, 130 olası duyuru"
     },
     "marka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11892 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11910 byte HTML, 0 link, 0 olası duyuru"
+      "found": 3,
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 483720 byte HTML, 648 link, 179 olası duyuru"
     },
     "gmka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/acik-destek-programlari -> HTTP 200, 11941 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11930 byte HTML, 0 link, 0 olası duyuru"
+      "found": 39,
+      "diag": "/acik-destek-programlari -> HTTP 200, 71592 byte HTML, 94 link, 51 olası duyuru"
     },
     "geka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/ -> HTTP 200, 11915 byte HTML, 0 link, 0 olası duyuru | /tr/basvurusu-devam-eden-destekler -> HTTP 200, 11952 byte HTML, 0 link, 0 olası duyuru"
+      "found": 129,
+      "diag": "/ -> HTTP 200, 212082 byte HTML, 357 link, 212 olası duyuru"
     },
     "ika": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11886 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11883 byte HTML, 0 link, 0 olası duyuru"
+      "found": 2,
+      "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37195 byte HTML, 120 link, 61 olası duyuru"
     },
     "trakyaka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 11908 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11976 byte HTML, 0 link, 0 olası duyuru"
+      "found": 60,
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32717 byte HTML, 139 link, 90 olası duyuru"
     },
     "zafer": {
       "ok": true,
@@ -182,46 +182,46 @@
       "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11872 byte HTML, 0 link, 0 olası duyuru | /haberler -> HTTP 200, 11860 byte HTML, 0 link, 0 olası duyuru"
+      "found": 54,
+      "diag": "/destekler -> HTTP 200, 28988 byte HTML, 155 link, 92 olası duyuru"
     },
     "kuzka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/ -> HTTP 200, 12046 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11898 byte HTML, 0 link, 0 olası duyuru"
+      "found": 115,
+      "diag": "/ -> HTTP 200, 217168 byte HTML, 265 link, 144 olası duyuru"
     },
     "kudaka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/home -> HTTP 200, 11950 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11904 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11882 byte HTML, 0 link, 0 olası duyuru"
+      "found": 127,
+      "diag": "/home -> HTTP 200, 101669 byte HTML, 196 link, 134 olası duyuru"
     },
     "serka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11881 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11927 byte HTML, 0 link, 0 olası duyuru"
+      "found": 147,
+      "diag": "/destekler -> HTTP 200, 62109 byte HTML, 258 link, 200 olası duyuru"
     },
     "daka": {
       "ok": false,
       "checked": "2026-09-03",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 11924 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11946 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404"
     },
     "fka": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11875 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11912 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11923 byte HTML, 0 link, 0 olası duyuru"
+      "found": 65,
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66681 byte HTML, 167 link, 73 olası duyuru"
     },
     "dika": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11936 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11896 byte HTML, 0 link, 0 olası duyuru"
+      "found": 27,
+      "diag": "/destekler -> HTTP 200, 58243 byte HTML, 161 link, 61 olası duyuru"
     },
     "bakka": {
       "ok": true,
@@ -230,16 +230,16 @@
       "diag": "/duyurular -> HTTP 200, 156248 byte HTML, 39 link, 17 olası duyuru"
     },
     "ktb": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-03",
-      "found": 0,
-      "diag": "/TR-9857/duyurular.html -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 355,
+      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213466 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
       "checked": "2026-09-03",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15911 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 338061 byte HTML, 257 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15911 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337749 byte HTML, 256 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-09-03T10:54:34Z",
-    "pending_count": 1931
+    "checked_at": "2026-09-03T18:19:29Z",
+    "pending_count": 1936
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -28398,6 +28398,102 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#a8d2c7c6cfddc4ccc9c3d1ccc7e8cac9c3c3c986cfc7de86dcda": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#a8d2c7c6cfddc4ccc9c3d1ccc7e8cac9c3c3c986cfc7de86dcda",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-03",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/insansiz-deniz-araci-yarismasi-final-siralamalari-aciklandi-3/": {
+      "title": "03.09.2026YARIŞMAİnsansız Deniz Aracı Yarışması Final Sıralamaları AçıklandıTEKNOFEST 2026 İnsansız Deniz Aracı Yarışması final sıralamaları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/insansiz-deniz-araci-yarismasi-final-siralamalari-aciklandi-3/",
+      "date": "2026-09-03",
+      "on_tarihler": [
+        "2026-09-03"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-03",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bebka.org.tr/bilecik-sportif-havacilik-11-spor-kulubu-mal-alim-ihalesi/": {
+      "title": "Bilecik Sportif Havacılık 11 Spor Kulübü Mal Alım İhale İlanı",
+      "url": "https://bebka.org.tr/bilecik-sportif-havacilik-11-spor-kulubu-mal-alim-ihalesi/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)",
+      "source_id": "bebka",
+      "first_seen": "2026-09-03",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/bilecik-sportif-havacilik-11-spor-kulubu-mal-alim-ihale-ilani/"
+    },
+    "https://oka.gov.tr/kultur-yayinlari": {
+      "title": "Kültür Yayınları",
+      "url": "https://oka.gov.tr/kultur-yayinlari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-09-03",
+      "olasi_tur": "belirsiz"
+    },
+    "https://oka.gov.tr/duyuru/yesil-ekonomik-firsatlar-ve-zorluklar-analizi-tr83-bolgesi-paydas-toplantisi-samsun-da-gerceklestirilecektir": {
+      "title": "03EYLÜLYeşil Ekonomik Fırsatlar ve Zorluklar Analizi TR83 Bölgesi Paydaş Toplantısı Samsun’da Gerçekleştirilecektir",
+      "url": "https://oka.gov.tr/duyuru/yesil-ekonomik-firsatlar-ve-zorluklar-analizi-tr83-bolgesi-paydas-toplantisi-samsun-da-gerceklestirilecektir",
+      "date": null,
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-09-03",
+      "olasi_tur": "belirsiz"
+    },
+    "https://oka.gov.tr/ihale/se-tarim-akilli-tarim-yatirimi-projesi-led-aydinlatma-ile-yil-boyu-verimli-uretim-projesi-mal-alimi-ihale-ilani": {
+      "title": "03EYLÜLSE Tarım Akıllı Tarım Yatırımı Projesi: LED Aydınlatma ile Yıl Boyu Verimli Üretim Projesi Mal Alımı İhale İlanı",
+      "url": "https://oka.gov.tr/ihale/se-tarim-akilli-tarim-yatirimi-projesi-led-aydinlatma-ile-yil-boyu-verimli-uretim-projesi-mal-alimi-ihale-ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-09-03",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.kuzka.gov.tr/2026-yili-faaliyet-raporu": {
+      "title": "2026 Yılı Faaliyet Raporu",
+      "url": "https://www.kuzka.gov.tr/2026-yili-faaliyet-raporu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-09-03",
+      "olasi_tur": "haber_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#017b6e6f66746d65606a78656e4163606a6a602f666e772f7573": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#017b6e6f66746d65606a78656e4163606a6a602f666e772f7573",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-03",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#8fe4eefdeeedfae4f6ebe0cfedeee4e4eea1e8e0f9a1fbfd": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#8fe4eefdeeedfae4f6ebe0cfedeee4e4eea1e8e0f9a1fbfd",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-03",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#a2c0c3d0d6cbccdbc6cde2c0c3c9c9c38cc5cdd48cd6d0": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#a2c0c3d0d6cbccdbc6cde2c0c3c9c9c38cc5cdd48cd6d0",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
