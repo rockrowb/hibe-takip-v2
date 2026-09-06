@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-09-06",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 73766 byte HTML, 89 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67749 byte HTML, 131 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 73501 byte HTML, 89 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67749 byte HTML, 131 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-09-06",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-09-06",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-09-06",
       "found": 115,
-      "diag": "/ -> HTTP 200, 218046 byte HTML, 265 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 218016 byte HTML, 265 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-09-06",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15911 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337564 byte HTML, 257 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15911 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337446 byte HTML, 256 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -283,7 +283,7 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-09-06T10:31:01Z",
+    "checked_at": "2026-09-06T17:29:26Z",
     "pending_count": 1962
   },
   "items": {
@@ -29127,6 +29127,39 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#16747764627f786f72795674777d7d7738717960386264": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#16747764627f786f72795674777d7d7738717960386264",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-06",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#047e6b6a63716860656f7d606b4466656f6f652a636b722a7076": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#047e6b6a63716860656f7d606b4466656f6f652a636b722a7076",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-06",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#066d67746764736d7f62694664676d6d6728616970287274": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#066d67746764736d7f62694664676d6d6728616970287274",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-06",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#aac8cbd8dec3c4d3cec5eac8cbc1c1cb84cdc5dc84ded8": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#aac8cbd8dec3c4d3cec5eac8cbc1c1cb84cdc5dc84ded8",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
