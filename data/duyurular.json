@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-09-07",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 150582 byte HTML, 107 link, 39 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 150430 byte HTML, 107 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-09-07",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 38267 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 38137 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-09-07",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 73501 byte HTML, 89 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67749 byte HTML, 131 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 74784 byte HTML, 89 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67749 byte HTML, 131 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -131,7 +131,7 @@
       "ok": true,
       "checked": "2026-09-07",
       "found": 45,
-      "diag": "/ -> HTTP 200, 123752 byte HTML, 280 link, 64 olası duyuru"
+      "diag": "/ -> HTTP 200, 123593 byte HTML, 280 link, 64 olası duyuru"
     },
     "doka": {
       "ok": true,
@@ -184,14 +184,14 @@
     "ahika": {
       "ok": true,
       "checked": "2026-09-07",
-      "found": 54,
-      "diag": "/destekler -> HTTP 200, 28988 byte HTML, 155 link, 92 olası duyuru"
+      "found": 56,
+      "diag": "/destekler -> HTTP 200, 29784 byte HTML, 158 link, 95 olası duyuru"
     },
     "kuzka": {
       "ok": true,
       "checked": "2026-09-07",
       "found": 115,
-      "diag": "/ -> HTTP 200, 218058 byte HTML, 265 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 217984 byte HTML, 265 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -209,7 +209,7 @@
       "ok": true,
       "checked": "2026-09-07",
       "found": 27,
-      "diag": "/destekler -> HTTP 200, 50791 byte HTML, 70 link, 48 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 51380 byte HTML, 72 link, 49 olası duyuru"
     },
     "fka": {
       "ok": true,
@@ -233,19 +233,19 @@
       "ok": true,
       "checked": "2026-09-07",
       "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213970 byte HTML, 587 link, 392 olası duyuru"
+      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213834 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
       "checked": "2026-09-07",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15911 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 336437 byte HTML, 256 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15911 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 336523 byte HTML, 257 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
       "checked": "2026-09-07",
       "found": 22,
-      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54528 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54496 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "tema_listesi": [
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-09-07T11:53:30Z",
-    "pending_count": 1970
+    "checked_at": "2026-09-07T18:59:42Z",
+    "pending_count": 1977
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -23914,7 +23914,7 @@
     "https://www.gsb.gov.tr/tr/duyuru/301326-2026-yili-sozlesmeli-yurt-yonetim-personeli-ve-genclik-calisani-alimi-sozlu-sinava-katilim-duyurusu": {
       "title": "5Ağustos20262026 YILI SÖZLEŞMELİ YURT YÖNETİM PERSONELİ ve  GENÇLİK ÇALIŞANI ALIMI SÖZLÜ SINAVA KATILIM DUYURUSU",
       "url": "https://www.gsb.gov.tr/tr/duyuru/301326-2026-yili-sozlesmeli-yurt-yonetim-personeli-ve-genclik-calisani-alimi-sozlu-sinava-katilim-duyurusu",
-      "date": "2026-08-19",
+      "date": "2026-09-07",
       "on_tarihler": [],
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
@@ -23924,7 +23924,7 @@
     "https://www.gsb.gov.tr/tr/duyuru/301325-2026-yili-sozlesmeli-diyetisyen-psikolog-ve-sosyal-calismaci-alimi-sozlu-sinava-katilim-duyurusu": {
       "title": "5Ağustos20262026 YILI SÖZLEŞMELİ DİYETİSYEN, PSİKOLOG VE  SOSYAL ÇALIŞMACI ALIMI SÖZLÜ SINAVA KATILIM DUYURUSU",
       "url": "https://www.gsb.gov.tr/tr/duyuru/301325-2026-yili-sozlesmeli-diyetisyen-psikolog-ve-sosyal-calismaci-alimi-sozlu-sinava-katilim-duyurusu",
-      "date": "2026-08-19",
+      "date": "2026-09-07",
       "on_tarihler": [],
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
@@ -26278,7 +26278,7 @@
     "https://www.gsb.gov.tr/tr/duyuru/302554-2026-yili-surekli-isci-alimi-sozlu-sinav-sonuc-duyurusu": {
       "title": "19Ağustos20262026 YILI SÜREKLİ İŞÇİ ALIMI SÖZLÜ SINAV SONUÇ DUYURUSU",
       "url": "https://www.gsb.gov.tr/tr/duyuru/302554-2026-yili-surekli-isci-alimi-sozlu-sinav-sonuc-duyurusu",
-      "date": "2026-08-19",
+      "date": "2026-09-07",
       "on_tarihler": [],
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
@@ -26288,7 +26288,7 @@
     "https://www.gsb.gov.tr/tr/duyuru/302548-yurt-basvurulari-duyurusu": {
       "title": "19Ağustos2026Yurt Başvuruları Duyurusu",
       "url": "https://www.gsb.gov.tr/tr/duyuru/302548-yurt-basvurulari-duyurusu",
-      "date": "2026-08-19",
+      "date": "2026-09-07",
       "on_tarihler": [],
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
@@ -29264,6 +29264,124 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#76141704021f180f12193614171d1d1758111900580204": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#76141704021f180f12193614171d1d1758111900580204",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-07",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-guneydogu-spotter-kule-basvurulari-basladi/": {
+      "title": "07.09.2026GENELTEKNOFEST Güneydoğu Spotter Kule Başvuruları Başladı!30 Eylül - 4 Ekim 2026 tarihleri arasında Şanlıurfa GAP Havalimanı’nda düzenlenecek TEKNOFEST Güney…",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-guneydogu-spotter-kule-basvurulari-basladi/",
+      "date": "2026-09-07",
+      "on_tarihler": [
+        "2026-09-07"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-07",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/tubitak-erc-stg-ve-cog-basvurulari-icin-butce-hazirlama-egitimi-duzenliyor": {
+      "title": "TÜBİTAK ERC StG ve CoG Başvuruları için Bütçe Hazırlama Eğitimi Düzenliyor",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/tubitak-erc-stg-ve-cog-basvurulari-icin-butce-hazirlama-egitimi-duzenliyor",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-07",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.ktb.gov.tr/TR-474120/67-sozlesmeli-personel-alimi-sozlu-sinav-duyurusu-07092026.html": {
+      "title": "67 SÖZLEŞMELİ PERSONEL ALIMI SÖZLÜ SINAV DUYURUSU (07.09.2026)",
+      "url": "https://www.ktb.gov.tr/TR-474120/67-sozlesmeli-personel-alimi-sozlu-sinav-duyurusu-07092026.html",
+      "date": "2026-09-07",
+      "on_tarihler": [
+        "2026-09-07"
+      ],
+      "source": "Kültür ve Turizm Bakanlığı",
+      "source_id": "ktb",
+      "first_seen": "2026-09-07",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2686/Organize-Tarim-Bolgelerinde-On-Tahsis-Ve-Arsa-Tahsisi-Yapilacak-Parsellere-Iliskin-Duyuru-_eylul-2026_": {
+      "title": "Organize Tarım Bölgelerinde Ön Tahsis ve Arsa Tahsisi Yapılacak Parsellere İlişk ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2686/Organize-Tarim-Bolgelerinde-On-Tahsis-Ve-Arsa-Tahsisi-Yapilacak-Parsellere-Iliskin-Duyuru-_eylul-2026_",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-09-07",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.tarimorman.gov.tr/Duyuru/2627/Organize-Tarim-Bolgelerinde-On-Tahsis-Ve-Arsa-Tahsisi-Yapilacak-Parsellere-Iliskin-Duyuru-_temmuz-2026_"
+    },
+    "https://www.gsb.gov.tr/tr/duyuru/302877-2026-yili-sozlesmeli-antrenor-alimi-sozlu-ve-uygulamali-sinav-duyurusu": {
+      "title": "7Eylül20262026 YILI SÖZLEŞMELİ ANTRENÖR ALIMI SÖZLÜ VE UYGULAMALI SINAV DUYURUSU",
+      "url": "https://www.gsb.gov.tr/tr/duyuru/302877-2026-yili-sozlesmeli-antrenor-alimi-sozlu-ve-uygulamali-sinav-duyurusu",
+      "date": "2026-09-07",
+      "on_tarihler": [],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-09-07",
+      "olasi_tur": "belirsiz"
+    },
+    "https://oka.gov.tr/haber/orta-karadeniz-lojistik-master-plani-nda-saha-calismalari-basladi": {
+      "title": "07EYLÜL2026Orta Karadeniz Lojistik Master Planı’nda Saha Çalışmaları Başladı",
+      "url": "https://oka.gov.tr/haber/orta-karadeniz-lojistik-master-plani-nda-saha-calismalari-basladi",
+      "date": "2026-09-07",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-09-07",
+      "olasi_tur": "belirsiz"
+    },
+    "https://oka.gov.tr/duyuru/kadin-muhendis-okulu-4-donem-basvuru-suresi-uzatilmistir": {
+      "title": "07EYLÜLKadın Mühendis Okulu 4. Dönem Başvuru Süresi Uzatılmıştır",
+      "url": "https://oka.gov.tr/duyuru/kadin-muhendis-okulu-4-donem-basvuru-suresi-uzatilmistir",
+      "date": null,
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-09-07",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.ahika.gov.tr/destekler/ahika-acik-destek-programlari/2026-yili-sanayide-verimlilik-kalite-ve-kurumsallasma-teknik-destek-programi/": {
+      "title": "2026 Yılı Sanayide Verimlilik, Kalite ve Kurumsallaşma Teknik Destek Programı",
+      "url": "https://www.ahika.gov.tr/destekler/ahika-acik-destek-programlari/2026-yili-sanayide-verimlilik-kalite-ve-kurumsallasma-teknik-destek-programi/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "AHİKA (Ahiler Kalkınma Ajansı)",
+      "source_id": "ahika",
+      "first_seen": "2026-09-07",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.ahika.gov.tr/destekler/ahika-acik-destek-programlari/2026-yili-sanayide-verimlilik-kalite-ve-kurumsallasma-teknik-destek-programi": {
+      "title": "2026 Yılı Sanayide Verimlilik, Kalite ve Kurumsallaşma Teknik Destek Programı",
+      "url": "https://www.ahika.gov.tr/destekler/ahika-acik-destek-programlari/2026-yili-sanayide-verimlilik-kalite-ve-kurumsallasma-teknik-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "AHİKA (Ahiler Kalkınma Ajansı)",
+      "source_id": "ahika",
+      "first_seen": "2026-09-07",
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.ahika.gov.tr/destekler/ahika-acik-destek-programlari/2026-yili-sanayide-verimlilik-kalite-ve-kurumsallasma-teknik-destek-programi/"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#e18a80938083948a98858ea183808a8a80cf868e97cf9593": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e18a80938083948a98858ea183808a8a80cf868e97cf9593",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-07",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#e082819294898e99848fa082818b8b81ce878f96ce9492": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e082819294898e99848fa082818b8b81ce878f96ce9492",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
