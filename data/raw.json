@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-09-08",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 150430 byte HTML, 107 link, 39 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 150975 byte HTML, 109 link, 41 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-09-08",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 37988 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 38142 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-09-08",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 73501 byte HTML, 89 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67749 byte HTML, 131 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 73487 byte HTML, 89 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67735 byte HTML, 131 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-09-08",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -131,7 +131,7 @@
       "ok": true,
       "checked": "2026-09-08",
       "found": 45,
-      "diag": "/ -> HTTP 200, 123593 byte HTML, 280 link, 64 olası duyuru"
+      "diag": "/ -> HTTP 200, 123665 byte HTML, 280 link, 64 olası duyuru"
     },
     "doka": {
       "ok": true,
@@ -140,10 +140,10 @@
       "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 216506 byte HTML, 129 link, 53 olası duyuru"
     },
     "oran": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-09-08",
-      "found": 88,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 113935 byte HTML, 195 link, 130 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "marka": {
       "ok": true,
@@ -190,8 +190,8 @@
     "kuzka": {
       "ok": true,
       "checked": "2026-09-08",
-      "found": 115,
-      "diag": "/ -> HTTP 200, 218078 byte HTML, 265 link, 144 olası duyuru"
+      "found": 114,
+      "diag": "/ -> HTTP 200, 217605 byte HTML, 263 link, 143 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-09-08",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15911 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337205 byte HTML, 257 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15911 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 336447 byte HTML, 255 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": false,
@@ -24976,6 +24976,69 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#67050615130e091e03082705060c0c0649000811491315": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#67050615130e091e03082705060c0c0649000811491315",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-08"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/eit-ve-ufuk-avrupa-kume-4-endustri-odakli-firsatlar-etkinligi-30-eylul-2026-cevrim-ici": {
+      "title": "EIT ve Ufuk Avrupa Küme 4: Endüstri Odaklı Fırsatlar Etkinliği - 30 Eylül 2026, Çevrim İçi",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/eit-ve-ufuk-avrupa-kume-4-endustri-odakli-firsatlar-etkinligi-30-eylul-2026-cevrim-ici",
+      "date": "2026-09-30",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-08"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-kanser-misyonu-echos-2-projesi-icin-acilis-toplantisi-duzenleniyor": {
+      "title": "Ufuk Avrupa Kanser Misyonu: ECHoS 2 Projesi İçin Açılış Toplantısı Düzenleniyor",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-kanser-misyonu-echos-2-projesi-icin-acilis-toplantisi-duzenleniyor",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-08"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7259/Bakan-Yumakli-Gubre-Tedarikinde-Olusabilecek-Risklere-Karsi-Kaynak-Cesitliligini-Artirdik": {
+      "title": "BAKAN YUMAKLI “GÜBRE TEDARİKİNDE OLUŞABİLECEK RİSKLERE KARŞI KAYNAK ÇEŞİTLİLİĞİNİ ARTIRDIK”",
+      "url": "https://www.tarimorman.gov.tr/Haber/7259/Bakan-Yumakli-Gubre-Tedarikinde-Olusabilecek-Risklere-Karsi-Kaynak-Cesitliligini-Artirdik",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-09-08"
+    },
+    "https://oka.gov.tr/haber/medikal-sanayide-dijital-donusum-samsun-da-genclere-yonelik-uygulamali-cad-cam-egitimi": {
+      "title": "08EYLÜL2026Medikal Sanayide Dijital Dönüşüm: Samsun’da Gençlere Yönelik Uygulamalı CAD/CAM Eğitimi",
+      "url": "https://oka.gov.tr/haber/medikal-sanayide-dijital-donusum-samsun-da-genclere-yonelik-uygulamali-cad-cam-egitimi",
+      "date": "2026-09-08",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-09-08"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#a6dcc9c8c1d3cac2c7cddfc2c9e6c4c7cdcdc788c1c9d088d2d4": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#a6dcc9c8c1d3cac2c7cddfc2c9e6c4c7cdcdc788c1c9d088d2d4",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-08"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#7e151f0c1f1c0b15071a113e1c1f15151f50191108500a0c": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#7e151f0c1f1c0b15071a113e1c1f15151f50191108500a0c",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-08"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#791b180b0d1017001d16391b18121218571e160f570d0b": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#791b180b0d1017001d16391b18121218571e160f570d0b",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
