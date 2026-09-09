@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-09-09",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 150975 byte HTML, 109 link, 41 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 150890 byte HTML, 109 link, 41 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-09-09",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 38037 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37882 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-09-09",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -95,7 +95,7 @@
       "ok": true,
       "checked": "2026-09-09",
       "found": 28,
-      "diag": "/destekler -> HTTP 200, 147446 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 323752 byte HTML, 310 link, 66 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 147446 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 329527 byte HTML, 310 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -137,7 +137,7 @@
       "ok": true,
       "checked": "2026-09-09",
       "found": 21,
-      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 216506 byte HTML, 129 link, 53 olası duyuru"
+      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 216674 byte HTML, 129 link, 53 olası duyuru"
     },
     "oran": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-09-09",
       "found": 114,
-      "diag": "/ -> HTTP 200, 217703 byte HTML, 263 link, 143 olası duyuru"
+      "diag": "/ -> HTTP 200, 217613 byte HTML, 263 link, 143 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-09-09T10:57:06Z",
-    "pending_count": 1988
+    "checked_at": "2026-09-09T18:17:02Z",
+    "pending_count": 1993
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -29580,6 +29580,69 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#05676477716c6b7c616a4567646e6e642b626a732b7177": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#05676477716c6b7c616a4567646e6e642b626a732b7177",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-09",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-guneydogu-sanliurfada-sahne-senin/": {
+      "title": "09.09.2026GENELTEKNOFEST Güneydoğu Şanlıurfa’da \"Sahne Senin\"Müziğin ritmi ve yeteneğin coşkusu TEKNOFEST Güneydoğu’da yükseliyor!",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-guneydogu-sanliurfada-sahne-senin/",
+      "date": "2026-09-09",
+      "on_tarihler": [
+        "2026-09-09"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-09",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-kume-3-toplum-icin-sivil-guvenlik-odak-grup-egitimi-istanbulda": {
+      "title": "Ufuk Avrupa Küme 3 “Toplum için Sivil Güvenlik” Odak Grup Eğitimi İstanbul’da Gerçekleştirildi",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-kume-3-toplum-icin-sivil-guvenlik-odak-grup-egitimi-istanbulda",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-09",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/cetpartnership-2026-yili-ortak-cagrisi-ulusal-basvuru-sistemi-acildi": {
+      "title": "CETPartnership 2026 Yılı Ortak Çağrısı– Ulusal Başvuru Sistemi Açıldı!",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/cetpartnership-2026-yili-ortak-cagrisi-ulusal-basvuru-sistemi-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-09",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-guncel-cagrilar-ve-etkinlik-bilgileri": {
+      "title": "Ufuk Avrupa Sağlık Kümesi Güncel Çağrılar ve Etkinlik Bilgileri",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-guncel-cagrilar-ve-etkinlik-bilgileri",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-09",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/policy-enlarge-acik-cagrisi-sinir-otesi-ar-ge-ve-yenilik-birligi-ile-hareketlilik-icin": {
+      "title": "POLICY ENLARGE Açık Çağrısı: Sınır Ötesi Ar-Ge ve Yenilik İş Birliği ile Hareketlilik için 300.000 Avro",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/policy-enlarge-acik-cagrisi-sinir-otesi-ar-ge-ve-yenilik-birligi-ile-hareketlilik-icin",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-09",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#fc9e9d8e889592859893bc9e9d97979dd29b938ad2888e": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#fc9e9d8e889592859893bc9e9d97979dd29b938ad2888e",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
