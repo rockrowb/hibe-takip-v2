@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-09-10",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 153526 byte HTML, 113 link, 41 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 153516 byte HTML, 113 link, 41 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-09-10",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 37873 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37918 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -35,13 +35,13 @@
       "ok": true,
       "checked": "2026-09-10",
       "found": 18,
-      "diag": "/tr/duyuru -> HTTP 200, 95214 byte HTML, 214 link, 18 olası duyuru"
+      "diag": "/tr/duyuru -> HTTP 200, 95725 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-09-10",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55773 byte HTML, 160 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -53,7 +53,7 @@
       "ok": true,
       "checked": "2026-09-10",
       "found": 82,
-      "diag": "/ -> HTTP 200, 754454 byte HTML, 121 link, 82 olası duyuru"
+      "diag": "/ -> HTTP 200, 925238 byte HTML, 122 link, 82 olası duyuru"
     },
     "sivil_dusun": {
       "ok": true,
@@ -95,7 +95,7 @@
       "ok": true,
       "checked": "2026-09-10",
       "found": 28,
-      "diag": "/destekler -> HTTP 200, 147446 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 313098 byte HTML, 310 link, 66 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 147446 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 311641 byte HTML, 310 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-09-10",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,13 +191,13 @@
       "ok": true,
       "checked": "2026-09-10",
       "found": 114,
-      "diag": "/ -> HTTP 200, 217621 byte HTML, 263 link, 143 olası duyuru"
+      "diag": "/ -> HTTP 200, 217685 byte HTML, 263 link, 143 olası duyuru"
     },
     "kudaka": {
       "ok": true,
       "checked": "2026-09-10",
       "found": 127,
-      "diag": "/home -> HTTP 200, 101669 byte HTML, 196 link, 134 olası duyuru"
+      "diag": "/home -> HTTP 200, 101603 byte HTML, 196 link, 134 olası duyuru"
     },
     "serka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-09-10",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337287 byte HTML, 256 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337335 byte HTML, 256 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": false,
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-09-10T10:53:33Z",
-    "pending_count": 2000
+    "checked_at": "2026-09-10T18:02:50Z",
+    "pending_count": 2009
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -29735,6 +29735,133 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#d1bab0a3b0b3a4baa8b5be91b3b0babab0ffb6bea7ffa5a3": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#d1bab0a3b0b3a4baa8b5be91b3b0babab0ffb6bea7ffa5a3",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-10",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-guneydogu-ziyaretci-kayitlari-basladi/": {
+      "title": "10.09.2026GENELTEKNOFEST Güneydoğu Ziyaretçi Kayıtları Başladı!30 Eylül - 4 Ekim tarihleri arasında GAP Havalimanı’nda gerçekleştirilecek TEKNOFEST Güneydoğu için…",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-guneydogu-ziyaretci-kayitlari-basladi/",
+      "date": "2026-09-10",
+      "on_tarihler": [
+        "2026-09-10"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-10",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/arastirma-fikirlerinden-rekabetci-projelere-msca-doktora-aglari-proje-yazma-kampi-ankarada": {
+      "title": "Araştırma Fikirlerinden Rekabetçi Projelere: MSCA Doktora Ağları Proje Yazma Kampı Ankara’da Gerçekleştirildi!",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/arastirma-fikirlerinden-rekabetci-projelere-msca-doktora-aglari-proje-yazma-kampi-ankarada",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-10",
+      "olasi_tur": "belirsiz"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/2518-tubitak-ozbekistan-cumhuriyeti-yuksekogretim-bilim-ve-yenilikler-bakanligi-mhesi-uzbekistan-ikili-birligi-cagrisi-basvuruya-acildi-0": {
+      "title": "2518 TÜBİTAK–Özbekistan Cumhuriyeti Yükseköğretim, Bilim ve Yenilikler Bakanlığı (MHESI Uzbekistan) İkili İş Birliği Çağrısı Başvuruya Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2518-tubitak-ozbekistan-cumhuriyeti-yuksekogretim-bilim-ve-yenilikler-bakanligi-mhesi-uzbekistan-ikili-birligi-cagrisi-basvuruya-acildi-0",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-09-10",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/ufuk-avrupa-programi-gezegen-icin-su-guvenligi-ortakligi-water4all-2026-cok-uluslu-ortak-cagrisi-basvuruya-acildi": {
+      "title": "Ufuk Avrupa Programı Gezegen için Su Güvenliği Ortaklığı (Water4All) 2026 Çok Uluslu Ortak Çağrısı Başvuruya Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/ufuk-avrupa-programi-gezegen-icin-su-guvenligi-ortakligi-water4all-2026-cok-uluslu-ortak-cagrisi-basvuruya-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-09-10",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/ufuk-avrupa-programi-kentsel-gecisleri-surdurulebilir-bir-gelecege-yonlendirme-ortakligi-dut-2026-cagrisi-acildi": {
+      "title": "Ufuk Avrupa Programı Kentsel Geçişleri Sürdürülebilir Bir Geleceğe Yönlendirme Ortaklığı (DUT) 2026 Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/ufuk-avrupa-programi-kentsel-gecisleri-surdurulebilir-bir-gelecege-yonlendirme-ortakligi-dut-2026-cagrisi-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-09-10",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/2224-c-uluslararasi-anlasmalar-cercevesinde-yurt-disindaki-bilimsel-etkinliklere-katilimi-destekleme-programi-2026-yili-1-donem-cagrisi-acildi": {
+      "title": "2224-C Uluslararası Anlaşmalar Çerçevesinde Yurt Dışındaki Bilimsel Etkinliklere Katılımı Destekleme Programı 2026 Yılı 1. Dönem Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2224-c-uluslararasi-anlasmalar-cercevesinde-yurt-disindaki-bilimsel-etkinliklere-katilimi-destekleme-programi-2026-yili-1-donem-cagrisi-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-09-10",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7261/Tmo-Cekirdeksiz-Kuru-Uzum-Alim-Fiyatlari-Belirlendi": {
+      "title": "TMO ÇEKİRDEKSİZ KURU ÜZÜM ALIM FİYATLARI BELİRLENDİ",
+      "url": "https://www.tarimorman.gov.tr/Haber/7261/Tmo-Cekirdeksiz-Kuru-Uzum-Alim-Fiyatlari-Belirlendi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-09-10",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7260/Turkiye-Ile-Cin-Arasinda-Defne-Yapraginin-Ihracatina-Iliskin-Protokol-Imzalandi": {
+      "title": "TÜRKİYE İLE ÇİN ARASINDA DEFNE YAPRAĞININ İHRACATINA İLİŞKİN PROTOKOL İMZALANDI",
+      "url": "https://www.tarimorman.gov.tr/Haber/7260/Turkiye-Ile-Cin-Arasinda-Defne-Yapraginin-Ihracatina-Iliskin-Protokol-Imzalandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-09-10",
+      "olasi_tur": "belirsiz"
+    },
+    "https://kudaka.gov.tr/haber/kudaka-166-yonetim-kurulu-toplantisi-erzincan-da-gerceklestirildi/722": {
+      "title": "KUDAKA 166. Yönetim Kurulu Toplantısı Erzincan’da Gerçekleştirildi10.09.2026 Perşembe",
+      "url": "https://kudaka.gov.tr/haber/kudaka-166-yonetim-kurulu-toplantisi-erzincan-da-gerceklestirildi/722",
+      "date": "2026-09-10",
+      "on_tarihler": [
+        "2026-09-10"
+      ],
+      "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
+      "source_id": "kudaka",
+      "first_seen": "2026-09-10",
+      "olasi_tur": "haber_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#b9c3d6d7deccd5ddd8d2c0ddd6f9dbd8d2d2d897ded6cf97cdcb": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#b9c3d6d7deccd5ddd8d2c0ddd6f9dbd8d2d2d897ded6cf97cdcb",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-10",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#2c474d5e4d4e59475548436c4e4d47474d024b435a02585e": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#2c474d5e4d4e59475548436c4e4d47474d024b435a02585e",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-10",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#66040714120f081f02092604070d0d0748010910481214": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#66040714120f081f02092604070d0d0748010910481214",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
