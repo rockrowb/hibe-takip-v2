@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-09-11",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 153516 byte HTML, 113 link, 41 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 153419 byte HTML, 113 link, 41 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-09-11",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 37876 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37758 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-09-11",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 74770 byte HTML, 89 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67735 byte HTML, 131 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 74204 byte HTML, 89 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67735 byte HTML, 131 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-09-11",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55773 byte HTML, 160 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55866 byte HTML, 160 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -89,13 +89,13 @@
       "ok": true,
       "checked": "2026-09-11",
       "found": 16,
-      "diag": "/destekler -> HTTP 200, 68236 byte HTML, 54 link, 21 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 69172 byte HTML, 54 link, 21 olası duyuru"
     },
     "bebka": {
       "ok": true,
       "checked": "2026-09-11",
       "found": 28,
-      "diag": "/destekler -> HTTP 200, 147446 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 318456 byte HTML, 310 link, 66 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 147446 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 319105 byte HTML, 310 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -131,13 +131,13 @@
       "ok": true,
       "checked": "2026-09-11",
       "found": 45,
-      "diag": "/ -> HTTP 200, 123665 byte HTML, 280 link, 64 olası duyuru"
+      "diag": "/ -> HTTP 200, 123657 byte HTML, 280 link, 64 olası duyuru"
     },
     "doka": {
       "ok": true,
       "checked": "2026-09-11",
       "found": 21,
-      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 216674 byte HTML, 129 link, 53 olası duyuru"
+      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 216806 byte HTML, 129 link, 53 olası duyuru"
     },
     "oran": {
       "ok": true,
@@ -173,7 +173,7 @@
       "ok": true,
       "checked": "2026-09-11",
       "found": 60,
-      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32620 byte HTML, 139 link, 90 olası duyuru"
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32708 byte HTML, 139 link, 90 olası duyuru"
     },
     "zafer": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-09-11",
       "found": 114,
-      "diag": "/ -> HTTP 200, 217729 byte HTML, 263 link, 143 olası duyuru"
+      "diag": "/ -> HTTP 200, 217661 byte HTML, 263 link, 143 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,13 +239,13 @@
       "ok": true,
       "checked": "2026-09-11",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 336651 byte HTML, 257 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 336955 byte HTML, 257 link, 186 olası duyuru"
     },
     "gsb": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-11",
-      "found": 0,
-      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 2636 byte HTML, 2 link, 1 olası duyuru"
+      "found": 22,
+      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54578 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "items": {
@@ -28763,6 +28763,123 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#8be9eaf9ffe2e5f2efe4cbe9eae0e0eaa5ece4fda5fff9": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#8be9eaf9ffe2e5f2efe4cbe9eae0e0eaa5ece4fda5fff9",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-11",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/saglikta-yapay-zeka-yarismasi-proje-detay-raporu-sonuclari-aciklandi-3/": {
+      "title": "11.09.2026YARIŞMASağlıkta Yapay Zeka Yarışması Proje Detay Raporu Sonuçları AçıklandıTEKNOFEST Sağlıkta Yapay Zeka Yarışması Proje Detay Raporu sonuçları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/saglikta-yapay-zeka-yarismasi-proje-detay-raporu-sonuclari-aciklandi-3/",
+      "date": "2026-09-11",
+      "on_tarihler": [
+        "2026-09-11"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-11",
+      "olasi_tur": "sonuc_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/advancing-h2-projects-fid-webinar-serisi-ikinci-etkinligi-18-eylul-2026": {
+      "title": "“Advancing H2 Projects to FID” Webinar Serisi İkinci Etkinliği - 18 Eylül 2026",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/advancing-h2-projects-fid-webinar-serisi-ikinci-etkinligi-18-eylul-2026",
+      "date": "2026-09-18",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-11",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/islam-isbirligi-teskilatindan-2028-kral-faysal-odulleri-icin-adaylik-cagrisi": {
+      "title": "İslam İşbirliği Teşkilatından 2028 Kral Faysal Ödülleri İçin Adaylık Çağrısı",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/islam-isbirligi-teskilatindan-2028-kral-faysal-odulleri-icin-adaylik-cagrisi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-11",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/msca-doktora-sonrasi-burslari-2026-cagrisi-rekor-basvuru-sayisiyla-kapandi": {
+      "title": "MSCA Doktora Sonrası Bursları 2026 Çağrısı Rekor Başvuru Sayısıyla Kapandı!",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/msca-doktora-sonrasi-burslari-2026-cagrisi-rekor-basvuru-sayisiyla-kapandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-11",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2688/Tucsap-1-2-Tob-Dijital-Modeli-Uzaktan-Algilama-Faaliyetleri-Kapsaminda-Gpu-Tabanli-Sunucu-Sistemi-Alimi-Ihale-Ilani": {
+      "title": "“TUCSAP 1.2 TOB Dijital Modeli Uzaktan Algılama Faaliyetleri Kapsamında GPU Taba ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2688/Tucsap-1-2-Tob-Dijital-Modeli-Uzaktan-Algilama-Faaliyetleri-Kapsaminda-Gpu-Tabanli-Sunucu-Sistemi-Alimi-Ihale-Ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-09-11",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/302633-bakan-bak-gsb-yurt-basvurularinin-basladigini-duyurdu": {
+      "title": "BAKAN BAK GSB YURT BAŞVURULARININ BAŞLADIĞINI DUYURDU25.08.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/302633-bakan-bak-gsb-yurt-basvurularinin-basladigini-duyurdu",
+      "date": "2026-08-25",
+      "on_tarihler": [
+        "2026-08-25"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-09-11",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bebka.org.tr/2026-yili-teknik-destek-programi-temmuz-agustos-donemi-degerlendirme-sonuclari/": {
+      "title": "2026 Yılı Teknik Destek Programı Temmuz-Ağustos Dönemi Değerlendirme Sonuçları",
+      "url": "https://bebka.org.tr/2026-yili-teknik-destek-programi-temmuz-agustos-donemi-degerlendirme-sonuclari/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)",
+      "source_id": "bebka",
+      "first_seen": "2026-09-11",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://oka.gov.tr/haber/ladik-te-akran-zorbaligina-karsi-model-egitmen-kapasitesi-gelistirildi": {
+      "title": "11EYLÜL2026Ladik’te Akran Zorbalığına Karşı Model Eğitmen Kapasitesi Geliştirildi",
+      "url": "https://oka.gov.tr/haber/ladik-te-akran-zorbaligina-karsi-model-egitmen-kapasitesi-gelistirildi",
+      "date": "2026-09-11",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-09-11",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#077d686960726b63666c7e63684765666c6c6629606871297375": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#077d686960726b63666c7e63684765666c6c6629606871297375",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-11",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#bbd0dac9dad9ced0c2dfd4fbd9dad0d0da95dcd4cd95cfc9": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#bbd0dac9dad9ced0c2dfd4fbd9dad0d0da95dcd4cd95cfc9",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-11",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#89ebe8fbfde0e7f0ede6c9ebe8e2e2e8a7eee6ffa7fdfb": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#89ebe8fbfde0e7f0ede6c9ebe8e2e2e8a7eee6ffa7fdfb",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
