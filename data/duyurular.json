@@ -95,7 +95,7 @@
       "ok": true,
       "checked": "2026-09-12",
       "found": 28,
-      "diag": "/destekler -> HTTP 200, 147446 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 313684 byte HTML, 310 link, 66 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 147446 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 291471 byte HTML, 310 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-09-12",
       "found": 114,
-      "diag": "/ -> HTTP 200, 217719 byte HTML, 263 link, 143 olası duyuru"
+      "diag": "/ -> HTTP 200, 217689 byte HTML, 263 link, 143 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,13 +239,13 @@
       "ok": true,
       "checked": "2026-09-12",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 336955 byte HTML, 257 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 336837 byte HTML, 256 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
       "checked": "2026-09-12",
       "found": 22,
-      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54578 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54813 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "tema_listesi": [
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-09-12T10:18:28Z",
-    "pending_count": 2022
+    "checked_at": "2026-09-12T17:39:59Z",
+    "pending_count": 2023
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -30106,6 +30106,51 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#0b696a797f6265726f644b696a60606a256c647d257f79": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#0b696a797f6265726f644b696a60606a256c647d257f79",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-12",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/302680-bakan-baktan-hentbolda-cumhurbaskanligi-kupasini-kazanan-kuluplere-tebrik": {
+      "title": "BAKAN BAK’TAN HENTBOLDA CUMHURBAŞKANLIĞI KUPASI'NI KAZANAN KULÜPLERE TEBRİK26.08.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/302680-bakan-baktan-hentbolda-cumhurbaskanligi-kupasini-kazanan-kuluplere-tebrik",
+      "date": "2026-08-26",
+      "on_tarihler": [
+        "2026-08-26"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-09-12",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#6f150001081a030b0e04160b002f0d0e04040e41080019411b1d": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6f150001081a030b0e04160b002f0d0e04040e41080019411b1d",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-12",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#d4bfb5a6b5b6a1bfadb0bb94b6b5bfbfb5fab3bba2faa0a6": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#d4bfb5a6b5b6a1bfadb0bb94b6b5bfbfb5fab3bba2faa0a6",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-12",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#781a190a0c1116011c17381a19131319561f170e560c0a": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#781a190a0c1116011c17381a19131319561f170e560c0a",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
