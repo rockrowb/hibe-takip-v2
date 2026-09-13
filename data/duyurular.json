@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-09-13",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-09-13",
       "found": 114,
-      "diag": "/ -> HTTP 200, 217675 byte HTML, 263 link, 143 olası duyuru"
+      "diag": "/ -> HTTP 200, 217721 byte HTML, 263 link, 143 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,13 +239,13 @@
       "ok": true,
       "checked": "2026-09-13",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 336712 byte HTML, 256 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 336830 byte HTML, 257 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
       "checked": "2026-09-13",
       "found": 22,
-      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54513 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54326 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "tema_listesi": [
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-09-13T11:18:36Z",
-    "pending_count": 2025
+    "checked_at": "2026-09-13T17:53:12Z",
+    "pending_count": 2026
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -30206,6 +30206,51 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#294b485b5d4047504d46694b48424248074e465f075d5b": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#294b485b5d4047504d46694b48424248074e465f075d5b",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-13",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/302717-bakan-bak-sultangazide-temel-atma-toreninde-konustu": {
+      "title": "BAKAN BAK SULTANGAZİ'DE TEMEL ATMA TÖRENİNDE KONUŞTU28.08.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/302717-bakan-bak-sultangazide-temel-atma-toreninde-konustu",
+      "date": "2026-08-28",
+      "on_tarihler": [
+        "2026-08-28"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-09-13",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#92e8fdfcf5e7fef6f3f9ebf6fdd2f0f3f9f9f3bcf5fde4bce6e0": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#92e8fdfcf5e7fef6f3f9ebf6fdd2f0f3f9f9f3bcf5fde4bce6e0",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-13",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#fa919b889b988f91839e95ba989b91919bd49d958cd48e88": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#fa919b889b988f91839e95ba989b91919bd49d958cd48e88",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-13",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#77151605031e190e13183715161c1c1659101801590305": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#77151605031e190e13183715161c1c1659101801590305",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
