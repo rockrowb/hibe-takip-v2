@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-09-15",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 153153 byte HTML, 113 link, 41 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 153086 byte HTML, 113 link, 41 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-09-15",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 37864 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37899 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-09-15",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55866 byte HTML, 160 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55773 byte HTML, 160 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -83,7 +83,7 @@
       "ok": true,
       "checked": "2026-09-15",
       "found": 71,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54460 byte HTML, 123 link, 86 olası duyuru"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54464 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
       "ok": true,
@@ -149,7 +149,7 @@
       "ok": true,
       "checked": "2026-09-15",
       "found": 3,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 483720 byte HTML, 648 link, 179 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 483530 byte HTML, 649 link, 180 olası duyuru"
     },
     "gmka": {
       "ok": true,
@@ -161,7 +161,7 @@
       "ok": true,
       "checked": "2026-09-15",
       "found": 130,
-      "diag": "/ -> HTTP 200, 212796 byte HTML, 358 link, 213 olası duyuru"
+      "diag": "/ -> HTTP 200, 212767 byte HTML, 358 link, 213 olası duyuru"
     },
     "ika": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-09-15",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-09-15",
       "found": 114,
-      "diag": "/ -> HTTP 200, 217987 byte HTML, 263 link, 143 olası duyuru"
+      "diag": "/ -> HTTP 200, 217981 byte HTML, 263 link, 143 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-09-15T11:20:43Z",
-    "pending_count": 2046
+    "checked_at": "2026-09-15T18:42:19Z",
+    "pending_count": 2050
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -30569,6 +30569,52 @@
       "first_seen": "2026-09-15",
       "olasi_tur": "belirsiz",
       "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/kuantum-teknolojileri-yarismasi-final-sonuclari-aciklandi/": {
+      "title": "15.09.2026YARIŞMAKuantum Teknolojileri Yarışması Final Sonuçları AçıklandıTEKNOFEST 2026 Kuantum Teknolojileri Yarışması final sonuçları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/kuantum-teknolojileri-yarismasi-final-sonuclari-aciklandi/",
+      "date": "2026-09-15",
+      "on_tarihler": [
+        "2026-09-15"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-15",
+      "olasi_tur": "sonuc_olabilir"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-2026-5g-yapay-zeka-ile-akilli-yol-guvenligi-yarismasi-final-siralamalari-aciklandi/": {
+      "title": "15.09.2026YARIŞMATEKNOFEST 2026 5G & Yapay Zeka ile Akıllı Yol Güvenliği Yarışması Final Sıralamaları AçıklandıTEKNOFEST 2026 5G & Yapay Zeka ile Akıllı Yol Güvenliği Yarışması final sıralamaları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-2026-5g-yapay-zeka-ile-akilli-yol-guvenligi-yarismasi-final-siralamalari-aciklandi/",
+      "date": "2026-09-15",
+      "on_tarihler": [
+        "2026-09-15"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-15",
+      "olasi_tur": "belirsiz"
+    },
+    "https://teknofest.org/tr/duyurular/suru-iha-yarismasi-finalist-siralamasi-aciklandi/": {
+      "title": "15.09.2026YARIŞMASürü İHA Yarışması Finalist Sıralaması AçıklandıTEKNOFEST 2026 Sürü İHA Yarışması final sıralamaları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/suru-iha-yarismasi-finalist-siralamasi-aciklandi/",
+      "date": "2026-09-15",
+      "on_tarihler": [
+        "2026-09-15"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-15",
+      "olasi_tur": "belirsiz"
+    },
+    "https://geka.gov.tr/tr/haber/ajansimizin-176-yonetim-kurulu-toplantisi-gerceklestirildi": {
+      "title": "AJANSIMIZIN 176. YÖNETİM KURULU TOPLANTISI GERÇEKLEŞTİRİLDİ",
+      "url": "https://geka.gov.tr/tr/haber/ajansimizin-176-yonetim-kurulu-toplantisi-gerceklestirildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "GEKA (Güney Ege Kalkınma Ajansı)",
+      "source_id": "geka",
+      "first_seen": "2026-09-15",
+      "olasi_tur": "belirsiz"
     }
   }
 }
