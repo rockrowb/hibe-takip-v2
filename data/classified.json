@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-09-17",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 153348 byte HTML, 113 link, 41 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 153405 byte HTML, 113 link, 41 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-09-17",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 38159 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 38068 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-09-17",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55866 byte HTML, 160 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55773 byte HTML, 160 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -149,7 +149,7 @@
       "ok": true,
       "checked": "2026-09-17",
       "found": 3,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 483586 byte HTML, 650 link, 181 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 483585 byte HTML, 650 link, 181 olası duyuru"
     },
     "gmka": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-09-17",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,13 +191,13 @@
       "ok": true,
       "checked": "2026-09-17",
       "found": 114,
-      "diag": "/ -> HTTP 200, 218782 byte HTML, 263 link, 143 olası duyuru"
+      "diag": "/ -> HTTP 200, 218764 byte HTML, 263 link, 143 olası duyuru"
     },
     "kudaka": {
       "ok": true,
       "checked": "2026-09-17",
       "found": 127,
-      "diag": "/home -> HTTP 200, 101603 byte HTML, 196 link, 134 olası duyuru"
+      "diag": "/home -> HTTP 200, 101635 byte HTML, 196 link, 134 olası duyuru"
     },
     "serka": {
       "ok": true,
@@ -230,16 +230,16 @@
       "diag": "/duyurular -> HTTP 200, 156256 byte HTML, 39 link, 17 olası duyuru"
     },
     "ktb": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-09-17",
-      "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213926 byte HTML, 587 link, 392 olası duyuru"
+      "found": 0,
+      "diag": "/TR-9857/duyurular.html -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "tarim_orman": {
       "ok": true,
       "checked": "2026-09-17",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337586 byte HTML, 257 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337227 byte HTML, 257 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -22183,7 +22183,7 @@
       "olasi_tur": "hibe_olabilir"
     },
     "https://www.kuzka.gov.tr/page/bolgesel-kalkinma-ve-ulkemizde-bolgesel-kalkinma-politikalarinin-gelisim-sureci-343": {
-      "title": "Bölgesel Kalkınma ve Ülkemizde Bölgesel",
+      "title": "Bölgesel Kalkınma Politikaları",
       "url": "https://www.kuzka.gov.tr/page/bolgesel-kalkinma-ve-ulkemizde-bolgesel-kalkinma-politikalarinin-gelisim-sureci-343",
       "date": null,
       "on_tarihler": [],
@@ -22191,18 +22191,17 @@
       "source_id": "kuzka",
       "first_seen": "2026-08-04",
       "olasi_tur": "belirsiz",
-      "duplicate_of": "https://www.daka.org.tr/icerikler/73"
+      "duplicate_of": "https://www.karacadag.gov.tr/hakkimizda/bolgesel-kalkinma-politikalari/"
     },
     "https://www.kuzka.gov.tr/page/bolgesel-kalkinmanin-yonetisiminde-kalkinma-ajanslari-344": {
-      "title": "Bölgesel Kalkınmanın Yönetişiminde",
+      "title": "Bölgesel Kalkınmada Yönetişim",
       "url": "https://www.kuzka.gov.tr/page/bolgesel-kalkinmanin-yonetisiminde-kalkinma-ajanslari-344",
       "date": null,
       "on_tarihler": [],
       "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
       "source_id": "kuzka",
       "first_seen": "2026-08-04",
-      "olasi_tur": "belirsiz",
-      "duplicate_of": "https://www.daka.org.tr/icerikler/74"
+      "olasi_tur": "belirsiz"
     },
     "https://www.kuzka.gov.tr/page/kalkinma-planlamasinda-istatistiki-bolge-birimleri-siniflandirmasi-345": {
       "title": "Kalkınma Planlamasında İstatistiki Bölge",
@@ -29631,6 +29630,93 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#680a091a1c0106110c07280a09030309460f071e461c1a": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#680a091a1c0106110c07280a09030309460f071e461c1a",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-17",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/hyperloop-gelistirme-yarismasi-final-degerlendirme-sonuclari-aciklandi-3/": {
+      "title": "17.09.2026YARIŞMAHyperloop Geliştirme Yarışması Final Değerlendirme Sonuçları AçıklandıTEKNOFEST 2026 kapsamında düzenlenen Hyperloop Geliştirme Yarışması final değerlendirme sonuçları a…",
+      "url": "https://teknofest.org/tr/duyurular/hyperloop-gelistirme-yarismasi-final-degerlendirme-sonuclari-aciklandi-3/",
+      "date": "2026-09-17",
+      "on_tarihler": [
+        "2026-09-17"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-17",
+      "olasi_tur": "sonuc_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/2026-eit-higher-education-initiative-hei-cagrisi-aciliyor-ortak-aramaya-simdiden-baslayin": {
+      "title": "2026 EIT Higher Education Initiative (HEI) Çağrısı Açılıyor: Ortak Aramaya Şimdiden Başlayın!",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/2026-eit-higher-education-initiative-hei-cagrisi-aciliyor-ortak-aramaya-simdiden-baslayin",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-17",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/sbep-2026-cagrisi-uluslararasi-bilgi-gunu-ve-proje-pazari": {
+      "title": "SBEP 2026 Çağrısı Uluslararası Bilgi Günü ve Proje Pazarı",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/sbep-2026-cagrisi-uluslararasi-bilgi-gunu-ve-proje-pazari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-17",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2696/9-Bolge-Mudurlugu-Ankara-Camkoru-Tabiat-Parki-Isletmecilik-Ihale-Ilani": {
+      "title": "9. Bölge Müdürlüğü Ankara Çamkoru Tabiat Parkı İşletmecilik İhale İlanı",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2696/9-Bolge-Mudurlugu-Ankara-Camkoru-Tabiat-Parki-Isletmecilik-Ihale-Ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-09-17",
+      "olasi_tur": "belirsiz"
+    },
+    "https://kudaka.gov.tr/haber/2026-yili-anadoludakiler-cografi-isaretli-urunlerin-uretimi-ve-tanitimi-mali-destek-programi-ilani/723": {
+      "title": "2026 Yılı Anadoludakiler Coğrafi İşaretli Ürünlerin Üretimi ve Tanıtımı Mali Destek Programı İlanı17.09.2026 Perşembe",
+      "url": "https://kudaka.gov.tr/haber/2026-yili-anadoludakiler-cografi-isaretli-urunlerin-uretimi-ve-tanitimi-mali-destek-programi-ilani/723",
+      "date": "2026-09-17",
+      "on_tarihler": [
+        "2026-09-17"
+      ],
+      "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
+      "source_id": "kudaka",
+      "first_seen": "2026-09-17",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#a7ddc8c9c0d2cbc3c6ccdec3c8e7c5c6ccccc689c0c8d189d3d5": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#a7ddc8c9c0d2cbc3c6ccdec3c8e7c5c6ccccc689c0c8d189d3d5",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-17",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#5833392a393a2d33213c37183a39333339763f372e762c2a": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#5833392a393a2d33213c37183a39333339763f372e762c2a",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-17",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#5e3c3f2c2a3730273a311e3c3f35353f70393128702a2c": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#5e3c3f2c2a3730273a311e3c3f35353f70393128702a2c",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
