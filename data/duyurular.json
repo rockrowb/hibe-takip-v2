@@ -11,7 +11,7 @@
       "ok": true,
       "checked": "2026-09-18",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 153405 byte HTML, 113 link, 41 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 153372 byte HTML, 113 link, 41 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
@@ -38,22 +38,22 @@
       "diag": "/tr/duyuru -> HTTP 200, 95918 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-18",
-      "found": 0,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\"))"
+      "found": 4,
+      "diag": "/destekler -> HTTP 200, 55866 byte HTML, 160 link, 5 olası duyuru"
     },
     "ua_erasmus": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-18",
-      "found": 0,
-      "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /haber/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 51,
+      "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96397 byte HTML, 206 link, 153 olası duyuru"
     },
     "unesco_turkiye": {
       "ok": true,
       "checked": "2026-09-18",
       "found": 82,
-      "diag": "/ -> HTTP 200, 610649 byte HTML, 119 link, 82 olası duyuru"
+      "diag": "/ -> HTTP 200, 820500 byte HTML, 121 link, 82 olası duyuru"
     },
     "sivil_dusun": {
       "ok": true,
@@ -71,7 +71,7 @@
       "ok": false,
       "checked": "2026-09-18",
       "found": 0,
-      "diag": "/ihaleler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)')))"
     },
     "istka": {
       "ok": true,
@@ -83,7 +83,7 @@
       "ok": true,
       "checked": "2026-09-18",
       "found": 71,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54464 byte HTML, 123 link, 86 olası duyuru"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54460 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
       "ok": true,
@@ -131,13 +131,13 @@
       "ok": true,
       "checked": "2026-09-18",
       "found": 45,
-      "diag": "/ -> HTTP 200, 123690 byte HTML, 280 link, 64 olası duyuru"
+      "diag": "/ -> HTTP 200, 123694 byte HTML, 280 link, 64 olası duyuru"
     },
     "doka": {
       "ok": true,
       "checked": "2026-09-18",
       "found": 21,
-      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 212474 byte HTML, 129 link, 53 olası duyuru"
+      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 222275 byte HTML, 130 link, 53 olası duyuru"
     },
     "oran": {
       "ok": true,
@@ -173,13 +173,13 @@
       "ok": true,
       "checked": "2026-09-18",
       "found": 60,
-      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32620 byte HTML, 139 link, 90 olası duyuru"
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32629 byte HTML, 139 link, 90 olası duyuru"
     },
     "zafer": {
       "ok": true,
       "checked": "2026-09-18",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -190,8 +190,8 @@
     "kuzka": {
       "ok": true,
       "checked": "2026-09-18",
-      "found": 114,
-      "diag": "/ -> HTTP 200, 218758 byte HTML, 263 link, 143 olası duyuru"
+      "found": 112,
+      "diag": "/ -> HTTP 200, 218290 byte HTML, 259 link, 141 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-09-18",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337218 byte HTML, 257 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337615 byte HTML, 257 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-09-18T10:48:45Z",
-    "pending_count": 2076
+    "checked_at": "2026-09-18T18:02:55Z",
+    "pending_count": 2079
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -30973,6 +30973,47 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#56343724223f382f32391634373d3d3778313920782224": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#56343724223f382f32391634373d3d3778313920782224",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-18",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7286/Bakan-Yumakli-Turkiye-Ortu-Alti-Uretimi-Dunyada-Dorduncu-Avrupada-Ise-Ikinci-Sirada": {
+      "title": "BAKAN YUMAKLI: “TÜRKİYE ÖRTÜ ALTI ÜRETİMİ DÜNYADA DÖRDÜNCÜ, AVRUPA'DA İSE İKİNCİ SIRADA”",
+      "url": "https://www.tarimorman.gov.tr/Haber/7286/Bakan-Yumakli-Turkiye-Ortu-Alti-Uretimi-Dunyada-Dorduncu-Avrupada-Ise-Ikinci-Sirada",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-09-18",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7283/1-3-Milyar-Liralik-Destekleme-Odemesi-Bugun-Hesaplara-Aktariliyor": {
+      "title": "1.3 MİLYAR LİRALIK DESTEKLEME ÖDEMESİ BUGÜN HESAPLARA AKTARILIYOR",
+      "url": "https://www.tarimorman.gov.tr/Haber/7283/1-3-Milyar-Liralik-Destekleme-Odemesi-Bugun-Hesaplara-Aktariliyor",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-09-18",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.kuzka.gov.tr/page/turizm-eylem-planlari-426": {
+      "title": "Turizm Eylem Planları",
+      "url": "https://www.kuzka.gov.tr/page/turizm-eylem-planlari-426",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-09-18",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#1b6174757c6e777f7a70627f745b797a70707a357c746d356f69": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#1b6174757c6e777f7a70627f745b797a70707a357c746d356f69",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
