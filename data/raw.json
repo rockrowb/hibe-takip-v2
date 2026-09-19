@@ -40,8 +40,8 @@
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-09-19",
-      "found": 4,
-      "diag": "/destekler -> HTTP 200, 55866 byte HTML, 160 link, 5 olası duyuru"
+      "found": 18,
+      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 74271 byte HTML, 215 link, 21 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-09-19",
       "found": 112,
-      "diag": "/ -> HTTP 200, 218228 byte HTML, 259 link, 141 olası duyuru"
+      "diag": "/ -> HTTP 200, 218226 byte HTML, 259 link, 141 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -233,13 +233,13 @@
       "ok": true,
       "checked": "2026-09-19",
       "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213926 byte HTML, 587 link, 392 olası duyuru"
+      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215657 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
       "checked": "2026-09-19",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337571 byte HTML, 257 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337416 byte HTML, 257 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -26377,6 +26377,197 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#c7a5a6b5b3aea9bea3a887a5a6acaca6e9a0a8b1e9b3b5": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#c7a5a6b5b3aea9bea3a887a5a6acaca6e9a0a8b1e9b3b5",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/e-ticareti-guclendirme-balikesir": {
+      "title": "E-TİCARETİ GÜÇLENDİRME - BALIKESİR",
+      "url": "https://ticaret.gov.tr/duyurular/e-ticareti-guclendirme-balikesir",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/39-ahilik-haftasinda-soframizi-paylasiyoruz": {
+      "title": "39. Ahilik Haftası’nda Soframızı Paylaşıyoruz",
+      "url": "https://ticaret.gov.tr/duyurular/39-ahilik-haftasinda-soframizi-paylasiyoruz",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/39-ahilik-haftasina-dua-ve-dayanismayla-basliyoruz": {
+      "title": "39. Ahilik Haftası’na Dua ve Dayanışmayla Başlıyoruz.",
+      "url": "https://ticaret.gov.tr/duyurular/39-ahilik-haftasina-dua-ve-dayanismayla-basliyoruz",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/39-ahilik-haftasi-ahiligin-baskenti-kirsehirde-basliyor": {
+      "title": "39. Ahilik Haftası, Ahiliğin Başkenti Kırşehir’de Başlıyor.",
+      "url": "https://ticaret.gov.tr/duyurular/39-ahilik-haftasi-ahiligin-baskenti-kirsehirde-basliyor",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/ticaret-bakanligi-ihracat-surecleri-ve-devlet-destekleri-egitim-programi-22-23-24-eylul-2026": {
+      "title": "Ticaret Bakanlığı İhracat Süreçleri ve Devlet Destekleri Eğitim Programı – 22-23-24 Eylül 2026",
+      "url": "https://ticaret.gov.tr/duyurular/ticaret-bakanligi-ihracat-surecleri-ve-devlet-destekleri-egitim-programi-22-23-24-eylul-2026",
+      "date": "2026-09-24",
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/expo-2027-belgrad-insaata-iliskin-teknik-dokuman-guncellemeleri": {
+      "title": "EXPO 2027 BELGRAD – İNŞAATA İLİŞKİN TEKNİK DOKÜMAN GÜNCELLEMELERİ",
+      "url": "https://ticaret.gov.tr/duyurular/expo-2027-belgrad-insaata-iliskin-teknik-dokuman-guncellemeleri",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/bakanligimiz-elektronik-mali-isler-sistemi-emis-uygulamasinda-planli-bakim-ve-altyapi-calismasi-hk": {
+      "title": "Bakanlığımız “Elektronik Mali İşler Sistemi (EMİS)” Uygulamasında Planlı Bakım ve Altyapı Çalışması Hk.",
+      "url": "https://ticaret.gov.tr/duyurular/bakanligimiz-elektronik-mali-isler-sistemi-emis-uygulamasinda-planli-bakim-ve-altyapi-calismasi-hk",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/turkiye-kanada-serbest-ticaret-anlasmasi-sta-kamuoyu-paydas-anketi": {
+      "title": "Türkiye – Kanada Serbest Ticaret Anlaşması (STA) Kamuoyu / Paydaş Anketi",
+      "url": "https://ticaret.gov.tr/duyurular/turkiye-kanada-serbest-ticaret-anlasmasi-sta-kamuoyu-paydas-anketi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/ticaret-gov-tr-ssl-guncelleme-hakkinda-05-08-26": {
+      "title": "*.ticaret.gov.tr SSL Güncelleme Hakkında -05/08/26",
+      "url": "https://ticaret.gov.tr/duyurular/ticaret-gov-tr-ssl-guncelleme-hakkinda-05-08-26",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/elektronik-mense-ve-dolasim-belgesi-duzenleyen-ulkeler-listesi-04-08-2026": {
+      "title": "Elektronik Menşe ve Dolaşım Belgesi Düzenleyen Ülkeler Listesi - 04.08.2026",
+      "url": "https://ticaret.gov.tr/duyurular/elektronik-mense-ve-dolasim-belgesi-duzenleyen-ulkeler-listesi-04-08-2026",
+      "date": "2026-08-04",
+      "on_tarihler": [
+        "2026-08-04"
+      ],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/tareks-pgdbis-ve-ithalat-sistemlerinde-planli-kesinti": {
+      "title": "TAREKS, PGDBİS ve İthalat Sistemlerinde Planlı Kesinti",
+      "url": "https://ticaret.gov.tr/duyurular/tareks-pgdbis-ve-ithalat-sistemlerinde-planli-kesinti",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/yunanistandaki-gumruk-personelinin-olasi-grevi": {
+      "title": "Yunanistan’daki Gümrük Personelinin Olası Grevi",
+      "url": "https://ticaret.gov.tr/duyurular/yunanistandaki-gumruk-personelinin-olasi-grevi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/ebys-kurum-disi-erisimi-hakkinda-duyuru": {
+      "title": "EBYS Kurum Dışı Erişimi Hakkında Duyuru",
+      "url": "https://ticaret.gov.tr/duyurular/ebys-kurum-disi-erisimi-hakkinda-duyuru",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/basitlestirilmis-gumruk-beyannamesi-kapsaminda-abye-ihracatta-elektronik-a-tr-dolasim-belgesi-sistemi-kullanima-sunuldu": {
+      "title": "BASİTLEŞTİRİLMİŞ GÜMRÜK BEYANNAMESİ KAPSAMINDA AB’YE İHRACATTA ELEKTRONİK A.TR DOLAŞIM BELGESİ SİSTEMİ KULLANIMA SUNULDU",
+      "url": "https://ticaret.gov.tr/duyurular/basitlestirilmis-gumruk-beyannamesi-kapsaminda-abye-ihracatta-elektronik-a-tr-dolasim-belgesi-sistemi-kullanima-sunuldu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/tareks-planli-kesinti": {
+      "title": "TAREKS Planlı Kesinti",
+      "url": "https://ticaret.gov.tr/duyurular/tareks-planli-kesinti",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/e-ticareti-guclendirme-projesi-van-programi-22-temmuz-2026": {
+      "title": "E – TİCARETİ GÜÇLENDİRME PROJESİ – VAN PROGRAMI – 22 TEMMUZ 2026",
+      "url": "https://ticaret.gov.tr/duyurular/e-ticareti-guclendirme-projesi-van-programi-22-temmuz-2026",
+      "date": "2026-07-22",
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/e-ticareti-guclendirme-projesi-erzurum-programi-17-temmuz-2026": {
+      "title": "E – TİCARETİ GÜÇLENDİRME PROJESİ – ERZURUM PROGRAMI – 17 TEMMUZ 2026",
+      "url": "https://ticaret.gov.tr/duyurular/e-ticareti-guclendirme-projesi-erzurum-programi-17-temmuz-2026",
+      "date": "2026-07-17",
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://ticaret.gov.tr/duyurular/e-ticareti-guclendirme-projesi-orduda-buyuk-ilgi-gordu": {
+      "title": "E-Ticareti Güçlendirme Projesi Ordu’da Büyük İlgi Gördü",
+      "url": "https://ticaret.gov.tr/duyurular/e-ticareti-guclendirme-projesi-orduda-buyuk-ilgi-gordu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-19"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7287/Bakan-Yumakli-Yetistiricimizden-Tek-Kurus-Asi-Ucreti-Almayacagiz": {
+      "title": "BAKAN YUMAKLI: “YETİŞTİRİCİMİZDEN TEK KURUŞ AŞI ÜCRETİ ALMAYACAĞIZ\"",
+      "url": "https://www.tarimorman.gov.tr/Haber/7287/Bakan-Yumakli-Yetistiricimizden-Tek-Kurus-Asi-Ucreti-Almayacagiz",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-09-19"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#73091c1d14061f1712180a171c3311121818125d141c055d0701": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#73091c1d14061f1712180a171c3311121818125d141c055d0701",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-19"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#d3b1b2a1a7babdaab7bc93b1b2b8b8b2fdb4bca5fda7a1": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#d3b1b2a1a7babdaab7bc93b1b2b8b8b2fdb4bca5fda7a1",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
