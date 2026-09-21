@@ -17,7 +17,7 @@
       "ok": true,
       "checked": "2026-09-21",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 38159 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 38197 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -38,10 +38,10 @@
       "diag": "/tr/duyuru -> HTTP 200, 95927 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-09-21",
-      "found": 0,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\"))"
+      "found": 4,
+      "diag": "/destekler -> HTTP 200, 55866 byte HTML, 160 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -160,8 +160,8 @@
     "geka": {
       "ok": true,
       "checked": "2026-09-21",
-      "found": 130,
-      "diag": "/ -> HTTP 200, 212792 byte HTML, 358 link, 213 olası duyuru"
+      "found": 131,
+      "diag": "/ -> HTTP 200, 213502 byte HTML, 359 link, 214 olası duyuru"
     },
     "ika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-09-21",
       "found": 112,
-      "diag": "/ -> HTTP 200, 219258 byte HTML, 259 link, 141 olası duyuru"
+      "diag": "/ -> HTTP 200, 219212 byte HTML, 259 link, 141 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -215,7 +215,7 @@
       "ok": true,
       "checked": "2026-09-21",
       "found": 65,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66681 byte HTML, 167 link, 73 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66689 byte HTML, 167 link, 73 olası duyuru"
     },
     "dika": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-09-21",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337433 byte HTML, 257 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337739 byte HTML, 257 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-09-21T12:17:47Z",
-    "pending_count": 2106
+    "checked_at": "2026-09-21T19:52:47Z",
+    "pending_count": 2112
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -31435,6 +31435,88 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#a1c3c0d3d5c8cfd8c5cee1c3c0cacac08fc6ced78fd5d3": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#a1c3c0d3d5c8cfd8c5cee1c3c0cacac08fc6ced78fd5d3",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-21",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/yenilikci-saglik-girisimi-ihi-13-ortak-arama-duyurusu": {
+      "title": "Yenilikçi Sağlık Girişimi – IHI 13 Ortak Arama Duyurusu",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/yenilikci-saglik-girisimi-ihi-13-ortak-arama-duyurusu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-21",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7290/Tmo-Bu-Yil-123-Milyon-Ton-Hububat-Aldi": {
+      "title": "TMO BU YIL 12,3 MİLYON TON HUBUBAT ALDI",
+      "url": "https://www.tarimorman.gov.tr/Haber/7290/Tmo-Bu-Yil-123-Milyon-Ton-Hububat-Aldi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-09-21",
+      "olasi_tur": "belirsiz"
+    },
+    "https://geka.gov.tr/tr/haber/2026-yili-teknik-destek-programi-temmuz-agustos-donemi-degerlendirme-sonuclari": {
+      "title": "2026 YILI TEKNİK DESTEK PROGRAMI (TEMMUZ-AĞUSTOS DÖNEMİ) DEĞERLENDİRME SONUÇLARI",
+      "url": "https://geka.gov.tr/tr/haber/2026-yili-teknik-destek-programi-temmuz-agustos-donemi-degerlendirme-sonuclari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "GEKA (Güney Ege Kalkınma Ajansı)",
+      "source_id": "geka",
+      "first_seen": "2026-09-21",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://geka.gov.tr/tr/duyuru/dogu-marmara-kalkinma-ajansi-marka-personel-alim-ilani": {
+      "title": "Doğu Marmara Kalkınma Ajansı (MARKA) Personel Alım İlanı",
+      "url": "https://geka.gov.tr/tr/duyuru/dogu-marmara-kalkinma-ajansi-marka-personel-alim-ilani",
+      "date": "2026-09-21",
+      "on_tarihler": [],
+      "source": "GEKA (Güney Ege Kalkınma Ajansı)",
+      "source_id": "geka",
+      "first_seen": "2026-09-21",
+      "olasi_tur": "belirsiz"
+    },
+    "https://fka.gov.tr/dogu-marmara-kalkinma-ajansi-personel-alim-ilani-detayi-17899978202010": {
+      "title": "Doğu Marmara Kalkınma Ajansı Personel Alım İlanı",
+      "url": "https://fka.gov.tr/dogu-marmara-kalkinma-ajansi-personel-alim-ilani-detayi-17899978202010",
+      "date": "2026-09-21",
+      "on_tarihler": [],
+      "source": "FKA (Fırat Kalkınma Ajansı)",
+      "source_id": "fka",
+      "first_seen": "2026-09-21",
+      "olasi_tur": "belirsiz"
+    },
+    "https://fka.gov.tr/2026-yili-yonetim-danismanligi-teknik-destek-programi-4-donem-_temmuz-agustos_-degerlendirme-sonuclari-detayi-17899985891919": {
+      "title": "2026 Yılı Yönetim Danışmanlığı Teknik Destek Programı 4. Dönem (Temmuz - Ağustos)  Değerlendirme Sonuçları",
+      "url": "https://fka.gov.tr/2026-yili-yonetim-danismanligi-teknik-destek-programi-4-donem-_temmuz-agustos_-degerlendirme-sonuclari-detayi-17899985891919",
+      "date": "2026-09-21",
+      "on_tarihler": [],
+      "source": "FKA (Fırat Kalkınma Ajansı)",
+      "source_id": "fka",
+      "first_seen": "2026-09-21",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#097366676e7c656d6862706d66496b68626268276e667f277d7b": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#097366676e7c656d6862706d66496b68626268276e667f277d7b",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-21",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#88e3e9fae9eafde3f1ece7c8eae9e3e3e9a6efe7fea6fcfa": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#88e3e9fae9eafde3f1ece7c8eae9e3e3e9a6efe7fea6fcfa",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
