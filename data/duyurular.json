@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-09-22",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 153382 byte HTML, 113 link, 41 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 153368 byte HTML, 113 link, 41 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-09-22",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 38067 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37927 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -35,13 +35,13 @@
       "ok": true,
       "checked": "2026-09-22",
       "found": 18,
-      "diag": "/tr/duyuru -> HTTP 200, 96002 byte HTML, 214 link, 18 olası duyuru"
+      "diag": "/tr/duyuru -> HTTP 200, 96163 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-09-22",
-      "found": 18,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 74364 byte HTML, 215 link, 21 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     "ua_erasmus": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-09-22",
       "found": 112,
-      "diag": "/ -> HTTP 200, 219194 byte HTML, 259 link, 141 olası duyuru"
+      "diag": "/ -> HTTP 200, 219180 byte HTML, 259 link, 141 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-09-22T11:11:13Z",
-    "pending_count": 2121
+    "checked_at": "2026-09-22T18:30:04Z",
+    "pending_count": 2127
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -31651,6 +31651,81 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#ef8d8e9d9b8681968b80af8d8e84848ec1888099c19b9d": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#ef8d8e9d9b8681968b80af8d8e84848ec1888099c19b9d",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-22",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/savasan-iha-avci-drone-yarismasi-final-siralamalari-aciklandi/": {
+      "title": "22.09.2026YARIŞMASavaşan İHA Avcı Drone Yarışması Final Sıralamaları AçıklandıTEKNOFEST 2026 Savaşan İHA Avcı Drone Yarışması final sıralamaları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/savasan-iha-avci-drone-yarismasi-final-siralamalari-aciklandi/",
+      "date": "2026-09-22",
+      "on_tarihler": [
+        "2026-09-22"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-22",
+      "olasi_tur": "belirsiz"
+    },
+    "https://teknofest.org/tr/duyurular/insansiz-kara-araci-yarismasi-final-siralamalari-aciklandi-2/": {
+      "title": "22.09.2026YARIŞMAİnsansız Kara Aracı Yarışması Final Sıralamaları AçıklandıTEKNOFEST 2026 İnsansız Kara Aracı Yarışması final sıralamaları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/insansiz-kara-araci-yarismasi-final-siralamalari-aciklandi-2/",
+      "date": "2026-09-22",
+      "on_tarihler": [
+        "2026-09-22"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-22",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/made-europe-ortakligi-bilgilendirme-ve-ag-kurma-gunu-13-ekim-2026-ankara": {
+      "title": "Made in Europe Ortaklığı Bilgilendirme ve Ağ Kurma Günü, 13 Ekim 2026, Ankara",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/made-europe-ortakligi-bilgilendirme-ve-ag-kurma-gunu-13-ekim-2026-ankara",
+      "date": "2026-10-13",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-22",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/water4all-ortakligi-2026-cagrisi-ulusal-bilgi-gunu-cevrimici": {
+      "title": "Water4All Ortaklığı 2026 Çağrısı Ulusal Bilgi Günü - Çevrimiçi",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/water4all-ortakligi-2026-cagrisi-ulusal-bilgi-gunu-cevrimici",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-22",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/tubitak-bilim-ve-toplum-destek-programlari-proje-tesvik-odulleri-basvurulari-acildi": {
+      "title": "TÜBİTAK Bilim ve Toplum Destek Programları Proje Teşvik Ödülleri Başvuruları Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/tubitak-bilim-ve-toplum-destek-programlari-proje-tesvik-odulleri-basvurulari-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-09-22",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/4006-tubitak-bilim-fuarlari-destekleme-programi-13-donem-4006-ve-4006-b-cagrilari-yayinlandi": {
+      "title": "4006-TÜBİTAK Bilim Fuarları Destekleme Programı 13. Dönem 4006-A ve 4006-B Çağrıları Yayınlandı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/4006-tubitak-bilim-fuarlari-destekleme-programi-13-donem-4006-ve-4006-b-cagrilari-yayinlandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-09-22",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#12797360737067796b767d5270737979733c757d643c6660": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#12797360737067796b767d5270737979733c757d643c6660",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
