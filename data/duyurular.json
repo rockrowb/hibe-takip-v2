@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-09-24",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 153402 byte HTML, 113 link, 41 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 153354 byte HTML, 113 link, 41 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-09-24",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 37832 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37862 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-09-24",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 74891 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 73603 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -137,7 +137,7 @@
       "ok": true,
       "checked": "2026-09-24",
       "found": 21,
-      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 222289 byte HTML, 130 link, 53 olası duyuru"
+      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 222247 byte HTML, 130 link, 53 olası duyuru"
     },
     "oran": {
       "ok": true,
@@ -161,7 +161,7 @@
       "ok": true,
       "checked": "2026-09-24",
       "found": 133,
-      "diag": "/ -> HTTP 200, 214944 byte HTML, 361 link, 216 olası duyuru"
+      "diag": "/ -> HTTP 200, 214914 byte HTML, 361 link, 216 olası duyuru"
     },
     "ika": {
       "ok": true,
@@ -191,13 +191,13 @@
       "ok": true,
       "checked": "2026-09-24",
       "found": 112,
-      "diag": "/ -> HTTP 200, 216185 byte HTML, 258 link, 141 olası duyuru"
+      "diag": "/ -> HTTP 200, 216149 byte HTML, 258 link, 141 olası duyuru"
     },
     "kudaka": {
       "ok": true,
       "checked": "2026-09-24",
       "found": 127,
-      "diag": "/home -> HTTP 200, 101632 byte HTML, 196 link, 134 olası duyuru"
+      "diag": "/home -> HTTP 200, 101652 byte HTML, 196 link, 134 olası duyuru"
     },
     "serka": {
       "ok": true,
@@ -233,19 +233,19 @@
       "ok": true,
       "checked": "2026-09-24",
       "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215590 byte HTML, 587 link, 392 olası duyuru"
+      "diag": "/TR-9857/duyurular.html -> hata: HTTPSConnectionPool(host='www.ktb.gov.tr', port=443): Max retries exceeded with url: /TR-9857/duyurular.html (Caused by NameResolutionError(\"HTTPSConnection(host='www.ktb.gov.tr', port=443): Failed to resolve 'www.ktb.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 404 | / -> HTTP 200, 215590 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
       "checked": "2026-09-24",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15949 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 340548 byte HTML, 258 link, 189 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 341542 byte HTML, 260 link, 189 olası duyuru"
     },
     "gsb": {
       "ok": true,
       "checked": "2026-09-24",
       "found": 22,
-      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54033 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54390 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "tema_listesi": [
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-09-24T11:20:48Z",
-    "pending_count": 2143
+    "checked_at": "2026-09-24T18:50:38Z",
+    "pending_count": 2151
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -31970,6 +31970,116 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#254e44574447504e5c414a6547444e4e440b424a530b5157": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#254e44574447504e5c414a6547444e4e440b424a530b5157",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-24",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/insanlik-yararina-teknolojiler-yarismasi-ilkokul-seviyesi-final-siralamalari-aciklandi/": {
+      "title": "24.09.2026YARIŞMAİnsanlık Yararına Teknolojiler Yarışması İlkokul Seviyesi Final Sıralamaları AçıklandıTEKNOFEST 2026 İnsanlık Yararına Teknolojiler Yarışması İlkokul Seviyesi final sıralamaları açıklan…",
+      "url": "https://teknofest.org/tr/duyurular/insanlik-yararina-teknolojiler-yarismasi-ilkokul-seviyesi-final-siralamalari-aciklandi/",
+      "date": "2026-09-24",
+      "on_tarihler": [
+        "2026-09-24"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-24",
+      "olasi_tur": "belirsiz"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-2026-e-ticaret-yarismasi-final-siralamalari-aciklandi/": {
+      "title": "24.09.2026YARIŞMATEKNOFEST 2026 E-Ticaret Yarışması Final Sıralamaları AçıklandıTEKNOFEST 2026 E-Ticaret Yarışması final sıralamaları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-2026-e-ticaret-yarismasi-final-siralamalari-aciklandi/",
+      "date": "2026-09-24",
+      "on_tarihler": [
+        "2026-09-24"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-24",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/erc-2027-consolidator-grant-cagrisi-basvurulara-acildi": {
+      "title": "ERC 2027 Consolidator Grant Çağrısı Başvurulara Açıldı",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/erc-2027-consolidator-grant-cagrisi-basvurulara-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-24",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7292/Bakan-Yumakli-Gekis-Ile-Her-Buyukbas-Hayvanimizin-Dijital-Bir-Kimligi-Olacak": {
+      "title": "BAKAN YUMAKLI: “GEKİS İLE HER BÜYÜKBAŞ HAYVANIMIZIN DİJİTAL BİR KİMLİĞİ OLACAK”",
+      "url": "https://www.tarimorman.gov.tr/Haber/7292/Bakan-Yumakli-Gekis-Ile-Her-Buyukbas-Hayvanimizin-Dijital-Bir-Kimligi-Olacak",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-09-24",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2700/Devlet-Destekli-Tarim-Sigortasi-Uygulamalari-I-Donem-Ocak-Haziran-2026-Istatistik-Bulteni": {
+      "title": "“Devlet Destekli Tarım Sigortası Uygulamaları, I. Dönem: Ocak-Haziran 2026” İsta ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2700/Devlet-Destekli-Tarim-Sigortasi-Uygulamalari-I-Donem-Ocak-Haziran-2026-Istatistik-Bulteni",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-09-24",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/302847-bakan-bak-avrupa-sampiyonu-filenin-sultanlarini-kutladi": {
+      "title": "BAKAN BAK AVRUPA ŞAMPİYONU FİLENİN SULTANLARI’NI KUTLADI06.09.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/302847-bakan-bak-avrupa-sampiyonu-filenin-sultanlarini-kutladi",
+      "date": "2026-09-06",
+      "on_tarihler": [
+        "2026-09-06"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-09-24",
+      "olasi_tur": "belirsiz"
+    },
+    "https://geka.gov.tr/tr/haber/ajansimiz-aydin-da-incir-calistayi-duzenledi-incire-dair-sorunlar-masaya-yatirildi": {
+      "title": "AJANSIMIZ, AYDIN’DA İNCİR ÇALIŞTAYI DÜZENLEDİ; İNCİRE DAİR SORUNLAR MASAYA YATIRILDI",
+      "url": "https://geka.gov.tr/tr/haber/ajansimiz-aydin-da-incir-calistayi-duzenledi-incire-dair-sorunlar-masaya-yatirildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "GEKA (Güney Ege Kalkınma Ajansı)",
+      "source_id": "geka",
+      "first_seen": "2026-09-24",
+      "olasi_tur": "belirsiz"
+    },
+    "https://kudaka.gov.tr/haber/teknik-destek-programi-4-donem-temmuz-agustos-sonuclari/724": {
+      "title": "Teknik Destek Programı 4. Dönem (Temmuz-Ağustos) Sonuçları24.09.2026 Perşembe",
+      "url": "https://kudaka.gov.tr/haber/teknik-destek-programi-4-donem-temmuz-agustos-sonuclari/724",
+      "date": "2026-09-24",
+      "on_tarihler": [
+        "2026-09-24"
+      ],
+      "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
+      "source_id": "kudaka",
+      "first_seen": "2026-09-24",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#2c5643424b5940484d475548436c4e4d47474d024b435a02585e": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#2c5643424b5940484d475548436c4e4d47474d024b435a02585e",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-24",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#c4a6a5b6b0adaabda0ab84a6a5afafa5eaa3abb2eab0b6": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#c4a6a5b6b0adaabda0ab84a6a5afafa5eaa3abb2eab0b6",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
