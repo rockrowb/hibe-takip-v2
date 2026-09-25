@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-09-25",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 153185 byte HTML, 113 link, 41 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 153107 byte HTML, 113 link, 41 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-09-25",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 37958 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37988 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -35,7 +35,7 @@
       "ok": true,
       "checked": "2026-09-25",
       "found": 18,
-      "diag": "/tr/duyuru -> HTTP 200, 96388 byte HTML, 214 link, 18 olası duyuru"
+      "diag": "/tr/duyuru -> HTTP 200, 96005 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": true,
@@ -190,20 +190,20 @@
     "kuzka": {
       "ok": true,
       "checked": "2026-09-25",
-      "found": 113,
-      "diag": "/ -> HTTP 200, 216177 byte HTML, 258 link, 142 olası duyuru"
+      "found": 115,
+      "diag": "/ -> HTTP 200, 225908 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
       "checked": "2026-09-25",
-      "found": 127,
-      "diag": "/home -> HTTP 200, 101652 byte HTML, 196 link, 134 olası duyuru"
+      "found": 126,
+      "diag": "/home -> HTTP 200, 101746 byte HTML, 196 link, 134 olası duyuru"
     },
     "serka": {
       "ok": true,
       "checked": "2026-09-25",
       "found": 145,
-      "diag": "/destekler -> HTTP 200, 61671 byte HTML, 256 link, 198 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 61685 byte HTML, 256 link, 198 olası duyuru"
     },
     "daka": {
       "ok": true,
@@ -230,22 +230,22 @@
       "diag": "/duyurular -> HTTP 200, 156194 byte HTML, 39 link, 17 olası duyuru"
     },
     "ktb": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-09-25",
-      "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215745 byte HTML, 587 link, 392 olası duyuru"
+      "found": 0,
+      "diag": "/TR-9857/duyurular.html -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "tarim_orman": {
       "ok": true,
       "checked": "2026-09-25",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 341737 byte HTML, 260 link, 189 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 342702 byte HTML, 261 link, 190 olası duyuru"
     },
     "gsb": {
       "ok": true,
       "checked": "2026-09-25",
       "found": 22,
-      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54390 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54390 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "items": {
@@ -31087,6 +31087,111 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#c2a0a3b0b6abacbba6ad82a0a3a9a9a3eca5adb4ecb6b0": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#c2a0a3b0b6abacbba6ad82a0a3a9a9a3eca5adb4ecb6b0",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-25",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/cip-tasarimi-yarismasi-final-siralamalari-aciklandi/": {
+      "title": "25.09.2026YARIŞMAÇip Tasarımı Yarışması Final Sıralamaları AçıklandıTEKNOFEST 2026 Çip Tasarımı Yarışması final sıralamaları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/cip-tasarimi-yarismasi-final-siralamalari-aciklandi/",
+      "date": "2026-09-25",
+      "on_tarihler": [
+        "2026-09-25"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-25",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/surdurulebilir-mavi-ekonomi-ortakligi-akdeniz-bolgesel-proje-portfolyosu-cagrisi-acildi": {
+      "title": "Sürdürülebilir Mavi Ekonomi Ortaklığı Akdeniz Bölgesel Proje Portfolyosu Çağrısı Açıldı",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/surdurulebilir-mavi-ekonomi-ortakligi-akdeniz-bolgesel-proje-portfolyosu-cagrisi-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-25",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/ufuk-avrupa-programi-forest-ortakligi-2026-ortak-cagrisi-basvurulara-acildi": {
+      "title": "Ufuk Avrupa Programı FOREST Ortaklığı 2026 Ortak Çağrısı Başvurulara Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/ufuk-avrupa-programi-forest-ortakligi-2026-ortak-cagrisi-basvurulara-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-09-25",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7295/Bakan-Yumakli-2028de-Tamamlanmasi-Hedeflenen-Edirne-Comlekkoy-Barajinda-Incelemede-Bulundu": {
+      "title": "BAKAN YUMAKLI 2028'DE TAMAMLANMASI HEDEFLENEN EDİRNE ÇÖMLEKKÖY BARAJI'NDA İNCELEMEDE BULUNDU",
+      "url": "https://www.tarimorman.gov.tr/Haber/7295/Bakan-Yumakli-2028de-Tamamlanmasi-Hedeflenen-Edirne-Comlekkoy-Barajinda-Incelemede-Bulundu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-09-25",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.kuzka.gov.tr/page/calisma-programi-ve-butce-432": {
+      "title": "Çalışma Programı ve Bütçe",
+      "url": "https://www.kuzka.gov.tr/page/calisma-programi-ve-butce-432",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-09-25",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.kuzka.gov.tr/dokumanlar": {
+      "title": "Tüm Dokümanlar",
+      "url": "https://www.kuzka.gov.tr/dokumanlar",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-09-25",
+      "olasi_tur": "belirsiz"
+    },
+    "https://kudaka.gov.tr/haber/2026-yili-fizibilite-destegi-programi-eylul-ayi-sonuclari/725": {
+      "title": "2026 Yılı Fizibilite Desteği Programı Eylül Ayı Sonuçları25.09.2026 Cuma",
+      "url": "https://kudaka.gov.tr/haber/2026-yili-fizibilite-destegi-programi-eylul-ayi-sonuclari/725",
+      "date": "2026-09-25",
+      "on_tarihler": [
+        "2026-09-25"
+      ],
+      "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
+      "source_id": "kudaka",
+      "first_seen": "2026-09-25",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.serka.gov.tr/kurumsal/etik-komisyonu/ahmet-mucahit-koksoy/": {
+      "title": "Ahmet Mücahit KÖKSOY",
+      "url": "https://www.serka.gov.tr/kurumsal/etik-komisyonu/ahmet-mucahit-koksoy/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "SERKA (Serhat Kalkınma Ajansı)",
+      "source_id": "serka",
+      "first_seen": "2026-09-25",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.serka.gov.tr/kurumsal/etik-komisyonu/cagri-birol-esatoglu/": {
+      "title": "Çağrı Birol ESATOĞLU",
+      "url": "https://www.serka.gov.tr/kurumsal/etik-komisyonu/cagri-birol-esatoglu/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "SERKA (Serhat Kalkınma Ajansı)",
+      "source_id": "serka",
+      "first_seen": "2026-09-25",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#e99386878e9c858d8882908d86a98b88828288c78e869fc79d9b": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e99386878e9c858d8882908d86a98b88828288c78e869fc79d9b",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
