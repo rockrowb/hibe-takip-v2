@@ -11,7 +11,7 @@
       "ok": true,
       "checked": "2026-09-26",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 153107 byte HTML, 113 link, 41 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 153069 byte HTML, 113 link, 41 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
@@ -40,8 +40,8 @@
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-09-26",
-      "found": 4,
-      "diag": "/destekler -> HTTP 200, 55866 byte HTML, 160 link, 5 olası duyuru"
+      "found": 18,
+      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 74272 byte HTML, 215 link, 21 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-09-26",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-09-26",
       "found": 115,
-      "diag": "/ -> HTTP 200, 225896 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 225904 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -230,10 +230,10 @@
       "diag": "/duyurular -> HTTP 200, 156194 byte HTML, 39 link, 17 olası duyuru"
     },
     "ktb": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-09-26",
-      "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215745 byte HTML, 587 link, 392 olası duyuru"
+      "found": 0,
+      "diag": "/TR-9857/duyurular.html -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "tarim_orman": {
       "ok": true,
@@ -245,7 +245,7 @@
       "ok": true,
       "checked": "2026-09-26",
       "found": 22,
-      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54471 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54308 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "tema_listesi": [
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-09-26T11:01:38Z",
-    "pending_count": 2176
+    "checked_at": "2026-09-26T18:16:55Z",
+    "pending_count": 2178
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -32419,6 +32419,52 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#4d262c3f2c2f38263429220d2f2c26262c632a223b63393f": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#4d262c3f2c2f38263429220d2f2c26262c632a223b63393f",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-26",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/mesleki-yetenek-yarismasi-final-sonuclari-aciklandi/": {
+      "title": "26.09.2026YARIŞMAMesleki Yetenek Yarışması Final Sonuçları AçıklandıTEKNOFEST 2026 Mesleki Yetenek Yarışması final sonuçları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/mesleki-yetenek-yarismasi-final-sonuclari-aciklandi/",
+      "date": "2026-09-26",
+      "on_tarihler": [
+        "2026-09-26"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-26",
+      "olasi_tur": "sonuc_olabilir"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/302976-bakan-bak-kackar-by-utmbnin-startini-verdi-4-km-kostu": {
+      "title": "BAKAN BAK KAÇKAR BY UTMB'NİN STARTINI VERDİ, 4 KM KOŞTU12.09.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/302976-bakan-bak-kackar-by-utmbnin-startini-verdi-4-km-kostu",
+      "date": "2026-09-12",
+      "on_tarihler": [
+        "2026-09-12"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-09-26",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#8bf1e4e5ecfee7efeae0f2efe4cbe9eae0e0eaa5ece4fda5fff9": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#8bf1e4e5ecfee7efeae0f2efe4cbe9eae0e0eaa5ece4fda5fff9",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-26",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#5c3e3d2e2835322538331c3e3d37373d723b332a72282e": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#5c3e3d2e2835322538331c3e3d37373d723b332a72282e",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
