@@ -11,7 +11,7 @@
       "ok": true,
       "checked": "2026-09-28",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 153001 byte HTML, 113 link, 41 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 152749 byte HTML, 113 link, 41 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-09-28",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 73608 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 74891 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -40,8 +40,8 @@
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-09-28",
-      "found": 4,
-      "diag": "/destekler -> HTTP 200, 55866 byte HTML, 160 link, 5 olası duyuru"
+      "found": 18,
+      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 73906 byte HTML, 215 link, 21 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -131,7 +131,7 @@
       "ok": true,
       "checked": "2026-09-28",
       "found": 45,
-      "diag": "/ -> HTTP 200, 123694 byte HTML, 280 link, 64 olası duyuru"
+      "diag": "/ -> HTTP 200, 123726 byte HTML, 280 link, 64 olası duyuru"
     },
     "doka": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-09-28",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-09-28",
       "found": 115,
-      "diag": "/ -> HTTP 200, 225585 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 228529 byte HTML, 260 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -27776,6 +27776,64 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#264d47544744534d5f42496644474d4d4708414950085254": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#264d47544744534d5f42496644474d4d4708414950085254",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-28"
+    },
+    "https://teknofest.org/tr/duyurular/elektronik-harp-tasarimi-yarismasi-final-siralamalari-aciklandi/": {
+      "title": "28.09.2026YARIŞMAElektronik Harp Tasarımı Yarışması Final Sıralamaları AçıklandıTEKNOFEST 2026 Elektronik Harp Tasarımı Yarışması final sıralamaları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/elektronik-harp-tasarimi-yarismasi-final-siralamalari-aciklandi/",
+      "date": "2026-09-28",
+      "on_tarihler": [
+        "2026-09-28"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-28"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-guneydogu-etkinlik-haritasi-yayinlandi/": {
+      "title": "28.09.2026GENELTEKNOFEST Güneydoğu Etkinlik Haritası YayınlandıTEKNOFEST heyecanı Şanlıurfa’yı sarıyor!",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-guneydogu-etkinlik-haritasi-yayinlandi/",
+      "date": "2026-09-28",
+      "on_tarihler": [
+        "2026-09-28"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-28"
+    },
+    "https://ticaret.gov.tr/duyurular/gtb-gov-tr-ssl-guncelleme-hakkinda-30-09-26": {
+      "title": "*.gtb.gov.tr SSL Güncelleme Hakkında - 30.09.26",
+      "url": "https://ticaret.gov.tr/duyurular/gtb-gov-tr-ssl-guncelleme-hakkinda-30-09-26",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-09-28"
+    },
+    "https://oka.gov.tr/haber/ureten-ogretmenler-unreal-engine-ile-dijital-ikiz-ve-vr-icerik-gelistirdi": {
+      "title": "28EYLÜL2026Üreten Öğretmenler, Unreal Engine ile Dijital İkiz ve VR İçerik Geliştirdi",
+      "url": "https://oka.gov.tr/haber/ureten-ogretmenler-unreal-engine-ile-dijital-ikiz-ve-vr-icerik-gelistirdi",
+      "date": "2026-09-28",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-09-28"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#84feebeae3f1e8e0e5effde0ebc4e6e5efefe5aae3ebf2aaf0f6": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#84feebeae3f1e8e0e5effde0ebc4e6e5efefe5aae3ebf2aaf0f6",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-28"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#81eae0f3e0e3f4eaf8e5eec1e3e0eaeae0afe6eef7aff5f3": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#81eae0f3e0e3f4eaf8e5eec1e3e0eaeae0afe6eef7aff5f3",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
