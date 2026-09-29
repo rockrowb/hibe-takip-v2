@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-09-29",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 152497 byte HTML, 113 link, 41 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 152295 byte HTML, 113 link, 41 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-09-29",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 37843 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37740 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-09-29",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 73608 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 74325 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -95,7 +95,7 @@
       "ok": true,
       "checked": "2026-09-29",
       "found": 28,
-      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 289218 byte HTML, 307 link, 66 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 289166 byte HTML, 307 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -113,7 +113,7 @@
       "ok": true,
       "checked": "2026-09-29",
       "found": 1,
-      "diag": "/destekler -> HTTP 200, 28249 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35588 byte HTML, 94 link, 44 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 28249 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35587 byte HTML, 94 link, 44 olası duyuru"
     },
     "dogaka": {
       "ok": true,
@@ -131,7 +131,7 @@
       "ok": true,
       "checked": "2026-09-29",
       "found": 45,
-      "diag": "/ -> HTTP 200, 123726 byte HTML, 280 link, 64 olası duyuru"
+      "diag": "/ -> HTTP 200, 123770 byte HTML, 280 link, 64 olası duyuru"
     },
     "doka": {
       "ok": true,
@@ -161,7 +161,7 @@
       "ok": true,
       "checked": "2026-09-29",
       "found": 131,
-      "diag": "/ -> HTTP 200, 213451 byte HTML, 359 link, 214 olası duyuru"
+      "diag": "/ -> HTTP 200, 213391 byte HTML, 359 link, 214 olası duyuru"
     },
     "ika": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-09-29",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-09-29",
       "found": 115,
-      "diag": "/ -> HTTP 200, 228513 byte HTML, 260 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 228533 byte HTML, 260 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-09-29",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 342398 byte HTML, 261 link, 190 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 342546 byte HTML, 261 link, 190 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -31582,6 +31582,80 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#e183809395888f98858ea183808a8a80cf868e97cf9593": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e183809395888f98858ea183808a8a80cf868e97cf9593",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-29",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-kesif-oyunu-guneydoguda/": {
+      "title": "29.09.2026GENELTEKNOFEST Keşif Oyunu Güneydoğu’da!Festival alanını keşfetmeye hazır mısın?",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-kesif-oyunu-guneydoguda/",
+      "date": "2026-09-29",
+      "on_tarihler": [
+        "2026-09-29"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-09-29",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupada-yeni-nature-ve-bridging-cagrilari-yayimlandi": {
+      "title": "Ufuk Avrupa’da Yeni Nature ve Bridging Çağrıları Yayımlandı",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupada-yeni-nature-ve-bridging-cagrilari-yayimlandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-29",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2703/16-Uluslararasi-Tarim-Orman-Ve-Insan-Fotograf-Yarismasinda-Finale-Kalan-Fotograflarin-Aski-Sureci-Basliyor": {
+      "title": "16. Uluslararası Tarım Orman ve İnsan Fotoğraf Yarışmasında Finale Kalan Fotoğra ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2703/16-Uluslararasi-Tarim-Orman-Ve-Insan-Fotograf-Yarismasinda-Finale-Kalan-Fotograflarin-Aski-Sureci-Basliyor",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-09-29",
+      "olasi_tur": "belirsiz"
+    },
+    "https://oka.gov.tr/haber/samsun-da-kadin-istihdamina-yeni-bir-adim-samulas-ta-kadin-surucu-sayisi-19-a-yukseldi": {
+      "title": "29EYLÜL2026Samsun’da Kadın İstihdamına Yeni Bir Adım: SAMULAŞ’ta Kadın Sürücü Sayısı 19’a Yükseldi",
+      "url": "https://oka.gov.tr/haber/samsun-da-kadin-istihdamina-yeni-bir-adim-samulas-ta-kadin-surucu-sayisi-19-a-yukseldi",
+      "date": "2026-09-29",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-09-29",
+      "olasi_tur": "belirsiz"
+    },
+    "https://geka.gov.tr/tr/haber/ajansimiz-mugla-da-cam-bali-calistayi-duzenledi": {
+      "title": "AJANSIMIZ, MUĞLA’DA ÇAM BALI ÇALIŞTAYI DÜZENLEDİ",
+      "url": "https://geka.gov.tr/tr/haber/ajansimiz-mugla-da-cam-bali-calistayi-duzenledi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "GEKA (Güney Ege Kalkınma Ajansı)",
+      "source_id": "geka",
+      "first_seen": "2026-09-29",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#fe849190998b929a9f95879a91be9c9f95959fd0999188d08a8c": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#fe849190998b929a9f95879a91be9c9f95959fd0999188d08a8c",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-29",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#fd969c8f9c9f8896849992bd9f9c96969cd39a928bd3898f": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#fd969c8f9c9f8896849992bd9f9c96969cd39a928bd3898f",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
