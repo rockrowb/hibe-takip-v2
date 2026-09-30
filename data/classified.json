@@ -17,7 +17,7 @@
       "ok": true,
       "checked": "2026-09-30",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 37844 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37871 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-09-30",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 74325 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 74891 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -53,7 +53,7 @@
       "ok": true,
       "checked": "2026-09-30",
       "found": 82,
-      "diag": "/ -> HTTP 200, 667477 byte HTML, 121 link, 82 olası duyuru"
+      "diag": "/ -> HTTP 200, 717136 byte HTML, 121 link, 82 olası duyuru"
     },
     "sivil_dusun": {
       "ok": true,
@@ -77,7 +77,7 @@
       "ok": true,
       "checked": "2026-09-30",
       "found": 24,
-      "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 136523 byte HTML, 127 link, 60 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 136535 byte HTML, 127 link, 60 olası duyuru"
     },
     "ankaraka": {
       "ok": true,
@@ -131,13 +131,13 @@
       "ok": true,
       "checked": "2026-09-30",
       "found": 45,
-      "diag": "/ -> HTTP 200, 123770 byte HTML, 280 link, 64 olası duyuru"
+      "diag": "/ -> HTTP 200, 123928 byte HTML, 280 link, 64 olası duyuru"
     },
     "doka": {
       "ok": true,
       "checked": "2026-09-30",
       "found": 21,
-      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 222247 byte HTML, 130 link, 53 olası duyuru"
+      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 222262 byte HTML, 130 link, 53 olası duyuru"
     },
     "oran": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-09-30",
       "found": 115,
-      "diag": "/ -> HTTP 200, 228325 byte HTML, 260 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 228349 byte HTML, 260 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-09-30",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 362599 byte HTML, 261 link, 190 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 362906 byte HTML, 261 link, 190 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -31698,6 +31698,87 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#d9bbb8abadb0b7a0bdb699bbb8b2b2b8f7beb6aff7adab": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#d9bbb8abadb0b7a0bdb699bbb8b2b2b8f7beb6aff7adab",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-09-30",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-widera-era-2027-cagrilari-brokerage-etkinligi-16-aralik-2026": {
+      "title": "Ufuk Avrupa – WIDERA ERA 2027 Çağrıları Brokerage Etkinliği – 16 Aralık 2026",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-widera-era-2027-cagrilari-brokerage-etkinligi-16-aralik-2026",
+      "date": "2026-12-16",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-09-30",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2705/Gubre-Analizinde-Yetkilendirilen-Laboratuvarlar-Ve-Referans-Kuruluslari-Listesi-Guncellendi": {
+      "title": "Gübre Analizinde Yetkilendirilen Laboratuvarlar ve Referans Kuruluşları Listesi  ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2705/Gubre-Analizinde-Yetkilendirilen-Laboratuvarlar-Ve-Referans-Kuruluslari-Listesi-Guncellendi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-09-30",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2704/2-Bolge-Mudurlugu-Balikesir-Ayvalik-Adalari-Tp-Isletmecilik-Ihale-Ilani": {
+      "title": "2. Bölge Müdürlüğü Balıkesir Ayvalık Adaları TP İşletmecilik İhale İlanı",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2704/2-Bolge-Mudurlugu-Balikesir-Ayvalik-Adalari-Tp-Isletmecilik-Ihale-Ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-09-30",
+      "olasi_tur": "belirsiz"
+    },
+    "https://oka.gov.tr/duyuru/2026-yili-sosyal-kalkinma-ve-girisimcilik-teknik-destek-programi-4-donem-temmuz-agustos-desteklenmeye-hak-kazanan-projeler-aciklanmistir": {
+      "title": "30EYLÜL2026 Yılı Sosyal Kalkınma ve Girişimcilik Teknik Destek Programı 4. Dönem (Temmuz-Ağustos) Desteklenmeye Hak Kazanan Projeler Açıklanmıştır",
+      "url": "https://oka.gov.tr/duyuru/2026-yili-sosyal-kalkinma-ve-girisimcilik-teknik-destek-programi-4-donem-temmuz-agustos-desteklenmeye-hak-kazanan-projeler-aciklanmistir",
+      "date": "2026-09-30",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-09-30",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://oka.gov.tr/duyuru/2026-yili-anadoludakiler-turizm-ve-yoresel-degerler-teknik-destek-programi-4-donem-temmuz-agustos-desteklenmeye-hak-kazanan-projeler-aciklanmistir": {
+      "title": "30EYLÜL2026 Yılı Anadoludakiler: Turizm ve Yöresel Değerler Teknik Destek Programı 4. Dönem (Temmuz-Ağustos) Desteklenmeye Hak Kazanan Projeler Açıklanmıştır",
+      "url": "https://oka.gov.tr/duyuru/2026-yili-anadoludakiler-turizm-ve-yoresel-degerler-teknik-destek-programi-4-donem-temmuz-agustos-desteklenmeye-hak-kazanan-projeler-aciklanmistir",
+      "date": "2026-09-30",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-09-30",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://oka.gov.tr/duyuru/2026-yili-ihracatta-ikiz-donusum-teknik-destek-programi-4-donem-temmuz-agustos-desteklenmeye-hak-kazanan-projeler-aciklanmistir": {
+      "title": "30EYLÜL2026 Yılı İhracatta İkiz Dönüşüm Teknik Destek Programı 4. Dönem (Temmuz-Ağustos) Desteklenmeye Hak Kazanan Projeler Açıklanmıştır",
+      "url": "https://oka.gov.tr/duyuru/2026-yili-ihracatta-ikiz-donusum-teknik-destek-programi-4-donem-temmuz-agustos-desteklenmeye-hak-kazanan-projeler-aciklanmistir",
+      "date": "2026-09-30",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-09-30",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://oka.gov.tr/duyuru/kadin-muhendis-okulu-4-donem-basvuru-sonuclari-aciklanmistir": {
+      "title": "30EYLÜLKadın Mühendis Okulu (4. Dönem) Başvuru Sonuçları Açıklanmıştır",
+      "url": "https://oka.gov.tr/duyuru/kadin-muhendis-okulu-4-donem-basvuru-sonuclari-aciklanmistir",
+      "date": null,
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-09-30",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#1f657071786a737b7e74667b705f7d7e74747e31787069316b6d": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#1f657071786a737b7e74667b705f7d7e74747e31787069316b6d",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
