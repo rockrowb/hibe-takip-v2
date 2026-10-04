@@ -40,8 +40,8 @@
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-10-04",
-      "found": 17,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 73380 byte HTML, 215 link, 21 olası duyuru"
+      "found": 4,
+      "diag": "/destekler -> HTTP 200, 55773 byte HTML, 160 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-04",
       "found": 115,
-      "diag": "/ -> HTTP 200, 914732 byte HTML, 260 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 914704 byte HTML, 260 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,13 +239,13 @@
       "ok": true,
       "checked": "2026-10-04",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15922 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 369020 byte HTML, 261 link, 191 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15922 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 369437 byte HTML, 261 link, 191 olası duyuru"
     },
     "gsb": {
       "ok": true,
       "checked": "2026-10-04",
       "found": 22,
-      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54233 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54286 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "items": {
@@ -32349,6 +32349,28 @@
       "first_seen": "2026-10-04",
       "olasi_tur": "belirsiz",
       "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7306/Bakan-Yumakli-Teknofest-Guneydoguyu-Ziyaret-Etti-Savunma-Sanayisindeki-Muhendislik-Basarisini-Tarim-Teknolojilerinde-De-Yakalayacagiz": {
+      "title": "BAKAN YUMAKLI, TEKNOFEST GÜNEYDOĞU'YU ZİYARET ETTİ: SAVUNMA SANAYİSİNDEKİ MÜHENDİSLİK BAŞARISINI TARIM TEKNOLOJİLERİNDE DE YAKALAYACAĞIZ",
+      "url": "https://www.tarimorman.gov.tr/Haber/7306/Bakan-Yumakli-Teknofest-Guneydoguyu-Ziyaret-Etti-Savunma-Sanayisindeki-Muhendislik-Basarisini-Tarim-Teknolojilerinde-De-Yakalayacagiz",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-10-04",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/303168-son-bes-yilda-628-bin-seyahatsever-genc-yurtlarda-ucretsiz-konakladi": {
+      "title": "SON BEŞ YILDA 628 BİN SEYAHATSEVER GENÇ YURTLARDA ÜCRETSİZ KONAKLADI23.09.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/303168-son-bes-yilda-628-bin-seyahatsever-genc-yurtlarda-ucretsiz-konakladi",
+      "date": "2026-09-23",
+      "on_tarihler": [
+        "2026-09-23"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-10-04",
+      "olasi_tur": "belirsiz"
     }
   }
 }
