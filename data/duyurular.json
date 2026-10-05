@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-10-05",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 73603 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 74891 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -40,8 +40,8 @@
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-10-05",
-      "found": 4,
-      "diag": "/destekler -> HTTP 200, 55975 byte HTML, 160 link, 5 olası duyuru"
+      "found": 17,
+      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 73591 byte HTML, 215 link, 21 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-05",
       "found": 115,
-      "diag": "/ -> HTTP 200, 914678 byte HTML, 260 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 914686 byte HTML, 260 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -238,8 +238,8 @@
     "tarim_orman": {
       "ok": true,
       "checked": "2026-10-05",
-      "found": 66,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15922 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 369405 byte HTML, 263 link, 190 olası duyuru"
+      "found": 67,
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15922 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 370173 byte HTML, 263 link, 191 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-10-05T13:57:12Z",
-    "pending_count": 2251
+    "checked_at": "2026-10-05T21:49:43Z",
+    "pending_count": 2253
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -33661,6 +33661,48 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#c3a8a2b1a2a1b6a8baa7ac83a1a2a8a8a2eda4acb5edb7b1": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#c3a8a2b1a2a1b6a8baa7ac83a1a2a8a8a2eda4acb5edb7b1",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-05",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://ticaret.gov.tr/duyurular/2026-yili-gumruk-musavirligi-ve-gumruk-musavir-yardimciligi-sinavi-duyurusu": {
+      "title": "2026 Yılı Gümrük Müşavirliği ve Gümrük Müşavir Yardımcılığı Sınavı Duyurusu",
+      "url": "https://ticaret.gov.tr/duyurular/2026-yili-gumruk-musavirligi-ve-gumruk-musavir-yardimciligi-sinavi-duyurusu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-10-05",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2715/9-Bolge-Mudurlugu-Ankara-Kompakt-Fotograf-Makinesi-Ve-Durbun-Satin-Alimi-Ihale-Ilani": {
+      "title": "9. Bölge Müdürlüğü Ankara Kompakt Fotoğraf Makinesi ve Dürbün Satın Alımı İhale  ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2715/9-Bolge-Mudurlugu-Ankara-Kompakt-Fotograf-Makinesi-Ve-Durbun-Satin-Alimi-Ihale-Ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-10-05",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#97edf8f9f0e2fbf3f6fceef3f8d7f5f6fcfcf6b9f0f8e1b9e3e5": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#97edf8f9f0e2fbf3f6fceef3f8d7f5f6fcfcf6b9f0f8e1b9e3e5",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-05",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#d7b5b6a5a3beb9aeb3b897b5b6bcbcb6f9b0b8a1f9a3a5": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#d7b5b6a5a3beb9aeb3b897b5b6bcbcb6f9b0b8a1f9a3a5",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
