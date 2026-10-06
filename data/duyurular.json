@@ -11,13 +11,13 @@
       "ok": true,
       "checked": "2026-10-06",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 152409 byte HTML, 113 link, 41 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 149371 byte HTML, 107 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
       "checked": "2026-10-06",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 40723 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 40806 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-10-06",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 74891 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 73603 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -40,8 +40,8 @@
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-10-06",
-      "found": 17,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 73684 byte HTML, 215 link, 21 olası duyuru"
+      "found": 4,
+      "diag": "/destekler -> HTTP 200, 56197 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -83,13 +83,13 @@
       "ok": true,
       "checked": "2026-10-06",
       "found": 71,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54460 byte HTML, 123 link, 86 olası duyuru"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54464 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
       "ok": true,
       "checked": "2026-10-06",
       "found": 16,
-      "diag": "/destekler -> HTTP 200, 69172 byte HTML, 54 link, 21 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 69174 byte HTML, 54 link, 21 olası duyuru"
     },
     "bebka": {
       "ok": true,
@@ -149,7 +149,7 @@
       "ok": true,
       "checked": "2026-10-06",
       "found": 3,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 485132 byte HTML, 651 link, 181 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 484909 byte HTML, 652 link, 181 olası duyuru"
     },
     "gmka": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-10-06",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 261954 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 261997 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-06",
       "found": 115,
-      "diag": "/ -> HTTP 200, 915726 byte HTML, 260 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 915714 byte HTML, 260 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -230,22 +230,22 @@
       "diag": "/duyurular -> HTTP 200, 156194 byte HTML, 39 link, 17 olası duyuru"
     },
     "ktb": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-10-06",
-      "found": 0,
-      "diag": "/TR-9857/duyurular.html -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> hata: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) | / -> hata: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "found": 355,
+      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215803 byte HTML, 587 link, 391 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
       "checked": "2026-10-06",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15922 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 369415 byte HTML, 261 link, 191 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15922 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 370159 byte HTML, 263 link, 191 olası duyuru"
     },
     "gsb": {
       "ok": true,
       "checked": "2026-10-06",
       "found": 22,
-      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54286 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54352 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "tema_listesi": [
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-10-06T13:00:12Z",
-    "pending_count": 2258
+    "checked_at": "2026-10-06T19:59:54Z",
+    "pending_count": 2262
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -33764,6 +33764,63 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#d0bbb1a2b1b2a5bba9b4bf90b2b1bbbbb1feb7bfa6fea4a2": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#d0bbb1a2b1b2a5bba9b4bf90b2b1bbbbb1feb7bfa6fea4a2",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-06",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-guneydogu-15-milyon-ziyaretciyle-teknoloji-solenine-donustu/": {
+      "title": "06.10.2026GENELTEKNOFEST Güneydoğu, 1,5 Milyon Ziyaretçiyle Teknoloji Şölenine Dönüştü30 Eylül - 4 Ekim tarihleri arasında Şanlıurfa GAP Havalimanı’nda düzenlenen TEKNOFEST Güneydoğu, d…",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-guneydogu-15-milyon-ziyaretciyle-teknoloji-solenine-donustu/",
+      "date": "2026-10-06",
+      "on_tarihler": [
+        "2026-10-06"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-10-06",
+      "olasi_tur": "belirsiz"
+    },
+    "https://teknofest.org/tr/duyurular/celikkubbe-hava-savunma-sistemleri-final-siralamalari-aciklandi/": {
+      "title": "04.10.2026YARIŞMAÇelikkubbe Hava Savunma Sistemleri Final Sıralamaları AçıklandıTEKNOFEST 2026 Çelikkubbe Hava Savunma Sistemleri final sıralamaları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/celikkubbe-hava-savunma-sistemleri-final-siralamalari-aciklandi/",
+      "date": "2026-10-04",
+      "on_tarihler": [
+        "2026-10-04"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-10-06",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/guney-kore-bilim-ve-teknoloji-enstitusu-kist-2027-bahar-donemi-staj-basvurulari-basladi": {
+      "title": "Güney Kore Bilim ve Teknoloji Enstitüsü (KIST) 2027 Bahar Dönemi Staj Başvuruları Başladı",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/guney-kore-bilim-ve-teknoloji-enstitusu-kist-2027-bahar-donemi-staj-basvurulari-basladi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-10-06",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/303209-bayrampasada-spor-tesislerinin-yenilenmesi-icin-1-milyar-150-milyon-tl-yatirim-destegi-verdik": {
+      "title": "“BAYRAMPAŞA’DA SPOR TESİSLERİNİN YENİLENMESİ İÇİN 1 MİLYAR 150 MİLYON TL YATIRIM DESTEĞİ VERDİK”24.09.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/303209-bayrampasada-spor-tesislerinin-yenilenmesi-icin-1-milyar-150-milyon-tl-yatirim-destegi-verdik",
+      "date": "2026-09-24",
+      "on_tarihler": [
+        "2026-09-24"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-10-06",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#096b687b7d6067706d66496b68626268276e667f277d7b": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#096b687b7d6067706d66496b68626268276e667f277d7b",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
