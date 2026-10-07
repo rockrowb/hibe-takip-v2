@@ -17,7 +17,7 @@
       "ok": true,
       "checked": "2026-10-07",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 40806 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 40727 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -29,19 +29,19 @@
       "ok": true,
       "checked": "2026-10-07",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 74891 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 73603 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
       "checked": "2026-10-07",
       "found": 18,
-      "diag": "/tr/duyuru -> HTTP 200, 96212 byte HTML, 214 link, 18 olası duyuru"
+      "diag": "/tr/duyuru -> HTTP 200, 95299 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-10-07",
-      "found": 0,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\"))"
+      "found": 4,
+      "diag": "/destekler -> HTTP 200, 56197 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -83,7 +83,7 @@
       "ok": true,
       "checked": "2026-10-07",
       "found": 71,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54460 byte HTML, 123 link, 86 olası duyuru"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54459 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
       "ok": true,
@@ -95,7 +95,7 @@
       "ok": true,
       "checked": "2026-10-07",
       "found": 28,
-      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 288215 byte HTML, 307 link, 66 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 286901 byte HTML, 304 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -119,7 +119,7 @@
       "ok": true,
       "checked": "2026-10-07",
       "found": 76,
-      "diag": "/destekler/destekler -> HTTP 200, 41640 byte HTML, 185 link, 112 olası duyuru"
+      "diag": "/destekler/destekler -> HTTP 200, 44432 byte HTML, 185 link, 112 olası duyuru"
     },
     "mevka": {
       "ok": false,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-10-07",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 261954 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 262203 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-07",
       "found": 115,
-      "diag": "/ -> HTTP 200, 915806 byte HTML, 260 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 915802 byte HTML, 260 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -230,10 +230,10 @@
       "diag": "/duyurular -> HTTP 200, 156194 byte HTML, 39 link, 17 olası duyuru"
     },
     "ktb": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-10-07",
-      "found": 0,
-      "diag": "/TR-9857/duyurular.html -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
+      "found": 355,
+      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215454 byte HTML, 587 link, 391 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
@@ -242,10 +242,10 @@
       "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15922 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 370159 byte HTML, 263 link, 191 olası duyuru"
     },
     "gsb": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-10-07",
-      "found": 22,
-      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54195 byte HTML, 106 link, 59 olası duyuru"
+      "found": 0,
+      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 6030 byte HTML, 0 link, 0 olası duyuru"
     }
   },
   "tema_listesi": [
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-10-07T12:54:49Z",
-    "pending_count": 2266
+    "checked_at": "2026-10-07T20:26:08Z",
+    "pending_count": 2272
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -5159,11 +5159,10 @@
       "olasi_tur": "belirsiz"
     },
     "https://zafer.gov.tr/destek-programlari/girisimci-ve-guclu-sivil-toplum-mali-destek-programi": {
-      "title": "GİSEP02.10.2026 23:59 (uzatıldı 16.10.2026 23:59)Girişimci ve Güçlü Sivil Toplum Mali Destek ProgramıAlternatif Hibe Desteği",
+      "title": "GİSEP16.10.2026 23:59Girişimci ve Güçlü Sivil Toplum Mali Destek ProgramıAlternatif Hibe Desteği",
       "url": "https://zafer.gov.tr/destek-programlari/girisimci-ve-guclu-sivil-toplum-mali-destek-programi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5182,9 +5181,8 @@
     "https://zafer.gov.tr/destek-programlari/sogreen-sosyal-kapsayici-yesil-gecis-projesi-geri-odemeli-finansman-destegi": {
       "title": "SoGreen Geri Ödemeli08.05.2026 23:59SoGreen - Sosyal Kapsayıcı Yeşil Geçiş Projesi Geri Ödemeli Finansman DesteğiFaizsiz Kredi Desteği",
       "url": "https://zafer.gov.tr/destek-programlari/sogreen-sosyal-kapsayici-yesil-gecis-projesi-geri-odemeli-finansman-destegi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5203,9 +5201,8 @@
     "https://zafer.gov.tr/destek-programlari/2026-yili-sosyal-gelismeyi-destekleme-programi": {
       "title": "2026 Yılı Sosyal Gelişmeyi Destekleme Programı2026 Yılı Sosyal Gelişmeyi Destekleme Programı - SOGEP 2026Hibe",
       "url": "https://zafer.gov.tr/destek-programlari/2026-yili-sosyal-gelismeyi-destekleme-programi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5224,9 +5221,8 @@
     "https://zafer.gov.tr/destek-programlari/2025-yili-sosyal-gelismeyi-destekleme-programi-2025-sogep": {
       "title": "2025 SOGEP13.02.2025 23:592025 Yılı Sosyal Gelişmeyi Destekleme Programı (2025 SOGEP)",
       "url": "https://zafer.gov.tr/destek-programlari/2025-yili-sosyal-gelismeyi-destekleme-programi-2025-sogep",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5245,9 +5241,8 @@
     "https://zafer.gov.tr/destek-programlari/manisa-imalat-sanayisinde-yesil-donusum-ureten-sehirler-teknik-destek-programi-mustd": {
       "title": "MUSTD31.10.2024 23:59Manisa İmalat Sanayisinde Yeşil Dönüşüm Üreten Şehirler Teknik Destek Programı (MUSTD)Üreten Şehirler Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/manisa-imalat-sanayisinde-yesil-donusum-ureten-sehirler-teknik-destek-programi-mustd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5266,9 +5261,8 @@
     "https://zafer.gov.tr/destek-programlari/2024-yili-sosyal-gelismeyi-destekleme-programi": {
       "title": "2024 SOGEP12.05.2024 23:592024 Yılı Sosyal Gelişmeyi Destekleme Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2024-yili-sosyal-gelismeyi-destekleme-programi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5287,9 +5281,8 @@
     "https://zafer.gov.tr/destek-programlari/2023-yili-sosyal-gelismeyi-destekleme-programi": {
       "title": "2023 SOGEP21.01.2023 18:002023 Yılı Sosyal Gelişmeyi Destekleme Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2023-yili-sosyal-gelismeyi-destekleme-programi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5308,9 +5301,8 @@
     "https://zafer.gov.tr/destek-programlari/kobi-lerde-i-stihdamin-ve-uretimin-artirilmasi-finansman-destegi-programi-kobi-stfi-n": {
       "title": "KOBİSTFİNKOBİ'lerde İstihdamın ve Üretimin Artırılması Finansman Desteği Programı (KOBİSTFİN)Finansman Desteği Programı",
       "url": "https://zafer.gov.tr/destek-programlari/kobi-lerde-i-stihdamin-ve-uretimin-artirilmasi-finansman-destegi-programi-kobi-stfi-n",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5329,9 +5321,8 @@
     "https://zafer.gov.tr/destek-programlari/turizm-ve-tarimsal-altyapi-mali-destek-programi-tutap": {
       "title": "TUTAPTurizm ve Tarımsal Altyapı Mali Destek Programı (TUTAP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/turizm-ve-tarimsal-altyapi-mali-destek-programi-tutap",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5350,9 +5341,8 @@
     "https://zafer.gov.tr/destek-programlari/i-malat-sanayisindeki-kobi-lerin-rekabet-gucunun-artirilmasi-finansman-destegi-programi-kobi-fi-n": {
       "title": "KOBİFİNİmalat Sanayisindeki KOBİ’lerin Rekabet Gücünün Artırılması Finansman Desteği Programı (KOBİFİN)Finansman Desteği Programı",
       "url": "https://zafer.gov.tr/destek-programlari/i-malat-sanayisindeki-kobi-lerin-rekabet-gucunun-artirilmasi-finansman-destegi-programi-kobi-fi-n",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5371,9 +5361,8 @@
     "https://zafer.gov.tr/destek-programlari/2021-yili-fizibilite-destegi-programi-fd": {
       "title": "FZD2021 Yılı Fizibilite Desteği Programı (FD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2021-yili-fizibilite-destegi-programi-fd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5392,9 +5381,8 @@
     "https://zafer.gov.tr/destek-programlari/2021-yili-teknik-destek-programi-2021-td": {
       "title": "2021 TD2021 Yılı Teknik Destek Programı (2021 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2021-yili-teknik-destek-programi-2021-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5413,9 +5401,8 @@
     "https://zafer.gov.tr/destek-programlari/turizm-altyapisinin-i-yilestirilmesi-mali-destek-programi": {
       "title": "TAİDEPTurizm Altyapısının İyileştirilmesi Mali Destek ProgramıMali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/turizm-altyapisinin-i-yilestirilmesi-mali-destek-programi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5434,9 +5421,8 @@
     "https://zafer.gov.tr/destek-programlari/2021-yili-sosyal-gelismeyi-destekleme-programi": {
       "title": "2021 SOGEP2021 Yılı Sosyal Gelişmeyi Destekleme Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2021-yili-sosyal-gelismeyi-destekleme-programi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5455,9 +5441,8 @@
     "https://zafer.gov.tr/destek-programlari/turizm-altyapisinin-gelistirilmesi-mali-destek-programi": {
       "title": "TAGDEPTurizm Altyapısının Geliştirilmesi Mali Destek ProgramıMali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/turizm-altyapisinin-gelistirilmesi-mali-destek-programi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5476,9 +5461,8 @@
     "https://zafer.gov.tr/destek-programlari/2020-yili-fizibilite-destegi-programi-fd": {
       "title": "FD2020 Yılı Fizibilite Desteği Programı (FD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2020-yili-fizibilite-destegi-programi-fd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5497,9 +5481,8 @@
     "https://zafer.gov.tr/destek-programlari/2020-yili-teknik-destek-programi-2020-td": {
       "title": "2020 TD2020 Yılı Teknik Destek Programı (2020 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2020-yili-teknik-destek-programi-2020-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5518,9 +5501,8 @@
     "https://zafer.gov.tr/destek-programlari/mesleki-egitimin-gelistirilmesi-mali-destek-programi": {
       "title": "MEGDEPMesleki Eğitimin Geliştirilmesi Mali Destek ProgramıMali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/mesleki-egitimin-gelistirilmesi-mali-destek-programi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5539,9 +5521,8 @@
     "https://zafer.gov.tr/destek-programlari/2019-yili-fizibilite-destegi-programi-2019-fd": {
       "title": "2019 FD2019 Yılı Fizibilite Desteği Programı (2019 FD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2019-yili-fizibilite-destegi-programi-2019-fd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5560,9 +5541,8 @@
     "https://zafer.gov.tr/destek-programlari/2019-yili-teknik-destek-programi-2019-td": {
       "title": "2019 TD2019 Yılı Teknik Destek Programı (2019 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2019-yili-teknik-destek-programi-2019-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5581,9 +5561,8 @@
     "https://zafer.gov.tr/destek-programlari/yeni-nesil-egitim-mali-destek-programi-yenep": {
       "title": "YENEPYeni Nesil Eğitim Mali Destek Programı (YENEP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/yeni-nesil-egitim-mali-destek-programi-yenep",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5602,9 +5581,8 @@
     "https://zafer.gov.tr/destek-programlari/2018-yili-fizibilite-destegi-programi-2018-fzd": {
       "title": "2018 FZD2018 Yılı Fizibilite Desteği ProgramI (2018 FZD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2018-yili-fizibilite-destegi-programi-2018-fzd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5623,9 +5601,8 @@
     "https://zafer.gov.tr/destek-programlari/2018-yili-teknik-destek-programi-2018-td": {
       "title": "2018 TD2018 Yılı Teknik Destek Programı (2018 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2018-yili-teknik-destek-programi-2018-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5644,9 +5621,8 @@
     "https://zafer.gov.tr/destek-programlari/gelisen-kobi-mali-destek-programi-gekop": {
       "title": "GEKOPGelişen KOBİ Mali Destek Programı (GEKOP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/gelisen-kobi-mali-destek-programi-gekop",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5665,9 +5641,8 @@
     "https://zafer.gov.tr/destek-programlari/cevre-ve-enerji-altyapi-mali-destek-programi-cedep": {
       "title": "ÇEDEPÇevre ve Enerji Altyapı Mali Destek Programı (ÇEDEP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/cevre-ve-enerji-altyapi-mali-destek-programi-cedep",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5686,9 +5661,8 @@
     "https://zafer.gov.tr/destek-programlari/2017-yili-teknik-destek-programi-2017-td": {
       "title": "2017 TD2017 Yılı Teknik Destek Programı (2017 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2017-yili-teknik-destek-programi-2017-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5707,9 +5681,8 @@
     "https://zafer.gov.tr/destek-programlari/2016-yili-dogrudan-faaliyet-destek-programi-2016-dfd": {
       "title": "2016 DFD2016 Yılı Doğrudan Faaliyet Destek Programı (2016 DFD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2016-yili-dogrudan-faaliyet-destek-programi-2016-dfd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5728,9 +5701,8 @@
     "https://zafer.gov.tr/destek-programlari/yenilikci-kobi-mali-destek-programi-ykmdp": {
       "title": "YKMDPYenilikçi KOBİ Mali Destek Programı (YKMDP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/yenilikci-kobi-mali-destek-programi-ykmdp",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5749,9 +5721,8 @@
     "https://zafer.gov.tr/destek-programlari/surdurulebilir-cevre-altyapi-mali-destek-programi-sucep": {
       "title": "SÜÇEPSürdürülebilir Çevre Altyapı Mali Destek Programı (SÜÇEP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/surdurulebilir-cevre-altyapi-mali-destek-programi-sucep",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5770,9 +5741,8 @@
     "https://zafer.gov.tr/destek-programlari/sanayide-rekabetciligin-gelistirilmesi-mali-destek-programi-sarep": {
       "title": "SAREPSanayide Rekabetçiliğin Geliştirilmesi Mali Destek Programı (SAREP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/sanayide-rekabetciligin-gelistirilmesi-mali-destek-programi-sarep",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5791,9 +5761,8 @@
     "https://zafer.gov.tr/destek-programlari/sosyal-kalkinma-ve-beseri-gelisme-altyapi-mali-destek-programi-sobep": {
       "title": "SOBEPSosyal Kalkınma ve Beşeri Gelişme Altyapı Mali Destek Programı (SOBEP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/sosyal-kalkinma-ve-beseri-gelisme-altyapi-mali-destek-programi-sobep",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5812,9 +5781,8 @@
     "https://zafer.gov.tr/destek-programlari/rekabetci-kobi-mali-destek-programi-rkmdp": {
       "title": "RKMDPRekabetçi KOBİ Mali Destek Programı (RKMDP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/rekabetci-kobi-mali-destek-programi-rkmdp",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5833,9 +5801,8 @@
     "https://zafer.gov.tr/destek-programlari/turizm-enerji-ve-cevre-altyapi-mali-destek-programi-tecdp": {
       "title": "TEÇDPTurizm, Enerji ve Çevre Altyapı Mali Destek Programı (TEÇDP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/turizm-enerji-ve-cevre-altyapi-mali-destek-programi-tecdp",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5854,9 +5821,8 @@
     "https://zafer.gov.tr/destek-programlari/sosyal-kalkinma-mali-destek-programi-skmdp": {
       "title": "SKMDP25.01.2013 17:00Sosyal Kalkınma Mali Destek Programı (SKMDP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/sosyal-kalkinma-mali-destek-programi-skmdp",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5875,9 +5841,8 @@
     "https://zafer.gov.tr/destek-programlari/sosyal-altyapi-mali-destek-programi-samdp": {
       "title": "SAMDP25.01.2013 17:00Sosyal Altyapı Mali Destek Programı (SAMDP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/sosyal-altyapi-mali-destek-programi-samdp",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5896,9 +5861,8 @@
     "https://zafer.gov.tr/destek-programlari/2012-yili-teknik-destek-programi-2012-td": {
       "title": "2012 TD2012 Yılı Teknik Destek Programı (2012 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2012-yili-teknik-destek-programi-2012-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5917,9 +5881,8 @@
     "https://zafer.gov.tr/destek-programlari/2012-yili-dogrudan-faaliyet-destek-programi-2012-dfd": {
       "title": "2012 DFD2012 Yılı Doğrudan Faaliyet Destek Programı (2012 DFD)",
       "url": "https://zafer.gov.tr/destek-programlari/2012-yili-dogrudan-faaliyet-destek-programi-2012-dfd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5938,9 +5901,8 @@
     "https://zafer.gov.tr/destek-programlari/surdurulebilir-kirsal-kentsel-altyapi-mali-destek-programi-sukap": {
       "title": "SÜKAPSürdürülebilir Kırsal & Kentsel Altyapı Mali Destek Programı (SÜKAP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/surdurulebilir-kirsal-kentsel-altyapi-mali-destek-programi-sukap",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5959,9 +5921,8 @@
     "https://zafer.gov.tr/destek-programlari/odak-sektorler-mali-destek-programi-odak": {
       "title": "ODAKOdak Sektörler Mali Destek Programı (ODAK)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/odak-sektorler-mali-destek-programi-odak",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -5980,9 +5941,8 @@
     "https://zafer.gov.tr/destek-programlari/2011-yili-teknik-destek-programi-2011-td": {
       "title": "2011 TD2011 Yılı Teknik Destek Programı (2011 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2011-yili-teknik-destek-programi-2011-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -6001,9 +5961,8 @@
     "https://zafer.gov.tr/destek-programlari/2011-yili-dogrudan-faaliyet-destek-programi-2011-dfd": {
       "title": "2011 DFD2011 Yılı Doğrudan Faaliyet Destek Programı (2011 DFD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2011-yili-dogrudan-faaliyet-destek-programi-2011-dfd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -6022,9 +5981,8 @@
     "https://zafer.gov.tr/destek-programlari/bolgesel-potansiyelin-harekete-gecirilmesi-mali-destek-programi-bphgmdp": {
       "title": "BPHGMDPBölgesel Potansiyelin Harekete Geçirilmesi Mali Destek Programı (BPHGMDP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/bolgesel-potansiyelin-harekete-gecirilmesi-mali-destek-programi-bphgmdp",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -6043,9 +6001,8 @@
     "https://zafer.gov.tr/destek-programlari/2010-yili-teknik-destek-programi-2010-td": {
       "title": "2010 TD2010 Yılı Teknik Destek Programı (2010 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2010-yili-teknik-destek-programi-2010-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -6064,9 +6021,8 @@
     "https://zafer.gov.tr/destek-programlari/2015-yili-dogrudan-faaliyet-destek-programi-2015-dfd": {
       "title": "2015 DFD2015 Yılı Doğrudan Faaliyet Destek Programı (2015 DFD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2015-yili-dogrudan-faaliyet-destek-programi-2015-dfd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -6085,9 +6041,8 @@
     "https://zafer.gov.tr/destek-programlari/2013-yili-teknik-destek-programi-2013-td": {
       "title": "2013 TD2013 Yılı Teknik Destek Programı (2013 TD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2013-yili-teknik-destek-programi-2013-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -6106,9 +6061,8 @@
     "https://zafer.gov.tr/destek-programlari/2014-yili-teknik-destek-programi-2014-td": {
       "title": "2014 TD2014 Yılı Teknik Destek Programı (2014 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2014-yili-teknik-destek-programi-2014-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -6127,9 +6081,8 @@
     "https://zafer.gov.tr/destek-programlari/2015-yili-teknik-destek-programi-2015-td": {
       "title": "2015 TD2015 Yılı Teknik Destek Programı (2015 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2015-yili-teknik-destek-programi-2015-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -6148,9 +6101,8 @@
     "https://zafer.gov.tr/destek-programlari/2013-yili-dogrudan-faaliyet-destek-programi-2013-dfd": {
       "title": "2013 DFD2013 Yılı Doğrudan Faaliyet Destek Programı (2013 DFD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2013-yili-dogrudan-faaliyet-destek-programi-2013-dfd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -6169,9 +6121,8 @@
     "https://zafer.gov.tr/destek-programlari/2014-yili-dogrudan-faaliyet-destek-programi-2014-dfd": {
       "title": "2014 DFD2014 Yılı Doğrudan Faaliyet Destek Programı (2014 DFD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2014-yili-dogrudan-faaliyet-destek-programi-2014-dfd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -33876,6 +33827,99 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#1c777d6e7d7e69776578735c7e7d77777d327b736a32686e": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#1c777d6e7d7e69776578735c7e7d77777d327b736a32686e",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-07",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/nukleerradyoaktif-atik-bilgisine-sahip-cevresel-degerlendirme-uzmani-aranmaktadir": {
+      "title": "Nükleer/Radyoaktif Atık Bilgisine Sahip Çevresel Değerlendirme Uzmanı  Aranmaktadır",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/nukleerradyoaktif-atik-bilgisine-sahip-cevresel-degerlendirme-uzmani-aranmaktadir",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-10-07",
+      "olasi_tur": "belirsiz"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/2211-yurt-ici-doktora-burs-programlari-2026-yili-2-donem-cagrilari-basvuruya-acildi": {
+      "title": "2211-Yurt İçi Doktora Burs Programları 2026 Yılı 2. Dönem Çağrıları Başvuruya Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2211-yurt-ici-doktora-burs-programlari-2026-yili-2-donem-cagrilari-basvuruya-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-10-07",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/2210-yurt-ici-yuksek-lisans-burs-programlari-2026-yili-2-donem-cagrilari-acildi": {
+      "title": "2210-Yurt İçi Yüksek Lisans Burs Programları 2026 Yılı 2. Dönem Çağrıları Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2210-yurt-ici-yuksek-lisans-burs-programlari-2026-yili-2-donem-cagrilari-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-10-07",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/2205-lisans-burs-programi-2026-yili-2-donem-cagrisi-acildi": {
+      "title": "2205-Lisans Burs Programı 2026 Yılı 2. Dönem Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2205-lisans-burs-programi-2026-yili-2-donem-cagrisi-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-10-07",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/2223-yurt-ici-bilimsel-etkinlikleri-destekleme-programlari-2026-yili-3-donem-cagrilari-acildi": {
+      "title": "2223-Yurt İçi Bilimsel Etkinlikleri Destekleme Programları 2026 Yılı 3. Dönem Çağrıları Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2223-yurt-ici-bilimsel-etkinlikleri-destekleme-programlari-2026-yili-3-donem-cagrilari-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-10-07",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bebka.org.tr/bursa-eskisehir-bilecik-kalkinma-ajansi-personel-alimi-mulakat-listesi-2/": {
+      "title": "Bursa Eskişehir Bilecik Kalkınma Ajansı Personel Alımı Mülakat Listesi",
+      "url": "https://bebka.org.tr/bursa-eskisehir-bilecik-kalkinma-ajansi-personel-alimi-mulakat-listesi-2/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)",
+      "source_id": "bebka",
+      "first_seen": "2026-10-07",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#e49e8b8a83918880858f9d808ba486858f8f85ca838b92ca9096": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e49e8b8a83918880858f9d808ba486858f8f85ca838b92ca9096",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-07",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#5a313b283b382f31233e351a383b31313b743d352c742e28": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#5a313b283b382f31233e351a383b31313b743d352c742e28",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-07",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#63010211170a0d1a070c2301020808024d040c154d1711": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#63010211170a0d1a070c2301020808024d040c154d1711",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
