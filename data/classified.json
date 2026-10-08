@@ -29,13 +29,13 @@
       "ok": true,
       "checked": "2026-10-08",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 73603 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 74891 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
       "checked": "2026-10-08",
       "found": 18,
-      "diag": "/tr/duyuru -> HTTP 200, 95409 byte HTML, 214 link, 18 olası duyuru"
+      "diag": "/tr/duyuru -> HTTP 200, 95466 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": false,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-08",
       "found": 115,
-      "diag": "/ -> HTTP 200, 915737 byte HTML, 260 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 915775 byte HTML, 260 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,13 +239,13 @@
       "ok": true,
       "checked": "2026-10-08",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15922 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 370370 byte HTML, 263 link, 191 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15922 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 370170 byte HTML, 263 link, 191 olası duyuru"
     },
     "gsb": {
       "ok": false,
       "checked": "2026-10-08",
       "found": 0,
-      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 7415 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 5540 byte HTML, 0 link, 0 olası duyuru"
     }
   },
   "items": {
@@ -32840,6 +32840,59 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#2d4f4c5f5944435449426d4f4c46464c034a425b03595f": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#2d4f4c5f5944435449426d4f4c46464c034a425b03595f",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/2247-ulusal-lider-arastirmacilar-programi-ve-2247-d-ulusal-genc-liderler-programi-2026-yili-cagrilari-acildi": {
+      "title": "2247–A Ulusal Lider Araştırmacılar Programı ve 2247–D Ulusal Genç Liderler Programı 2026 Yılı Çağrıları Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2247-ulusal-lider-arastirmacilar-programi-ve-2247-d-ulusal-genc-liderler-programi-2026-yili-cagrilari-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2721/Tardip-Projesi-Ar-Ge-Faaliyetleri-Icin-Deneme-Bicerdoveri-Temini-Ihale-Ilani": {
+      "title": "TARDİP Projesi Ar-Ge Faaliyetleri İçin Deneme Biçerdöveri Temini İhale İlanı",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2721/Tardip-Projesi-Ar-Ge-Faaliyetleri-Icin-Deneme-Bicerdoveri-Temini-Ihale-Ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#ec9683828b9980888d87958883ac8e8d87878dc28b839ac2989e": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#ec9683828b9980888d87958883ac8e8d87878dc28b839ac2989e",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#2a414b584b485f41534e456a484b41414b044d455c045e58": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#2a414b584b485f41534e456a484b41414b044d455c045e58",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#ccaeadbeb8a5a2b5a8a38caeada7a7ade2aba3bae2b8be": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#ccaeadbeb8a5a2b5a8a38caeada7a7ade2aba3bae2b8be",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
