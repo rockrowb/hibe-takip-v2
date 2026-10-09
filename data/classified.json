@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-10-09",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 73603 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 74891 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 68956 byte HTML, 133 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-10-09",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 56104 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 56102 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -95,7 +95,7 @@
       "ok": true,
       "checked": "2026-10-09",
       "found": 28,
-      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 285009 byte HTML, 301 link, 66 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 283740 byte HTML, 298 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-09",
       "found": 115,
-      "diag": "/ -> HTTP 200, 915741 byte HTML, 260 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 915753 byte HTML, 260 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -32979,6 +32979,27 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#46242734322f283f22290624272d2d2768212930683234": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#46242734322f283f22290624272d2d2768212930683234",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-09",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bebka.org.tr/uluslararasi-ticarette-nitelikli-isgucu-programi-basvurulari-basladi/": {
+      "title": "Uluslararası Ticarette Nitelikli İşgücü Programı Başvuruları Başladı",
+      "url": "https://bebka.org.tr/uluslararasi-ticarette-nitelikli-isgucu-programi-basvurulari-basladi/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)",
+      "source_id": "bebka",
+      "first_seen": "2026-10-09",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#adc6ccdfcccfd8c6d4c9c2edcfccc6c6cc83cac2db83d9df": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#adc6ccdfcccfd8c6d4c9c2edcfccc6c6cc83cac2db83d9df",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
