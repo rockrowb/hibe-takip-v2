@@ -40,8 +40,8 @@
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-10-10",
-      "found": 4,
-      "diag": "/destekler -> HTTP 200, 56102 byte HTML, 161 link, 5 olası duyuru"
+      "found": 16,
+      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 73950 byte HTML, 216 link, 21 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-10-10",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 262160 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 262203 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-10",
       "found": 115,
-      "diag": "/ -> HTTP 200, 915703 byte HTML, 260 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 915787 byte HTML, 260 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-10-10T12:07:08Z",
-    "pending_count": 2289
+    "checked_at": "2026-10-10T19:09:24Z",
+    "pending_count": 2290
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -34226,6 +34226,27 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#6002011214090e19040f2002010b0b014e070f164e1412": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6002011214090e19040f2002010b0b014e070f164e1412",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-10",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://ticaret.gov.tr/duyurular/merkezi-sicil-kayit-sistemi-mersisnde-yapilacak-teknik-alt-yapi-calismasi": {
+      "title": "MERKEZİ SİCİL KAYIT SİSTEMİ (MERSİS)'NDE YAPILACAK TEKNİK ALT YAPI ÇALIŞMASI",
+      "url": "https://ticaret.gov.tr/duyurular/merkezi-sicil-kayit-sistemi-mersisnde-yapilacak-teknik-alt-yapi-calismasi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-10-10",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#354f5a5b52405951545e4c515a7557545e5e541b525a431b4147": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#354f5a5b52405951545e4c515a7557545e5e541b525a431b4147",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
