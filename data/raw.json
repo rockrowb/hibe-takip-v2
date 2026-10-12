@@ -17,7 +17,7 @@
       "ok": true,
       "checked": "2026-10-12",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 40273 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 40180 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
@@ -38,10 +38,10 @@
       "diag": "/tr/duyuru -> HTTP 200, 95824 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-10-12",
-      "found": 0,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\"))"
+      "found": 4,
+      "diag": "/destekler -> HTTP 200, 56102 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-10-12",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 262160 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 262203 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-12",
       "found": 115,
-      "diag": "/ -> HTTP 200, 915737 byte HTML, 260 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 915757 byte HTML, 260 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -230,16 +230,16 @@
       "diag": "/duyurular -> HTTP 200, 156194 byte HTML, 39 link, 17 olası duyuru"
     },
     "ktb": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-10-12",
-      "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215496 byte HTML, 587 link, 390 olası duyuru"
+      "found": 0,
+      "diag": "/TR-9857/duyurular.html -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "tarim_orman": {
       "ok": true,
       "checked": "2026-10-12",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 370448 byte HTML, 263 link, 191 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 370500 byte HTML, 261 link, 191 olası duyuru"
     },
     "gsb": {
       "ok": false,
@@ -29338,6 +29338,24 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#2c4e4d5e5845425548436c4e4d47474d024b435a02585e": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#2c4e4d5e5845425548436c4e4d47474d024b435a02585e",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-12"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/netzerocities-cevrim-ici-planlama-laboratuvari": {
+      "title": "NetZeroCities Çevrim İçi Planlama Laboratuvarı",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/netzerocities-cevrim-ici-planlama-laboratuvari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-10-12"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#046f65766566716f7d606b4466656f6f652a636b722a7076": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#046f65766566716f7d606b4466656f6f652a636b722a7076",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
