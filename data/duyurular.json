@@ -11,7 +11,7 @@
       "ok": true,
       "checked": "2026-10-14",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 148902 byte HTML, 105 link, 39 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 149049 byte HTML, 105 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
@@ -83,7 +83,7 @@
       "ok": true,
       "checked": "2026-10-14",
       "found": 71,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54464 byte HTML, 123 link, 86 olası duyuru"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54460 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
       "ok": true,
@@ -137,7 +137,7 @@
       "ok": true,
       "checked": "2026-10-14",
       "found": 21,
-      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 183557 byte HTML, 130 link, 53 olası duyuru"
+      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 173787 byte HTML, 129 link, 53 olası duyuru"
     },
     "oran": {
       "ok": true,
@@ -149,7 +149,7 @@
       "ok": true,
       "checked": "2026-10-14",
       "found": 3,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 485623 byte HTML, 652 link, 181 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 486125 byte HTML, 651 link, 181 olası duyuru"
     },
     "gmka": {
       "ok": true,
@@ -173,7 +173,7 @@
       "ok": true,
       "checked": "2026-10-14",
       "found": 60,
-      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32620 byte HTML, 139 link, 90 olası duyuru"
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32629 byte HTML, 139 link, 90 olası duyuru"
     },
     "zafer": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-14",
       "found": 115,
-      "diag": "/ -> HTTP 200, 915733 byte HTML, 260 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 915767 byte HTML, 260 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-10-14",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 370816 byte HTML, 263 link, 191 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 370112 byte HTML, 263 link, 191 olası duyuru"
     },
     "gsb": {
       "ok": false,
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-10-14T11:26:23Z",
-    "pending_count": 2323
+    "checked_at": "2026-10-14T19:10:30Z",
+    "pending_count": 2325
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -34754,6 +34754,52 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#503b31223132253b29343f1032313b3b317e373f267e2422": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#503b31223132253b29343f1032313b3b317e373f267e2422",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-14",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-2026-maden-teknolojileri-yarismasi-final-siralamalari-aciklandi/": {
+      "title": "14.10.2026YARIŞMATEKNOFEST 2026 Maden Teknolojileri Yarışması Final Sıralamaları AçıklandıTEKNOFEST kapsamında düzenlenen Maden Teknolojileri Yarışması final sonuçları açıklanmıştır.",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-2026-maden-teknolojileri-yarismasi-final-siralamalari-aciklandi/",
+      "date": "2026-10-14",
+      "on_tarihler": [
+        "2026-10-14"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-10-14",
+      "olasi_tur": "belirsiz"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-2026-finansal-teknolojiler-yarismasi-final-siralamalari-aciklandi/": {
+      "title": "14.10.2026YARIŞMATEKNOFEST 2026 Finansal Teknolojiler Yarışması Final Sıralamaları AçıklandıTEKNOFEST 2026 Finansal Teknolojiler Yarışması final sıralamaları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-2026-finansal-teknolojiler-yarismasi-final-siralamalari-aciklandi/",
+      "date": "2026-10-14",
+      "on_tarihler": [
+        "2026-10-14"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-10-14",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#7e041110190b121a1f15071a113e1c1f15151f50191108500a0c": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#7e041110190b121a1f15071a113e1c1f15151f50191108500a0c",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-14",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#583a392a2c3136213c37183a39333339763f372e762c2a": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#583a392a2c3136213c37183a39333339763f372e762c2a",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
