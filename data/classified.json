@@ -35,7 +35,7 @@
       "ok": true,
       "checked": "2026-10-16",
       "found": 18,
-      "diag": "/tr/duyuru -> HTTP 200, 95444 byte HTML, 214 link, 18 olası duyuru"
+      "diag": "/tr/duyuru -> HTTP 200, 95417 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": true,
@@ -95,7 +95,7 @@
       "ok": true,
       "checked": "2026-10-16",
       "found": 28,
-      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 283740 byte HTML, 298 link, 66 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 281289 byte HTML, 293 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -143,7 +143,7 @@
       "ok": true,
       "checked": "2026-10-16",
       "found": 77,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 108211 byte HTML, 184 link, 120 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 108148 byte HTML, 184 link, 120 olası duyuru"
     },
     "marka": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-16",
       "found": 115,
-      "diag": "/ -> HTTP 200, 915837 byte HTML, 260 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 915813 byte HTML, 260 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -233,13 +233,13 @@
       "ok": true,
       "checked": "2026-10-16",
       "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215552 byte HTML, 587 link, 390 olası duyuru"
+      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215576 byte HTML, 587 link, 390 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
       "checked": "2026-10-16",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 370117 byte HTML, 263 link, 191 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 369653 byte HTML, 263 link, 191 olası duyuru"
     },
     "gsb": {
       "ok": false,
@@ -33803,6 +33803,109 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#87e5e6f5f3eee9fee3e8c7e5e6ecece6a9e0e8f1a9f3f5": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#87e5e6f5f3eee9fee3e8c7e5e6ecece6a9e0e8f1a9f3f5",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-16",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/1007-programi-balistik-kiyafet-gelistirilmesi-projesi-cagrisi-acildi": {
+      "title": "1007 Programı Balistik Kıyafet Geliştirilmesi Projesi Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/1007-programi-balistik-kiyafet-gelistirilmesi-projesi-cagrisi-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-10-16",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/1007-programi-balistik-amacli-aromatik-poliamid-gelistirilmesi-projesi-cagrisi-acildi": {
+      "title": "1007 Programı Balistik Amaçlı Aromatik Poliamid Geliştirilmesi Projesi Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/1007-programi-balistik-amacli-aromatik-poliamid-gelistirilmesi-projesi-cagrisi-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-10-16",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.ktb.gov.tr/TR-476247/tc-kultur-ve-turizm-bakanligi-sozlesmeli-bilisim-personeli-alimi-ilani.html": {
+      "title": "T.C. KÜLTÜR VE TURİZM BAKANLIĞI SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIMI İLANI",
+      "url": "https://www.ktb.gov.tr/TR-476247/tc-kultur-ve-turizm-bakanligi-sozlesmeli-bilisim-personeli-alimi-ilani.html",
+      "date": "2026-10-16",
+      "on_tarihler": [],
+      "source": "Kültür ve Turizm Bakanlığı",
+      "source_id": "ktb",
+      "first_seen": "2026-10-16",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7327/Bakan-Yumakli-Birlesmis-Milletler-Biyolojik-Cesitlilik-Sozlesmesi-17-Taraflar-Konferansina-Katildi": {
+      "title": "BAKAN YUMAKLI, BİRLEŞMİŞ MİLLETLER BİYOLOJİK ÇEŞİTLİLİK SÖZLEŞMESİ 17. TARAFLAR KONFERANSI’NA KATILDI",
+      "url": "https://www.tarimorman.gov.tr/Haber/7327/Bakan-Yumakli-Birlesmis-Milletler-Biyolojik-Cesitlilik-Sozlesmesi-17-Taraflar-Konferansina-Katildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-10-16",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bebka.org.tr/orta-karadeniz-kalkinma-ajansi-personel-alim-ilani-2/": {
+      "title": "Orta Karadeniz Kalkınma Ajansı Personel Alım İlanı",
+      "url": "https://bebka.org.tr/orta-karadeniz-kalkinma-ajansi-personel-alim-ilani-2/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)",
+      "source_id": "bebka",
+      "first_seen": "2026-10-16",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bebka.org.tr/istanbul-kalkinma-ajansi-personel-alim-ilani-3/": {
+      "title": "İstanbul Kalkınma Ajansı Personel Alım İlanı",
+      "url": "https://bebka.org.tr/istanbul-kalkinma-ajansi-personel-alim-ilani-3/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)",
+      "source_id": "bebka",
+      "first_seen": "2026-10-16",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bebka.org.tr/turkiye-siber-vatan-programi-2027-donemi-basvurulari-basladi/": {
+      "title": "Türkiye Siber Vatan Programı 2027 Dönemi Başvuruları Başladı",
+      "url": "https://bebka.org.tr/turkiye-siber-vatan-programi-2027-donemi-basvurulari-basladi/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)",
+      "source_id": "bebka",
+      "first_seen": "2026-10-16",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.oran.org.tr/duyuru/istanbul-kalkinma-ajansi-personel-alimi-ilani": {
+      "title": "Ekim 16, 2026İstanbul Kalkınma Ajansı Personel Alımı İlanıİstanbul Kalkınma Ajansı 29.09.2019 Tarih ve 30788 Sayılı Resmi Gazete'de yayınlanan Kalkınma Ajansları\r\nPersonel Yönetmeliği hükümleri çerçevesinde;",
+      "url": "https://www.oran.org.tr/duyuru/istanbul-kalkinma-ajansi-personel-alimi-ilani",
+      "date": "2019-09-29",
+      "on_tarihler": [
+        "2019-09-29"
+      ],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-10-16",
+      "olasi_tur": "haber_olabilir"
+    },
+    "https://www.kuzka.gov.tr/page/turizm-master-plani-449": {
+      "title": "Turizm Master Planı",
+      "url": "https://www.kuzka.gov.tr/page/turizm-master-plani-449",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-10-16",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#55373427213c3b2c313a1537343e3e347b323a237b2127": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#55373427213c3b2c313a1537343e3e347b323a237b2127",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
