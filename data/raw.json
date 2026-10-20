@@ -17,7 +17,7 @@
       "ok": true,
       "checked": "2026-10-20",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 39720 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 39875 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": false,
@@ -38,10 +38,10 @@
       "diag": "/tr/duyuru -> HTTP 200, 95454 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-10-20",
-      "found": 16,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 74393 byte HTML, 216 link, 21 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     "ua_erasmus": {
       "ok": true,
@@ -131,13 +131,13 @@
       "ok": true,
       "checked": "2026-10-20",
       "found": 45,
-      "diag": "/ -> HTTP 200, 123503 byte HTML, 280 link, 64 olası duyuru"
+      "diag": "/ -> HTTP 200, 123553 byte HTML, 280 link, 64 olası duyuru"
     },
     "doka": {
       "ok": true,
       "checked": "2026-10-20",
       "found": 21,
-      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 167739 byte HTML, 133 link, 53 olası duyuru"
+      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 167725 byte HTML, 133 link, 53 olası duyuru"
     },
     "oran": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-20",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912841 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912884 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -227,7 +227,7 @@
       "ok": true,
       "checked": "2026-10-20",
       "found": 15,
-      "diag": "/duyurular -> HTTP 200, 156220 byte HTML, 39 link, 17 olası duyuru"
+      "diag": "/duyurular -> HTTP 200, 155931 byte HTML, 39 link, 17 olası duyuru"
     },
     "ktb": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-10-20",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 369789 byte HTML, 261 link, 191 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 370904 byte HTML, 263 link, 191 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -30231,9 +30231,9 @@
       "first_seen": "2026-10-20"
     },
     "https://oka.gov.tr/haber/ugurludag-da-dogal-malzemeler-ozgun-tasarimlara-donustu": {
-      "title": "20EKİM2026Uğurludağ’da Doğal Malzemeler Özgün Tasarımlara Dönüştü",
+      "title": "19EKİM2026Uğurludağ’da Doğal Malzemeler Özgün Tasarımlara Dönüştü",
       "url": "https://oka.gov.tr/haber/ugurludag-da-dogal-malzemeler-ozgun-tasarimlara-donustu",
-      "date": "2026-10-20",
+      "date": "2026-10-19",
       "on_tarihler": [],
       "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
       "source_id": "oka",
@@ -30269,6 +30269,51 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#e78c86958685928c9e8388a785868c8c86c9808891c99395": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e78c86958685928c9e8388a785868c8c86c9808891c99395",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-20"
+    },
+    "https://oka.gov.tr/haber/samsun-da-hidrolik-sistemlere-yonelik-teknik-yetkinliklerin-gelistirilmesi-desteklendi": {
+      "title": "20EKİM2026Samsun’da Hidrolik Sistemlere Yönelik Teknik Yetkinliklerin Geliştirilmesi Desteklendi",
+      "url": "https://oka.gov.tr/haber/samsun-da-hidrolik-sistemlere-yonelik-teknik-yetkinliklerin-gelistirilmesi-desteklendi",
+      "date": "2026-10-20",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-10-20"
+    },
+    "https://www.kuzka.gov.tr/news/tc-istanbul-kalkinma-ajansi-istka-personel-alim-ilani-454": {
+      "title": "20EkimT.C. İstanbul Kalkınma Ajansı (İSTKA) Personel Alım İlanı",
+      "url": "https://www.kuzka.gov.tr/news/tc-istanbul-kalkinma-ajansi-istka-personel-alim-ilani-454",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-10-20"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#166c797871637a72777d6f72795674777d7d7738717960386264": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#166c797871637a72777d6f72795674777d7d7738717960386264",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-20"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#204b41524142554b59444f6042414b4b410e474f560e5452": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#204b41524142554b59444f6042414b4b410e474f560e5452",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-20"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#1a787b686e7374637e755a787b71717b347d756c346e68": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#1a787b686e7374637e755a787b71717b347d756c346e68",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
