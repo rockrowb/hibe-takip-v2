@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-10-21",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 56195 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 56102 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -59,7 +59,7 @@
       "ok": true,
       "checked": "2026-10-21",
       "found": 25,
-      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 155447 byte HTML, 92 link, 28 olası duyuru"
+      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 155332 byte HTML, 92 link, 28 olası duyuru"
     },
     "stgm": {
       "ok": false,
@@ -137,7 +137,7 @@
       "ok": true,
       "checked": "2026-10-21",
       "found": 21,
-      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 167725 byte HTML, 133 link, 53 olası duyuru"
+      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 179265 byte HTML, 133 link, 53 olası duyuru"
     },
     "oran": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-10-21",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 261911 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 261954 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-21",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912928 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912864 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -245,7 +245,7 @@
       "ok": true,
       "checked": "2026-10-21",
       "found": 22,
-      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 53997 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54647 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "items": {
@@ -34452,6 +34452,51 @@
       "source_id": "bakka",
       "first_seen": "2026-10-21",
       "olasi_tur": "belirsiz"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/303543-bakan-baktan-turkiye-b1-kadinlar-gorme-engelliler-futbol-milli-takimi-icin-tebrik-mesaji": {
+      "title": "BAKAN BAK’TAN TÜRKİYE B1 KADINLAR GÖRME ENGELLİLER FUTBOL MİLLİ TAKIMI İÇİN TEBRİK MESAJI07.10.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/303543-bakan-baktan-turkiye-b1-kadinlar-gorme-engelliler-futbol-milli-takimi-icin-tebrik-mesaji",
+      "date": "2026-10-07",
+      "on_tarihler": [
+        "2026-10-07"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-10-21",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#f68c999891839a92979d8f9299b694979d9d97d8919980d88284": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#f68c999891839a92979d8f9299b694979d9d97d8919980d88284",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-21",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#9af1fbe8fbf8eff1e3fef5daf8fbf1f1fbb4fdf5ecb4eee8": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#9af1fbe8fbf8eff1e3fef5daf8fbf1f1fbb4fdf5ecb4eee8",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-21",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#ec8e8d9e988582958883ac8e8d87878dc28b839ac2989e": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#ec8e8d9e988582958883ac8e8d87878dc28b839ac2989e",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-21",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
     }
   }
 }
