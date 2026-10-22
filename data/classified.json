@@ -5,7 +5,7 @@
       "ok": true,
       "checked": "2026-10-22",
       "found": 3,
-      "diag": "/destekler -> HTTP 200, 605238 byte HTML, 29 link, 23 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 589459 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
@@ -38,10 +38,10 @@
       "diag": "/tr/duyuru -> HTTP 200, 95454 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-10-22",
-      "found": 4,
-      "diag": "/destekler -> HTTP 200, 56195 byte HTML, 161 link, 5 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     "ua_erasmus": {
       "ok": true,
@@ -83,7 +83,7 @@
       "ok": true,
       "checked": "2026-10-22",
       "found": 71,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54460 byte HTML, 123 link, 86 olası duyuru"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54464 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
       "ok": true,
@@ -131,7 +131,7 @@
       "ok": true,
       "checked": "2026-10-22",
       "found": 45,
-      "diag": "/ -> HTTP 200, 123544 byte HTML, 280 link, 64 olası duyuru"
+      "diag": "/ -> HTTP 200, 123396 byte HTML, 280 link, 64 olası duyuru"
     },
     "doka": {
       "ok": true,
@@ -167,13 +167,13 @@
       "ok": true,
       "checked": "2026-10-22",
       "found": 2,
-      "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37196 byte HTML, 120 link, 61 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37227 byte HTML, 120 link, 61 olası duyuru"
     },
     "trakyaka": {
       "ok": true,
       "checked": "2026-10-22",
       "found": 60,
-      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32620 byte HTML, 139 link, 90 olası duyuru"
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32629 byte HTML, 139 link, 90 olası duyuru"
     },
     "zafer": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-22",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912864 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912860 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -34551,6 +34551,27 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#cfb5a0a1a8baa3abaea4b6aba08fadaea4a4aee1a8a0b9e1bbbd": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#cfb5a0a1a8baa3abaea4b6aba08fadaea4a4aee1a8a0b9e1bbbd",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-22",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://oka.gov.tr/duyuru/t-c-orta-anadolu-kalkinma-ajansi-oran-personel-alim-ilani": {
+      "title": "22EKİMT.C. Orta Anadolu Kalkınma Ajansı (ORAN) Personel Alım İlanı",
+      "url": "https://oka.gov.tr/duyuru/t-c-orta-anadolu-kalkinma-ajansi-oran-personel-alim-ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-10-22",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#6a080b181e0304130e052a080b01010b440d051c441e18": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6a080b181e0304130e052a080b01010b440d051c441e18",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
