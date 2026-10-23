@@ -38,10 +38,10 @@
       "diag": "/tr/duyuru -> HTTP 200, 95454 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-10-23",
-      "found": 4,
-      "diag": "/destekler -> HTTP 200, 56102 byte HTML, 161 link, 5 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -5] No address associated with hostname)\"))"
     },
     "ua_erasmus": {
       "ok": true,
@@ -77,7 +77,7 @@
       "ok": true,
       "checked": "2026-10-23",
       "found": 24,
-      "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 134660 byte HTML, 127 link, 60 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 134648 byte HTML, 127 link, 60 olası duyuru"
     },
     "ankaraka": {
       "ok": true,
@@ -137,7 +137,7 @@
       "ok": true,
       "checked": "2026-10-23",
       "found": 21,
-      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 179265 byte HTML, 133 link, 53 olası duyuru"
+      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 185396 byte HTML, 133 link, 53 olası duyuru"
     },
     "oran": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-10-23",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 261911 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 261954 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-23",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912875 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912887 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -215,7 +215,7 @@
       "ok": true,
       "checked": "2026-10-23",
       "found": 65,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66889 byte HTML, 167 link, 73 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 67908 byte HTML, 168 link, 73 olası duyuru"
     },
     "dika": {
       "ok": true,
@@ -239,13 +239,13 @@
       "ok": true,
       "checked": "2026-10-23",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 369947 byte HTML, 263 link, 191 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 369418 byte HTML, 263 link, 191 olası duyuru"
     },
     "gsb": {
       "ok": true,
       "checked": "2026-10-23",
       "found": 22,
-      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54647 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54768 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "items": {
@@ -25073,7 +25073,7 @@
     "https://www.gsb.gov.tr/tr/duyuru/302554-2026-yili-surekli-isci-alimi-sozlu-sinav-sonuc-duyurusu": {
       "title": "19Ağustos20262026 YILI SÜREKLİ İŞÇİ ALIMI SÖZLÜ SINAV SONUÇ DUYURUSU",
       "url": "https://www.gsb.gov.tr/tr/duyuru/302554-2026-yili-surekli-isci-alimi-sozlu-sinav-sonuc-duyurusu",
-      "date": "2026-10-02",
+      "date": "2026-10-23",
       "on_tarihler": [],
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
@@ -28115,7 +28115,7 @@
     "https://www.gsb.gov.tr/tr/duyuru/302877-2026-yili-sozlesmeli-antrenor-alimi-sozlu-ve-uygulamali-sinav-duyurusu": {
       "title": "7Eylül20262026 YILI SÖZLEŞMELİ ANTRENÖR ALIMI SÖZLÜ VE UYGULAMALI SINAV DUYURUSU",
       "url": "https://www.gsb.gov.tr/tr/duyuru/302877-2026-yili-sozlesmeli-antrenor-alimi-sozlu-ve-uygulamali-sinav-duyurusu",
-      "date": "2026-10-02",
+      "date": "2026-10-23",
       "on_tarihler": [],
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
@@ -29748,7 +29748,7 @@
     "https://www.gsb.gov.tr/tr/duyuru/303073-2026-yili-sozlesmeli-bilisim-personeli-alimi-duyurusu": {
       "title": "18Eylül20262026 YILI SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIMI DUYURUSU",
       "url": "https://www.gsb.gov.tr/tr/duyuru/303073-2026-yili-sozlesmeli-bilisim-personeli-alimi-duyurusu",
-      "date": "2026-10-02",
+      "date": "2026-10-23",
       "on_tarihler": [],
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
@@ -32086,7 +32086,7 @@
     "https://www.gsb.gov.tr/tr/duyuru/303398-2026-yili-sozlesmeli-yurt-yonetim-personeli-ve-genclik-calisani-alimi-sozlu-sinav-duyurusu": {
       "title": "2Ekim20262026 YILI SÖZLEŞMELİ YURT YÖNETİM PERSONELİ ve GENÇLİK ÇALIŞANI ALIMI SÖZLÜ SINAV DUYURUSU",
       "url": "https://www.gsb.gov.tr/tr/duyuru/303398-2026-yili-sozlesmeli-yurt-yonetim-personeli-ve-genclik-calisani-alimi-sozlu-sinav-duyurusu",
-      "date": "2026-10-02",
+      "date": "2026-10-23",
       "on_tarihler": [],
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
@@ -34645,6 +34645,58 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#74161506001d1a0d101b3416151f1f155a131b025a0006": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#74161506001d1a0d101b3416151f1f155a131b025a0006",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-23",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7346/Tarim-Ve-Orman-Bakani-Yumakli-Kastamonuda-Konustu": {
+      "title": "TARIM VE ORMAN BAKANI YUMAKLI, KASTAMONU'DA KONUŞTU",
+      "url": "https://www.tarimorman.gov.tr/Haber/7346/Tarim-Ve-Orman-Bakani-Yumakli-Kastamonuda-Konustu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-10-23",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.gsb.gov.tr/tr/duyuru/304956-2026-yili-sozlesmeli-diyetisyen-psikolog-ve-sosyal-calismaci-alimi-sozlu-sinav-duyurusu": {
+      "title": "23Ekim20262026 YILI SÖZLEŞMELİ DİYETİSYEN, PSİKOLOG VE SOSYAL ÇALIŞMACI ALIMI SÖZLÜ SINAV DUYURUSU",
+      "url": "https://www.gsb.gov.tr/tr/duyuru/304956-2026-yili-sozlesmeli-diyetisyen-psikolog-ve-sosyal-calismaci-alimi-sozlu-sinav-duyurusu",
+      "date": "2026-10-23",
+      "on_tarihler": [],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-10-23",
+      "olasi_tur": "belirsiz"
+    },
+    "https://fka.gov.tr/2026-yili-uygulamali-dis-ticaret-danismanligi-programi-basvuru-cagrisi-detayi-17927374691517": {
+      "title": "2026 Yılı Uygulamalı Dış Ticaret Danışmanlığı Programı Başvuru Çağrısı",
+      "url": "https://fka.gov.tr/2026-yili-uygulamali-dis-ticaret-danismanligi-programi-basvuru-cagrisi-detayi-17927374691517",
+      "date": "2026-10-23",
+      "on_tarihler": [],
+      "source": "FKA (Fırat Kalkınma Ajansı)",
+      "source_id": "fka",
+      "first_seen": "2026-10-23",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#c2a9a3b0a3a0b7a9bba6ad82a0a3a9a9a3eca5adb4ecb6b0": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#c2a9a3b0a3a0b7a9bba6ad82a0a3a9a9a3eca5adb4ecb6b0",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-23",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#91f3f0e3e5f8ffe8f5fed1f3f0fafaf0bff6fee7bfe5e3": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#91f3f0e3e5f8ffe8f5fed1f3f0fafaf0bff6fee7bfe5e3",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
