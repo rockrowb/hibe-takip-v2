@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-10-24",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55961 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 56054 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-24",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912871 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912865 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -230,10 +230,10 @@
       "diag": "/duyurular -> HTTP 200, 155855 byte HTML, 39 link, 17 olası duyuru"
     },
     "ktb": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-10-24",
-      "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215818 byte HTML, 587 link, 390 olası duyuru"
+      "found": 0,
+      "diag": "/TR-9857/duyurular.html -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "tarim_orman": {
       "ok": true,
