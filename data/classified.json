@@ -17,7 +17,7 @@
       "ok": true,
       "checked": "2026-10-26",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 40534 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 40509 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": false,
@@ -35,13 +35,13 @@
       "ok": true,
       "checked": "2026-10-26",
       "found": 18,
-      "diag": "/tr/duyuru -> HTTP 200, 95454 byte HTML, 214 link, 18 olası duyuru"
+      "diag": "/tr/duyuru -> HTTP 200, 95389 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-10-26",
-      "found": 4,
-      "diag": "/destekler -> HTTP 200, 56204 byte HTML, 162 link, 5 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     "ua_erasmus": {
       "ok": true,
@@ -131,7 +131,7 @@
       "ok": true,
       "checked": "2026-10-26",
       "found": 45,
-      "diag": "/ -> HTTP 200, 123315 byte HTML, 280 link, 64 olası duyuru"
+      "diag": "/ -> HTTP 200, 123254 byte HTML, 280 link, 64 olası duyuru"
     },
     "doka": {
       "ok": true,
@@ -149,7 +149,7 @@
       "ok": true,
       "checked": "2026-10-26",
       "found": 3,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 485965 byte HTML, 650 link, 181 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 483910 byte HTML, 650 link, 181 olası duyuru"
     },
     "gmka": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-26",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912891 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912859 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-10-26",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 371470 byte HTML, 265 link, 191 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15923 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 371411 byte HTML, 265 link, 191 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -34870,6 +34870,78 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#44262536302d2a3d202b0426252f2f256a232b326a3036": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#44262536302d2a3d202b0426252f2f256a232b326a3036",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-26",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/denizli-ufuk-avrupa-ulusal-bilgi-gunu-gerceklestirildi": {
+      "title": "Denizli Ufuk Avrupa Ulusal Bilgi Günü Gerçekleştirildi",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/denizli-ufuk-avrupa-ulusal-bilgi-gunu-gerceklestirildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-10-26",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/era4health-ortakligi-2027-cagrisi-bulasici-olmayan-hastaliklarin-tespitinin-ve-klinik": {
+      "title": "ERA4Health Ortaklığı 2027 Çağrısı \"Bulaşıcı Olmayan Hastalıkların Tespitinin ve Klinik Yönetiminin İyileştirilmesine Yönelik Tanı ve Teranostik Araçların Geliştirilmesinde Nano ve İleri Teknolojiler (NanoDiagNCD)\" 17 Kasım 2026 Tarihinde Açılacak!",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/era4health-ortakligi-2027-cagrisi-bulasici-olmayan-hastaliklarin-tespitinin-ve-klinik",
+      "date": "2026-11-17",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-10-26",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi": {
+      "title": "Eureka Network Türkiye-İspanya 2026 Yılı Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-10-26",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2735/6-Bolge-Mudurlugu-Antalya-Koprulu-Kanyon-Milli-Parki-Isletmecilik-Ihale-Ilani": {
+      "title": "6. Bölge Müdürlüğü Antalya Köprülü Kanyon Milli Parkı İşletmecilik İhale İlanı",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2735/6-Bolge-Mudurlugu-Antalya-Koprulu-Kanyon-Milli-Parki-Isletmecilik-Ihale-Ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-10-26",
+      "olasi_tur": "belirsiz"
+    },
+    "https://oka.gov.tr/haber/corum-teknokent-te-oka-destegiyle-girisimcilerin-yatirima-hazirlik-sureci-destekleniyor": {
+      "title": "26EKİM2026Çorum Teknokent’te OKA Desteğiyle Girişimcilerin Yatırıma Hazırlık Süreci Destekleniyor",
+      "url": "https://oka.gov.tr/haber/corum-teknokent-te-oka-destegiyle-girisimcilerin-yatirima-hazirlik-sureci-destekleniyor",
+      "date": "2026-10-26",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-10-26",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#1873796a797a6d73617c77587a79737379367f776e366c6a": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#1873796a797a6d73617c77587a79737379367f776e366c6a",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-26",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#6f0d0e1d1b0601160b002f0d0e04040e41080019411b1d": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6f0d0e1d1b0601160b002f0d0e04040e41080019411b1d",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
