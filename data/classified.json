@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-10-28",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 74109 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67880 byte HTML, 132 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 73603 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67880 byte HTML, 132 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -38,10 +38,10 @@
       "diag": "/tr/duyuru -> HTTP 200, 95038 byte HTML, 212 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-10-28",
-      "found": 0,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\"))"
+      "found": 14,
+      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 74805 byte HTML, 216 link, 21 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -173,7 +173,7 @@
       "ok": true,
       "checked": "2026-10-28",
       "found": 60,
-      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32620 byte HTML, 139 link, 90 olası duyuru"
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32629 byte HTML, 139 link, 90 olası duyuru"
     },
     "zafer": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-28",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912849 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912893 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-10-28",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 373897 byte HTML, 267 link, 193 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 374147 byte HTML, 267 link, 193 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -35519,6 +35519,47 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#e89287868f9d848c8983918c87a88a89838389c68f879ec69c9a": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e89287868f9d848c8983918c87a88a89838389c68f879ec69c9a",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-28",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://ticaret.gov.tr/duyurular/ticaret-bakanligi-ihracat-surecleri-ve-devlet-destekleri-egitim-programi-24-25-26-kasim-2026": {
+      "title": "Ticaret Bakanlığı İhracat Süreçleri ve Devlet Destekleri Eğitim Programı-24-25-26 Kasım 2026",
+      "url": "https://ticaret.gov.tr/duyurular/ticaret-bakanligi-ihracat-surecleri-ve-devlet-destekleri-egitim-programi-24-25-26-kasim-2026",
+      "date": "2026-11-26",
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-10-28",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ticaret.gov.tr/duyurular/29-tuketici-odulleri-sahiplerini-buldu": {
+      "title": "29. TÜKETİCİ ÖDÜLLERİ SAHİPLERİNİ BULDU",
+      "url": "https://ticaret.gov.tr/duyurular/29-tuketici-odulleri-sahiplerini-buldu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ticaret Bakanlığı",
+      "source_id": "ticaret_bakanligi",
+      "first_seen": "2026-10-28",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7351/Pancar-Ureticisi-Ciftcilerin-Hesaplarina-952-Milyon-Liralik-5inci-Avans-Odemeleri-Aktarildi": {
+      "title": "PANCAR ÜRETİCİSİ ÇİFTÇİLERİN HESAPLARINA 952 MİLYON LİRALIK 5'İNCİ AVANS ÖDEMELERİ AKTARILDI",
+      "url": "https://www.tarimorman.gov.tr/Haber/7351/Pancar-Ureticisi-Ciftcilerin-Hesaplarina-952-Milyon-Liralik-5inci-Avans-Odemeleri-Aktarildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-10-28",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#8ce7edfeedeef9e7f5e8e3cceeede7e7eda2ebe3faa2f8fe": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#8ce7edfeedeef9e7f5e8e3cceeede7e7eda2ebe3faa2f8fe",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
