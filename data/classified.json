@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-10-29",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 74891 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67880 byte HTML, 132 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 73603 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67880 byte HTML, 132 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -40,8 +40,8 @@
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-10-29",
-      "found": 14,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 74805 byte HTML, 216 link, 21 olası duyuru"
+      "found": 4,
+      "diag": "/destekler -> HTTP 200, 56091 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-10-29",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260657 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260614 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-29",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912847 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912901 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -230,16 +230,16 @@
       "diag": "/duyurular -> HTTP 200, 291675 byte HTML, 107 link, 70 olası duyuru"
     },
     "ktb": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-10-29",
-      "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215818 byte HTML, 587 link, 390 olası duyuru"
+      "found": 0,
+      "diag": "/TR-9857/duyurular.html -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi)"
     },
     "tarim_orman": {
       "ok": true,
       "checked": "2026-10-29",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 373082 byte HTML, 265 link, 193 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 373826 byte HTML, 267 link, 193 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -35602,6 +35602,28 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#07656675736e697e63684765666c6c6629606871297375": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#07656675736e697e63684765666c6c6629606871297375",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-29",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#6b1104050c1e070f0a00120f042b090a00000a450c041d451f19": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6b1104050c1e070f0a00120f042b090a00000a450c041d451f19",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-29",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#eb808a998a899e80928f84ab898a80808ac58c849dc59f99": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#eb808a998a899e80928f84ab898a80808ac58c849dc59f99",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
