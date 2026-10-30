@@ -17,7 +17,7 @@
       "ok": true,
       "checked": "2026-10-30",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 40490 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 40382 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": false,
@@ -40,8 +40,8 @@
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-10-30",
-      "found": 14,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 74805 byte HTML, 216 link, 21 olası duyuru"
+      "found": 4,
+      "diag": "/destekler -> HTTP 200, 55998 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -83,7 +83,7 @@
       "ok": true,
       "checked": "2026-10-30",
       "found": 72,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54723 byte HTML, 124 link, 87 olası duyuru"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54719 byte HTML, 124 link, 87 olası duyuru"
     },
     "izka": {
       "ok": true,
@@ -95,7 +95,7 @@
       "ok": true,
       "checked": "2026-10-30",
       "found": 28,
-      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 279185 byte HTML, 290 link, 66 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 279271 byte HTML, 290 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -161,7 +161,7 @@
       "ok": true,
       "checked": "2026-10-30",
       "found": 131,
-      "diag": "/ -> HTTP 200, 214930 byte HTML, 359 link, 214 olası duyuru"
+      "diag": "/ -> HTTP 200, 215971 byte HTML, 360 link, 214 olası duyuru"
     },
     "ika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-30",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912851 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912879 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-10-30",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 373826 byte HTML, 267 link, 193 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 373405 byte HTML, 267 link, 193 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -283,8 +283,8 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-10-30T12:22:48Z",
-    "pending_count": 2445
+    "checked_at": "2026-10-30T19:51:34Z",
+    "pending_count": 2452
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -36869,6 +36869,98 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#c5aea4b7a4a7b0aebca1aa85a7a4aeaea4eba2aab3ebb1b7": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#c5aea4b7a4a7b0aebca1aa85a7a4aeaea4eba2aab3ebb1b7",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-30",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/gaziantepte-yenilikci-avrupa-eic-eit-bilgi-gunu-27-kasim-2026": {
+      "title": "Gaziantep’te Yenilikçi Avrupa (EIC-EIT) Bilgi Günü, 27 Kasım 2026",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/gaziantepte-yenilikci-avrupa-eic-eit-bilgi-gunu-27-kasim-2026",
+      "date": "2026-11-27",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-10-30",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/2027-avrupa-deniz-yolu-tasimaciligi-gunleri": {
+      "title": "2027 Avrupa Deniz Yolu Taşımacılığı Günleri",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/2027-avrupa-deniz-yolu-tasimaciligi-gunleri",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-10-30",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7352/%e2%80%8bbakan-Yumakli-Genomik-Test-Merkezinin-Acilisini-Yapti": {
+      "title": "​BAKAN YUMAKLI, GENOMİK TEST MERKEZİ'NİN AÇILIŞINI YAPTI",
+      "url": "https://www.tarimorman.gov.tr/Haber/7352/%e2%80%8bbakan-Yumakli-Genomik-Test-Merkezinin-Acilisini-Yapti",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-10-30",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2740/16-Uluslararasi-Tarim-Orman-Ve-Insan-Fotograf-Yarismasi-Sonuclari-Aciklandi": {
+      "title": "16. Uluslararası Tarım Orman ve İnsan Fotoğraf Yarışması Sonuçları Açıklandı",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2740/16-Uluslararasi-Tarim-Orman-Ve-Insan-Fotograf-Yarismasi-Sonuclari-Aciklandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-10-30",
+      "olasi_tur": "sonuc_olabilir"
+    },
+    "https://bebka.org.tr/turkiye-siber-vatan-programi-2027-donemi-basvurulari-6-kasima-2026-tarihine-kadar-uzatildi/": {
+      "title": "Türkiye Siber Vatan Programı 2027 Dönemi Başvuruları 6 Kasım’a 2026 Tarihine Kadar Uzatıldı.",
+      "url": "https://bebka.org.tr/turkiye-siber-vatan-programi-2027-donemi-basvurulari-6-kasima-2026-tarihine-kadar-uzatildi/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)",
+      "source_id": "bebka",
+      "first_seen": "2026-10-30",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://geka.gov.tr/tr/haber/2026-yili-rekabetci-sanayi-isletmeleri-alternatif-destek-programi-6-donem-degerlendirme-sonuclari": {
+      "title": "2026 YILI REKABETÇİ SANAYİ İŞLETMELERİ ALTERNATİF DESTEK PROGRAMI (6. DÖNEM) DEĞERLENDİRME SONUÇLARI",
+      "url": "https://geka.gov.tr/tr/haber/2026-yili-rekabetci-sanayi-isletmeleri-alternatif-destek-programi-6-donem-degerlendirme-sonuclari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "GEKA (Güney Ege Kalkınma Ajansı)",
+      "source_id": "geka",
+      "first_seen": "2026-10-30",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://geka.gov.tr/tr/haber/2026-yili-rekabetci-sanayi-isletmeleri-alternatif-destek-programi-basvuru-donemleri-revize-edilmistir": {
+      "title": "2026 YILI REKABETÇİ SANAYİ İŞLETMELERİ ALTERNATİF DESTEK PROGRAMI BAŞVURU DÖNEMLERİ REVİZE EDİLMİŞTİR",
+      "url": "https://geka.gov.tr/tr/haber/2026-yili-rekabetci-sanayi-isletmeleri-alternatif-destek-programi-basvuru-donemleri-revize-edilmistir",
+      "date": null,
+      "on_tarihler": [],
+      "source": "GEKA (Güney Ege Kalkınma Ajansı)",
+      "source_id": "geka",
+      "first_seen": "2026-10-30",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#7813190a191a0d13011c17381a19131319561f170e560c0a": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#7813190a191a0d13011c17381a19131319561f170e560c0a",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-30",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#eb898a999f8285928f84ab898a80808ac58c849dc59f99": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#eb898a999f8285928f84ab898a80808ac58c849dc59f99",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
