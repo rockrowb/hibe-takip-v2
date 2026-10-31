@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-10-31",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 74891 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67880 byte HTML, 132 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 73603 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67880 byte HTML, 132 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -40,8 +40,8 @@
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-10-31",
-      "found": 14,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 74620 byte HTML, 216 link, 21 olası duyuru"
+      "found": 4,
+      "diag": "/destekler -> HTTP 200, 56091 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-10-31",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260657 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260614 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-10-31",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912919 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912907 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,13 +239,13 @@
       "ok": true,
       "checked": "2026-10-31",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 373001 byte HTML, 267 link, 193 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 373498 byte HTML, 267 link, 193 olası duyuru"
     },
     "gsb": {
       "ok": true,
       "checked": "2026-10-31",
       "found": 22,
-      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 55099 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54930 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "items": {
@@ -35790,6 +35790,50 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#c2b8adaca5b7aea6a3a9bba6ad82a0a3a9a9a3eca5adb4ecb6b0": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#c2b8adaca5b7aea6a3a9bba6ad82a0a3a9a9a3eca5adb4ecb6b0",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-31",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7354/Bakan-Yumakli-Sapanca-Golu-Eylem-Plani-Icin-5-Yil-Icinde-255-Milyar-Liralik-Yatirim-Yapilacak": {
+      "title": "BAKAN YUMAKLI: “SAPANCA GÖLÜ EYLEM PLANI İÇİN 5 YIL İÇİNDE 25,5 MİLYAR LİRALIK YATIRIM YAPILACAK”",
+      "url": "https://www.tarimorman.gov.tr/Haber/7354/Bakan-Yumakli-Sapanca-Golu-Eylem-Plani-Icin-5-Yil-Icinde-255-Milyar-Liralik-Yatirim-Yapilacak",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-10-31",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/303640-genclik-ve-spor-bakanligi-burskredi-basvurulari-basladi": {
+      "title": "GENÇLİK VE SPOR BAKANLIĞI BURS/KREDİ BAŞVURULARI BAŞLADI12.10.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/303640-genclik-ve-spor-bakanligi-burskredi-basvurulari-basladi",
+      "date": "2026-10-12",
+      "on_tarihler": [
+        "2026-10-12"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-10-31",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#c1bbaeafa6b4ada5a0aab8a5ae81a3a0aaaaa0efa6aeb7efb5b3": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#c1bbaeafa6b4ada5a0aab8a5ae81a3a0aaaaa0efa6aeb7efb5b3",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-31",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#33515241475a5d4a575c7351525858521d545c451d4741": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#33515241475a5d4a575c7351525858521d545c451d4741",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
