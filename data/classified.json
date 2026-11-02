@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-11-02",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 73603 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67880 byte HTML, 132 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 74891 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67880 byte HTML, 132 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -40,8 +40,8 @@
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-11-02",
-      "found": 14,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -5] No address associated with hostname)\")) | /duyurular -> HTTP 200, 74527 byte HTML, 216 link, 21 olası duyuru"
+      "found": 4,
+      "diag": "/destekler -> HTTP 200, 55998 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-11-02",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260657 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260614 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-11-02",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912876 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912872 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-11-02",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15971 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 374887 byte HTML, 268 link, 194 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15971 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 374983 byte HTML, 268 link, 194 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -35990,6 +35990,28 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#4c2e2d3e3825223528230c2e2d27272d622b233a62383e": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#4c2e2d3e3825223528230c2e2d27272d622b233a62383e",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-11-02",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#86fce9e8e1f3eae2e7edffe2e9c6e4e7edede7a8e1e9f0a8f2f4": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#86fce9e8e1f3eae2e7edffe2e9c6e4e7edede7a8e1e9f0a8f2f4",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-11-02",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6d1702030a1801090c061409022d0f0c06060c430a021b43191f"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#2f4d4e5d5b4641564b406f4d4e44444e01484059015b5d": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#2f4d4e5d5b4641564b406f4d4e44444e01484059015b5d",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
