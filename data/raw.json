@@ -5,7 +5,7 @@
       "ok": true,
       "checked": "2026-11-04",
       "found": 3,
-      "diag": "/destekler -> HTTP 200, 605335 byte HTML, 29 link, 23 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 605309 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
@@ -17,7 +17,7 @@
       "ok": true,
       "checked": "2026-11-04",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 40686 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 40728 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": false,
@@ -29,19 +29,19 @@
       "ok": true,
       "checked": "2026-11-04",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 73591 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67880 byte HTML, 132 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 74891 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67880 byte HTML, 132 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
       "checked": "2026-11-04",
       "found": 18,
-      "diag": "/tr/duyuru -> HTTP 200, 95316 byte HTML, 212 link, 18 olası duyuru"
+      "diag": "/tr/duyuru -> HTTP 200, 95160 byte HTML, 212 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-11-04",
-      "found": 4,
-      "diag": "/destekler -> HTTP 200, 56091 byte HTML, 161 link, 5 olası duyuru"
+      "found": 13,
+      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 74628 byte HTML, 216 link, 21 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -71,7 +71,7 @@
       "ok": false,
       "checked": "2026-11-04",
       "found": 0,
-      "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)')))"
+      "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1018)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1018)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1018)')))"
     },
     "istka": {
       "ok": true,
@@ -131,7 +131,7 @@
       "ok": true,
       "checked": "2026-11-04",
       "found": 45,
-      "diag": "/ -> HTTP 200, 123310 byte HTML, 280 link, 64 olası duyuru"
+      "diag": "/ -> HTTP 200, 123259 byte HTML, 280 link, 64 olası duyuru"
     },
     "doka": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-11-04",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 261933 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 261890 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-11-04",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912852 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912836 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -32021,6 +32021,51 @@
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#afcdcedddbc6c1d6cbc0efcdcec4c4ce81c8c0d981dbdd": {
       "title": "[email protected]",
       "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#afcdcedddbc6c1d6cbc0efcdcec4c4ce81c8c0d981dbdd",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-11-04"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/kisisellestirilmis-tip-icin-avrupa-ortakligi-ep-permed-hucre-ve-gen-tedavileri-cagrisi": {
+      "title": "Kişiselleştirilmiş Tıp için Avrupa Ortaklığı (EP PerMed)-Hücre ve Gen Tedavileri Çağrısı Başvuruya Açıldı",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/kisisellestirilmis-tip-icin-avrupa-ortakligi-ep-permed-hucre-ve-gen-tedavileri-cagrisi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-11-04"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-2026-2027-sosyal-ve-beseri-bilimler-firsatlari-rehberi-guncellendi": {
+      "title": "Ufuk Avrupa 2026-2027 Sosyal ve Beşeri Bilimler Fırsatları Rehberi Güncellendi!",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-2026-2027-sosyal-ve-beseri-bilimler-firsatlari-rehberi-guncellendi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-11-04"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/2244-sanayi-doktora-programi-2026-yili-cagrisi-acildi-0": {
+      "title": "2244–Sanayi Doktora Programı 2026 Yılı Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2244-sanayi-doktora-programi-2026-yili-cagrisi-acildi-0",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-11-04"
+    },
+    "https://oka.gov.tr/duyuru/zafer-kalkinma-ajansi-personel-alim-ilani": {
+      "title": "04KASIMZafer Kalkınma Ajansı Personel Alım İlanı",
+      "url": "https://oka.gov.tr/duyuru/zafer-kalkinma-ajansi-personel-alim-ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-11-04"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#690b081b1d0007100d06290b08020208470e061f471d1b": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#690b081b1d0007100d06290b08020208470e061f471d1b",
       "date": null,
       "on_tarihler": [],
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
