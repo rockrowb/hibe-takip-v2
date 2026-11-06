@@ -17,7 +17,7 @@
       "ok": true,
       "checked": "2026-11-06",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 40287 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 40288 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": false,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-11-06",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55998 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 56091 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -113,7 +113,7 @@
       "ok": true,
       "checked": "2026-11-06",
       "found": 1,
-      "diag": "/destekler -> HTTP 200, 28249 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35564 byte HTML, 94 link, 44 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 28249 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35611 byte HTML, 94 link, 44 olası duyuru"
     },
     "dogaka": {
       "ok": true,
@@ -188,16 +188,16 @@
       "diag": "/destekler -> HTTP 200, 29060 byte HTML, 147 link, 85 olası duyuru"
     },
     "kuzka": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-11-06",
-      "found": 115,
-      "diag": "/ -> HTTP 200, 912846 byte HTML, 259 link, 144 olası duyuru"
+      "found": 0,
+      "diag": "/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> HTTP 404"
     },
     "kudaka": {
       "ok": true,
       "checked": "2026-11-06",
       "found": 126,
-      "diag": "/home -> HTTP 200, 101835 byte HTML, 196 link, 135 olası duyuru"
+      "diag": "/home -> HTTP 200, 101822 byte HTML, 196 link, 135 olası duyuru"
     },
     "serka": {
       "ok": true,
@@ -220,8 +220,8 @@
     "dika": {
       "ok": true,
       "checked": "2026-11-06",
-      "found": 27,
-      "diag": "/destekler -> HTTP 200, 58243 byte HTML, 161 link, 61 olası duyuru"
+      "found": 34,
+      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> HTTP 200, 32190 byte HTML, 126 link, 63 olası duyuru"
     },
     "bakka": {
       "ok": true,
@@ -36524,6 +36524,127 @@
       "source_id": "fka",
       "first_seen": "2026-11-06",
       "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/eicmentor-turkiye-eic-hizlandirici-kisa-basvuru-gelistirme-destegi-cagrisi": {
+      "title": "EICMentor Türkiye EIC Hızlandırıcı Kısa Başvuru Geliştirme Desteği Çağrısı",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/eicmentor-turkiye-eic-hizlandirici-kisa-basvuru-gelistirme-destegi-cagrisi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-11-06",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.dika.org.tr/duyuru/zafer-kalkinma-ajansi-personel-alim-ilani/320": {
+      "title": "04KasımZafer Kalkınma Ajansı Personel Alım İlanıDEVAMINI OKU",
+      "url": "https://www.dika.org.tr/duyuru/zafer-kalkinma-ajansi-personel-alim-ilani/320",
+      "date": "2025-10-01",
+      "on_tarihler": [],
+      "source": "DİKA (Dicle Kalkınma Ajansı)",
+      "source_id": "dika",
+      "first_seen": "2026-11-06",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.dika.org.tr/duyuru/dogu-karadeniz-kalkinma-ajansi-doka-personel-alim-ilani/319": {
+      "title": "03KasımDoğu Karadeniz Kalkınma Ajansı (DOKA) Personel Alım İlanıDEVAMINI OKU",
+      "url": "https://www.dika.org.tr/duyuru/dogu-karadeniz-kalkinma-ajansi-doka-personel-alim-ilani/319",
+      "date": "2025-10-01",
+      "on_tarihler": [],
+      "source": "DİKA (Dicle Kalkınma Ajansı)",
+      "source_id": "dika",
+      "first_seen": "2026-11-06",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.dika.org.tr/duyuru/siirt-kurtalan-tekstil-atolyesi-davet-cagrisi/318": {
+      "title": "27EkimSiirt Kurtalan Tekstil Atölyesi Davet ÇağrısıDEVAMINI OKU",
+      "url": "https://www.dika.org.tr/duyuru/siirt-kurtalan-tekstil-atolyesi-davet-cagrisi/318",
+      "date": "2025-10-01",
+      "on_tarihler": [],
+      "source": "DİKA (Dicle Kalkınma Ajansı)",
+      "source_id": "dika",
+      "first_seen": "2026-11-06",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.dika.org.tr/duyuru/orta-anadolu-kalkinma-ajansi-oran-personel-alim-ilani/317": {
+      "title": "21EkimOrta Anadolu Kalkınma Ajansı (ORAN) Personel Alım İlanıDEVAMINI OKU",
+      "url": "https://www.dika.org.tr/duyuru/orta-anadolu-kalkinma-ajansi-oran-personel-alim-ilani/317",
+      "date": "2025-10-01",
+      "on_tarihler": [],
+      "source": "DİKA (Dicle Kalkınma Ajansı)",
+      "source_id": "dika",
+      "first_seen": "2026-11-06",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.dika.org.tr/duyuru/istanbul-kalkinma-ajansi-istka-personel-alim-ilani/316": {
+      "title": "16Ekimİstanbul Kalkınma Ajansı (İSTKA) Personel Alım İlanıDEVAMINI OKU",
+      "url": "https://www.dika.org.tr/duyuru/istanbul-kalkinma-ajansi-istka-personel-alim-ilani/316",
+      "date": "2025-10-01",
+      "on_tarihler": [],
+      "source": "DİKA (Dicle Kalkınma Ajansı)",
+      "source_id": "dika",
+      "first_seen": "2026-11-06",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.dika.org.tr/duyuru/mevlana-kalkinma-ajansi-mevka-personel-alim-ilani/314": {
+      "title": "15EkimMevlana Kalkınma Ajansı (MEVKA) Personel Alım İlanıDEVAMINI OKU",
+      "url": "https://www.dika.org.tr/duyuru/mevlana-kalkinma-ajansi-mevka-personel-alim-ilani/314",
+      "date": "2025-10-01",
+      "on_tarihler": [],
+      "source": "DİKA (Dicle Kalkınma Ajansı)",
+      "source_id": "dika",
+      "first_seen": "2026-11-06",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.dika.org.tr/duyuru/orta-karadeniz-kalkinma-ajansi-oka-personel-alimi-duyurusu/313": {
+      "title": "15EkimOrta Karadeniz Kalkınma Ajansı (OKA) Personel Alımı DuyurusuDEVAMINI OKU",
+      "url": "https://www.dika.org.tr/duyuru/orta-karadeniz-kalkinma-ajansi-oka-personel-alimi-duyurusu/313",
+      "date": "2025-10-01",
+      "on_tarihler": [],
+      "source": "DİKA (Dicle Kalkınma Ajansı)",
+      "source_id": "dika",
+      "first_seen": "2026-11-06",
+      "olasi_tur": "haber_olabilir"
+    },
+    "https://www.dika.org.tr/duyuru/2025-yili-kalkinma-ajanslari-surdurulebilirlik-raporu-yayimlandi/312": {
+      "title": "01Ekim2025 Yılı Kalkınma Ajansları Sürdürülebilirlik Raporu YayımlandıDEVAMINI OKU",
+      "url": "https://www.dika.org.tr/duyuru/2025-yili-kalkinma-ajanslari-surdurulebilirlik-raporu-yayimlandi/312",
+      "date": "2025-10-01",
+      "on_tarihler": [],
+      "source": "DİKA (Dicle Kalkınma Ajansı)",
+      "source_id": "dika",
+      "first_seen": "2026-11-06",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.dika.org.tr/duyuru/bati-akdeniz-kalkinma-ajansi-baka-personel-alim-ilani/311": {
+      "title": "23EylülBatı Akdeniz Kalkınma Ajansı (BAKA) Personel Alım İlanıDEVAMINI OKU",
+      "url": "https://www.dika.org.tr/duyuru/bati-akdeniz-kalkinma-ajansi-baka-personel-alim-ilani/311",
+      "date": "2025-10-01",
+      "on_tarihler": [],
+      "source": "DİKA (Dicle Kalkınma Ajansı)",
+      "source_id": "dika",
+      "first_seen": "2026-11-06",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.dika.org.tr/duyuru/2026-yili-teknik-destek-programi-temmuz-agustos-donemi-degerlendirme-sonuclari-duyurusu/310": {
+      "title": "23Eylül2026 Yılı Teknik Destek Programı Temmuz-Ağustos Dönemi Değerlendirme Sonuçları DuyurusuDEVAMINI OKU",
+      "url": "https://www.dika.org.tr/duyuru/2026-yili-teknik-destek-programi-temmuz-agustos-donemi-degerlendirme-sonuclari-duyurusu/310",
+      "date": "2025-10-01",
+      "on_tarihler": [],
+      "source": "DİKA (Dicle Kalkınma Ajansı)",
+      "source_id": "dika",
+      "first_seen": "2026-11-06",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.dika.org.tr/duyurular?page=2": {
+      "title": "Sonraki Sayfa",
+      "url": "https://www.dika.org.tr/duyurular?page=2",
+      "date": null,
+      "on_tarihler": [],
+      "source": "DİKA (Dicle Kalkınma Ajansı)",
+      "source_id": "dika",
+      "first_seen": "2026-11-06",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bebka.org.tr/duyurular/page/2/"
     }
   }
 }
