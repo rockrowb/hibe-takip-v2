@@ -5,7 +5,7 @@
       "ok": true,
       "checked": "2026-11-08",
       "found": 3,
-      "diag": "/destekler -> HTTP 200, 605345 byte HTML, 29 link, 23 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 605371 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-11-08",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 74891 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67880 byte HTML, 132 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 72926 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67880 byte HTML, 132 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -38,10 +38,10 @@
       "diag": "/tr/duyuru -> HTTP 200, 94951 byte HTML, 212 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
-      "ok": false,
+      "ok": true,
       "checked": "2026-11-08",
-      "found": 0,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\"))"
+      "found": 4,
+      "diag": "/destekler -> HTTP 200, 56143 byte HTML, 162 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -118,8 +118,8 @@
     "dogaka": {
       "ok": true,
       "checked": "2026-11-08",
-      "found": 76,
-      "diag": "/destekler/destekler -> HTTP 200, 44501 byte HTML, 186 link, 112 olası duyuru"
+      "found": 48,
+      "diag": "/destekler/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /medya/guncel-duyurular -> HTTP 200, 43191 byte HTML, 146 link, 75 olası duyuru"
     },
     "mevka": {
       "ok": false,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-11-08",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912816 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912844 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -32326,6 +32326,138 @@
       "on_tarihler": [],
       "source": "Tarım ve Orman Bakanlığı",
       "source_id": "tarim_orman",
+      "first_seen": "2026-11-08"
+    },
+    "https://www.dogaka.gov.tr/duyuru/zafer-kalkinma-ajansi-personel-alim-ilani/858": {
+      "title": "202605KASIMZafer Kalkınma Ajansı Personel Alım İlanı05.11.2026 | 10:12",
+      "url": "https://www.dogaka.gov.tr/duyuru/zafer-kalkinma-ajansi-personel-alim-ilani/858",
+      "date": "2026-11-05",
+      "on_tarihler": [
+        "2026-11-05"
+      ],
+      "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
+      "source_id": "dogaka",
+      "first_seen": "2026-11-08"
+    },
+    "https://www.dogaka.gov.tr/duyuru/t-c-dogu-karadeniz-kalkinma-ajansi-doka-personel-alim-ilani/857": {
+      "title": "202605KASIMT.C. Doğu Karadeniz Kalkınma Ajansı(DOKA) Personel Alım İlanı05.11.2026 | 10:11",
+      "url": "https://www.dogaka.gov.tr/duyuru/t-c-dogu-karadeniz-kalkinma-ajansi-doka-personel-alim-ilani/857",
+      "date": "2026-11-05",
+      "on_tarihler": [
+        "2026-11-05"
+      ],
+      "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
+      "source_id": "dogaka",
+      "first_seen": "2026-11-08"
+    },
+    "https://www.dogaka.gov.tr/duyuru/ulusal-staj-programi-basvurulari-basliyor/856": {
+      "title": "202627EKİMUlusal Staj Programı Başvuruları Başlıyor!27.10.2026 | 15:20",
+      "url": "https://www.dogaka.gov.tr/duyuru/ulusal-staj-programi-basvurulari-basliyor/856",
+      "date": "2026-10-27",
+      "on_tarihler": [
+        "2026-10-27"
+      ],
+      "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
+      "source_id": "dogaka",
+      "first_seen": "2026-11-08"
+    },
+    "https://www.dogaka.gov.tr/duyuru/t-c-orta-anadolu-kalkinma-ajansi-oran-personel-alim-ilani/855": {
+      "title": "202626EKİMT.C. Orta Anadolu Kalkınma Ajansı (ORAN) Personel Alım İlanı26.10.2026 | 14:15",
+      "url": "https://www.dogaka.gov.tr/duyuru/t-c-orta-anadolu-kalkinma-ajansi-oran-personel-alim-ilani/855",
+      "date": "2026-10-26",
+      "on_tarihler": [
+        "2026-10-26"
+      ],
+      "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
+      "source_id": "dogaka",
+      "first_seen": "2026-11-08"
+    },
+    "https://www.dogaka.gov.tr/duyuru/enhancer-pro-hizlandirma-ve-orta-olcekli-isletme-hibe-programlari-ilan-edildi/854": {
+      "title": "202623EKİMENHANCER PRO Hızlandırma ve Orta Ölçekli İşletme Hibe Programları İlan Edildi23.10.2026 | 17:10",
+      "url": "https://www.dogaka.gov.tr/duyuru/enhancer-pro-hizlandirma-ve-orta-olcekli-isletme-hibe-programlari-ilan-edildi/854",
+      "date": "2026-10-23",
+      "on_tarihler": [
+        "2026-10-23"
+      ],
+      "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
+      "source_id": "dogaka",
+      "first_seen": "2026-11-08"
+    },
+    "https://www.dogaka.gov.tr/duyuru/t-c-istanbul-kalkinma-ajansi-personel-alim-ilani/853": {
+      "title": "202615EKİMT.C.  İSTANBUL KALKINMA AJANSI  PERSONEL ALIM İLANI15.10.2026 | 16:26",
+      "url": "https://www.dogaka.gov.tr/duyuru/t-c-istanbul-kalkinma-ajansi-personel-alim-ilani/853",
+      "date": "2026-10-15",
+      "on_tarihler": [
+        "2026-10-15"
+      ],
+      "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
+      "source_id": "dogaka",
+      "first_seen": "2026-11-08"
+    },
+    "https://www.dogaka.gov.tr/duyuru/mevlana-kalkinma-ajansi-personel-alim-ilani/852": {
+      "title": "202615EKİMMevlana Kalkınma Ajansı Personel Alım İlanı15.10.2026 | 16:25",
+      "url": "https://www.dogaka.gov.tr/duyuru/mevlana-kalkinma-ajansi-personel-alim-ilani/852",
+      "date": "2026-10-15",
+      "on_tarihler": [
+        "2026-10-15"
+      ],
+      "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
+      "source_id": "dogaka",
+      "first_seen": "2026-11-08"
+    },
+    "https://www.dogaka.gov.tr/duyuru/2025-yili-kalkinma-ajanslari-surdurulebilirlik-raporu-yayimlandi/849": {
+      "title": "202623EYLÜL2025 Yılı Kalkınma Ajansları Sürdürülebilirlik Raporu Yayımlandı23.09.2026 | 17:16",
+      "url": "https://www.dogaka.gov.tr/duyuru/2025-yili-kalkinma-ajanslari-surdurulebilirlik-raporu-yayimlandi/849",
+      "date": "2026-09-23",
+      "on_tarihler": [
+        "2026-09-23"
+      ],
+      "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
+      "source_id": "dogaka",
+      "first_seen": "2026-11-08"
+    },
+    "https://www.dogaka.gov.tr/duyuru/dogu-marmara-kalkinma-ajansi-personel-alim-ilani/848": {
+      "title": "202622EYLÜLDOĞU MARMARA KALKINMA AJANSI PERSONEL ALIM İLANI22.09.2026 | 17:33",
+      "url": "https://www.dogaka.gov.tr/duyuru/dogu-marmara-kalkinma-ajansi-personel-alim-ilani/848",
+      "date": "2026-09-22",
+      "on_tarihler": [
+        "2026-09-22"
+      ],
+      "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
+      "source_id": "dogaka",
+      "first_seen": "2026-11-08"
+    },
+    "https://www.dogaka.gov.tr/duyuru/2026-yili-yesil-donusum-teknik-destek-programi-temmuz-agustos-donemi-degerlendirme-sonuclari-ilani/847": {
+      "title": "202616EYLÜL2026 YILI YEŞİL DÖNÜŞÜM TEKNİK DESTEK PROGRAMI  Temmuz-Ağustos Dönemi Değerlendirme Sonuçları İlanı16.09.2026 | 11:20",
+      "url": "https://www.dogaka.gov.tr/duyuru/2026-yili-yesil-donusum-teknik-destek-programi-temmuz-agustos-donemi-degerlendirme-sonuclari-ilani/847",
+      "date": "2026-09-16",
+      "on_tarihler": [
+        "2026-09-16"
+      ],
+      "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
+      "source_id": "dogaka",
+      "first_seen": "2026-11-08"
+    },
+    "https://www.dogaka.gov.tr/duyuru/bursa-eskisehir-bilecik-kalkinma-ajansi-personel-alim-ilani/846": {
+      "title": "202625AĞUSTOSBursa Eskişehir Bilecik Kalkınma Ajansı Personel Alım İlanı25.08.2026 | 09:53",
+      "url": "https://www.dogaka.gov.tr/duyuru/bursa-eskisehir-bilecik-kalkinma-ajansi-personel-alim-ilani/846",
+      "date": "2026-08-25",
+      "on_tarihler": [
+        "2026-08-25"
+      ],
+      "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
+      "source_id": "dogaka",
+      "first_seen": "2026-11-08"
+    },
+    "https://www.dogaka.gov.tr/duyuru/t-c-kuzey-anadolu-kalkinma-ajansi-personel-alim-ilani/845": {
+      "title": "202606AĞUSTOST.C. Kuzey Anadolu Kalkınma Ajansı Personel Alım İlanı06.08.2026 | 14:46",
+      "url": "https://www.dogaka.gov.tr/duyuru/t-c-kuzey-anadolu-kalkinma-ajansi-personel-alim-ilani/845",
+      "date": "2026-08-06",
+      "on_tarihler": [
+        "2026-08-06"
+      ],
+      "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
+      "source_id": "dogaka",
       "first_seen": "2026-11-08"
     }
   }
