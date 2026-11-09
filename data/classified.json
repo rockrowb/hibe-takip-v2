@@ -38,10 +38,10 @@
       "diag": "/tr/duyuru -> HTTP 200, 95363 byte HTML, 212 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
-      "ok": true,
+      "ok": false,
       "checked": "2026-11-09",
-      "found": 4,
-      "diag": "/destekler -> HTTP 200, 56091 byte HTML, 161 link, 5 olası duyuru"
+      "found": 0,
+      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     "ua_erasmus": {
       "ok": true,
@@ -95,7 +95,7 @@
       "ok": true,
       "checked": "2026-11-09",
       "found": 28,
-      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 289929 byte HTML, 284 link, 66 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 290015 byte HTML, 284 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-11-09",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912852 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912862 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-11-09",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15971 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 375987 byte HTML, 268 link, 194 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 376185 byte HTML, 268 link, 194 olası duyuru"
     },
     "gsb": {
       "ok": false,
@@ -36899,6 +36899,36 @@
       "on_tarihler": [],
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
+      "first_seen": "2026-11-09",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7375/Bakan-Yumakli-Iklim-Zirvesi-Cop31-Kapsaminda-Ikili-Gorusmelerde-Bulundu": {
+      "title": "BAKAN YUMAKLI, İKLİM ZİRVESİ COP31 KAPSAMINDA İKİLİ GÖRÜŞMELERDE BULUNDU",
+      "url": "https://www.tarimorman.gov.tr/Haber/7375/Bakan-Yumakli-Iklim-Zirvesi-Cop31-Kapsaminda-Ikili-Gorusmelerde-Bulundu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-11-09",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7374/Bakan-Yumakli-Turkiye-Olarak-Guclu-Tarimsal-Uretim-Kapasitemizle-Kuresel-Gida-Arz-Guvenligine-Katki-Sunmaya-Devam-Edecegiz": {
+      "title": "BAKAN YUMAKLI: TÜRKİYE OLARAK GÜÇLÜ TARIMSAL ÜRETİM KAPASİTEMİZLE KÜRESEL GIDA ARZ GÜVENLİĞİNE KATKI SUNMAYA DEVAM EDECEĞİZ",
+      "url": "https://www.tarimorman.gov.tr/Haber/7374/Bakan-Yumakli-Turkiye-Olarak-Guclu-Tarimsal-Uretim-Kapasitemizle-Kuresel-Gida-Arz-Guvenligine-Katki-Sunmaya-Devam-Edecegiz",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-11-09",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7373/Bakan-Yumakli-Cop31de-Konustu-Tarimin-Gelecegini-Gencler-Olmadan-Sekillendiremeyiz": {
+      "title": "BAKAN YUMAKLI COP31'DE KONUŞTU: \"TARIMIN GELECEĞİNİ GENÇLER OLMADAN ŞEKİLLENDİREMEYİZ\"",
+      "url": "https://www.tarimorman.gov.tr/Haber/7373/Bakan-Yumakli-Cop31de-Konustu-Tarimin-Gelecegini-Gencler-Olmadan-Sekillendiremeyiz",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
       "first_seen": "2026-11-09",
       "olasi_tur": "belirsiz"
     }
