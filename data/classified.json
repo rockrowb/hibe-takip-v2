@@ -5,7 +5,7 @@
       "ok": true,
       "checked": "2026-11-11",
       "found": 3,
-      "diag": "/destekler -> HTTP 200, 605371 byte HTML, 29 link, 23 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 605345 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
@@ -17,7 +17,7 @@
       "ok": true,
       "checked": "2026-11-11",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 40566 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 40691 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": false,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-11-11",
       "found": 13,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -5] No address associated with hostname)\")) | /duyurular -> HTTP 200, 74887 byte HTML, 217 link, 21 olası duyuru"
+      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 74788 byte HTML, 217 link, 21 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -95,7 +95,7 @@
       "ok": true,
       "checked": "2026-11-11",
       "found": 28,
-      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 290015 byte HTML, 284 link, 66 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 290312 byte HTML, 284 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -161,7 +161,7 @@
       "ok": true,
       "checked": "2026-11-11",
       "found": 132,
-      "diag": "/ -> HTTP 200, 216703 byte HTML, 361 link, 215 olası duyuru"
+      "diag": "/ -> HTTP 200, 216646 byte HTML, 361 link, 215 olası duyuru"
     },
     "ika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-11-11",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912868 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912794 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-11-11",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 376336 byte HTML, 268 link, 194 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 376124 byte HTML, 268 link, 194 olası duyuru"
     },
     "gsb": {
       "ok": false,
@@ -37093,6 +37093,46 @@
       "source_id": "oka",
       "first_seen": "2026-11-11",
       "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/koordinatorlugu-destekleme-programi-ve-aglara-uyelik-destegi-basvurulara-kapatilmistir": {
+      "title": "Koordinatörlüğü Destekleme Programı ve Ağlara Üyelik Desteği Başvurulara Kapatılmıştır!",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/koordinatorlugu-destekleme-programi-ve-aglara-uyelik-destegi-basvurulara-kapatilmistir",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-11-11",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7382/Iklim-Zirvesi-Cop31-Antalya-Orman-Yanginlariyla-Mucadele-Icin-Turkiye-Onculugunde-Antalya-Eylem-Plani-Baslatildi": {
+      "title": "İKLİM ZİRVESİ COP31 ANTALYA - ORMAN YANGINLARIYLA MÜCADELE İÇİN TÜRKİYE ÖNCÜLÜĞÜNDE ANTALYA EYLEM PLANI BAŞLATILDI",
+      "url": "https://www.tarimorman.gov.tr/Haber/7382/Iklim-Zirvesi-Cop31-Antalya-Orman-Yanginlariyla-Mucadele-Icin-Turkiye-Onculugunde-Antalya-Eylem-Plani-Baslatildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-11-11",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bebka.org.tr/turkiyede-super-bilgisayar-altyapilari-ve-yuksek-basarimli-hesaplama-ekosistemi-bilgilendirme-etkinligi/": {
+      "title": "Türkiye’de Süper Bilgisayar Altyapıları ve Yüksek Başarımlı Hesaplama Ekosistemi Bilgilendirme Etkinliği",
+      "url": "https://bebka.org.tr/turkiyede-super-bilgisayar-altyapilari-ve-yuksek-basarimli-hesaplama-ekosistemi-bilgilendirme-etkinligi/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)",
+      "source_id": "bebka",
+      "first_seen": "2026-11-11",
+      "olasi_tur": "belirsiz"
+    },
+    "https://geka.gov.tr/tr/haber/guney-ege-zeytin-rotasi-tanitildi": {
+      "title": "Güney Ege Zeytin Rotası Tanıtıldı",
+      "url": "https://geka.gov.tr/tr/haber/guney-ege-zeytin-rotasi-tanitildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "GEKA (Güney Ege Kalkınma Ajansı)",
+      "source_id": "geka",
+      "first_seen": "2026-11-11",
+      "olasi_tur": "belirsiz"
     }
   }
 }
