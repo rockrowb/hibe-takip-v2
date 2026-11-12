@@ -40,8 +40,8 @@
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-11-12",
-      "found": 4,
-      "diag": "/destekler -> HTTP 200, 55992 byte HTML, 161 link, 5 olası duyuru"
+      "found": 13,
+      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 74788 byte HTML, 217 link, 21 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-11-12",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912820 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912862 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
