@@ -5,7 +5,7 @@
       "ok": true,
       "checked": "2026-11-13",
       "found": 3,
-      "diag": "/destekler -> HTTP 200, 605345 byte HTML, 29 link, 23 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 605371 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-11-13",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 73591 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67880 byte HTML, 132 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 74891 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67880 byte HTML, 132 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -59,7 +59,7 @@
       "ok": true,
       "checked": "2026-11-13",
       "found": 25,
-      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 153288 byte HTML, 92 link, 28 olası duyuru"
+      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 153295 byte HTML, 92 link, 28 olası duyuru"
     },
     "stgm": {
       "ok": false,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-11-13",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 261920 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 261963 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-11-13",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912824 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912830 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -245,7 +245,7 @@
       "ok": true,
       "checked": "2026-11-13",
       "found": 22,
-      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 55266 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54910 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "items": {
@@ -32962,6 +32962,26 @@
       "date": "2026-10-24",
       "on_tarihler": [
         "2026-10-24"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-11-13"
+    },
+    "https://www.sivildusun.net/kategori/sivil-dusunenlerden-haberler/": {
+      "title": "sivil düşün haberleri",
+      "url": "https://www.sivildusun.net/kategori/sivil-dusunenlerden-haberler/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Sivil Düşün AB Programı",
+      "source_id": "sivil_dusun",
+      "first_seen": "2026-11-13"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/305217-bakan-bak-monakoda-avrupa-konseyi-19-spordan-sorumlu-bakanlar-konferansina-katildi": {
+      "title": "BAKAN BAK MONAKO’DA AVRUPA KONSEYİ 19. SPORDAN SORUMLU BAKANLAR KONFERANSI'NA KATILDI04.11.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/305217-bakan-bak-monakoda-avrupa-konseyi-19-spordan-sorumlu-bakanlar-konferansina-katildi",
+      "date": "2026-11-04",
+      "on_tarihler": [
+        "2026-11-04"
       ],
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
