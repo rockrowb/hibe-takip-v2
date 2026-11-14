@@ -5,7 +5,7 @@
       "ok": true,
       "checked": "2026-11-14",
       "found": 3,
-      "diag": "/destekler -> HTTP 200, 605345 byte HTML, 29 link, 23 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 605371 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-11-14",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 73591 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67880 byte HTML, 132 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 73055 byte HTML, 90 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 67880 byte HTML, 132 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-11-14",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 56085 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55992 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -83,7 +83,7 @@
       "ok": true,
       "checked": "2026-11-14",
       "found": 72,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54724 byte HTML, 124 link, 87 olası duyuru"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54718 byte HTML, 124 link, 87 olası duyuru"
     },
     "izka": {
       "ok": true,
@@ -113,7 +113,7 @@
       "ok": true,
       "checked": "2026-11-14",
       "found": 1,
-      "diag": "/destekler -> HTTP 200, 28249 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35611 byte HTML, 94 link, 44 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 28249 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35607 byte HTML, 94 link, 44 olası duyuru"
     },
     "dogaka": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-11-14",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912822 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912838 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -283,7 +283,7 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-11-14T13:10:14Z",
+    "checked_at": "2026-11-14T19:42:24Z",
     "pending_count": 2581
   },
   "items": {
