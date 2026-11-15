@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-11-15",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912812 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912850 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -245,7 +245,7 @@
       "ok": true,
       "checked": "2026-11-15",
       "found": 22,
-      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54003 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54692 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "items": {
@@ -33026,6 +33026,28 @@
       "date": "2026-11-06",
       "on_tarihler": [
         "2026-11-06"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-11-15"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/305362-genclik-ve-spor-bakanligi-butcesi-tbmm-plan-ve-butce-komisyonunda-kabul-edildi": {
+      "title": "GENÇLİK VE SPOR BAKANLIĞI BÜTÇESİ TBMM PLAN VE BÜTÇE KOMİSYONUNDA KABUL EDİLDİ10.11.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/305362-genclik-ve-spor-bakanligi-butcesi-tbmm-plan-ve-butce-komisyonunda-kabul-edildi",
+      "date": "2026-11-10",
+      "on_tarihler": [
+        "2026-11-10"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-11-15"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/305285-bakan-dr-osman-askin-bak-antalya-cop31-genclik-evinin-acilisini-yapti": {
+      "title": "BAKAN DR. OSMAN AŞKIN BAK, ANTALYA COP31 GENÇLİK EVİ'NİN AÇILIŞINI YAPTI08.11.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/305285-bakan-dr-osman-askin-bak-antalya-cop31-genclik-evinin-acilisini-yapti",
+      "date": "2026-11-08",
+      "on_tarihler": [
+        "2026-11-08"
       ],
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
