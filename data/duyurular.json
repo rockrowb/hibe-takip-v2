@@ -5,7 +5,7 @@
       "ok": true,
       "checked": "2026-11-18",
       "found": 3,
-      "diag": "/destekler -> HTTP 200, 605345 byte HTML, 29 link, 23 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 605371 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-11-18",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 261963 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 261920 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-11-18",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912889 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912881 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-11-18",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 373900 byte HTML, 266 link, 194 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 374644 byte HTML, 268 link, 194 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -283,7 +283,7 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-11-18T15:20:07Z",
+    "checked_at": "2026-11-18T22:30:27Z",
     "pending_count": 2609
   },
   "items": {
