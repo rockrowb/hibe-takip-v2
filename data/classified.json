@@ -1,251 +1,251 @@
 {
-  "last_updated": "2026-11-17",
+  "last_updated": "2026-11-18",
   "source_status": {
     "ka_gov": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 3,
       "diag": "/destekler -> HTTP 200, 605345 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 22,
       "diag": "/tr/duyurular/ -> HTTP 200, 149049 byte HTML, 105 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 40383 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 40584 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": false,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 0,
       "diag": "/gelismis-arama -> HTTP 200, 3855 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 3623 byte HTML, 0 link, 0 olası duyuru"
     },
     "kosgeb": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 1,
       "diag": "/site/tr/genel/destekler -> HTTP 200, 73115 byte HTML, 91 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 66964 byte HTML, 132 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 18,
       "diag": "/tr/duyuru -> HTTP 200, 94776 byte HTML, 212 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": false,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 0,
       "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     "ua_erasmus": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 51,
-      "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96827 byte HTML, 206 link, 153 olası duyuru"
+      "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 93881 byte HTML, 210 link, 151 olası duyuru"
     },
     "unesco_turkiye": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 82,
       "diag": "/ -> HTTP 200, 2210610 byte HTML, 121 link, 82 olası duyuru"
     },
     "sivil_dusun": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 25,
-      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 153295 byte HTML, 92 link, 28 olası duyuru"
+      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 153434 byte HTML, 92 link, 28 olası duyuru"
     },
     "stgm": {
       "ok": false,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 0,
       "diag": "/hibe-duyurulari -> HTTP 403"
     },
     "cssp": {
       "ok": false,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 0,
       "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)')))"
     },
     "istka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 24,
       "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 134648 byte HTML, 127 link, 60 olası duyuru"
     },
     "ankaraka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 72,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54723 byte HTML, 124 link, 87 olası duyuru"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54719 byte HTML, 124 link, 87 olası duyuru"
     },
     "izka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 16,
       "diag": "/destekler -> HTTP 200, 74714 byte HTML, 55 link, 21 olası duyuru"
     },
     "bebka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 28,
-      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 290312 byte HTML, 284 link, 66 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 292297 byte HTML, 287 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 19,
       "diag": "/destekler/ -> HTTP 200, 48798 byte HTML, 54 link, 30 olası duyuru"
     },
     "cka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 20,
       "diag": "/tr/guncel-destekler -> HTTP 200, 36454 byte HTML, 105 link, 45 olası duyuru"
     },
     "baka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 1,
-      "diag": "/destekler -> HTTP 200, 28249 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35634 byte HTML, 94 link, 44 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 28249 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35631 byte HTML, 94 link, 44 olası duyuru"
     },
     "dogaka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 76,
       "diag": "/destekler/destekler -> HTTP 200, 44402 byte HTML, 185 link, 112 olası duyuru"
     },
     "mevka": {
       "ok": false,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 0,
       "diag": "/destekler/guncel-destek-programlari -> HTTP 404"
     },
     "oka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 45,
       "diag": "/ -> HTTP 200, 123279 byte HTML, 280 link, 64 olası duyuru"
     },
     "doka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 21,
       "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 246353 byte HTML, 135 link, 53 olası duyuru"
     },
     "oran": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 77,
       "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 108085 byte HTML, 184 link, 120 olası duyuru"
     },
     "marka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 3,
       "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 482640 byte HTML, 643 link, 180 olası duyuru"
     },
     "gmka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 40,
       "diag": "/acik-destek-programlari -> HTTP 200, 71760 byte HTML, 95 link, 52 olası duyuru"
     },
     "geka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 132,
       "diag": "/ -> HTTP 200, 216608 byte HTML, 361 link, 215 olası duyuru"
     },
     "ika": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 2,
       "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37185 byte HTML, 120 link, 61 olası duyuru"
     },
     "trakyaka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 60,
       "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32620 byte HTML, 139 link, 90 olası duyuru"
     },
     "zafer": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 261920 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 261963 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 51,
       "diag": "/destekler -> HTTP 200, 29060 byte HTML, 147 link, 85 olası duyuru"
     },
     "kuzka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912875 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 912889 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 126,
       "diag": "/home -> HTTP 200, 101836 byte HTML, 196 link, 135 olası duyuru"
     },
     "serka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 145,
       "diag": "/destekler -> HTTP 200, 61685 byte HTML, 256 link, 198 olası duyuru"
     },
     "daka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 28,
       "diag": "/destekler -> HTTP 200, 51380 byte HTML, 72 link, 49 olası duyuru"
     },
     "fka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 65,
       "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66518 byte HTML, 167 link, 73 olası duyuru"
     },
     "dika": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 27,
       "diag": "/destekler -> HTTP 200, 58243 byte HTML, 161 link, 61 olası duyuru"
     },
     "bakka": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 34,
       "diag": "/duyurular -> HTTP 200, 291127 byte HTML, 107 link, 67 olası duyuru"
     },
     "ktb": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 355,
       "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215519 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 374706 byte HTML, 268 link, 194 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 373900 byte HTML, 266 link, 194 olası duyuru"
     },
     "gsb": {
       "ok": true,
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "found": 22,
-      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54759 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54821 byte HTML, 106 link, 59 olası duyuru"
     }
   },
   "items": {
@@ -1398,9 +1398,9 @@
     "https://www.ua.gov.tr/anasayfa/icerikler/erasmus-nedir/": {
       "title": "Erasmus+ Programı",
       "url": "https://www.ua.gov.tr/anasayfa/icerikler/erasmus-nedir/",
-      "date": "2025-11-12",
+      "date": "2026-11-18",
       "on_tarihler": [
-        "2025-11-12"
+        "2026-11-18"
       ],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1411,9 +1411,9 @@
     "https://www.ua.gov.tr/media/r25lkx2q/lump-sum-handbook-2026.pdf": {
       "title": "Handbook on the Lump Sum Funding Model (Götürü Usulü Hibe Modeli El Kitabı)",
       "url": "https://www.ua.gov.tr/media/r25lkx2q/lump-sum-handbook-2026.pdf",
-      "date": "2025-11-12",
+      "date": "2026-11-18",
       "on_tarihler": [
-        "2025-11-12"
+        "2026-11-18"
       ],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1423,9 +1423,9 @@
     "https://www.ua.gov.tr/anasayfa/icerikler/gecmis-yillarin-teklif-cagrilari/": {
       "title": "Geçmiş yılların Teklif Çağrıları ve Program Rehberlerine",
       "url": "https://www.ua.gov.tr/anasayfa/icerikler/gecmis-yillarin-teklif-cagrilari/",
-      "date": "2025-11-12",
+      "date": "2026-11-18",
       "on_tarihler": [
-        "2025-11-12"
+        "2026-11-18"
       ],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1435,9 +1435,9 @@
     "https://www.ua.gov.tr/anasayfa/icerikler/esc/": {
       "title": "Avrupa Dayanışma Programı",
       "url": "https://www.ua.gov.tr/anasayfa/icerikler/esc/",
-      "date": "2025-11-12",
+      "date": "2026-11-18",
       "on_tarihler": [
-        "2025-11-12"
+        "2026-11-18"
       ],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1447,9 +1447,9 @@
     "http://www.ua.gov.tr": {
       "title": "www.ua.gov.tr",
       "url": "http://www.ua.gov.tr",
-      "date": "2025-11-12",
+      "date": "2026-11-18",
       "on_tarihler": [
-        "2025-11-12"
+        "2026-11-18"
       ],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1457,19 +1457,19 @@
       "olasi_tur": "belirsiz"
     },
     "https://www.ua.gov.tr/programlar/firsatlar/ka120-sch-akreditasyon-kurumlar/": {
-      "title": "Okul Eğitimi Alanında Akreditasyon Başvurusu",
+      "title": "Okul Eğitimi Alanında Yeniden Akreditasyon",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka120-sch-akreditasyon-kurumlar/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
       "first_seen": "2026-08-02",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "belirsiz"
     },
     "https://www.ua.gov.tr/programlar/firsatlar/ka121-sch/": {
       "title": "Okul Eğitimi Akr. Sahibi Kurumlara ait Öğrenci ve Personel Hareketliliği",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka121-sch/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1479,7 +1479,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka122-sch-kisa-donem-kurumlar/": {
       "title": "Okul Eğitimi Kısa Dönemli Öğrenci ve Personel Hareketliliği",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka122-sch-kisa-donem-kurumlar/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1489,7 +1489,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka210-sch-kucuk-olcek-kurumlar/": {
       "title": "Okul Eğitiminde Küçük Ölçekli Ortaklıklar",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka210-sch-kucuk-olcek-kurumlar/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1499,7 +1499,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka220-sch-isbirligi-kurumlar/": {
       "title": "Okul Eğitiminde İşbirliği Ortaklıkları",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka220-sch-isbirligi-kurumlar/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1509,7 +1509,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/okul-gelisimi-icin-avrupa-ortakliklari/": {
       "title": "Okul Gelişimi İçin Avrupa Ortaklıkları",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/okul-gelisimi-icin-avrupa-ortakliklari/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1517,19 +1517,19 @@
       "olasi_tur": "belirsiz"
     },
     "https://www.ua.gov.tr/programlar/firsatlar/ka120-vet-akreditasyon-firsatlari/": {
-      "title": "Mesleki Eğitim Alanında Akreditasyon Başvurusu",
+      "title": "Mesleki Eğitim Alanında Yeniden Akreditasyon",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka120-vet-akreditasyon-firsatlari/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
       "first_seen": "2026-08-02",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "belirsiz"
     },
     "https://www.ua.gov.tr/programlar/firsatlar/ka121-vet-kisa-donemli-ogrenci-ve-personel-hareketliligi/": {
       "title": "Mesleki Eğitimde Akr. Sahibi Kurumlara ait Öğrenici ve Personel Hareketliliği",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka121-vet-kisa-donemli-ogrenci-ve-personel-hareketliligi/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1539,7 +1539,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka122-vet-mesleki-egitim-kisa-sureli-ogrenici-ve-personel-hareketliligi-projeleri/": {
       "title": "Mesleki Eğitim Kısa Dönemli Öğrenici ve Personel Hareketliliği",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka122-vet-mesleki-egitim-kisa-sureli-ogrenici-ve-personel-hareketliligi-projeleri/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1549,7 +1549,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka210-vet-kucuk-olcek-kurumlar/": {
       "title": "Mesleki Eğitimde Küçük Ölçekli Ortaklıklar",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka210-vet-kucuk-olcek-kurumlar/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1559,7 +1559,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka220-vet/": {
       "title": "Mesleki Eğitimde İşbirliği Ortaklıkları",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka220-vet/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1567,19 +1567,19 @@
       "olasi_tur": "belirsiz"
     },
     "https://www.ua.gov.tr/programlar/firsatlar/ka120-adu-akreditasyon-kurumlar/": {
-      "title": "Yetişkin Eğitimi Alanında Akreditasyon Başvurusu",
+      "title": "Yetişkin Eğitimi Alanında Yeniden Akreditasyon",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka120-adu-akreditasyon-kurumlar/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
       "first_seen": "2026-08-02",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "belirsiz"
     },
     "https://www.ua.gov.tr/programlar/firsatlar/ka121-adu-kisa-donemli-ogrenici-ve-personel-hareketliligi/": {
       "title": "Yetişkin Eğitiminde Akr. Sahibi Kurumlara ait Öğrenici ve Personel Hareketliliği",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka121-adu-kisa-donemli-ogrenici-ve-personel-hareketliligi/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1589,7 +1589,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka1-ka104-ogrenme-hareketliligi-icin-ulke-merkezli-firsatlar/": {
       "title": "Yetişkin Eğitimi Kısa Dönemli Öğrenici ve Personel Hareketliliği",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka1-ka104-ogrenme-hareketliligi-icin-ulke-merkezli-firsatlar/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1599,7 +1599,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka210-adu-kucuk-olcek-kurumlar/": {
       "title": "Yetişkin Eğitiminde Küçük Ölçekli Ortaklıklar",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka210-adu-kucuk-olcek-kurumlar/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1609,7 +1609,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka2-ka220-isbirligi-ortakliklari/": {
       "title": "Yetişkin Eğitiminde İşbirliği Ortaklıkları",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka2-ka220-isbirligi-ortakliklari/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1619,7 +1619,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka1-ka130-akreditasyon-firsatlari-1/": {
       "title": "Yükseköğretim Konsorsiyumu Akreditasyon Başvurusu",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka1-ka130-akreditasyon-firsatlari-1/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1629,7 +1629,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka1-ka131-ogrenme-hareketliligi-icin-ulke-merkezli-firsatlar-1/": {
       "title": "Yükseköğretimde Program Ülkeleri ile Öğrenci ve Personel Hareketliliği",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka1-ka131-ogrenme-hareketliligi-icin-ulke-merkezli-firsatlar-1/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1639,7 +1639,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka1-ka171-ogrenme-hareketliligi-icin-ulke-merkezli-firsatlar-5/": {
       "title": "Yükseköğretimde Ortak Ülkeler ile Öğrenci ve Personel Hareketliliği",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka1-ka171-ogrenme-hareketliligi-icin-ulke-merkezli-firsatlar-5/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1649,7 +1649,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka220-hed-yuksekogretim-alaninda-isbirligi-ortakliklari-personel/": {
       "title": "Yükseköğretimde İşbirliği Ortaklıkları",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka220-hed-yuksekogretim-alaninda-isbirligi-ortakliklari-personel/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1657,19 +1657,19 @@
       "olasi_tur": "belirsiz"
     },
     "https://www.ua.gov.tr/programlar/firsatlar/ka150-you-akreditasyon-basvurulari/": {
-      "title": "Gençlik Alanında Akreditasyon Başvurusu",
+      "title": "Gençlik Alanında Yeniden Akreditasyon",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka150-you-akreditasyon-basvurulari/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
       "first_seen": "2026-08-02",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "belirsiz"
     },
     "https://www.ua.gov.tr/programlar/firsatlar/ka151-you-akreditasyon-projeleri/": {
       "title": "Akredite Kuruluşlar için Gençlik Hareketliliği Proje Başvurusu",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka151-you-akreditasyon-projeleri/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1679,7 +1679,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka152-you-program-ulkelerinde-ogrenim/": {
       "title": "Gençlik Değişimleri",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka152-you-program-ulkelerinde-ogrenim/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1689,7 +1689,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka1-ka105-ogrenme-hareketliligi-icin-ulke-merkezli-firsatlar-4/": {
       "title": "Gençlik Çalışanlarının Hareketliliği",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka1-ka105-ogrenme-hareketliligi-icin-ulke-merkezli-firsatlar-4/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1699,7 +1699,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka154-genclik-katilimi/": {
       "title": "Gençlik Katılımı",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka154-genclik-katilimi/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1709,7 +1709,7 @@
     "https://www.ua.gov.tr/media/ou4haou2/discovereu.pdf": {
       "title": "DiscoverEU - Dahil Etme Faaliyeti",
       "url": "https://www.ua.gov.tr/media/ou4haou2/discovereu.pdf",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1719,7 +1719,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka210-you-kucuk-olcek-kurumlar/": {
       "title": "Gençlik Alanında Küçük Ölçekli Ortaklıklar",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka210-you-kucuk-olcek-kurumlar/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1729,7 +1729,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/ka2-ka220-you-isbirligi-ortakliklari/": {
       "title": "Gençlik Alanında İşbirliği Ortaklıkları",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/ka2-ka220-you-isbirligi-ortakliklari/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1739,7 +1739,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/spor-alaninda-personl-hareketliligi/": {
       "title": "Spor Alanında Personel Hareketliliği",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/spor-alaninda-personl-hareketliligi/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1747,9 +1747,9 @@
       "olasi_tur": "belirsiz"
     },
     "https://www.ua.gov.tr/programlar/firsatlar/esc50-akreditasyon-firsatlari-4/": {
-      "title": "Avrupa Dayanışma Programı Kalite Sertifikası Başvurusu",
+      "title": "Avrupa Dayanışma Programı Kalite Sertifikası- Yeni Başvuru Sahipleri İçin Akreditasyon Çağrısı",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/esc50-akreditasyon-firsatlari-4/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1759,7 +1759,7 @@
     "https://www.ua.gov.tr/programlar/gruplar/gencler-genclik-calisanlari-icin/gonulluluk/": {
       "title": "Gönüllülük Projeleri",
       "url": "https://www.ua.gov.tr/programlar/gruplar/gencler-genclik-calisanlari-icin/gonulluluk/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -1769,7 +1769,7 @@
     "https://www.ua.gov.tr/programlar/firsatlar/esc-30-dayanisma-ulusal/": {
       "title": "Dayanışma Projeleri",
       "url": "https://www.ua.gov.tr/programlar/firsatlar/esc-30-dayanisma-ulusal/",
-      "date": "2026-09-29",
+      "date": "2027-09-30",
       "on_tarihler": [],
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
@@ -37667,6 +37667,68 @@
       "source_id": "kuzka",
       "first_seen": "2026-11-17",
       "olasi_tur": "haber_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/yenilikci-saglik-girisimi-ihi-saglik-alanindaki-yenilikci-teknolojilerde-mevzuata-uyum": {
+      "title": "Yenilikçi Sağlık Girişimi (IHI)-Sağlık Alanındaki Yenilikçi Teknolojilerde Mevzuata Uyum İçin Kontrollü Deneme Ortamları Semineri",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/yenilikci-saglik-girisimi-ihi-saglik-alanindaki-yenilikci-teknolojilerde-mevzuata-uyum",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-11-18",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ilactan-yapay-zekaya-biyoteknolojiden-saglik-inovasyonuna-avrupa-yasam-bilimleri": {
+      "title": "İlaçtan Yapay Zekâya, Biyoteknolojiden Sağlık İnovasyonuna: Avrupa Yaşam Bilimleri Konferansında Ele Alınacak",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ilactan-yapay-zekaya-biyoteknolojiden-saglik-inovasyonuna-avrupa-yasam-bilimleri",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-11-18",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7393/Diyarbakirdaki-Karacalar-Barajinin-Yapimina-Baslandi": {
+      "title": "DİYARBAKIR'DAKİ KARACALAR BARAJI'NIN YAPIMINA BAŞLANDI",
+      "url": "https://www.tarimorman.gov.tr/Haber/7393/Diyarbakirdaki-Karacalar-Barajinin-Yapimina-Baslandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-11-18",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2746/Iyi-Tarim-Uygulamalari-Kontroloru-Ve-Ic-Kontroloru-Guncelleme-Egitimi-Duyurusu": {
+      "title": "İYİ TARIM UYGULAMALARI KONTROLÖRÜ VE İÇ KONTROLÖRÜ GÜNCELLEME EĞİTİMİ DUYURUSU",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2746/Iyi-Tarim-Uygulamalari-Kontroloru-Ve-Ic-Kontroloru-Guncelleme-Egitimi-Duyurusu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-11-18",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/305453-spor-genclerimizi-kotu-aliskanliklardan-uzak-tutar": {
+      "title": "\"SPOR GENÇLERİMİZİ KÖTÜ ALIŞKANLIKLARDAN UZAK TUTAR”13.11.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/305453-spor-genclerimizi-kotu-aliskanliklardan-uzak-tutar",
+      "date": "2026-11-13",
+      "on_tarihler": [
+        "2026-11-13"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-11-18",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bebka.org.tr/2026-yili-teknik-destek-programi-eylul-ekim-donemi-degerlendirme-sonuclari/": {
+      "title": "2026 Yılı Teknik Destek Programı Eylül-Ekim Dönemi Değerlendirme Sonuçları",
+      "url": "https://bebka.org.tr/2026-yili-teknik-destek-programi-eylul-ekim-donemi-degerlendirme-sonuclari/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)",
+      "source_id": "bebka",
+      "first_seen": "2026-11-18",
+      "olasi_tur": "hibe_olabilir"
     }
   }
 }
