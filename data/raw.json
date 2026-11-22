@@ -5,7 +5,7 @@
       "ok": true,
       "checked": "2026-11-22",
       "found": 3,
-      "diag": "/destekler -> HTTP 200, 605345 byte HTML, 29 link, 23 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 605371 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
@@ -40,8 +40,8 @@
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-11-22",
-      "found": 12,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 74690 byte HTML, 217 link, 21 olası duyuru"
+      "found": 4,
+      "diag": "/destekler -> HTTP 200, 55992 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -83,7 +83,7 @@
       "ok": true,
       "checked": "2026-11-22",
       "found": 72,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54718 byte HTML, 124 link, 87 olası duyuru"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54724 byte HTML, 124 link, 87 olası duyuru"
     },
     "izka": {
       "ok": true,
@@ -160,8 +160,8 @@
     "geka": {
       "ok": true,
       "checked": "2026-11-22",
-      "found": 132,
-      "diag": "/ -> HTTP 200, 216619 byte HTML, 361 link, 215 olası duyuru"
+      "found": 131,
+      "diag": "/ -> HTTP 200, 215888 byte HTML, 360 link, 214 olası duyuru"
     },
     "ika": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-11-22",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 261963 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 261920 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-11-22",
       "found": 115,
-      "diag": "/ -> HTTP 200, 912980 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 913012 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-11-22",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 373694 byte HTML, 266 link, 194 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 374752 byte HTML, 268 link, 194 olası duyuru"
     },
     "gsb": {
       "ok": true,
