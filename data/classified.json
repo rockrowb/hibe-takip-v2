@@ -17,7 +17,7 @@
       "ok": true,
       "checked": "2026-11-24",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 40500 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 40836 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": false,
@@ -29,7 +29,7 @@
       "ok": true,
       "checked": "2026-11-24",
       "found": 1,
-      "diag": "/site/tr/genel/destekler -> HTTP 200, 75080 byte HTML, 91 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 65953 byte HTML, 131 link, 1 olası duyuru"
+      "diag": "/site/tr/genel/destekler -> HTTP 200, 73731 byte HTML, 91 link, 1 olası duyuru | /site/tr/genel/duyurular -> HTTP 200, 65953 byte HTML, 131 link, 1 olası duyuru"
     },
     "tubitak": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-11-24",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 56085 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 56294 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -113,13 +113,13 @@
       "ok": true,
       "checked": "2026-11-24",
       "found": 1,
-      "diag": "/destekler -> HTTP 200, 28249 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35617 byte HTML, 94 link, 44 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 28249 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35693 byte HTML, 94 link, 44 olası duyuru"
     },
     "dogaka": {
       "ok": true,
       "checked": "2026-11-24",
-      "found": 76,
-      "diag": "/destekler/destekler -> HTTP 200, 45652 byte HTML, 185 link, 112 olası duyuru"
+      "found": 47,
+      "diag": "/destekler/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /medya/guncel-duyurular -> HTTP 200, 45156 byte HTML, 144 link, 74 olası duyuru"
     },
     "mevka": {
       "ok": false,
@@ -131,7 +131,7 @@
       "ok": true,
       "checked": "2026-11-24",
       "found": 45,
-      "diag": "/ -> HTTP 200, 123279 byte HTML, 280 link, 64 olası duyuru"
+      "diag": "/ -> HTTP 200, 123275 byte HTML, 280 link, 64 olası duyuru"
     },
     "doka": {
       "ok": true,
@@ -167,7 +167,7 @@
       "ok": true,
       "checked": "2026-11-24",
       "found": 2,
-      "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37185 byte HTML, 120 link, 61 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37147 byte HTML, 120 link, 61 olası duyuru"
     },
     "trakyaka": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-11-24",
       "found": 115,
-      "diag": "/ -> HTTP 200, 913068 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 913074 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -233,13 +233,13 @@
       "ok": true,
       "checked": "2026-11-24",
       "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215574 byte HTML, 587 link, 392 olası duyuru"
+      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215532 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
       "checked": "2026-11-24",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15972 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 375539 byte HTML, 268 link, 194 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 16162 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 376643 byte HTML, 269 link, 195 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -38067,6 +38067,125 @@
       "source_id": "kuzka",
       "first_seen": "2026-11-23",
       "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/innovate-win-derin-teknoloji-sirketlerine-yonelik-eic-accelerator-sunum-yarismasi": {
+      "title": "Innovate to Win: Derin Teknoloji Şirketlerine Yönelik EIC Accelerator Sunum Yarışması",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/innovate-win-derin-teknoloji-sirketlerine-yonelik-eic-accelerator-sunum-yarismasi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-11-24",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-bilgi-gunu-istanbul-medipol-universitesinde": {
+      "title": "Ufuk Avrupa Bilgi Günü İstanbul Medipol Üniversitesi’nde!",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-bilgi-gunu-istanbul-medipol-universitesinde",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-11-24",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-ortak-arama-duyurusu-20": {
+      "title": "Ufuk Avrupa Sağlık Kümesi Ortak Arama Duyurusu",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-ortak-arama-duyurusu-20",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-11-24",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-ortak-arama-duyurusu-12"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/temiz-hidrojen-ortakligi-ab-hidrojen-stratejisi-icin-uc-teknik-oncelik-onerdi": {
+      "title": "Temiz Hidrojen Ortaklığı, AB Hidrojen Stratejisi için Üç Teknik Öncelik Önerdi",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/temiz-hidrojen-ortakligi-ab-hidrojen-stratejisi-icin-uc-teknik-oncelik-onerdi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-11-24",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-kume-5-goturu-usulu-lump-sum-fonlama-modeline-yonelik-cevrim-ici-egitim": {
+      "title": "Ufuk Avrupa Küme 5 Götürü Usulü (Lump Sum) Fonlama Modeline Yönelik Çevrim İçi Eğitim Etkinliği",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-kume-5-goturu-usulu-lump-sum-fonlama-modeline-yonelik-cevrim-ici-egitim",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-11-24",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/dayanikli-kulturel-miras-ortakligi-rch-2027-yili-cagrisi-ulusal-bilgi-gunu-bugun": {
+      "title": "Dayanıklı Kültürel Miras Ortaklığı (RCH) 2027 Yılı Çağrısı Ulusal Bilgi Günü Bugün Düzenleniyor",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/dayanikli-kulturel-miras-ortakligi-rch-2027-yili-cagrisi-ulusal-bilgi-gunu-bugun",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-11-24",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/tek-saglik-antimikrobiyal-direnc-avrupa-ortakligi-eup-ohamr-2027-yili-uluslararasi-ortak": {
+      "title": "Tek Sağlık Antimikrobiyal Direnç Avrupa Ortaklığı (EUP OHAMR)-2027 Yılı Uluslararası Ortak Çağrısı Başvuruya Açıldı!",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/tek-saglik-antimikrobiyal-direnc-avrupa-ortakligi-eup-ohamr-2027-yili-uluslararasi-ortak",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-11-24",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.ktb.gov.tr/TR-480262/kultur-ve-turizm-uzman-yardimciligi-yarisma-sinav-duyurusu-24112026.html": {
+      "title": "KÜLTÜR VE TURİZM UZMAN YARDIMCILIĞI YARIŞMA SINAV DUYURUSU (24.11.2026)",
+      "url": "https://www.ktb.gov.tr/TR-480262/kultur-ve-turizm-uzman-yardimciligi-yarisma-sinav-duyurusu-24112026.html",
+      "date": "2026-11-24",
+      "on_tarihler": [
+        "2026-11-24"
+      ],
+      "source": "Kültür ve Turizm Bakanlığı",
+      "source_id": "ktb",
+      "first_seen": "2026-11-24",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.dogaka.gov.tr/duyuru/enhancer-pro-hibe-programlari-kahramanmaras-ta-tanitilacak/861": {
+      "title": "202617KASIMENHANCER PRO Hibe Programları Kahramanmaraş’ta Tanıtılacak17.11.2026 | 16:53",
+      "url": "https://www.dogaka.gov.tr/duyuru/enhancer-pro-hibe-programlari-kahramanmaras-ta-tanitilacak/861",
+      "date": "2026-11-17",
+      "on_tarihler": [
+        "2026-11-17"
+      ],
+      "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
+      "source_id": "dogaka",
+      "first_seen": "2026-11-24",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.dogaka.gov.tr/duyuru/insaat-ve-yikinti-atiklarinin-geri-kazaniminda-kuresel-yaklasimlar-etkinligi-gerceklestirilecek/860": {
+      "title": "202616KASIMİnşaat ve Yıkıntı Atıklarının Geri Kazanımında Küresel Yaklaşımlar Etkinliği Gerçekleştirilecek16.11.2026 | 17:09",
+      "url": "https://www.dogaka.gov.tr/duyuru/insaat-ve-yikinti-atiklarinin-geri-kazaniminda-kuresel-yaklasimlar-etkinligi-gerceklestirilecek/860",
+      "date": "2026-11-16",
+      "on_tarihler": [
+        "2026-11-16"
+      ],
+      "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
+      "source_id": "dogaka",
+      "first_seen": "2026-11-24",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.dogaka.gov.tr/duyuru/enhancer-pro-hibe-programlari-bilgilendirme-toplantilari-hatay-ve-osmaniye-de-duzenlenecek/859": {
+      "title": "202609KASIMENHANCER PRO Hibe Programları Bilgilendirme Toplantıları Hatay ve Osmaniye’de Düzenlenecek09.11.2026 | 10:28",
+      "url": "https://www.dogaka.gov.tr/duyuru/enhancer-pro-hibe-programlari-bilgilendirme-toplantilari-hatay-ve-osmaniye-de-duzenlenecek/859",
+      "date": "2026-11-09",
+      "on_tarihler": [
+        "2026-11-09"
+      ],
+      "source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",
+      "source_id": "dogaka",
+      "first_seen": "2026-11-24",
+      "olasi_tur": "hibe_olabilir"
     }
   }
 }
