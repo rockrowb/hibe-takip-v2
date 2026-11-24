@@ -5,7 +5,7 @@
       "ok": true,
       "checked": "2026-11-24",
       "found": 3,
-      "diag": "/destekler -> HTTP 200, 605371 byte HTML, 29 link, 23 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 605345 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
@@ -41,7 +41,7 @@
       "ok": true,
       "checked": "2026-11-24",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 56294 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 56201 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -95,7 +95,7 @@
       "ok": true,
       "checked": "2026-11-24",
       "found": 28,
-      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 292297 byte HTML, 287 link, 66 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 292293 byte HTML, 287 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -118,8 +118,8 @@
     "dogaka": {
       "ok": true,
       "checked": "2026-11-24",
-      "found": 47,
-      "diag": "/destekler/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /medya/guncel-duyurular -> HTTP 200, 45156 byte HTML, 144 link, 74 olası duyuru"
+      "found": 76,
+      "diag": "/destekler/destekler -> HTTP 200, 45652 byte HTML, 185 link, 112 olası duyuru"
     },
     "mevka": {
       "ok": false,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-11-24",
       "found": 115,
-      "diag": "/ -> HTTP 200, 913074 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 913052 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-11-24",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 16162 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 376643 byte HTML, 269 link, 195 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 16162 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 377181 byte HTML, 269 link, 195 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -38186,6 +38186,16 @@
       "source_id": "dogaka",
       "first_seen": "2026-11-24",
       "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2749/Batman-Tarima-Dayali-Ihtisas-_sera_-Organize-Sanayi-Bolgesine-Ait-1_5000-Olcekli-Nazim-Imar-Plani-Degisikligi-Ve-1_1000-Olcekli-Uygulama-Imar-Plani-Degisikligi-Onayinin-Duyurusudur": {
+      "title": "Batman Tarıma Dayalı İhtisas (Sera) Organize Sanayi Bölgesine ait 1/5000 ölçekli ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2749/Batman-Tarima-Dayali-Ihtisas-_sera_-Organize-Sanayi-Bolgesine-Ait-1_5000-Olcekli-Nazim-Imar-Plani-Degisikligi-Ve-1_1000-Olcekli-Uygulama-Imar-Plani-Degisikligi-Onayinin-Duyurusudur",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-11-24",
+      "olasi_tur": "belirsiz"
     }
   }
 }
