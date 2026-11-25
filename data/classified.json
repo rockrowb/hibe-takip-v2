@@ -5,7 +5,7 @@
       "ok": true,
       "checked": "2026-11-25",
       "found": 3,
-      "diag": "/destekler -> HTTP 200, 605371 byte HTML, 29 link, 23 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 605345 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
@@ -40,8 +40,8 @@
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-11-25",
-      "found": 12,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 75175 byte HTML, 217 link, 21 olası duyuru"
+      "found": 4,
+      "diag": "/destekler -> HTTP 200, 56201 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -59,7 +59,7 @@
       "ok": true,
       "checked": "2026-11-25",
       "found": 25,
-      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 153287 byte HTML, 92 link, 28 olası duyuru"
+      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 153312 byte HTML, 92 link, 28 olası duyuru"
     },
     "stgm": {
       "ok": false,
@@ -113,7 +113,7 @@
       "ok": true,
       "checked": "2026-11-25",
       "found": 1,
-      "diag": "/destekler -> HTTP 200, 28249 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35693 byte HTML, 94 link, 44 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 28249 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35670 byte HTML, 94 link, 44 olası duyuru"
     },
     "dogaka": {
       "ok": true,
@@ -179,7 +179,7 @@
       "ok": true,
       "checked": "2026-11-25",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 261963 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 261920 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
@@ -191,7 +191,7 @@
       "ok": true,
       "checked": "2026-11-25",
       "found": 115,
-      "diag": "/ -> HTTP 200, 913042 byte HTML, 259 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 913030 byte HTML, 259 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-11-25",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 16162 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 377143 byte HTML, 269 link, 195 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 16162 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 377244 byte HTML, 269 link, 195 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -38246,6 +38246,16 @@
       "source_id": "tarim_orman",
       "first_seen": "2026-11-25",
       "olasi_tur": "belirsiz"
+    },
+    "https://www.sivildusun.net/sanatsal-uretim-fonu-besinci-acik-cagri-basvurulari-basladi/": {
+      "title": "Sanatsal Üretim Fonu beşinci açık çağrı başvuruları başladı",
+      "url": "https://www.sivildusun.net/sanatsal-uretim-fonu-besinci-acik-cagri-basvurulari-basladi/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Sivil Düşün AB Programı",
+      "source_id": "sivil_dusun",
+      "first_seen": "2026-11-25",
+      "olasi_tur": "hibe_olabilir"
     }
   }
 }
