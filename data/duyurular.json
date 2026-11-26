@@ -17,7 +17,7 @@
       "ok": true,
       "checked": "2026-11-26",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 40649 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 40676 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": false,
@@ -40,8 +40,8 @@
     "ticaret_bakanligi": {
       "ok": true,
       "checked": "2026-11-26",
-      "found": 4,
-      "diag": "/destekler -> HTTP 200, 56201 byte HTML, 161 link, 5 olası duyuru"
+      "found": 12,
+      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> HTTP 200, 75175 byte HTML, 217 link, 21 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
@@ -59,7 +59,7 @@
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 12122 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 12153 byte HTML, 0 link, 0 olası duyuru"
     },
     "stgm": {
       "ok": false,
@@ -77,13 +77,13 @@
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 12096 byte HTML, 0 link, 0 olası duyuru | /tr/basvuru-cagrilari -> HTTP 200, 12114 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12116 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 12167 byte HTML, 0 link, 0 olası duyuru | /tr/basvuru-cagrilari -> HTTP 200, 12109 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12145 byte HTML, 0 link, 0 olası duyuru"
     },
     "ankaraka": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 12034 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 12023 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 12130 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 12150 byte HTML, 0 link, 0 olası duyuru"
     },
     "izka": {
       "ok": true,
@@ -95,7 +95,7 @@
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 12026 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12091 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 12103 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12092 byte HTML, 0 link, 0 olası duyuru"
     },
     "karacadag": {
       "ok": true,
@@ -107,73 +107,73 @@
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/tr/guncel-destekler -> HTTP 200, 12028 byte HTML, 0 link, 0 olası duyuru | /tr/guncel-destek -> HTTP 200, 12188 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/tr/guncel-destekler -> HTTP 200, 12096 byte HTML, 0 link, 0 olası duyuru | /tr/guncel-destek -> HTTP 200, 12056 byte HTML, 0 link, 0 olası duyuru"
     },
     "baka": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 12049 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12145 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 12145 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12140 byte HTML, 0 link, 0 olası duyuru"
     },
     "dogaka": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/destekler/destekler -> HTTP 200, 12049 byte HTML, 0 link, 0 olası duyuru | /medya/guncel-duyurular -> HTTP 200, 12082 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/destekler/destekler -> HTTP 200, 12042 byte HTML, 0 link, 0 olası duyuru | /medya/guncel-duyurular -> HTTP 200, 12101 byte HTML, 0 link, 0 olası duyuru"
     },
     "mevka": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/destekler/guncel-destek-programlari -> HTTP 200, 12053 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/destekler/guncel-destek-programlari -> HTTP 200, 12114 byte HTML, 0 link, 0 olası duyuru"
     },
     "oka": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/ -> HTTP 200, 12033 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12045 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/ -> HTTP 200, 12026 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12058 byte HTML, 0 link, 0 olası duyuru"
     },
     "doka": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/acik-destekler -> HTTP 200, 12134 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 12070 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 12058 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/acik-destekler -> HTTP 200, 12080 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11987 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 12158 byte HTML, 0 link, 0 olası duyuru"
     },
     "oran": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 12040 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12012 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 12170 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12084 byte HTML, 0 link, 0 olası duyuru"
     },
     "marka": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 12071 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12054 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 12086 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12146 byte HTML, 0 link, 0 olası duyuru"
     },
     "gmka": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/acik-destek-programlari -> HTTP 200, 12008 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11984 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/acik-destek-programlari -> HTTP 200, 12164 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12139 byte HTML, 0 link, 0 olası duyuru"
     },
     "geka": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/ -> HTTP 200, 12003 byte HTML, 0 link, 0 olası duyuru | /tr/basvurusu-devam-eden-destekler -> HTTP 200, 12137 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/ -> HTTP 200, 12073 byte HTML, 0 link, 0 olası duyuru | /tr/basvurusu-devam-eden-destekler -> HTTP 200, 12162 byte HTML, 0 link, 0 olası duyuru"
     },
     "ika": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 12028 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12154 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 12048 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12128 byte HTML, 0 link, 0 olası duyuru"
     },
     "trakyaka": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 12016 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 12033 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 12288 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 12119 byte HTML, 0 link, 0 olası duyuru"
     },
     "zafer": {
       "ok": true,
@@ -185,43 +185,43 @@
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 12047 byte HTML, 0 link, 0 olası duyuru | /haberler -> HTTP 200, 12069 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 12147 byte HTML, 0 link, 0 olası duyuru | /haberler -> HTTP 200, 12231 byte HTML, 0 link, 0 olası duyuru"
     },
     "kuzka": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/ -> HTTP 200, 12053 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 12080 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/ -> HTTP 200, 12078 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 12071 byte HTML, 0 link, 0 olası duyuru"
     },
     "kudaka": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/home -> HTTP 200, 12062 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12032 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 12046 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/home -> HTTP 200, 12228 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12209 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 12075 byte HTML, 0 link, 0 olası duyuru"
     },
     "serka": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 12055 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12100 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 12166 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12105 byte HTML, 0 link, 0 olası duyuru"
     },
     "daka": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 12119 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12049 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 12075 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12104 byte HTML, 0 link, 0 olası duyuru"
     },
     "fka": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 12044 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12053 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 12078 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 12114 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12078 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 12144 byte HTML, 0 link, 0 olası duyuru"
     },
     "dika": {
       "ok": false,
       "checked": "2026-11-26",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 12154 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12154 byte HTML, 0 link, 0 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 12123 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12144 byte HTML, 0 link, 0 olası duyuru"
     },
     "bakka": {
       "ok": true,
@@ -239,7 +239,7 @@
       "ok": true,
       "checked": "2026-11-26",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 16162 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 377225 byte HTML, 269 link, 195 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 16162 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 376481 byte HTML, 267 link, 195 olası duyuru"
     },
     "gsb": {
       "ok": true,
@@ -283,7 +283,7 @@
   "ai_status": {
     "provider": null,
     "quota_exceeded": false,
-    "checked_at": "2026-11-26T16:35:22Z",
+    "checked_at": "2026-11-26T23:29:52Z",
     "pending_count": 2661
   },
   "items": {
